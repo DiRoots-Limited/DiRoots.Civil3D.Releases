@@ -7,7 +7,7 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
-DiRootsOne has several Autodesk Revit Productivity Tools for Data Management, Filtering, Model Checking, Drawing Production, Point Clouds, etc. Includes Piping Engineer, FamilyReviser, OneFilter, TableGen, SheetGen, ReOrdering, ParaManager, PointKit, QuickViews, and OneParameter.
+DiCivil has several Autodesk Civil 3D Productivity Tools for Data Management, Filtering, Model Checking, Drawing Production, Point Clouds, etc. Includes Piping Engineer, FamilyReviser, OneFilter, TableGen, SheetGen, ReOrdering, ParaManager, PointKit, QuickViews, and OneParameter.
 Not permitted:
 -	Sell/resell
 -	make modifications to the software.
@@ -23,76 +23,76 @@ Not permitted:
 
 ## Download
 
-Download the [latest version of DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).
+Download the [latest version of DiCivil](https://diroots.com/civil3d-plugins/dicivil/).
 
 
 ## Install
 
 ### Compatibility
 - Windows 7, 8, 10 and 11.
-- Revit 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
+- Civil 3D 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
 
 ### Standard Installation
 
 ```yaml
-This method is ideal for individuals who want to install DiRootsOne in one computer.
+This method is ideal for individuals who want to install DiCivil in one computer.
 ```
 
-1. Run DiRootsOne installer.
+1. Run DiCivil installer.
 
-2. Select the Revit versions and click 'Install'.
+2. Select the Civil 3D versions and click 'Install'.
 
-![DiRootsOne Installation First Step](..\assets\images\One-Installer.gif)
+![DiCivil Installation First Step](..\assets\images\One-Installer.gif)
 
 3. Wait for the installation to complete and click 'Finish'.
 
-![DiRootsOne Installation Finish](..\assets\images\One-Installer-Finished.png)
+![DiCivil Installation Finish](..\assets\images\One-Installer-Finished.png)
 
 ### Silent Installation
 
 ```yaml
-This method is ideal for IT administrators who want to deploy DiRootsOne to multiple computers.
+This method is ideal for IT administrators who want to deploy DiCivil to multiple computers.
 ```
 
-- Install for all compatible Revit versions.
+- Install for all compatible Civil 3D versions.
 
 ```yaml
-# This method will silently install DiRootsOne for all compatible Revit versions.
+# This method will silently install DiCivil for all compatible Civil 3D versions.
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
 - Disable automatic check for update (i.e., users won't be prompt to install updates).
 
 ```yaml
-# In this example DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
+# In this example DiCivil will NOT be installed for Civil 3D 2017, 2018, and 2019.
 <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
 ```
 
-- Exclude specific Revit versions.
+- Exclude specific Civil 3D versions.
 
 ```yaml
-# In this example DiRootsOne will NOT be installed for Revit 2017, 2018, and 2019.
-<installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
+# In this example DiCivil will NOT be installed for Civil 3D 2017, 2018, and 2019.
+<installer-name>.exe /i // /qn accept_eula=1 civil3d2017="" civil3d2018="" civil3d2019=""
 ```
 
 ## Uninstall
 
 ### Using the installer User Interface
 
-1. Run DiRootsOne installer.
+1. Run DiCivil installer.
 
 2. Select and click 'Remove'.
 
-![DiRootsOne Uninstall](..\assets\images\One-Installer-Finished.png)
+![DiCivil Uninstall](..\assets\images\One-Installer-Finished.png)
 
 3 . Wait for the uninstallation to complete and click 'Finish'.
 
 ### Using the installer silently
 
-Uninstall DiRootsOne without user interaction.
+Uninstall DiCivil without user interaction.
 
 ```yaml
-# This method will remove DiRootsOne from your computer.
+# This method will remove DiCivil from your computer.
 <installer-name>.exe /x // /qn
 ```
 
@@ -106,12 +106,12 @@ Uninstall DiRootsOne without user interaction.
 
 ## Updates
 
-DiRootsOne includes an updater to help you keep it up to date. 
+DiCivil includes an updater to help you keep it up to date. 
 The updater will:
-- notify you whenever a new version is released (the action is triggered on Revit close event).
+- notify you whenever a new version is released (the action is triggered on Civil 3D close event).
 - ask you to install now or to remind you tomorrow.
 
-![DiRootsOne Updater UI](../assets\images\DiRootsOne-Updates.png)
+![DiCivil Updater UI](../assets\images\DiCivil-Updates.png)
 
 ### Updater Settings
 
@@ -133,7 +133,7 @@ By default the automatic updates can't be disabled.
 To go around it, there's a configuration file that can be tweaked.
 
 # Steps required
-- go to %programdata%\DiRoots.DiRootsOne\Settings
+- go to %programdata%\DiRoots.DiCivil\Settings
 - open the 'updater.ini' file
 - Search for the line 'CheckFrequency=2' and change the value to 365, for example.
 

@@ -38,10 +38,10 @@ Steps:
 2. Choose your selection method:
    - **Whole Network**: Select all pipes in the current piping system
    - **Active View**: Select pipes visible in the current view
-   - **Current Selection**: Select only the pipes you've pre-selected in Revit
+   - **Current Selection**: Select only the pipes you've pre-selected in Civil 3D
 
 ![Piping Engineer selecting pipes](../../../assets\images\PipingEngineer\PE-SelectPipes.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Structures Table
 
@@ -50,10 +50,10 @@ Steps:
 2. Choose your selection method:
    - **Whole Network**: Select all structures in the current piping system
    - **Active View**: Select structures visible in the current view
-   - **Current Selection**: Select only the structures you've pre-selected in Revit
+   - **Current Selection**: Select only the structures you've pre-selected in Civil 3D
 
 ![Piping Engineer selecting structures](../../../assets\images\PipingEngineer\PE-SelectStructures.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Customizing Table Properties
 
@@ -66,11 +66,11 @@ Steps:
 2. Select from available properties:
    - **Instance Parameters**: Properties specific to individual pipes/structures
    - **Type Parameters**: Properties shared by similar pipe/structure types
-   - **System Parameters**: Built-in Revit system properties
+   - **System Parameters**: Built-in Civil 3D system properties
    - **Custom Parameters**: User-defined project parameters
 
 ![Piping Engineer adding properties](../../../assets\images\PipingEngineer\PE-AddProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Property Categories
 
@@ -102,7 +102,7 @@ The available properties are organized into categories for easy selection:
 Use the arrows in the table header to reorder properties according to your workflow preferences.
 
 ![Piping Engineer reordering properties](../../../assets\images\PipingEngineer\PE-ReorderProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Editing Data
 
@@ -115,7 +115,7 @@ Piping Engineer supports bulk editing operations for efficient network managemen
 3. **Apply to all selected** items simultaneously
 
 ![Piping Engineer bulk editing](../../../assets\images\PipingEngineer\PE-BulkEdit.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Validation
 
@@ -127,7 +127,7 @@ The tool provides real-time validation to ensure network integrity:
 - **System type** validation
 
 ![Piping Engineer validation](../../../assets\images\PipingEngineer\PE-Validation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Export and Import
 
@@ -141,19 +141,19 @@ You can export the table data to Excel for external analysis or collaboration:
 4. The exported file will include all visible properties and their current values
 
 ![Piping Engineer exporting data](../../../assets\images\PipingEngineer\PE-ExportData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Importing Data
 
-After external editing, you can import the data back to update your Revit model:
+After external editing, you can import the data back to update your Civil 3D model:
 
 1. Click the "Import" button in the table toolbar
 2. Select your edited file
 3. Review the changes in the preview window
-4. Apply the updates to your Revit model
+4. Apply the updates to your Civil 3D model
 
 ![Piping Engineer importing data](../../../assets\images\PipingEngineer\PE-ImportData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Search and Filter
 
@@ -162,7 +162,7 @@ After external editing, you can import the data back to update your Revit model:
 Use the search box to quickly find specific properties in the table:
 
 ![Piping Engineer searching properties](../../../assets\images\PipingEngineer\PE-SearchProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Filtering Data
 
@@ -174,4 +174,4 @@ Apply filters to focus on specific subsets of your piping network:
 - **Elevation Range**: Filter by elevation values
 
 ![Piping Engineer filtering data](../../../assets\images\PipingEngineer\PE-FilterData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 

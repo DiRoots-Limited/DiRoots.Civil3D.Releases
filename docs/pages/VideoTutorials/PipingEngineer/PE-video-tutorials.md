@@ -50,5 +50,5 @@ Learn how to use Piping Engineer through our comprehensive video tutorials. Thes
 ### Best Practices
 - Workflow optimization
 - Common pitfalls and solutions
-- Integration with Revit workflows
+- Integration with Civil 3D workflows
 - Project management tips 

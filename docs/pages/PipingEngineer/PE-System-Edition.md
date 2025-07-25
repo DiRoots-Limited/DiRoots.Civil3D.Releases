@@ -44,7 +44,7 @@ Steps:
    - **Other MEP Systems**
 
 ![Piping Engineer network selection](../../../assets\images\PipingEngineer\PE-NetworkSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Network Properties
 
@@ -56,7 +56,7 @@ When working with networks, you can access and modify:
 - **Network-level parameters** and calculations
 
 ![Piping Engineer network properties](../../../assets\images\PipingEngineer\PE-NetworkProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Element-based System Edition
 
@@ -67,12 +67,12 @@ This approach allows you to focus on particular pipes or structures within your 
 Steps:
 1. Select the "Elements" option in the System Edition tab
 2. Choose your selection method:
-   - **Pre-select in Revit**: Select elements in the Revit model first
+   - **Pre-select in Civil 3D**: Select elements in the Civil 3D model first
    - **Pick from List**: Choose from a list of available elements
    - **Filter by Properties**: Use property filters to select elements
 
 ![Piping Engineer element selection](../../../assets\images\PipingEngineer\PE-ElementSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Element Filtering
 
@@ -89,7 +89,7 @@ Use advanced filtering options to select specific elements:
 ```
 
 ![Piping Engineer element filtering](../../../assets\images\PipingEngineer\PE-ElementFiltering.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Start/End Point Selection
 
@@ -104,7 +104,7 @@ Steps:
 4. The tool will automatically select all elements between the start and end points
 
 ![Piping Engineer start end selection](../../../assets\images\PipingEngineer\PE-StartEndSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Network Path Analysis
 
@@ -116,7 +116,7 @@ When using start/end point selection, the tool provides:
 - **Alternative path suggestions** if multiple routes exist
 
 ![Piping Engineer path analysis](../../../assets\images\PipingEngineer\PE-PathAnalysis.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## System-aware Editing
 
@@ -130,7 +130,7 @@ All system edition methods maintain the integrity of your piping networks:
 - **Topology validation** after changes
 
 ![Piping Engineer system integrity](../../../assets\images\PipingEngineer\PE-SystemIntegrity.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Bulk Operations
 
@@ -142,7 +142,7 @@ Perform bulk operations across selected systems:
 4. **Preview changes** before applying
 
 ![Piping Engineer bulk operations](../../../assets\images\PipingEngineer\PE-BulkOperations.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Validation and Error Checking
 
@@ -156,7 +156,7 @@ Before applying changes, the tool validates:
 - **Elevation** and slope constraints
 
 ![Piping Engineer pre-edit validation](../../../assets\images\PipingEngineer\PE-PreEditValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Post-edit Validation
 
@@ -168,7 +168,7 @@ After applying changes, the tool checks:
 - **Error reporting** for any issues found
 
 ![Piping Engineer post-edit validation](../../../assets\images\PipingEngineer\PE-PostEditValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Undo and Redo
 
@@ -182,4 +182,4 @@ Piping Engineer provides comprehensive change management:
 - **Selective undo** for specific operations
 
 ![Piping Engineer undo redo](../../../assets\images\PipingEngineer\PE-UndoRedo.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 

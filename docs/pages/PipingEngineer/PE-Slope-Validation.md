@@ -46,7 +46,7 @@ Piping Engineer applies slope rules based on industry standards and best practic
 ```
 
 ![Piping Engineer slope rules](../../../assets\images\PipingEngineer\PE-SlopeRules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Applying Validation Rules
 
@@ -61,7 +61,7 @@ Steps to validate your piping network against established rules:
 4. **Review results** and address any violations
 
 ![Piping Engineer applying rules](../../../assets\images\PipingEngineer\PE-ApplyingRules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Custom Rule Creation
 
@@ -81,7 +81,7 @@ Steps:
 4. **Apply the rule** to your validation process
 
 ![Piping Engineer custom rules](../../../assets\images\PipingEngineer\PE-CustomRules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Rule Categories
 
@@ -97,7 +97,7 @@ Organize your validation rules into logical categories:
 ```
 
 ![Piping Engineer rule categories](../../../assets\images\PipingEngineer\PE-RuleCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Slope Override Capabilities
 
@@ -118,7 +118,7 @@ Steps:
 4. **Apply the override** with proper documentation
 
 ![Piping Engineer slope override](../../../assets\images\PipingEngineer\PE-SlopeOverride.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Override Management
 
@@ -130,7 +130,7 @@ Manage and track slope overrides throughout your project:
 - **Override reporting** for project documentation
 
 ![Piping Engineer override management](../../../assets\images\PipingEngineer\PE-OverrideManagement.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Real-time Validation
 
@@ -144,7 +144,7 @@ Get immediate feedback as you modify your piping network:
 - **Automatic suggestions** for slope optimization
 
 ![Piping Engineer real-time validation](../../../assets\images\PipingEngineer\PE-RealTimeValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Validation Feedback
 
@@ -159,7 +159,7 @@ Comprehensive feedback system for slope validation:
 ```
 
 ![Piping Engineer validation feedback](../../../assets\images\PipingEngineer\PE-ValidationFeedback.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Comprehensive Reporting
 
@@ -173,7 +173,7 @@ Generate detailed reports of slope validation results:
 4. **Override Report**: Summary of applied overrides
 
 ![Piping Engineer validation reports](../../../assets\images\PipingEngineer\PE-ValidationReports.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Report Export Options
 
@@ -182,10 +182,10 @@ Export validation reports in multiple formats:
 - **PDF Reports**: For formal documentation
 - **Excel Reports**: For detailed analysis
 - **HTML Reports**: For web-based sharing
-- **Revit Schedules**: For integration with Revit documentation
+- **Civil 3D Schedules**: For integration with Civil 3D documentation
 
 ![Piping Engineer report export](../../../assets\images\PipingEngineer\PE-ReportExport.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Advanced Validation Features
 
@@ -203,7 +203,7 @@ Apply different rules based on specific conditions:
 ```
 
 ![Piping Engineer conditional validation](../../../assets\images\PipingEngineer\PE-ConditionalValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Batch Validation
 
@@ -215,7 +215,7 @@ Validate multiple networks or network segments simultaneously:
 4. **Review consolidated results** and address issues
 
 ![Piping Engineer batch validation](../../../assets\images\PipingEngineer\PE-BatchValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Integration with Design Workflow
 
@@ -229,7 +229,7 @@ Support for iterative design processes:
 - **Optimize designs** based on validation feedback
 
 ![Piping Engineer design iteration](../../../assets\images\PipingEngineer\PE-DesignIteration.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Collaboration Features
 
@@ -241,4 +241,4 @@ Support for team collaboration on slope validation:
 - **Audit trails** for compliance documentation
 
 ![Piping Engineer collaboration](../../../assets\images\PipingEngineer\PE-Collaboration.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 

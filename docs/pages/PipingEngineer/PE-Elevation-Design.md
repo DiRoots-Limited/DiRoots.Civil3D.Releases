@@ -42,7 +42,7 @@ Piping Engineer maintains awareness of the entire piping system when making elev
 - **Connection points** are maintained at appropriate elevations
 
 ![Piping Engineer system awareness](../../../assets\images\PipingEngineer\PE-SystemAwareness.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Reference Point Management
 
@@ -54,7 +54,7 @@ The tool allows you to establish and maintain reference points during elevation 
 4. **Maintain reference integrity** throughout the design process
 
 ![Piping Engineer reference management](../../../assets\images\PipingEngineer\PE-ReferenceManagement.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Elevation Modification Options
 
@@ -71,7 +71,7 @@ Steps:
    - **Hold references** (keep reference points fixed)
 
 ![Piping Engineer manual elevation](../../../assets\images\PipingEngineer\PE-ManualElevation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Automatic Upstream/Downstream Modification
 
@@ -87,7 +87,7 @@ When modifying a pipe elevation, automatically adjust upstream elements:
 - **Apply slope constraints** based on system type
 
 ![Piping Engineer upstream modification](../../../assets\images\PipingEngineer\PE-UpstreamModification.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 #### Downstream Modification
 
@@ -99,7 +99,7 @@ When modifying a pipe elevation, automatically adjust downstream elements:
 - **Apply slope constraints** based on system type
 
 ![Piping Engineer downstream modification](../../../assets\images\PipingEngineer\PE-DownstreamModification.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Slope Integration
 
@@ -116,7 +116,7 @@ Elevation modifications automatically consider slope requirements:
 ```
 
 ![Piping Engineer slope integration](../../../assets\images\PipingEngineer\PE-SlopeIntegration.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Slope Validation
 
@@ -128,7 +128,7 @@ Real-time validation ensures elevation changes meet slope requirements:
 - **Error reporting** for slope constraint violations
 
 ![Piping Engineer slope validation](../../../assets\images\PipingEngineer\PE-SlopeValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Bulk Elevation Operations
 
@@ -145,7 +145,7 @@ Perform elevation modifications across entire networks or network segments:
 3. **Apply the changes** with automatic upstream/downstream adjustment
 
 ![Piping Engineer bulk elevation](../../../assets\images\PipingEngineer\PE-BulkElevation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Elevation Matching
 
@@ -157,7 +157,7 @@ Align multiple elements to reference elevations:
 - **Match to reference pipe** (align to existing pipe elevations)
 
 ![Piping Engineer elevation matching](../../../assets\images\PipingEngineer\PE-ElevationMatching.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Elevation Constraints
 
@@ -186,7 +186,7 @@ Different piping systems have different elevation constraints:
 ```
 
 ![Piping Engineer elevation constraints](../../../assets\images\PipingEngineer\PE-ElevationConstraints.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Custom Constraint Management
 
@@ -198,7 +198,7 @@ Define and apply custom elevation constraints:
 4. **Override constraints** when necessary with proper documentation
 
 ![Piping Engineer custom constraints](../../../assets\images\PipingEngineer\PE-CustomConstraints.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Visualization and Preview
 
@@ -212,7 +212,7 @@ Visualize elevation changes before applying them:
 - **Conflict highlighting** for potential issues
 
 ![Piping Engineer 3D preview](../../../assets\images\PipingEngineer\PE-3DPreview.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Elevation Reports
 
@@ -224,4 +224,4 @@ Generate detailed elevation reports:
 - **Constraint compliance** report
 
 ![Piping Engineer elevation reports](../../../assets\images\PipingEngineer\PE-ElevationReports.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 

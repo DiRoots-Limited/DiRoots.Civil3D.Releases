@@ -38,7 +38,7 @@ Steps:
 4. Click on the "Save" button to save the profile.
 
 ![Piping Engineer Creating profiles](../../../assets\images\PipingEngineer\PE-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ```yaml
 Tip for BIM Managers!  
@@ -57,7 +57,7 @@ Steps:
 3. Click on the "Open" button to import the profile.
 
 ![Piping Engineer importing profiles](../../../assets\images\PipingEngineer\PE-ImportProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Deleting Profiles
 
@@ -67,4 +67,4 @@ Steps:
 3. Confirm.
 
 ![Piping Engineer delete profiles](../../../assets\images\PipingEngineer\PE-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 
+<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 

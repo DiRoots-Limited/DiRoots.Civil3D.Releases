@@ -85,10 +85,10 @@ nav_order: 1
 - [Error Resolution](https://youtube.com/watch?v=placeholder36)
 - [Performance Tips](https://youtube.com/watch?v=placeholder37)
 
-### Integration with Revit
-- [Working with Revit Piping Systems](https://youtube.com/watch?v=placeholder38)
+### Integration with Civil 3D
+- [Working with Civil 3D Piping Systems](https://youtube.com/watch?v=placeholder38)
 - [Exporting and Importing Data](https://youtube.com/watch?v=placeholder39)
-- [Revit Integration Best Practices](https://youtube.com/watch?v=placeholder40)
+- [Civil 3D Integration Best Practices](https://youtube.com/watch?v=placeholder40)
 
 ## Project Examples
 
