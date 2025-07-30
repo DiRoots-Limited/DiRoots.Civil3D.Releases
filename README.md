@@ -36,7 +36,7 @@ An Autodesk Civil 3D plugin to bulk edit values from Object Properties in your C
 
 
 ### Supported Civil 3D Versions
-2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
+2022, 2023, 2024, 2025, and 2026.
 
 ### Useful links
 [Videos & Documentation](https://docs.dicivil.diroots.com/)
