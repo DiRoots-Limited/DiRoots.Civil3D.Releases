@@ -2,7 +2,7 @@
 layout: default
 title: Elevation Design
 parent: Piping Engineer User Guide
-nav_order: 4
+nav_order: 2
 ---
 
 # Elevation Design

@@ -20,7 +20,7 @@ Now that you know DiCivil and have installed it, let's learn some good practices
 
 ## Sort the plugins
 
-Arrange DiCivil tools in the sequence you prefer. This way, the sequence you define can help you access the tools you need more quickly.
+Arrange DiCivil tools in the sequence you prefer. 
 
 ![DiRoots-Tips Sort the plugins](../assets\images\Tips\DO-SortPlugins.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
@@ -41,7 +41,7 @@ Mouse over the edges of the window and click and drag to extend or reduce the wi
 
 ## Sort Columns
 
-Click on the column header and sort it by number or alphabetically. 
+Click on the column header and sort it by number or alphabetically.  Note that not all the tables can be sorted, to ensure its correct behaviour.
 
 ![DiRoots-Tips sort columns](../assets\images\Tips\DO-SortColumns.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
@@ -53,41 +53,28 @@ DiCivil plugins have a great advantage for making bulk actions and saving time. 
 ![DiRoots-Tips select rows](../assets\images\Tips\DO-SelectRows.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-## Double-click and Drag and Drop
+## Double-click in Preferences User Interface
 
-Double-click or drag and drop to add or remove data.
+The Preferences User Interface allows the users to add or remove properties to the table of reference. Double-click on the properties or multiple properties to move them to the right or left container.
 
 where to do this:
 
-1. SheetLink: Double-click or drag and drop to add or remove parameters in tables.
+1. Piping Engineer.
 
-2. SheetGen: Drag and drop views between sheets.
+2. Style Helper.
 
-3. ParaManager: Drag and drop categories between parameters.
+3. Transfer Object Layers.
 
-4. OneFilter: Double-click or drag and drop to add or remove parameters in the Define Value window.
+4. Transfer Survey Standards.
+
 
 ![DiRoots-Tips double-click and drag and drop](../assets\images\Tips\DO-DoubleClick-Drag.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-## Right-click on the column header
-
-Some tables allow you to add new columns and get a customized table. Right-click on the column header and select properties/parameters to create a new column.
-
-where to do this:
-
-1. Sheet List and Revision List tabs of the SheetGen plugin.
-
-2. Views tab of the ViewManager plugin.
-
-3. Parameters and Objects tab of the ParaManager Plugin.
-
-![DiRoots-Tips right click on the column](../assets\images\Tips\DO-Right-click-column.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ## Right-click on the row
 
-You can take certain actions on the data you have added or created by right-clicking on the data and viewing the available options.
+You can take certain actions on the table rows you have added or created by right-clicking on the data and viewing the available options.
 
 ![DiRoots-Tips right click on the row](../assets\images\Tips\DO-Right-click-row.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>

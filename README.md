@@ -1,5 +1,5 @@
-A single application bundle that includes 8 free Autodesk Civil 3D Plugins to boost your productivity. 
-DiCivil allows seamless interoperability between our plugins, opening doors to new workflows and ways to get your job done faster and better.
+A single application bundle that includes 8 free Civil 3D Plugins to boost your productivity. 
+DiCivil provides users, different tools to help design and manage their data to get your job done faster and better.
 
 Tools for Data Management, Filtering, Model Checking, Drawing Production, and Point Clouds.
 
