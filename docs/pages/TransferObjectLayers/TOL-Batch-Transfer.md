@@ -2,7 +2,7 @@
 layout: default
 title: Batch Transfer
 parent: Transfer Object Layers User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Batch Transfer

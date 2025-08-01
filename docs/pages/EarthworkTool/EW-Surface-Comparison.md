@@ -2,7 +2,7 @@
 layout: default
 title: Surface Comparison
 parent: Earthwork Tool User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Surface Comparison

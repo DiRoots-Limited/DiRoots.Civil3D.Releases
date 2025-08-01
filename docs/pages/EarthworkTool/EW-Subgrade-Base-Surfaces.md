@@ -2,7 +2,7 @@
 layout: default
 title: Subgrade & Base Surfaces
 parent: Earthwork Tool User Guide
-nav_order: 5
+nav_order: 4
 ---
 
 # Subgrade & Base Surfaces

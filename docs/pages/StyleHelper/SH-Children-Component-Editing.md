@@ -2,7 +2,7 @@
 layout: default
 title: Children Component Editing
 parent: Style Helper User Guide
-nav_order: 3
+nav_order: 2
 ---
 
 # Children Component Editing

@@ -2,7 +2,7 @@
 layout: default
 title: Profile
 parent: Grading Pro User Guide
-nav_order: 1
+nav_order: 5
 ---
 
 # Profiles

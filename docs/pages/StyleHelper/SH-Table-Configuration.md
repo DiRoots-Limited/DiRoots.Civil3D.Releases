@@ -2,7 +2,7 @@
 layout: default
 title: Table Configuration
 parent: Style Helper User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Table Configuration

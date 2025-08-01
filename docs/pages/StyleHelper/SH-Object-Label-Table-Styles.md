@@ -2,7 +2,7 @@
 layout: default
 title: Object, Label, and Table Styles
 parent: Style Helper User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Object, Label, and Table Styles

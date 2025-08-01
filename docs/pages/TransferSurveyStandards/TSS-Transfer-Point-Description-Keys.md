@@ -2,7 +2,7 @@
 layout: default
 title: Transfer Point Description Keys
 parent: Transfer Survey Standards User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Transfer Point Description Keys

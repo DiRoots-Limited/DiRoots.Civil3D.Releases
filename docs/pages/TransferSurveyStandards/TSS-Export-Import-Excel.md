@@ -2,7 +2,7 @@
 layout: default
 title: Export and Import Excel
 parent: Transfer Survey Standards User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Export and Import Excel

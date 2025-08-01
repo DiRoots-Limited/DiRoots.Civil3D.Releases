@@ -2,7 +2,7 @@
 layout: default
 title: Object Inspection
 parent: Template Inspector User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Object Inspection

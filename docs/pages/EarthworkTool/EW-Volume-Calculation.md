@@ -2,7 +2,7 @@
 layout: default
 title: Volume Calculation
 parent: Earthwork Tool User Guide
-nav_order: 6
+nav_order: 5
 ---
 
 # Volume Calculation

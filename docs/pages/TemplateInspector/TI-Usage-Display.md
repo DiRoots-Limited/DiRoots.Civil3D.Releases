@@ -2,7 +2,7 @@
 layout: default
 title: Usage Display
 parent: Template Inspector User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Usage Display

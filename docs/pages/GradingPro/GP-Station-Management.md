@@ -2,7 +2,7 @@
 layout: default
 title: Station Management
 parent: Grading Pro User Guide
-nav_order: 4
+nav_order: 2
 ---
 
 # Station Management

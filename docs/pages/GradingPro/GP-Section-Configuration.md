@@ -2,7 +2,7 @@
 layout: default
 title: Section Configuration
 parent: Grading Pro User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Section Configuration

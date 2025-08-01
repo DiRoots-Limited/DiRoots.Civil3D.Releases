@@ -2,7 +2,7 @@
 layout: default
 title: Depth Scan
 parent: Template Inspector User Guide
-nav_order: 3
+nav_order: 2
 ---
 
 # Depth Scan

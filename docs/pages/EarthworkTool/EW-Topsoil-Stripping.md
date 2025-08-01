@@ -2,7 +2,7 @@
 layout: default
 title: Topsoil Stripping
 parent: Earthwork Tool User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Topsoil Stripping

@@ -2,7 +2,7 @@
 layout: default
 title: Export and Import Excel
 parent: Transfer Object Layers User Guide
-nav_order: 3
+nav_order: 2
 ---
 
 # Export and Import Excel

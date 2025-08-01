@@ -2,7 +2,7 @@
 layout: default
 title: Profile
 parent: Earthwork Tool User Guide
-nav_order: 1
+nav_order: 6
 ---
 
 # Profiles

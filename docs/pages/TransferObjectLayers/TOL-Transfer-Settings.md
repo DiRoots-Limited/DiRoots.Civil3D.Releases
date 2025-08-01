@@ -2,7 +2,7 @@
 layout: default
 title: Transfer Settings
 parent: Transfer Object Layers User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Transfer Settings
