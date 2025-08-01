@@ -18,15 +18,16 @@ nav_order: 1
 
 # Pipes and Structures Tables
 
-The Pipes and Structures Tables feature allows you to edit pipes or structures data efficiently. You can add and customize multiple properties to the tables for comprehensive piping network management.
+The Pipes and Structures Tables feature allows you to edit pipes or structures data efficiently. You can add and customize multiple properties to the tables for comprehensive data management.
 
 ## Overview
 
-Piping Engineer provides dedicated tables for managing both pipes and structures within your piping networks. These tables offer:
+Piping Engineer provides dedicated tables for managing data for both Pipes and Structures within your piping networks. These tables offer:
 
-- **Bulk editing capabilities** for multiple pipes and structures
-- **Customizable property columns** to match your project requirements
-- **Real-time validation** of piping network integrity
+- **Bulk editing capabilities** for single or multiple pipes or structures
+- **Customizable property columns** to match your project requirements or specific use case.
+- **Rule validation context** Tables highlights the objects violating the Civil3D rules.
+
 - **Mass property updates** across entire networks
 
 ## Selecting Pipes and Structures
@@ -119,7 +120,7 @@ Piping Engineer supports bulk editing operations for efficient network managemen
 
 ### Validation
 
-The tool provides real-time validation to ensure network integrity:
+The tool provides displays the general Civil3D validation to ensure network integrity:
 
 - **Slope validation** against design standards
 - **Elevation consistency** checks

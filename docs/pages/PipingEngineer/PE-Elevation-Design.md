@@ -18,210 +18,178 @@ nav_order: 2
 
 # Elevation Design
 
-Piping Engineer provides system-aware piping elevation design capabilities that hold references during edits and offer options to auto-modify pipe elevation upstream/downstream.
+Piping Engineer provides advanced elevation design capabilities with auto-edition mode that includes hold reference options and automatic flow direction adjustments. The tool maintains system integrity while offering precise control over pipe elevations and slopes.
 
 ## Overview
 
-The Elevation Design feature enables precise control over piping network elevations while maintaining system integrity and connectivity. Key capabilities include:
+The Elevation Design feature enables intelligent control over piping network elevations with new auto-edition capabilities:
 
-- **Reference holding** during elevation modifications
-- **Automatic upstream/downstream adjustments**
+- **Hold Reference Options** - Multiple reference point strategies
+- **Auto-Flow Edition** - Automatic upstream/downstream adjustments
 - **System-aware elevation calculations**
 - **Slope validation** and optimization
-- **Bulk elevation operations**
+- **Flexible modification modes**
 
-## System-aware Elevation Design
+## Hold Reference Options
 
-### Understanding System Awareness
+Piping Engineer offers several hold reference strategies to maintain system integrity during elevation modifications:
 
-Piping Engineer maintains awareness of the entire piping system when making elevation changes:
+### Pipe Highest Point
 
-- **Network connectivity** is preserved during elevation modifications
-- **Flow direction** is considered in elevation calculations
-- **System type** influences elevation constraints and rules
-- **Connection points** are maintained at appropriate elevations
+Use the highest point of the entire system as a reference:
 
-![Piping Engineer system awareness](../../../assets\images\PipingEngineer\PE-SystemAwareness.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+- **Select pipes** flowing in the same direction that need adjustment
+- **Hold the highest point** of the system as reference
+- **Adjust slopes** on specific pipes while maintaining system integrity
+- **Apply changes** with automatic downstream adjustments
 
-### Reference Point Management
+**Use Case**: When pipes are not working correctly and you need to adjust slopes while keeping the highest point fixed.
 
-The tool allows you to establish and maintain reference points during elevation design:
+### Pipe Lowest Point
 
-1. **Select reference elements** (structures, fittings, or specific pipes)
-2. **Set reference elevations** that will remain fixed during modifications
-3. **Define elevation relationships** between connected elements
-4. **Maintain reference integrity** throughout the design process
+Use the lowest point of the system as a reference:
 
-![Piping Engineer reference management](../../../assets\images\PipingEngineer\PE-ReferenceManagement.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+- **Hold the lowest point** as the reference elevation
+- **Modify upstream branches** automatically
+- **Maintain original slopes** for unmodified pipes
+- **Adjust connected elements** based on flow direction
 
-## Elevation Modification Options
+**Use Case**: When you need to adjust the system from the lowest point upward.
 
-### Manual Elevation Adjustment
+### Pipe Start and Pipe End
 
-Direct control over individual pipe and structure elevations:
+Handle different pipe drawing directions in Civil 3D:
 
-Steps:
-1. Select the pipe or structure you want to modify
-2. Enter the new elevation value
-3. Choose how to handle connected elements:
-   - **Maintain connections** (adjust connected elements automatically)
-   - **Break connections** (create gaps that need manual resolution)
-   - **Hold references** (keep reference points fixed)
+- **Pipe Start** - Reference the starting point of the pipe
+- **Pipe End** - Reference the ending point of the pipe
+- **Flexible reference** based on how pipes were originally drawn
+- **User-defined reference** selection
 
-![Piping Engineer manual elevation](../../../assets\images\PipingEngineer\PE-ManualElevation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+**Note**: In Civil 3D, pipes can be drawn from lower to higher points or higher to lower points. This option allows users to choose the appropriate reference based on their specific drawing method.
 
-### Automatic Upstream/Downstream Modification
+### Hold Slope
 
-Intelligent elevation adjustments that propagate through the network:
+Maintain existing slopes while adjusting elevations:
 
-#### Upstream Modification
+- **Disable slope modification** - Only elevation values can be changed
+- **Move entire system** while preserving slopes
+- **Adjust start/end elevations** to shift the system
+- **Maintain slope relationships** throughout the network
 
-When modifying a pipe elevation, automatically adjust upstream elements:
+**Use Case**: When you need to move the entire system up or down while keeping all existing slopes intact.
 
-- **Maintain slope requirements** for upstream pipes
-- **Adjust structure elevations** as needed
-- **Preserve flow direction** and system integrity
-- **Apply slope constraints** based on system type
+## Auto-Flow Edition Modes
 
-![Piping Engineer upstream modification](../../../assets\images\PipingEngineer\PE-UpstreamModification.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### All Branches Downstream
 
-#### Downstream Modification
+Automatically adjust all downstream pipes when modifying elevations:
 
-When modifying a pipe elevation, automatically adjust downstream elements:
+- **Modify selected pipes** with new slope or elevation values
+- **Automatically adjust** all connected downstream pipes
+- **Maintain flow direction** and system connectivity
+- **Preserve original slopes** for unmodified upstream pipes
 
-- **Maintain slope requirements** for downstream pipes
-- **Adjust structure elevations** as needed
-- **Preserve flow direction** and system integrity
-- **Apply slope constraints** based on system type
+**Example**: When editing a pipe to 4% slope, all downstream pipes are automatically adjusted while upstream pipes remain unchanged.
 
-![Piping Engineer downstream modification](../../../assets\images\PipingEngineer\PE-DownstreamModification.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### All Branches Upstream
 
-## Slope Integration
+Automatically adjust all upstream pipes when modifying elevations:
 
-### Slope-aware Elevation Design
+- **Modify selected pipes** with new slope or elevation values
+- **Automatically adjust** all connected upstream pipes
+- **Maintain flow direction** and system connectivity
+- **Preserve original slopes** for unmodified downstream pipes
 
-Elevation modifications automatically consider slope requirements:
+**Example**: When editing the lowest point of a system, all upstream branches are automatically modified to maintain proper flow.
 
-```yaml
-# Slope Considerations:
-- Minimum slope requirements for different pipe types
-- Maximum slope constraints for system integrity
-- Optimal slope ranges for efficient flow
-- Slope transitions at connection points
-```
+### Only Selection
 
-![Piping Engineer slope integration](../../../assets\images\PipingEngineer\PE-SlopeIntegration.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+Modify only the specifically selected pipes:
 
-### Slope Validation
+- **No automatic adjustments** to upstream or downstream pipes
+- **Modify only selected elements** without affecting the rest of the system
+- **Maintain system integrity** for unselected pipes
+- **Precise control** over individual pipe modifications
 
-Real-time validation ensures elevation changes meet slope requirements:
+**Use Case**: When you want to adjust specific pipes without affecting the connected network.
 
-- **Pre-modification checks** to identify potential slope violations
-- **Real-time feedback** during elevation adjustments
-- **Automatic slope optimization** suggestions
-- **Error reporting** for slope constraint violations
+## Practical Examples
 
-![Piping Engineer slope validation](../../../assets\images\PipingEngineer\PE-SlopeValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Example 1: Adjusting Multiple Pipes from Highest Point
 
-## Bulk Elevation Operations
+1. **Select pipes** flowing in the same direction that need adjustment
+2. **Choose "Pipe Highest Point"** as hold reference
+3. **Set auto-flow edition** to "All Branches Downstream"
+4. **Enter new slope** (e.g., 3%)
+5. **Apply changes** - system adjusts selected pipes and all downstream pipes
 
-### Network-wide Elevation Adjustments
+### Example 2: Moving System Down While Preserving Slopes
 
-Perform elevation modifications across entire networks or network segments:
+1. **Select pipes** to modify
+2. **Choose "Hold Slope"** as reference option
+3. **Set auto-flow edition** to "All Branches Downstream"
+4. **Modify elevation** (e.g., from 2m to 1m - moving system down 1 meter)
+5. **Apply changes** - entire system moves down while preserving all slopes
 
-1. **Select the network** or network segment
-2. **Choose the operation type**:
-   - **Offset elevation** (add/subtract a value)
-   - **Set absolute elevation** (set to specific values)
-   - **Scale elevation** (multiply by a factor)
-   - **Match reference** (align to reference elements)
-3. **Apply the changes** with automatic upstream/downstream adjustment
+### Example 3: Single Pipe Adjustment
 
-![Piping Engineer bulk elevation](../../../assets\images\PipingEngineer\PE-BulkElevation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+1. **Select specific pipe** to modify
+2. **Choose "Only Selection"** for auto-flow edition
+3. **Modify elevation** or slope as needed
+4. **Apply changes** - only the selected pipe is modified
 
-### Elevation Matching
+## Workflow Tips
 
-Align multiple elements to reference elevations:
+### Data Management
 
-- **Match to structure** (align pipes to structure invert levels)
-- **Match to grade** (align to site topography)
-- **Match to floor** (align to building floor elevations)
-- **Match to reference pipe** (align to existing pipe elevations)
+- **Reload data** after undo/redo operations to ensure accurate information
+- **Refresh UI** when switching between different modification modes
+- **Verify selections** before applying changes to avoid unintended modifications
 
-![Piping Engineer elevation matching](../../../assets\images\PipingEngineer\PE-ElevationMatching.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Testing and Validation
 
-## Elevation Constraints
+- **Record short videos** when testing to help identify specific issues
+- **Test different scenarios** to understand how each mode behaves
+- **Verify system integrity** after modifications
+- **Check slope compliance** with system requirements
 
-### System-specific Constraints
+### Best Practices
 
-Different piping systems have different elevation constraints:
+- **Start with small modifications** to understand the tool's behavior
+- **Use appropriate reference points** based on your design intent
+- **Consider flow direction** when choosing auto-flow edition modes
+- **Test modifications** on copies before applying to production designs
 
-```yaml
-# Sanitary Systems:
-- Minimum slope: 2% (0.02 ft/ft)
-- Maximum slope: 25% (0.25 ft/ft)
-- Cover depth requirements
-- Invert level constraints
+## System Integration
 
-# Storm Systems:
-- Minimum slope: 1% (0.01 ft/ft)
-- Maximum slope: 20% (0.20 ft/ft)
-- Cover depth requirements
-- Invert level constraints
+### Civil 3D Compatibility
 
-# Water Systems:
-- Pressure considerations
-- Air vent requirements
-- Minimum cover depth
-- Maximum velocity constraints
-```
+The tool integrates seamlessly with Civil 3D piping networks:
 
-![Piping Engineer elevation constraints](../../../assets\images\PipingEngineer\PE-ElevationConstraints.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+- **Native Civil 3D objects** - works with existing pipe networks
+- **Flow direction awareness** - understands Civil 3D flow direction
+- **Drawing method flexibility** - accommodates different pipe drawing approaches
+- **Real-time updates** - modifications reflect immediately in Civil 3D
 
-### Custom Constraint Management
+### Error Handling
 
-Define and apply custom elevation constraints:
+- **Validation checks** before applying modifications
+- **Conflict detection** for incompatible changes
+- **Rollback capability** for problematic modifications
+- **User feedback** for successful and failed operations
 
-1. **Create constraint rules** for specific project requirements
-2. **Apply constraints** to selected elements or networks
-3. **Validate against constraints** before applying changes
-4. **Override constraints** when necessary with proper documentation
+## Advanced Features
 
-![Piping Engineer custom constraints](../../../assets\images\PipingEngineer\PE-CustomConstraints.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Bulk Operations
 
-## Visualization and Preview
+- **Multiple pipe selection** for simultaneous modifications
+- **Network-wide adjustments** with single operation
+- **Batch processing** for large networks
+- **Consistent application** across selected elements
 
-### 3D Elevation Preview
+### Customization
 
-Visualize elevation changes before applying them:
-
-- **3D preview** of proposed elevation modifications
-- **Color-coded elevation** display
-- **Slope visualization** with gradient indicators
-- **Conflict highlighting** for potential issues
-
-![Piping Engineer 3D preview](../../../assets\images\PipingEngineer\PE-3DPreview.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
-
-### Elevation Reports
-
-Generate detailed elevation reports:
-
-- **Elevation summary** for selected elements
-- **Slope analysis** and validation results
-- **Change log** of elevation modifications
-- **Constraint compliance** report
-
-![Piping Engineer elevation reports](../../../assets\images\PipingEngineer\PE-ElevationReports.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 
+- **User-defined reference points** for specific project needs
+- **Custom slope constraints** based on project requirements
+- **Flexible modification strategies** for complex networks
+- **Project-specific workflows** and settings 
