@@ -18,11 +18,11 @@ nav_order: 2
 
 # Elevation Design
 
-Piping Engineer provides advanced elevation design capabilities with auto-edition mode that includes hold reference options and automatic flow direction adjustments. The tool maintains system integrity while offering precise control over pipe elevations and slopes.
+Piping Engineer provides elevation design capabilities with auto-edition mode that includes hold reference options and automatic flow direction adjustments. The tool helps to edit the network system while offering  control over pipe elevations and slopes.
 
 ## Overview
 
-The Elevation Design feature enables intelligent control over piping network elevations with new auto-edition capabilities:
+The Elevation Design feature enables control over piping network elevations with new system edition capabilities:
 
 - **Hold Reference Options** - Multiple reference point strategies
 - **Auto-Flow Edition** - Automatic upstream/downstream adjustments

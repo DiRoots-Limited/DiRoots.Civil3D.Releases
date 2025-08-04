@@ -35,7 +35,7 @@ The System Edition feature offers three main approaches to selecting and editing
 This method allows you to work with entire piping networks as cohesive units.
 
 Steps:
-1. Select the "Network" option in the System Edition tab
+1. Select the "Network" option in the main interface
 2. Choose from available piping networks in your model:
    - **Sanitary Systems**
    - **Storm Systems**
@@ -65,7 +65,7 @@ When working with networks, you can access and modify:
 This approach allows you to focus on particular pipes or structures within your piping systems.
 
 Steps:
-1. Select the "Elements" option in the System Edition tab
+1. Select the "Elements" option in the main interface
 2. Choose your selection method:
    - **Pre-select in Civil 3D**: Select elements in the Civil 3D model first
    - **Pick from List**: Choose from a list of available elements
@@ -98,7 +98,7 @@ Use advanced filtering options to select specific elements:
 This method allows you to define network segments by selecting start and end points.
 
 Steps:
-1. Select the "Start/End Points" option in the System Edition tab
+1. Select the "Start/End Points" option in the main interface
 2. Click "Pick Start Point" and select the starting element in your model
 3. Click "Pick End Point" and select the ending element in your model
 4. The tool will automatically select all elements between the start and end points
