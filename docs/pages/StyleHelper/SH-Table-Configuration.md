@@ -18,35 +18,49 @@ nav_order: 3
 
 # Table Configuration
 
-Style Helper allows you to configure which columns are shown in the table interface, their order, and visibility, so you can focus on the data that matters most to you. The tool provides comprehensive column management capabilities including adding, removing, reordering, and saving column configurations.
+Style Helper allows you to configure which columns are shown in the table interface, their order, and visibility, so you can focus on the data that matters most to you.
 
 ## Overview
 
-Table configuration is a key feature that enables you to customize the table interface to match your specific workflow needs. You can add columns from object preferences, reorder columns using intuitive controls, and save configurations as profiles for reuse across different projects and workflows.
+The **Preferences button** is the independent control for managing table columns for each tab. You can add columns from object preferences, reorder columns using intuitive controls, and save configurations as profiles for reuse. Each tab maintains its own independent column configuration.
 
-## Column Management
+**Note:** Available column options are dynamic and change based on the checked objects, as different objects have different property data structures.
 
-### Adding Columns
+> **GIF Placeholder:** Show the Preferences button interface and basic column management
+
+## Preferences Button
+
+The **Preferences button** is your primary tool for customizing table columns for each tab:
+
+- **Independent Control** - Each tab has its own Preferences button for column configuration
+- **Dynamic Configuration** - Available column options change based on the checked objects
+- **Tab-Specific Settings** - Column settings are configured independently for each tab
+- **Persistent Configuration** - Your preferences for each tab are saved and maintained across sessions
+
+> **GIF Placeholder:** Demonstrate accessing the Preferences button and its interface
+
+## Adding Columns
 
 Add data columns to the table from object preferences:
 
 - **Object Preferences Access** - Click "Object Preferences" to access available data
-- **Data Selection** - Select which data columns to add to the table
+- **Dynamic Data Structure** - Available columns change based on the checked objects and their property structures
+- **Data Selection** - Select which data columns to add to the table from the available options
 - **Column Addition** - Add selected data columns to the table interface
-- **Data Organization** - Organize data in a structured table format
 
-### Column Operations
+> **GIF Placeholder:** Show how to access Object Preferences and add columns to the table
 
-Efficient column management operations:
+## Column Operations
+
+### Adding and Removing Columns
 
 - **Column Addition** - Add new columns from object preferences
 - **Column Removal** - Remove unnecessary columns from the table
-- **Column Reordering** - Change column order using up/down buttons
 - **Column Reset** - Reset column order to default configuration
 
-## Column Reordering
+> **GIF Placeholder:** Demonstrate adding and removing columns
 
-### Reordering Controls
+### Column Reordering
 
 Use intuitive controls to reorder columns:
 
@@ -55,9 +69,7 @@ Use intuitive controls to reorder columns:
 - **Move to Top** - Move column to the top of the table
 - **Move to Bottom** - Move column to the bottom of the table
 
-### Reordering Process
-
-Complete column reordering workflow:
+#### Reordering Process
 
 1. **Select Column** - Choose the column to reorder
 2. **Use Reorder Buttons** - Use up/down buttons to change position
@@ -65,15 +77,7 @@ Complete column reordering workflow:
 4. **Verify Order** - Verify column order meets your needs
 5. **Save Configuration** - Save the new column order as a profile
 
-### Example: Column Reordering
-
-Practical column reordering example:
-
-- **Select Column** - Choose a column to reorder
-- **Move Up** - Use up button to move column higher in order
-- **Move Down** - Use down button to move column lower in order
-- **Custom Position** - Position column exactly where needed
-- **Save Order** - Save the custom column order
+> **GIF Placeholder:** Show the complete column reordering process
 
 ## Column Configuration Options
 
@@ -86,6 +90,8 @@ Control which columns are visible:
 - **Optional Columns** - Show optional columns as needed
 - **Custom Views** - Create custom column views for different workflows
 
+> **GIF Placeholder:** Demonstrate column visibility controls
+
 ### Column Width and Format
 
 Customize column appearance:
@@ -94,6 +100,8 @@ Customize column appearance:
 - **Data Format** - Configure data format for different column types
 - **Text Wrapping** - Control text wrapping in columns
 - **Visual Organization** - Organize columns for optimal visual layout
+
+> **GIF Placeholder:** Show column width adjustment and formatting options
 
 ## Reset Functionality
 
@@ -104,7 +112,8 @@ Reset column configuration to default:
 - **Reset Button** - Use reset button to restore default column order
 - **Default Configuration** - Return to default column configuration
 - **Quick Recovery** - Quickly recover from configuration issues
-- **Fresh Start** - Start with clean default configuration
+
+> **GIF Placeholder:** Demonstrate the reset functionality
 
 ### Configuration Recovery
 
@@ -113,7 +122,8 @@ Recover from configuration issues:
 - **Reset to Default** - Reset to default column configuration
 - **Profile Recovery** - Load saved profile to recover configuration
 - **Manual Recovery** - Manually restore desired configuration
-- **Backup Restoration** - Restore from backup configuration
+
+> **GIF Placeholder:** Show configuration recovery options
 
 ## Profile Integration
 
@@ -124,7 +134,8 @@ Save column configurations as profiles:
 - **Profile Creation** - Create profiles with specific column configurations
 - **Configuration Persistence** - Save all column settings and preferences
 - **Profile Naming** - Use descriptive names for easy identification
-- **Profile Organization** - Organize profiles by workflow or project type
+
+> **GIF Placeholder:** Demonstrate saving column configurations as profiles
 
 ### Profile Loading
 
@@ -133,7 +144,8 @@ Load saved column configurations:
 - **Profile Selection** - Choose profile to load column configuration
 - **Configuration Application** - Apply saved column configuration
 - **Quick Switching** - Switch between different column configurations
-- **Workflow Optimization** - Optimize workflow with saved configurations
+
+> **GIF Placeholder:** Show profile loading and switching
 
 ## Data Organization
 
@@ -154,6 +166,8 @@ Group related data columns:
 - **Component Data Grouping** - Group component-related data columns
 - **Property Grouping** - Group related property columns
 - **Functional Grouping** - Group columns by function or purpose
+
+> **GIF Placeholder:** Show examples of logical column ordering and data grouping
 
 ## Best Practices
 

@@ -18,174 +18,180 @@ nav_order: 2
 
 # Station Management
 
-Grading Pro provides comprehensive station management capabilities, allowing you to define where sections will be placed along your reference path. The tool supports both individual station placement and range-based station generation for efficient grading design.
+Grading Pro provides flexible station management capabilities for creating and organizing stations along reference paths with individual and range-based configurations.
 
 ## Overview
 
-Stations define the locations where grading sections are applied along your reference path (alignment or corridor). Grading Pro offers flexible station definition methods to accommodate various project requirements and design scenarios.
+Station management allows you to:
+- Create individual stations at specific locations
+- Generate range-based stations with intervals
+- Configure side and angle settings for section placement
+- Organize and manage stations systematically
 
-## Station Definition Methods
+> **GIF Placeholder:** Show overview of station management capabilities
 
-### Individual Stations
+## Individual Stations
 
-Define specific station locations for precise control:
+### Creating Individual Stations
 
-- **Exact Location** - Specify exact station values along the path
-- **Side Selection** - Choose left, right, or both sides for section placement
-- **Angle Control** - Define the angle of section placement (default: 90 degrees)
-- **Custom Names** - Assign descriptive names to individual stations
+Create stations at specific locations:
 
-**Example Individual Stations:**
-- Station 20: Left side, 90 degrees
-- Station 40: Right side, 90 degrees
-- Station 60: Both sides, 45 degrees
+- **Station Creation** - Create individual stations at specific points
+- **Location Specification** - Specify exact station locations
+- **Station Naming** - Name stations for easy identification
+- **Station Organization** - Organize individual stations logically
 
-### Range of Stations
+> **GIF Placeholder:** Demonstrate individual station creation
 
-Generate multiple stations automatically using range parameters:
+### Station Configuration
 
-- **Start Station** - Beginning station value
-- **End Station** - Ending station value
-- **Interval** - Distance between stations (e.g., 10 meters)
-- **Side and Angle** - Applied to all stations in the range
+Configure individual station settings:
 
-**Example Range Configuration:**
-- Start: 50m
-- End: 120m
-- Interval: 10m
-- Result: Stations at 50, 60, 70, 80, 90, 100, 110, 120m
+- **Side Settings** - Configure which side of the path to place sections
+- **Angle Settings** - Define the angle of section placement
+- **Station Properties** - Set station-specific properties
+- **Configuration Validation** - Validate station configurations
 
-### Mixed Approach
+> **GIF Placeholder:** Show station configuration
 
-Combine individual and range-based stations for complex scenarios:
+### Station Management
 
-- **Individual Stations** - For critical locations requiring specific attention
-- **Range Stations** - For areas requiring consistent spacing
-- **Flexible Combination** - Mix both methods as needed
+Manage individual stations:
 
-## Creating Station Configurations
+- **Station Selection** - Select stations for modification
+- **Station Editing** - Edit station properties and settings
+- **Station Duplication** - Duplicate stations for similar configurations
+- **Station Removal** - Remove unwanted stations
 
-### Step-by-Step Process
+> **GIF Placeholder:** Demonstrate station management
 
-1. **Access Station Configuration**
-   - Click the configuration button in the main UI
-   - Navigate to the "Station Configuration" tab
+## Range-based Stations
 
-2. **Create New Station Group**
-   - Click "New" to create a new station configuration
-   - Assign a descriptive name (e.g., "Main Road Stations")
+### Creating Range-based Stations
 
-3. **Add Individual Stations**
-   - Click "Individually" to add specific stations
-   - Enter station value (e.g., 20, 40, 60)
-   - Select side (Left, Right, Both)
-   - Set angle (default: 90 degrees)
+Generate stations in ranges with intervals:
 
-4. **Add Range of Stations**
-   - Click "Range" to add multiple stations
-   - Enter start station (e.g., 50)
-   - Enter end station (e.g., 120)
-   - Set interval (e.g., 10 meters)
-   - Configure side and angle settings
+- **Range Definition** - Define start and end points for station ranges
+- **Interval Specification** - Specify intervals between stations
+- **Automatic Generation** - Automatically generate stations within ranges
+- **Range Validation** - Validate range configurations
 
-5. **Save Configuration**
-   - Save the station configuration for use in grading types
+> **GIF Placeholder:** Show range-based station creation
 
-### Station Management Features
+### Range Configuration
 
-#### Adding Stations
-- **Individual Addition** - Add specific stations one by one
-- **Range Addition** - Generate multiple stations with defined parameters
-- **Flexible Parameters** - Customize side and angle for each station type
+Configure range-based station settings:
 
-#### Duplicating Stations
-- **Select and Duplicate** - Copy existing station configurations
-- **Modify Duplicates** - Adjust parameters for the new configuration
-- **Efficient Workflow** - Save time by duplicating and modifying
+- **Start Point** - Define the starting point of the range
+- **End Point** - Define the ending point of the range
+- **Interval Settings** - Configure intervals between stations
+- **Side and Angle** - Set side and angle for all stations in range
 
-#### Removing Stations
-- **Individual Removal** - Delete specific stations from the configuration
-- **Bulk Removal** - Remove multiple stations simultaneously
-- **Range Adjustment** - Modify range parameters to exclude specific areas
+> **GIF Placeholder:** Demonstrate range configuration
 
-## Side and Angle Configuration
+### Range Management
 
-### Side Selection Options
+Manage range-based stations:
 
-- **Left Side** - Place sections on the left side of the path
-- **Right Side** - Place sections on the right side of the path
-- **Both Sides** - Place sections on both sides simultaneously
+- **Range Selection** - Select ranges for modification
+- **Range Editing** - Edit range properties and settings
+- **Range Duplication** - Duplicate ranges for similar configurations
+- **Range Removal** - Remove unwanted ranges
 
-### Angle Settings
+> **GIF Placeholder:** Show range management
 
-- **Default Angle** - 90 degrees (perpendicular to path)
-- **Custom Angles** - Specify any angle for section placement
-- **Angle Impact** - Affects how sections are oriented relative to the path
+## Advanced Features
 
-**Common Angle Applications:**
-- 90° - Standard perpendicular placement
-- 45° - Angled placement for specific design requirements
-- Custom angles - For complex geometric requirements
+### Side and Angle Settings
 
-## Advanced Station Techniques
+Configure section placement orientation:
 
-### Station Spacing Strategies
+- **Side Selection** - Choose which side of the path to place sections
+- **Angle Definition** - Define the angle of section placement
+- **Orientation Control** - Control section orientation relative to path
+- **Placement Accuracy** - Ensure accurate section placement
 
-#### Uniform Spacing
-- **Consistent Intervals** - Use regular spacing (e.g., every 10m)
-- **Predictable Results** - Easy to plan and implement
-- **Standard Applications** - Suitable for most grading scenarios
+> **GIF Placeholder:** Demonstrate side and angle settings
 
-#### Variable Spacing
-- **Critical Areas** - Closer spacing in important locations
-- **Transition Zones** - Gradual spacing changes
-- **Custom Requirements** - Project-specific spacing needs
+### Station Organization
 
-### Station Optimization
+Organize stations systematically:
 
-#### Efficiency Considerations
-- **Minimum Spacing** - Avoid stations too close together
-- **Maximum Spacing** - Ensure adequate coverage
-- **Critical Points** - Place stations at key geometric changes
+- **Logical Grouping** - Group stations logically by purpose or location
+- **Naming Conventions** - Use consistent naming conventions
+- **Station Hierarchy** - Organize stations in hierarchical structure
+- **Quick Access** - Provide quick access to station configurations
 
-#### Quality Control
-- **Station Verification** - Check station placement before application
-- **Spacing Validation** - Ensure appropriate intervals
-- **Coverage Analysis** - Verify all areas are adequately covered
+> **GIF Placeholder:** Show station organization
 
-## Integration with Grading Types
+### Station Validation
 
-### Station-Section Combination
+Validate station configurations:
 
-Stations are combined with sections in grading types:
+- **Configuration Checking** - Check station configurations for errors
+- **Placement Validation** - Validate station placement
+- **Conflict Detection** - Detect conflicts between stations
+- **Error Reporting** - Report configuration errors clearly
 
-1. **Select Stations** - Choose from available station configurations
-2. **Select Sections** - Choose from available section configurations
-3. **Create Grading Type** - Combine stations and sections
-4. **Apply to Surface** - Use the grading type to modify surfaces
+> **GIF Placeholder:** Demonstrate station validation
 
-### Multiple Grading Types
+## Configuration Management
 
-- **Different Station Sets** - Use different stations for different areas
-- **Section Variations** - Apply different sections to different stations
-- **Complex Scenarios** - Combine multiple grading types for complex projects
+### Station Templates
+
+Use station templates for consistency:
+
+- **Template Creation** - Create station templates
+- **Template Application** - Apply templates to new stations
+- **Template Management** - Manage station templates
+- **Template Sharing** - Share templates across projects
+
+> **GIF Placeholder:** Show station templates
+
+### Bulk Operations
+
+Perform bulk operations on stations:
+
+- **Bulk Selection** - Select multiple stations for operations
+- **Bulk Modification** - Modify multiple stations simultaneously
+- **Bulk Duplication** - Duplicate multiple stations
+- **Bulk Removal** - Remove multiple stations
+
+> **GIF Placeholder:** Demonstrate bulk operations
+
+### Station Synchronization
+
+Synchronize stations across configurations:
+
+- **Cross-configuration Sync** - Synchronize stations across configurations
+- **Update Propagation** - Propagate updates to related stations
+- **Consistency Maintenance** - Maintain consistency across stations
+- **Sync Management** - Manage synchronization settings
+
+> **GIF Placeholder:** Show station synchronization
 
 ## Best Practices
 
 ### Station Planning
-- **Project Requirements** - Align stations with project needs
-- **Geometric Changes** - Place stations at key geometric points
-- **Design Intent** - Ensure stations support design objectives
-- **Efficiency** - Balance coverage with computational efficiency
+- **Plan Station Layout** - Plan station layout carefully
+- **Consider Design Intent** - Consider design intent when placing stations
+- **Optimize Placement** - Optimize station placement for efficiency
+- **Document Layout** - Document station layout for future reference
 
 ### Configuration Management
-- **Descriptive Names** - Use clear names for station configurations
-- **Documentation** - Document station purposes and applications
-- **Version Control** - Maintain different versions for different scenarios
-- **Testing** - Verify station configurations before large-scale application
+- **Use Templates** - Use templates for consistency
+- **Organize Stations** - Organize stations systematically
+- **Validate Configurations** - Validate station configurations
+- **Document Settings** - Document station settings
 
-### Workflow Optimization
-- **Template Creation** - Create reusable station templates
-- **Standard Configurations** - Develop standard station sets for common scenarios
-- **Efficient Setup** - Use range-based stations for large areas
-- **Quality Assurance** - Review station placement for accuracy and completeness 
+### Quality Assurance
+- **Quality Checks** - Perform quality checks on stations
+- **Validation Procedures** - Follow validation procedures
+- **Error Correction** - Correct errors promptly
+- **Documentation** - Document all station configurations
+
+### Performance Optimization
+- **Efficient Placement** - Place stations efficiently
+- **Resource Management** - Manage resources effectively
+- **Performance Monitoring** - Monitor station performance
+- **Optimization Strategies** - Use optimization strategies 

@@ -2,7 +2,7 @@
 layout: default
 title: Pipes and Structures Tables
 parent: Piping Engineer User Guide
-nav_order: 1
+nav_order: 5
 ---
 
 # Pipes and Structures Tables
@@ -18,135 +18,191 @@ nav_order: 1
 
 # Pipes and Structures Tables
 
-The Pipes and Structures Tables feature allows you to edit pipes or structures data efficiently. You can add and customize multiple properties to the tables for comprehensive data management.
+Piping Engineer provides comprehensive table interfaces for managing pipes and structures with efficient data management and bulk operations capabilities.
 
 ## Overview
 
-Piping Engineer provides two separate tables for managing data for both Pipes and Structures within your piping networks. The interface displays:
+Pipes and structures tables allow you to:
+- Manage pipes and structures through comprehensive table interfaces
+- Perform bulk operations on multiple elements
+- Organize and manage data efficiently
+- Synchronize data in real-time
 
-- **Pipe table (left)**: For managing pipe data and properties
-- **Structure table (right)**: For managing structure data and properties
+> **GIF Placeholder:** Show overview of pipes and structures tables
 
-These tables offer:
+## Table Interface
 
-- **Bulk editing capabilities** for single or multiple pipes or structures
-- **Customizable property columns** to match your project requirements or specific use case
-- **Rule validation context** Tables highlights the objects violating the Civil3D rules
-- **Mass property updates** across entire networks
+### Comprehensive Table Interface
 
-## Table Layout
+Manage pipes and structures through table interfaces:
 
-The interface displays two separate tables:
+- **Data Display** - Display pipe and structure data in organized tables
+- **Data Organization** - Organize data logically for easy access
+- **Data Navigation** - Navigate through data efficiently
+- **Data Search** - Search for specific data quickly
 
-- **Pipe table (left)**: Shows pipe data and properties based on the selected mode
-- **Structure table (right)**: Shows structure data and properties based on the selected mode
+> **GIF Placeholder:** Demonstrate comprehensive table interface
 
-A draggable separator is provided between the Pipe table (left) and the Structure table (right), allowing you to resize each table according to your preference. 
+### Data Management
 
+Efficient data management capabilities:
 
-Insert Gif placeholder
+- **Data Entry** - Enter and modify data directly in tables
+- **Data Validation** - Validate data as it is entered
+- **Data Import** - Import data from external sources
+- **Data Export** - Export data to external formats
 
-## Selecting Pipes and Structures
+> **GIF Placeholder:** Show data management capabilities
 
-### Selection Modes
+### Real-time Updates
 
-The selection modes affect the list of elements displaied for both the Pipe table (left) and Structure table (right) simultaneously. Choose your selection method between:
+Real-time data synchronization:
 
-- **By Selected Pipes & Structures**: The tables display only the pipes and structures you've pre-selected in Civil 3D
+- **Live Updates** - Update data in real-time
+- **Synchronization** - Synchronize data across interfaces
+- **Dynamic Display** - Display updates dynamically
+- **Instant Feedback** - Provide instant feedback for changes
 
-Insert Gif placeholder
+> **GIF Placeholder:** Demonstrate real-time updates
 
-- **By Piping Network**: Select all pipes and structures in a specific piping network (use the dropdown to choose the network)
+## Bulk Operations
 
-Insert Gif placeholder
+### Multiple Element Operations
 
-- **By Pipe Run**: Select pipes and structures between two specified elements (enter the initial and last pipe/structure)
+Perform operations on multiple elements:
 
-Insert Gif placeholder
+- **Multi-selection** - Select multiple pipes and structures
+- **Bulk Modifications** - Modify multiple elements simultaneously
+- **Batch Processing** - Process large numbers of elements efficiently
+- **Consistent Application** - Apply changes consistently across elements
 
-
-
-## Customizing Table Properties
-
-### Adding Properties
-
-You can customize the tables by adding specific properties that are relevant to your piping design workflow or use case.
-
-Steps:
- Click on the "Preferences" button in the table toolbar and add the properties required as needed . 
-2. Select from available properties:
-   - **Instance Parameters**: Properties specific to individual pipes/structures
-   - **Type Parameters**: Properties shared by similar pipe/structure types
-   - **System Parameters**: Built-in Civil 3D system properties
-   - **Custom Parameters**: User-defined project parameters
-
-![Piping Engineer adding properties](../../../assets\images\PipingEngineer\PE-AddProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
-
-### Property Categories
-
-The available properties are organized into categories for easy selection:
-
-```yaml
-# Common Pipe Properties:
-- Diameter/Size
-- Material
-- System Type
-- Elevation
-- Slope
-- Flow Direction
-- Insulation
-- Fitting Type
-
-# Common Structure Properties:
-- Structure Type
-- Elevation
-- Invert Level
-- Cover Depth
-- Material
-- Size/Dimensions
-- Connection Type
-```
-
-### Reordering Properties
-
-Use the arrows in the table header to reorder properties according to your workflow preferences.
-
-![Piping Engineer reordering properties](../../../assets\images\PipingEngineer\PE-ReorderProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
-
-## Editing Data
+> **GIF Placeholder:** Show bulk operations
 
 ### Bulk Editing
 
-Piping Engineer supports bulk editing operations for efficient network management:
+Edit multiple elements efficiently:
 
-1. **Select multiple rows** in the table using Ctrl+Click or Shift+Click
-2. **Edit a cell** in the selected range
-3. **Apply to all selected** items simultaneously
+- **Bulk Property Changes** - Change properties for multiple elements
+- **Bulk Parameter Updates** - Update parameters for multiple elements
+- **Bulk Configuration** - Configure multiple elements at once
+- **Bulk Validation** - Validate multiple elements simultaneously
 
-![Piping Engineer bulk editing](../../../assets\images\PipingEngineer\PE-BulkEdit.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Demonstrate bulk editing
 
+### Bulk Validation
 
+Validate multiple elements:
 
-## Search and Filter
+- **Batch Validation** - Validate multiple elements in batches
+- **Error Detection** - Detect errors across multiple elements
+- **Issue Reporting** - Report issues for multiple elements
+- **Resolution Guidance** - Provide guidance for resolving issues
 
-### Searching Properties
+> **GIF Placeholder:** Show bulk validation
 
-Use the search box to quickly find specific properties in the table:
+## Advanced Features
 
-![Piping Engineer searching properties](../../../assets\images\PipingEngineer\PE-SearchProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Data Filtering
 
-### Filtering Data
+Filter data for specific needs:
 
-Apply filters to focus on specific subsets of your piping network:
+- **Property Filtering** - Filter by specific properties
+- **Type Filtering** - Filter by element types
+- **Status Filtering** - Filter by element status
+- **Custom Filtering** - Create custom filters
 
-- **System Type**: Filter by piping system (sanitary, storm, etc.)
-- **Material**: Filter by pipe/structure material
-- **Size Range**: Filter by diameter or dimensions
-- **Elevation Range**: Filter by elevation values
+> **GIF Placeholder:** Demonstrate data filtering
 
-![Piping Engineer filtering data](../../../assets\images\PipingEngineer\PE-FilterData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 
+### Data Sorting
+
+Sort data for better organization:
+
+- **Property Sorting** - Sort by specific properties
+- **Type Sorting** - Sort by element types
+- **Status Sorting** - Sort by element status
+- **Custom Sorting** - Create custom sort orders
+
+> **GIF Placeholder:** Show data sorting
+
+### Data Export
+
+Export data to various formats:
+
+- **Excel Export** - Export data to Excel format
+- **CSV Export** - Export data to CSV format
+- **PDF Export** - Export data to PDF format
+- **Custom Export** - Create custom export formats
+
+> **GIF Placeholder:** Demonstrate data export
+
+## Integration Features
+
+### Civil 3D Integration
+
+Seamless integration with Civil 3D:
+
+- **Native Object Support** - Support for native Civil 3D objects
+- **Real-time Synchronization** - Synchronize with Civil 3D in real-time
+- **Property Mapping** - Map properties between interfaces
+- **Update Propagation** - Propagate updates to Civil 3D
+
+> **GIF Placeholder:** Show Civil 3D integration
+
+### Profile Integration
+
+Integrate with profile system:
+
+- **Profile Storage** - Store table configurations in profiles
+- **Profile Application** - Apply profile configurations to tables
+- **Profile Management** - Manage table profiles
+- **Profile Sharing** - Share table profiles
+
+> **GIF Placeholder:** Demonstrate profile integration
+
+### Workflow Integration
+
+Integrate with workflows:
+
+- **Workflow Automation** - Automate table operations
+- **Process Integration** - Integrate tables into processes
+- **Workflow Management** - Manage table workflows
+- **Workflow Optimization** - Optimize table workflows
+
+> **GIF Placeholder:** Show workflow integration
+
+## Best Practices
+
+### Data Organization
+- **Logical Organization** - Organize data logically
+- **Consistent Naming** - Use consistent naming conventions
+- **Clear Structure** - Maintain clear data structure
+- **Regular Maintenance** - Perform regular data maintenance
+
+### Bulk Operations
+- **Plan Operations** - Plan bulk operations carefully
+- **Test Operations** - Test operations on small datasets first
+- **Validate Results** - Validate results after operations
+- **Document Changes** - Document all changes made
+
+### Performance Optimization
+- **Efficient Processing** - Process data efficiently
+- **Memory Management** - Manage memory usage effectively
+- **Speed Optimization** - Optimize processing speed
+- **Resource Management** - Manage system resources
+
+### Quality Assurance
+- **Data Validation** - Validate data regularly
+- **Error Detection** - Detect and correct errors
+- **Data Integrity** - Maintain data integrity
+- **Documentation** - Maintain comprehensive documentation 
+
+### Basic Workflow
+
+1. **Open Piping Engineer** from the DiRoots tab
+2. **Select Network** - Choose the piping network to work with
+3. **Choose Tool** - Select the appropriate tool (Elevation Design, Slope Validation, etc.)
+4. **Configure Settings** - Set up tool-specific parameters and options
+5. **Apply Changes** - Execute modifications and validate results
+6. **Save Profile** - Save configurations for future use
+
+> **GIF Placeholder:** Demonstrate the complete workflow from opening to saving a profile

@@ -18,11 +18,13 @@ nav_order: 2
 
 # Spreadsheet Interface
 
-Drawing Layers provides a familiar spreadsheet interface for editing layer data and layer states directly within the application, making it easy to manage and modify your layer information. The interface includes advanced formula capabilities and comprehensive change management features.
+Drawing Layers provides a familiar spreadsheet interface for editing layer data and layer states directly within the application, making it easy to manage and modify your layer information.
 
 ## Overview
 
 The spreadsheet interface offers Excel-like functionality for managing layer data, including formula support, change tracking, and bulk operations. The interface is organized into two main tabs: Active Layers and Layer States, providing comprehensive layer management capabilities.
+
+> **GIF Placeholder:** Show overview of spreadsheet interface capabilities
 
 ## Interface Features
 
@@ -35,6 +37,8 @@ Familiar spreadsheet format with rows and columns:
 - **Navigation** - Navigate through data using standard spreadsheet controls
 - **Selection** - Select individual cells, rows, or columns
 
+> **GIF Placeholder:** Demonstrate grid layout and navigation
+
 ### Two-Tab Structure
 
 Organized interface with two main tabs:
@@ -43,6 +47,8 @@ Organized interface with two main tabs:
 - **Layer States Tab** - Manage layer states and their properties
 - **Tab Switching** - Switch between tabs for different management tasks
 - **Context-Specific Interface** - Interface adapts to selected tab
+
+> **GIF Placeholder:** Show two-tab structure and switching
 
 ## Formula Capabilities
 
@@ -55,9 +61,11 @@ Excel-like formula functionality:
 - **Formula Expansion** - Apply formulas across multiple rows
 - **Dynamic Calculations** - Perform calculations on layer data
 
+> **GIF Placeholder:** Demonstrate advanced formula support
+
 ### Formula Examples
 
-Practical formula usage demonstrated in the video:
+Practical formula usage:
 
 #### Column Concatenation
 - **Combine Columns** - Concatenate two columns into one
@@ -65,11 +73,15 @@ Practical formula usage demonstrated in the video:
 - **Formula Application** - Apply formulas to multiple rows
 - **Result Verification** - Verify concatenation results
 
+> **GIF Placeholder:** Show column concatenation
+
 #### Prefix Addition
 - **Add Prefixes** - Add prefixes to layer names
 - **Formula Setup** - Set up formulas to add prefixes
 - **Bulk Application** - Apply prefix formulas across multiple layers
 - **Dynamic Updates** - Update multiple layers with single formula
+
+> **GIF Placeholder:** Demonstrate prefix addition
 
 ### Formula Expansion
 
@@ -79,6 +91,8 @@ Efficient formula application:
 - **Consistent Application** - Apply same formula to multiple rows
 - **Automatic Updates** - Automatically update all affected rows
 - **Formula Consistency** - Maintain formula consistency across data
+
+> **GIF Placeholder:** Show formula expansion
 
 ## Change Management
 
@@ -91,6 +105,8 @@ Track changes with visual indicators:
 - **Visual Feedback** - Provide immediate visual feedback for changes
 - **Change Confirmation** - Confirm changes before applying
 
+> **GIF Placeholder:** Demonstrate visual change tracking
+
 ### Change Confirmation Process
 
 Safe change management workflow:
@@ -101,6 +117,8 @@ Safe change management workflow:
 4. **Confirm Changes** - Confirm changes before applying
 5. **Apply Updates** - Apply confirmed changes to layer data
 
+> **GIF Placeholder:** Show change confirmation process
+
 ### Reset Functionality
 
 Undo changes before confirming:
@@ -109,6 +127,8 @@ Undo changes before confirming:
 - **Undo Capability** - Undo unwanted changes
 - **Change Reversal** - Reverse changes before applying
 - **Safety Feature** - Prevent unwanted changes from being applied
+
+> **GIF Placeholder:** Demonstrate reset functionality
 
 ## Working with Layer Data
 
@@ -121,6 +141,8 @@ Comprehensive layer data management:
 - **Property Modification** - Modify any layer property
 - **Real-time Updates** - See changes immediately in the interface
 
+> **GIF Placeholder:** Show active layers management
+
 ### Layer Property Editing
 
 Edit comprehensive layer properties:
@@ -130,6 +152,8 @@ Edit comprehensive layer properties:
 - **Linetype Properties** - Change linetype settings
 - **Other Properties** - Edit any layer property value
 
+> **GIF Placeholder:** Demonstrate layer property editing
+
 ### Bulk Operations
 
 Efficient bulk editing capabilities:
@@ -138,6 +162,8 @@ Efficient bulk editing capabilities:
 - **Formula Application** - Apply formulas to multiple rows
 - **Bulk Updates** - Update multiple layers simultaneously
 - **Consistent Changes** - Ensure consistent changes across layers
+
+> **GIF Placeholder:** Show bulk operations
 
 ## Interface Navigation
 
@@ -150,6 +176,8 @@ Navigate between interface tabs:
 - **Context Switching** - Switch context based on selected tab
 - **Data Access** - Access appropriate data for each tab
 
+> **GIF Placeholder:** Demonstrate tab navigation
+
 ### Data Navigation
 
 Navigate through layer data:
@@ -158,6 +186,8 @@ Navigate through layer data:
 - **Column Navigation** - Navigate through property columns
 - **Search and Filter** - Find specific layers or properties
 - **Data Organization** - Organize data for efficient access
+
+> **GIF Placeholder:** Show data navigation
 
 ## Best Practices
 

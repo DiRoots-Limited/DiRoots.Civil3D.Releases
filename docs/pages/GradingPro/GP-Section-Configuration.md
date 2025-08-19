@@ -2,7 +2,7 @@
 layout: default
 title: Section Configuration
 parent: Grading Pro User Guide
-nav_order: 1
+nav_order: 4
 ---
 
 # Section Configuration
@@ -18,161 +18,180 @@ nav_order: 1
 
 # Section Configuration
 
-Grading Pro provides comprehensive section configuration capabilities with multiple definition methods, allowing you to create precise grading sections that can be reused across different projects.
+Grading Pro provides comprehensive section configuration capabilities with multiple definition methods and flexible point management for precise grading design.
 
 ## Overview
 
-Section configuration is the core of Grading Pro's functionality, enabling you to define how surfaces will be modified. The tool offers three main definition methods and flexible point management to create complex grading scenarios.
+Section configuration allows you to:
+- Define sections using multiple methods (distance with offset, distance with slope, offset with slope)
+- Manage section points efficiently with add, remove, and reorder capabilities
+- Integrate existing feature lines into sections
+- Validate section configurations for accuracy
 
-## Section Definition Methods
+> **GIF Placeholder:** Show overview of section configuration capabilities
 
-### Distance with Offset Method
+## Definition Methods
 
-Define section points by specifying distance from the path and offset values:
+### Distance with Offset
 
-- **Distance** - How far along the section from the origin point
-- **Offset** - Perpendicular distance from the path (positive or negative)
-- **Origin Point** - Always starts at zero distance from the path
+Define points by distance from path and offset:
 
-**Example Configuration:**
-- Point 1: Distance = 0m, Offset = 0m (origin)
-- Point 2: Distance = 20m, Offset = -0.5m (going down)
-- Point 3: Distance = 40m, Offset = 0.5m (going up)
+- **Distance Specification** - Specify distance from the reference path
+- **Offset Values** - Define offset values from the path
+- **Point Creation** - Create points based on distance and offset
+- **Precise Positioning** - Achieve precise positioning of section points
 
-### Distance with Slope Method
+> **GIF Placeholder:** Demonstrate distance with offset method
 
-Define section points by distance and slope percentage:
+### Distance with Slope
 
-- **Distance** - How far along the section from the previous point
-- **Slope** - Percentage slope (e.g., 100% = 45 degrees)
-- **Automatic Height Calculation** - Tool calculates elevation based on slope
+Define points by distance and slope percentage:
 
-**Example Configuration:**
-- Point 1: Distance = 0m (origin)
-- Point 2: Distance = 1m, Slope = 100% (steep upward)
-- Point 3: Distance = 5m, Slope = 30% (moderate upward)
+- **Distance from Path** - Specify distance from the reference path
+- **Slope Percentage** - Define slope percentage for point elevation
+- **Elevation Calculation** - Calculate elevation based on distance and slope
+- **Gradient Control** - Control gradient between section points
 
-### Offset with Slope Method
+> **GIF Placeholder:** Show distance with slope method
 
-Define section points by offset and slope percentage:
+### Offset with Slope
 
-- **Offset** - Perpendicular distance from the path
-- **Slope** - Percentage slope from the previous point
-- **Flexible Placement** - Can go back and forth from the path
+Define points by offset and slope percentage:
 
-**Example Configuration:**
-- Point 1: Offset = 0m (origin)
-- Point 2: Offset = -2m, Slope = -50% (going down and back)
-- Point 3: Offset = 0.5m, Slope = 30% (going up and forward)
+- **Offset from Path** - Specify offset distance from the reference path
+- **Slope Percentage** - Define slope percentage for point elevation
+- **Elevation Control** - Control elevation based on offset and slope
+- **Design Flexibility** - Achieve flexible design with offset and slope
 
-## Creating Section Configurations
+> **GIF Placeholder:** Demonstrate offset with slope method
 
-### Step-by-Step Process
+## Point Management
 
-1. **Access Configuration**
-   - Click the configuration button in the main UI
-   - Navigate to the "Section Configuration" tab
+### Adding Points
 
-2. **Create New Section**
-   - Click "New" to create a new section
-   - Assign a descriptive name for easy identification
+Add points to section definitions:
 
-3. **Define Section Points**
-   - Choose your preferred definition method
-   - Add points using the selected method
-   - Configure distance, offset, and/or slope values
+- **Point Addition** - Add new points to section definitions
+- **Point Positioning** - Position points using definition methods
+- **Point Validation** - Validate point positions and relationships
+- **Point Organization** - Organize points logically in sections
 
-4. **Manage Point Order**
-   - Use up/down arrows to reorder points
-   - Remember: points are defined relative to the previous point, not the origin
+> **GIF Placeholder:** Show point addition process
 
-5. **Save Configuration**
-   - Save the section for use in grading types
+### Removing Points
 
-### Point Management Features
+Remove points from section definitions:
 
-#### Adding Points
-- **Add Point Button** - Insert new points into the section
-- **Method Selection** - Choose definition method for each point
-- **Value Entry** - Input distance, offset, and slope values
+- **Point Selection** - Select points for removal
+- **Point Deletion** - Delete selected points from sections
+- **Section Integrity** - Maintain section integrity after point removal
+- **Validation** - Validate section after point removal
 
-#### Removing Points
-- **Remove Button** - Delete selected points from the section
-- **Bulk Operations** - Remove multiple points simultaneously
+> **GIF Placeholder:** Demonstrate point removal
 
-#### Reordering Points
-- **Up/Down Arrows** - Change the order of points in the section
-- **Order Impact** - Point order affects the final section geometry
-- **Relative Positioning** - Each point is positioned relative to the previous point
+### Reordering Points
 
-## Object Feature Line Integration
+Reorder points in section definitions:
 
-### Adding Feature Lines to Sections
+- **Point Reordering** - Change the order of points in sections
+- **Logical Flow** - Ensure logical flow of section points
+- **Design Intent** - Maintain design intent through proper ordering
+- **Section Validation** - Validate section after reordering
 
-1. **Select Feature Lines**
-   - Click "Object Feature Lines" in the section configuration
-   - Select existing feature lines from the drawing
-   - Press Enter to confirm selection
+> **GIF Placeholder:** Show point reordering
 
-2. **Define Origin Point**
-   - Specify where the feature line connects to the section
-   - Choose from available points (midpoint, endpoint, etc.)
-   - This defines the placement location
+## Advanced Features
 
-3. **Set Orientation**
-   - Define the rotation of the feature line object
-   - Select endpoint to determine orientation
-   - Adjust offset if needed
+### Object Feature Line Integration
 
-### Feature Line Applications
+Integrate existing feature lines into sections:
 
-- **Platform Integration** - Add existing platforms to sections
-- **Complex Geometry** - Incorporate detailed feature line geometry
-- **Reusable Objects** - Use the same feature lines in multiple sections
-- **Precise Control** - Maintain exact geometry from existing objects
+- **Feature Line Selection** - Select existing feature lines for integration
+- **Origin Point Definition** - Define connection points for feature lines
+- **Orientation Control** - Control orientation of integrated feature lines
+- **Seamless Integration** - Achieve seamless integration with sections
 
-## Advanced Section Techniques
+> **GIF Placeholder:** Demonstrate feature line integration
 
-### Channel Definition
+### Section Validation
 
-Create drainage channels using negative slopes:
+Validate section configurations:
 
-1. **Start with Origin** - Begin at the path (distance = 0, offset = 0)
-2. **Go Down** - Use negative offset and slope to create channel bottom
-3. **Go Up** - Use positive offset and slope to create channel sides
-4. **Level Out** - Return to desired elevation
+- **Configuration Checking** - Check section configurations for errors
+- **Point Validation** - Validate point positions and relationships
+- **Geometry Verification** - Verify section geometry
+- **Error Reporting** - Report configuration errors clearly
 
-**Example Channel Section:**
-- Point 1: Distance = 0m, Offset = 0m (origin)
-- Point 2: Distance = 2m, Offset = -0.5m, Slope = -25% (going down)
-- Point 3: Distance = 4m, Offset = 0.5m, Slope = 30% (going up)
-- Point 4: Distance = 20m, Offset = 0.5m (level section)
+> **GIF Placeholder:** Show section validation
 
-### Complex Grading Scenarios
+### Configuration Optimization
 
-Combine multiple methods for complex sections:
+Optimize section configurations:
 
-- **Mixed Methods** - Use different definition methods for different points
-- **Variable Slopes** - Adjust slopes based on terrain requirements
-- **Multiple Levels** - Create terraced or stepped grading
-- **Custom Geometry** - Design sections for specific project needs
+- **Performance Optimization** - Optimize configurations for performance
+- **Efficiency Improvements** - Improve configuration efficiency
+- **Resource Management** - Manage resources effectively
+- **Quality Enhancement** - Enhance configuration quality
+
+> **GIF Placeholder:** Demonstrate configuration optimization
+
+## Configuration Management
+
+### Configuration Setup
+
+Set up section configurations:
+
+- **Initial Setup** - Set up initial section configurations
+- **Parameter Configuration** - Configure section parameters
+- **Method Selection** - Select appropriate definition methods
+- **Point Definition** - Define section points
+
+> **GIF Placeholder:** Show configuration setup
+
+### Parameter Management
+
+Manage section parameters:
+
+- **Parameter Definition** - Define section parameters
+- **Parameter Adjustment** - Adjust parameters as needed
+- **Parameter Validation** - Validate parameter values
+- **Parameter Optimization** - Optimize parameter settings
+
+> **GIF Placeholder:** Demonstrate parameter management
+
+### Configuration Templates
+
+Use configuration templates:
+
+- **Template Creation** - Create configuration templates
+- **Template Application** - Apply templates to new sections
+- **Template Management** - Manage configuration templates
+- **Template Sharing** - Share templates across projects
+
+> **GIF Placeholder:** Show configuration templates
 
 ## Best Practices
 
-### Section Design
-- **Start Simple** - Begin with basic sections and add complexity
-- **Test Configurations** - Verify sections work as expected before applying
-- **Use Descriptive Names** - Name sections clearly for easy identification
-- **Document Intent** - Note the purpose and application of each section
+### Method Selection
+- **Choose Appropriate Methods** - Select methods that fit your design needs
+- **Consider Design Intent** - Consider design intent when choosing methods
+- **Test Methods** - Test methods before final application
+- **Document Choices** - Document method choices for future reference
 
 ### Point Management
-- **Logical Order** - Arrange points in logical sequence
-- **Consistent Methods** - Use consistent definition methods when possible
-- **Validate Geometry** - Check that section geometry makes sense
-- **Backup Configurations** - Save copies of working configurations
+- **Logical Point Ordering** - Order points logically in sections
+- **Point Validation** - Validate points after creation or modification
+- **Point Optimization** - Optimize point placement for efficiency
+- **Point Documentation** - Document point configurations
 
-### Feature Line Integration
-- **Select Appropriate Objects** - Choose feature lines that fit the section purpose
-- **Verify Connections** - Ensure feature lines connect properly to sections
-- **Test Integration** - Verify feature line placement before final application
-- **Maintain Relationships** - Keep feature lines updated with section changes 
+### Configuration Quality
+- **Quality Checks** - Perform quality checks on configurations
+- **Validation Procedures** - Follow validation procedures
+- **Error Correction** - Correct errors promptly
+- **Documentation** - Document all configurations
+
+### Performance Optimization
+- **Efficient Configurations** - Create efficient configurations
+- **Resource Management** - Manage resources effectively
+- **Performance Monitoring** - Monitor configuration performance
+- **Optimization Strategies** - Use optimization strategies 

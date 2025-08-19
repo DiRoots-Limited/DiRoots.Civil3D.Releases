@@ -2,7 +2,7 @@
 layout: default
 title: Transfer Point Description Keys
 parent: Transfer Survey Standards User Guide
-nav_order: 1
+nav_order: 6
 ---
 
 # Transfer Point Description Keys
@@ -18,169 +18,252 @@ nav_order: 1
 
 # Transfer Point Description Keys
 
-Transfer Survey Standards enables you to transfer Point Description Keys (PDKs) between Civil 3D projects, whether the source files are open or closed, while preserving all key configurations and associated data. The tool provides comprehensive conflict resolution and layer validation capabilities.
+Transfer Survey Standards provides comprehensive Point Description Keys (PDKs) transfer capabilities, allowing you to transfer PDK configurations between projects with complete property preservation and conflict resolution.
 
 ## Overview
 
-Point Description Keys are essential components of Civil 3D survey standards that define how points are labeled and displayed. The Transfer Survey Standards tool allows you to efficiently transfer these configurations between projects, ensuring consistency across your survey workflows.
+PDK transfer allows you to:
+- Transfer complete PDK configurations between projects
+- Choose specific PDKs for selective transfer
+- Maintain all key properties during transfer
+- Handle conflicts between existing and imported PDKs
 
-## Transfer Capabilities
+> **GIF Placeholder:** Show overview of PDK transfer capabilities
 
-### Multiple Source Options
+## Complete Transfer
 
-Transfer Point Description Keys from various sources:
+### Full PDK Transfer
 
-- **Open Files** - Transfer PDKs from currently open Civil 3D drawings
-- **Closed Files** - Transfer PDKs from closed Civil 3D files without opening them
-- **Excel Spreadsheets** - Import PDKs from Excel files for external editing
-- **Multiple Sources** - Transfer from multiple source files simultaneously
+Transfer all PDK configurations:
+
+- **Complete Transfer** - Transfer all PDK configurations
+- **Property Preservation** - Maintain all key properties during transfer
+- **Data Integrity** - Ensure data integrity during transfer
+- **Comprehensive Coverage** - Transfer all available PDK data
+
+> **GIF Placeholder:** Demonstrate complete PDK transfer
 
 ### Transfer Process
 
-1. **Select Source** - Choose the source Civil 3D file (open or closed)
-2. **Import Data** - Load Point Description Keys from the source
-3. **Review Data** - Examine imported PDKs for accuracy
-4. **Edit if Needed** - Modify values before applying
-5. **Handle Conflicts** - Resolve conflicts between existing and imported data
-6. **Apply Changes** - Transfer PDKs to target files
+Complete PDK transfer workflow:
 
-![Transfer Survey Standards transfer point description keys](../../../assets/images/TransferSurveyStandards/TSS-TransferPointDescriptionKeys.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+1. **Select PDK Source** - Choose source file containing PDKs
+2. **Configure Transfer** - Configure transfer settings and options
+3. **Validate PDKs** - Validate PDK data before transfer
+4. **Execute Transfer** - Transfer PDKs to target file
+5. **Verify Transfer** - Verify transfer completion
+
+> **GIF Placeholder:** Show complete PDK transfer process
+
+### Property Preservation
+
+Maintain all PDK properties:
+
+- **Key Properties** - Preserve all key properties during transfer
+- **Format Codes** - Maintain format code configurations
+- **Layer Assignments** - Preserve layer assignments
+- **Style Configurations** - Maintain style configurations
+
+> **GIF Placeholder:** Demonstrate property preservation
+
+## Selective Transfer
+
+### Custom PDK Selection
+
+Choose specific PDKs for transfer:
+
+- **Individual Selection** - Select individual PDKs for transfer
+- **Group Selection** - Select groups of PDKs for transfer
+- **Criteria-based Selection** - Select PDKs based on criteria
+- **Custom Selection** - Create custom PDK selections
+
+> **GIF Placeholder:** Show custom PDK selection
+
+### Selective Transfer Process
+
+Perform selective PDK transfer:
+
+1. **Review PDKs** - Review available PDKs in source
+2. **Select PDKs** - Choose specific PDKs for transfer
+3. **Configure Transfer** - Configure transfer settings
+4. **Execute Transfer** - Transfer selected PDKs
+5. **Verify Results** - Verify selected PDKs were transferred
+
+> **GIF Placeholder:** Demonstrate selective transfer process
+
+### Targeted Transfer
+
+Transfer only required PDKs:
+
+- **Efficient Transfer** - Transfer only necessary PDKs
+- **Time Optimization** - Save time with targeted transfers
+- **Resource Management** - Optimize resource usage
+- **Focused Transfer** - Focus on specific PDK requirements
+
+> **GIF Placeholder:** Show targeted transfer
 
 ## Conflict Resolution
 
 ### Conflict Detection
 
-The tool automatically detects conflicts between existing and imported data:
+Identify conflicts between PDKs:
 
-- **Existing Data** - Identifies PDKs that already exist in target files
-- **Data Differences** - Highlights differences between existing and imported data
-- **User Choice** - Prompts user to choose replacement or retention
+- **Conflict Identification** - Identify conflicts between existing and imported PDKs
+- **Conflict Analysis** - Analyze conflict types and severity
+- **Conflict Reporting** - Report conflicts clearly to users
+- **Conflict Assessment** - Assess impact of conflicts
+
+> **GIF Placeholder:** Demonstrate conflict detection
+
+### User Choice Resolution
+
+Choose how to handle conflicts:
+
+- **Replace Option** - Choose to replace existing PDKs with imported ones
+- **Retain Option** - Choose to retain existing PDKs
 - **Selective Resolution** - Handle conflicts on a case-by-case basis
+- **User Control** - Give users control over conflict resolution
 
-### Conflict Resolution Process
+> **GIF Placeholder:** Show user choice resolution
 
-1. **Conflict Identification** - Tool identifies conflicts between existing and imported PDKs
-2. **User Prompt** - System asks if you want to replace existing data with imported data
-3. **Choice Options**:
-   - **Replace** - Replace existing PDK with imported data
-   - **Retain** - Keep existing PDK and skip imported data
-4. **Confirmation** - Confirm your choice to proceed
-5. **Update** - System updates the data based on your selection
+### Conflict Management
 
-### Example Conflict Scenario
+Manage conflict resolution:
 
-When importing PDKs, you might encounter:
-- **Existing Point Label Style** - Target file already has a point label style
-- **Different Data** - Imported data has different properties than existing data
-- **User Decision** - Choose to replace existing style or retain current style
-- **Data Update** - System updates based on your choice
+- **Conflict Handling** - Handle conflicts appropriately
+- **Data Preservation** - Ensure no data is lost during conflict resolution
+- **Resolution Tracking** - Track conflict resolution decisions
+- **Resolution Verification** - Verify conflict resolution results
 
-## Layer Validation
+> **GIF Placeholder:** Demonstrate conflict management
 
-### Missing Layer Detection
-
-The tool includes a warning system for missing layer definitions:
-
-- **Layer Validation** - Checks if required layers exist in target files
-- **Warning Messages** - Displays warnings for missing layers
-- **User Awareness** - Ensures users are aware of missing layer definitions
-- **Future Enhancement** - Warning system will be improved in next version
-
-### Layer Management
-
-Handle missing layer scenarios:
-
-- **Layer Creation** - Create missing layers before transfer
-- **Data Modification** - Modify imported data to use existing layers
-- **Validation** - Verify all required layers are available
-- **Error Prevention** - Prevent transfer errors due to missing layers
-
-## Data Editing Before Import
-
-### Pre-import Modifications
-
-Edit PDK data before applying to target files:
-
-- **Column Management** - Add or modify columns as needed
-- **Value Editing** - Change values before importing
-- **Data Validation** - Ensure data integrity before transfer
-- **Bulk Modifications** - Make changes to multiple PDKs simultaneously
-
-### Editing Workflow
-
-1. **Import Data** - Load PDKs from source
-2. **Review Structure** - Examine data structure and columns
-3. **Add Columns** - Add missing columns (e.g., layer columns)
-4. **Edit Values** - Modify values as needed
-5. **Validate Data** - Check data integrity
-6. **Apply Changes** - Import modified data
-
-### Example Editing Scenario
-
-When importing from Excel:
-- **Missing Layer Column** - Excel file doesn't have layer assignments
-- **Add Layer Column** - Add layer column to the data
-- **Assign Layers** - Assign appropriate layers to PDKs
-- **Import Data** - Import modified data with layer assignments
-
-## Point Description Key Components
+## PDK Configuration
 
 ### Key Properties
 
-Point Description Keys contain various properties:
+Manage PDK key properties:
 
-- **Key Names** - Point description key identifiers and naming conventions
-- **Format Codes** - Format specifications for point descriptions
-- **Layer Assignments** - Layer assignments for different point types
-- **Point Styles** - Point style configurations and display properties
-- **Additional Properties** - Other associated properties and settings
+- **Key Names** - Manage PDK key names
+- **Format Codes** - Configure format codes
+- **Property Values** - Set property values
+- **Configuration Settings** - Manage configuration settings
 
-### Transfer Options
+> **GIF Placeholder:** Show PDK key properties management
 
-Flexible transfer capabilities:
+### Layer Assignments
 
-- **Complete Transfer** - Transfer all Point Description Keys
-- **Selective Transfer** - Choose specific keys or key categories
-- **Property Mapping** - Map properties between different naming conventions
-- **Conflict Resolution** - Handle conflicts between existing and transferred keys
+Manage PDK layer assignments:
+
+- **Layer Configuration** - Configure layer assignments for PDKs
+- **Layer Mapping** - Map PDKs to appropriate layers
+- **Layer Validation** - Validate layer assignments
+- **Layer Management** - Manage layer assignments
+
+> **GIF Placeholder:** Demonstrate layer assignments
+
+### Style Configurations
+
+Manage PDK style configurations:
+
+- **Display Styles** - Configure display styles for PDKs
+- **Annotation Styles** - Set annotation styles
+- **Style Properties** - Manage style properties
+- **Style Validation** - Validate style configurations
+
+> **GIF Placeholder:** Show style configurations
 
 ## Advanced Features
 
-### Search and Filter
+### PDK Validation
 
-Quickly locate specific PDKs:
+Validate PDK configurations:
 
-- **Search Functionality** - Find specific PDKs in large datasets
-- **Filter Options** - Filter PDKs by various criteria
-- **Efficient Navigation** - Quickly locate and modify specific keys
-- **Data Organization** - Organize PDKs for easier management
+- **Configuration Validation** - Validate PDK configurations
+- **Property Validation** - Validate PDK properties
+- **Relationship Validation** - Validate PDK relationships
+- **Data Integrity** - Ensure PDK data integrity
+
+> **GIF Placeholder:** Demonstrate PDK validation
+
+### PDK Comparison
+
+Compare PDK configurations:
+
+- **Configuration Comparison** - Compare PDK configurations
+- **Difference Analysis** - Analyze differences between PDKs
+- **Comparison Reports** - Generate comparison reports
+- **Merge Planning** - Plan PDK merges
+
+> **GIF Placeholder:** Show PDK comparison
+
+### PDK Backup
+
+Backup PDK configurations:
+
+- **Configuration Backup** - Backup PDK configurations
+- **Backup Verification** - Verify backup integrity
+- **Backup Restoration** - Restore from backups
+- **Backup Management** - Manage PDK backups
+
+> **GIF Placeholder:** Demonstrate PDK backup
+
+## Integration Features
 
 ### Excel Integration
 
-Export and import PDKs via Excel:
+Integrate PDKs with Excel:
 
-- **Export to Excel** - Export PDKs for external editing
-- **Import from Excel** - Import modified PDKs back to the tool
-- **Template Support** - Use structured Excel templates
-- **Data Validation** - Validate Excel data before import
+- **Excel Export** - Export PDKs to Excel
+- **Excel Import** - Import PDKs from Excel
+- **Excel Editing** - Edit PDKs in Excel
+- **Excel Validation** - Validate Excel PDK data
+
+> **GIF Placeholder:** Show Excel integration
+
+### Profile Integration
+
+Integrate PDKs with profiles:
+
+- **Profile Storage** - Store PDK configurations in profiles
+- **Profile Application** - Apply PDK profiles to projects
+- **Profile Management** - Manage PDK profiles
+- **Profile Sharing** - Share PDK profiles
+
+> **GIF Placeholder:** Demonstrate profile integration
+
+### Workflow Integration
+
+Integrate PDKs into workflows:
+
+- **Workflow Automation** - Automate PDK workflows
+- **Process Integration** - Integrate PDKs into processes
+- **Workflow Management** - Manage PDK workflows
+- **Workflow Optimization** - Optimize PDK workflows
+
+> **GIF Placeholder:** Show workflow integration
 
 ## Best Practices
 
-### Transfer Preparation
-- **Verify Source Data** - Ensure source files contain valid PDKs
-- **Check Layer Definitions** - Verify required layers exist in target files
-- **Backup Original Data** - Keep backups of original configurations
-- **Test Transfers** - Test transfers with small datasets first
+### PDK Transfer
+- **Plan Transfers** - Plan PDK transfers carefully
+- **Validate Data** - Validate PDK data before transfer
+- **Test Transfers** - Test transfers before production
+- **Document Transfers** - Document transfer procedures
 
 ### Conflict Management
-- **Review Conflicts** - Carefully examine conflict details
-- **Choose Wisely** - Select appropriate conflict resolution action
-- **Document Decisions** - Keep records of conflict resolution choices
-- **Verify Results** - Confirm that conflict resolution worked correctly
+- **Review Conflicts** - Carefully review conflict resolution options
+- **Choose Appropriately** - Choose appropriate conflict resolution
+- **Document Decisions** - Document conflict resolution decisions
+- **Verify Results** - Verify conflict resolution results
 
-### Data Validation
-- **Check Data Integrity** - Verify PDK data is complete and valid
-- **Validate Layer Assignments** - Ensure layer assignments are correct
-- **Test Functionality** - Verify PDKs work correctly after transfer
-- **Document Changes** - Keep records of transferred configurations 
+### Configuration Management
+- **Regular Maintenance** - Maintain PDK configurations regularly
+- **Version Control** - Use version control for PDK configurations
+- **Backup Strategy** - Implement backup strategy for PDKs
+- **Quality Assurance** - Ensure PDK configuration quality
+
+### Integration
+- **Use Excel** - Use Excel for external PDK editing
+- **Use Profiles** - Use profiles for PDK configuration management
+- **Validate Integration** - Validate integration workflows
+- **Test Integration** - Test integration procedures 

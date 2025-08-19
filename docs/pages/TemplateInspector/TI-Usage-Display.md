@@ -2,7 +2,7 @@
 layout: default
 title: Usage Display
 parent: Template Inspector User Guide
-nav_order: 3
+nav_order: 6
 ---
 
 # Usage Display
@@ -18,177 +18,250 @@ nav_order: 3
 
 # Usage Display
 
-Template Inspector clearly displays object usage information, showing associated settings and objects for each inspected item. The tool provides comprehensive usage analysis to help you make informed decisions about object management and cleanup.
+Template Inspector provides comprehensive usage display capabilities to show how objects are used throughout your drawings, including detailed usage counts, locations, and patterns.
 
 ## Overview
 
-Usage display is a key feature that shows you exactly how objects are used in your files. The tool displays associated settings and objects in a clear, organized format, enabling you to understand dependencies and make informed decisions about modification or deletion.
+Usage display allows you to:
+- View detailed usage information for objects
+- See usage counts and patterns
+- Understand object relationships
+- Analyze usage distribution
 
-## Two-Column Display Format
+> **GIF Placeholder:** Show overview of usage display interface
 
-### Settings Column
+## Usage Information Types
 
-The left column displays all settings associated with the selected object:
+### Usage Count Display
 
-- **Associated Settings** - All settings related to the selected object
-- **Property Values** - Current property values and configurations
-- **Setting Details** - Detailed information about each setting
-- **Configuration Data** - Complete configuration information
+View usage count information:
 
-### Objects Column
+- **Total Usage** - Total number of times objects are used
+- **Usage by Type** - Usage broken down by object type
+- **Usage Distribution** - Distribution of usage across categories
+- **Usage Trends** - Trends in object usage over time
 
-The right column displays all objects associated with the selected item:
+> **GIF Placeholder:** Demonstrate usage count display
 
-- **Associated Objects** - All objects that use the selected item
-- **Usage Count** - Number of objects associated with the item
-- **Object Types** - Types of objects using the selected item
-- **Object Details** - Detailed information about associated objects
+### Usage Location Display
 
-## Usage Status Indicators
+View where objects are used:
 
-### Usage Assessment
+- **Usage Locations** - Specific locations where objects are used
+- **Drawing References** - References to drawings where objects appear
+- **Layer Assignments** - Layer assignments for object usage
+- **Spatial Distribution** - Spatial distribution of object usage
 
-The tool provides clear indicators of object usage:
+> **GIF Placeholder:** Show usage location display
 
-- **Used Objects** - Objects that are actively used in the file
-- **Unused Objects** - Objects that are not referenced anywhere
-- **Partially Used** - Objects with some usage but may be safe to delete
-- **Usage Count** - Shows how many times each object is referenced
+### Usage Pattern Display
 
-### Usage Examples
+View usage patterns:
 
-Different usage scenarios:
+- **Usage Patterns** - Patterns of how objects are used
+- **Usage Frequency** - Frequency of object usage
+- **Usage Context** - Context in which objects are used
+- **Usage Relationships** - Relationships between usage patterns
 
-#### Active Usage
-- **Objects with Associations** - Objects that have associated items
-- **Usage Count > 0** - Objects that are referenced by other items
-- **Active Dependencies** - Objects with active dependencies
-- **Safe to Keep** - Objects that should not be deleted
+> **GIF Placeholder:** Demonstrate usage pattern display
 
-#### No Usage
-- **No Associated Objects** - Objects with no associated items
-- **Usage Count = 0** - Objects that are not referenced
-- **No Dependencies** - Objects with no dependencies
-- **Safe to Delete** - Objects that can be safely removed
+## Display Interface
 
-## Associated Objects Display
+### Two-Column Layout
 
-### Object Association Detection
+View usage information in organized format:
 
-The tool automatically detects and displays associated objects:
+- **Settings Column** - Shows object settings and properties
+- **Objects Column** - Shows associated objects and usage
+- **Usage Count** - Displays usage count information
+- **Usage Details** - Shows detailed usage information
 
-- **Direct Associations** - Objects directly assigned to the selected item
-- **Indirect Associations** - Objects that reference the selected item
-- **Nested Dependencies** - Objects that depend on the selected item through other objects
-- **Usage Patterns** - Patterns of how the object is used
+> **GIF Placeholder:** Show two-column layout interface
 
-### Association Examples
+### Information Organization
 
-Different types of associations:
+Organize usage information effectively:
 
-#### Layer Associations
-- **Objects on Layer** - All objects assigned to a specific layer
-- **Layer Properties** - Layer color, line type, visibility settings
-- **Usage Count** - Number of objects using the layer
-- **Object Types** - Types of objects on the layer
+- **Logical Grouping** - Group related usage information
+- **Hierarchical Display** - Display information hierarchically
+- **Searchable Content** - Make usage information searchable
+- **Filterable Results** - Allow filtering of usage results
 
-#### Line Type Associations
-- **Objects with Line Type** - All objects using a specific line type
-- **Line Type Properties** - Line type definition and properties
-- **Usage Distribution** - How the line type is used across objects
-- **Style References** - Styles that reference the line type
-
-## Filtering and Search
-
-### Real-time Filtering
-
-Filter the display to focus on specific items:
-
-- **Name-based Filtering** - Filter by object names
-- **Category Filtering** - Filter by object categories
-- **Usage Filtering** - Filter by usage status
-- **Dynamic Filtering** - Apply multiple filter criteria simultaneously
-
-### Search Functionality
-
-Find specific items quickly:
-
-- **Search by Name** - Search for objects by name or partial name
-- **Real-time Results** - See results as you type
-- **Case-insensitive** - Search works regardless of case
-- **Partial Matching** - Find objects with partial name matches
-
-### Filter Example
-
-Using the filter functionality:
-- **Filter "Surface"** - Show only objects with "Surface" in the name
-- **Narrow Results** - Focus on specific categories or types
-- **Quick Location** - Quickly locate objects in large datasets
-- **Efficient Navigation** - Navigate through filtered results
-
-## Usage Analysis
-
-### Making Informed Decisions
-
-Use usage information to make decisions:
-
-- **Usage Assessment** - Determine if object is actively used
-- **Dependency Analysis** - Identify dependencies and relationships
-- **Risk Assessment** - Evaluate risks of modification or deletion
-- **Action Planning** - Plan appropriate actions based on usage
-
-### Decision Guidelines
-
-Guidelines for different usage scenarios:
-
-#### Used Objects
-- **Keep Objects** - Objects with active usage should be kept
-- **Review Dependencies** - Check dependencies before modification
-- **Plan Carefully** - Plan modifications carefully to avoid breaking dependencies
-- **Document Changes** - Document any changes made to used objects
-
-#### Unused Objects
-- **Safe to Delete** - Objects with no usage can be safely deleted
-- **Clean Up** - Remove unused objects to clean up files
-- **Verify Unused Status** - Double-check that objects are truly unused
-- **Backup Before Deletion** - Backup important data before deletion
-
-## Advanced Display Features
-
-### Multi-Object Display
-
-Display information for multiple objects:
-
-- **Multi-selection** - Select multiple objects for display
-- **Comparative Analysis** - Compare usage between objects
-- **Batch Assessment** - Assess usage for multiple objects at once
-- **Efficient Review** - Review multiple objects efficiently
+> **GIF Placeholder:** Demonstrate information organization
 
 ### Real-time Updates
 
-See updates immediately:
+See usage updates in real-time:
 
-- **Live Updates** - View updates as they happen
-- **Dynamic Display** - Display updates based on selections
-- **Instant Feedback** - Immediate feedback on object selection
-- **Real-time Filtering** - Filter results dynamically
+- **Live Updates** - View usage updates as they happen
+- **Dynamic Display** - Display updates dynamically
+- **Instant Results** - See usage results immediately
+- **Real-time Filtering** - Filter usage results in real-time
+
+> **GIF Placeholder:** Show real-time updates
+
+## Usage Analysis
+
+### Usage Statistics
+
+Analyze usage statistics:
+
+- **Usage Counts** - Analyze usage counts
+- **Usage Percentages** - Calculate usage percentages
+- **Usage Averages** - Calculate usage averages
+- **Usage Trends** - Identify usage trends
+
+> **GIF Placeholder:** Demonstrate usage statistics analysis
+
+### Usage Distribution
+
+Analyze usage distribution:
+
+- **Distribution Patterns** - Analyze distribution patterns
+- **Distribution Categories** - Categorize usage distribution
+- **Distribution Analysis** - Perform distribution analysis
+- **Distribution Visualization** - Visualize usage distribution
+
+> **GIF Placeholder:** Show usage distribution analysis
+
+### Usage Comparison
+
+Compare usage between objects:
+
+- **Usage Comparison** - Compare usage between objects
+- **Usage Ranking** - Rank objects by usage
+- **Usage Benchmarking** - Benchmark usage against standards
+- **Usage Analysis** - Analyze usage differences
+
+> **GIF Placeholder:** Demonstrate usage comparison
+
+## Advanced Display Features
+
+### Interactive Display
+
+Use interactive display features:
+
+- **Clickable Elements** - Click on elements for more information
+- **Expandable Sections** - Expand sections for detailed information
+- **Collapsible Views** - Collapse views for overview
+- **Interactive Navigation** - Navigate through usage information
+
+> **GIF Placeholder:** Show interactive display features
+
+### Customizable Display
+
+Customize display settings:
+
+- **Display Options** - Choose display options
+- **Layout Customization** - Customize layout
+- **Color Schemes** - Choose color schemes
+- **Font Settings** - Adjust font settings
+
+> **GIF Placeholder:** Demonstrate customizable display
+
+### Export and Reporting
+
+Export usage information:
+
+- **Data Export** - Export usage data
+- **Report Generation** - Generate usage reports
+- **Format Options** - Choose export formats
+- **Custom Exports** - Create custom exports
+
+> **GIF Placeholder:** Show export and reporting features
+
+## Usage Visualization
+
+### Charts and Graphs
+
+Visualize usage data:
+
+- **Usage Charts** - Create usage charts
+- **Usage Graphs** - Generate usage graphs
+- **Usage Diagrams** - Create usage diagrams
+- **Usage Visualizations** - Visualize usage patterns
+
+> **GIF Placeholder:** Demonstrate charts and graphs
+
+### Heat Maps
+
+Create usage heat maps:
+
+- **Usage Heat Maps** - Create usage heat maps
+- **Density Visualization** - Visualize usage density
+- **Pattern Recognition** - Recognize usage patterns
+- **Spatial Analysis** - Perform spatial analysis
+
+> **GIF Placeholder:** Show heat map creation
+
+### Interactive Visualizations
+
+Use interactive visualizations:
+
+- **Interactive Charts** - Create interactive charts
+- **Zoom and Pan** - Zoom and pan through visualizations
+- **Filter Visualizations** - Filter visualizations
+- **Dynamic Updates** - Update visualizations dynamically
+
+> **GIF Placeholder:** Demonstrate interactive visualizations
+
+## Usage Reporting
+
+### Report Types
+
+Generate different report types:
+
+- **Summary Reports** - Generate summary reports
+- **Detailed Reports** - Generate detailed reports
+- **Comparative Reports** - Generate comparative reports
+- **Trend Reports** - Generate trend reports
+
+> **GIF Placeholder:** Show different report types
+
+### Report Customization
+
+Customize reports:
+
+- **Report Templates** - Use report templates
+- **Custom Fields** - Add custom fields
+- **Report Formatting** - Format reports
+- **Report Branding** - Brand reports
+
+> **GIF Placeholder:** Demonstrate report customization
+
+### Report Distribution
+
+Distribute reports:
+
+- **Report Sharing** - Share reports
+- **Report Scheduling** - Schedule report generation
+- **Report Notifications** - Send report notifications
+- **Report Archiving** - Archive reports
+
+> **GIF Placeholder:** Show report distribution
 
 ## Best Practices
 
-### Effective Usage Analysis
-- **Review Both Columns** - Examine both settings and objects columns
-- **Check Usage Count** - Pay attention to usage count information
-- **Understand Dependencies** - Understand object dependencies
-- **Plan Actions** - Plan actions based on usage analysis
+### Display Configuration
+- **Configure Display** - Configure display settings appropriately
+- **Organize Information** - Organize information logically
+- **Use Visual Aids** - Use visual aids effectively
+- **Maintain Consistency** - Maintain display consistency
 
-### Filter and Search Usage
-- **Use Specific Filters** - Use specific filters for better results
-- **Combine Search and Filter** - Use search and filter together
-- **Save Useful Filters** - Remember useful filter combinations
-- **Regular Updates** - Update filters as needed
+### Usage Analysis
+- **Analyze Patterns** - Analyze usage patterns thoroughly
+- **Identify Trends** - Identify usage trends
+- **Compare Usage** - Compare usage between objects
+- **Document Findings** - Document usage findings
 
-### Decision Making
-- **Assess Usage** - Determine if objects are actively used
-- **Check Dependencies** - Verify dependencies before actions
-- **Plan Modifications** - Plan modifications carefully
-- **Document Decisions** - Document decisions and actions 
+### Report Generation
+- **Choose Appropriate Reports** - Choose appropriate report types
+- **Customize Reports** - Customize reports for audience
+- **Validate Data** - Validate usage data
+- **Review Reports** - Review reports before distribution
+
+### Performance Optimization
+- **Optimize Display** - Optimize display performance
+- **Use Efficient Queries** - Use efficient queries
+- **Cache Results** - Cache usage results
+- **Monitor Performance** - Monitor display performance 

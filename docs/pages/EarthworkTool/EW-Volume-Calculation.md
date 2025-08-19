@@ -2,7 +2,7 @@
 layout: default
 title: Volume Calculation
 parent: Earthwork Tool User Guide
-nav_order: 5
+nav_order: 3
 ---
 
 # Volume Calculation
@@ -18,156 +18,173 @@ nav_order: 5
 
 # Volume Calculation
 
-The Earthwork Tool provides comprehensive volume calculation capabilities, including hierarchical calculations, dynamic unit management, and total earthwork summaries. The tool maintains parent-child relationships and automatically updates totals across all calculation types.
+The Earthwork Tool provides comprehensive volume calculation capabilities for accurate cut and fill analysis with dynamic unit management and validation features.
 
 ## Overview
 
-Volume calculations in the Earthwork Tool encompass both full volume surface comparisons and region-based calculations. The tool automatically maintains hierarchical relationships, providing child element calculations, parent totals, and grand totals for complete project analysis.
+Volume calculation allows you to:
+- Calculate cut and fill volumes accurately using Civil 3D-compatible methods
+- Analyze net volume differences between surfaces
+- Switch between multiple volume units dynamically
+- Validate calculations against Civil 3D results
 
-## Hierarchical Calculation Structure
+> **GIF Placeholder:** Show overview of volume calculation capabilities
 
-### Child Elements
+## Cut and Fill Analysis
 
-Individual calculation components that contribute to totals:
+### Volume Calculation Process
 
-- **Individual Region Calculations** - Cut/fill volumes for each defined region
-- **Stripping Adjustments** - Topsoil removal volumes per region
-- **Surface Comparisons** - Region-specific surface analysis results
-- **Component Volumes** - Individual volume calculations within regions
+1. **Surface Comparison**
+   - Compare existing and proposed surfaces
+   - Calculate volume differences between surfaces
+   - Generate comprehensive volume analysis
 
-### Parent Totals
+2. **Cut Volume Calculation**
+   - Calculate material to be removed
+   - Identify areas requiring excavation
+   - Quantify removal requirements
 
-Sum of child elements within calculation groups:
+3. **Fill Volume Calculation**
+   - Calculate material to be added
+   - Identify areas requiring fill
+   - Quantify fill requirements
 
-- **Region Group Totals** - Combined volumes for all regions
-- **Stripping Totals** - Total stripping volumes across all regions
-- **Surface Totals** - Combined surface comparison results
-- **Category Totals** - Grouped volume calculations
+> **GIF Placeholder:** Demonstrate volume calculation process
 
-### Grand Totals
+### Net Volume Analysis
 
-Complete project volume summaries:
+Determine overall earthwork balance:
 
-- **Full Project Totals** - Sum of full volume surface and all region volume surfaces
-- **Complete Earthwork Summary** - Total cut/fill requirements for entire project
-- **Automatic Updates** - Totals update when any component changes
-- **Real-time Calculation** - Instant updates when parameters are modified
+- **Net Volume** - Difference between cut and fill volumes
+- **Balance Analysis** - Determine if project is balanced
+- **Material Requirements** - Calculate additional material needs
+- **Cost Implications** - Assess cost impact of volume differences
 
-## Total Earthwork Calculation
+> **GIF Placeholder:** Show net volume analysis
 
-### Comprehensive Volume Analysis
+## Dynamic Unit Management
 
-The Earthwork Tool calculates total earthwork volumes by combining multiple calculation types:
+### Unit Options
 
-1. **Full Volume Surface** - Complete surface comparison across entire project
-2. **Region Volume Surfaces** - Region-specific calculations with defined boundaries
-3. **Stripping Calculations** - Topsoil removal volumes
-4. **Combined Results** - Hierarchical totals from all calculation types
+Switch between volume units instantly:
 
-### Calculation Process
+- **Cubic Meters (m³)** - Metric volume unit
+- **Cubic Yards (yd³)** - Imperial volume unit
+- **Cubic Feet (ft³)** - Imperial volume unit
+- **Acre-Feet (acre-ft)** - Large volume unit
 
-1. **Execute Full Volume** - Run complete surface comparison
-2. **Add Region Calculations** - Include region-specific volumes
-3. **Configure Stripping** - Add topsoil stripping calculations
-4. **Review Hierarchical Totals** - Check parent-child relationships
-5. **Verify Grand Totals** - Confirm complete project volumes
+> **GIF Placeholder:** Demonstrate unit options
 
-![Earthwork Tool total earthwork calculation](../../../assets/images/EarthworkTool/EW-TotalEarthwork.gif)
-<sub>Note: the version on the image may not reflect the latest version of Earthwork Tool.</sub>
+### Real-time Unit Conversion
 
-## Dynamic Volume Unit Management
+Dynamic unit switching:
 
-### Instant Unit Conversion
-
-Switch between volume units with immediate updates:
-
-- **Unit Options** - m³, yd³, ft³, acre-ft
-- **Dynamic Updates** - All calculations update immediately
+- **Instant Updates** - All calculations update immediately
 - **Consistent Display** - All results shown in selected units
 - **Civil 3D Integration** - Units can also be configured in Civil 3D
+- **Export Flexibility** - Export results in preferred units
 
-### Unit Configuration
+> **GIF Placeholder:** Show real-time unit conversion
 
-Configure volume units through multiple methods:
+## Accuracy Validation
 
-1. **Tool Interface** - Change units directly in the Earthwork Tool
-2. **Civil 3D Settings** - Configure units in Civil 3D for consistency
-3. **Project Standards** - Use project-specific unit requirements
-4. **Reporting Preferences** - Select units for final reporting
+### Civil 3D Compatibility
 
-![Earthwork Tool dynamic unit update](../../../assets/images/EarthworkTool/EW-UnitUpdate.gif)
-<sub>Note: the version on the image may not reflect the latest version of Earthwork Tool.</sub>
+Ensure calculation accuracy:
 
-## Advanced Calculation Features
+- **Same Algorithms** - Uses identical calculation methods as Civil 3D
+- **Dashboard Feature** - Compatible with Civil 3D dashboard
+- **Volume Accuracy** - Consistent results between tools
+- **Data Integrity** - Maintains Civil 3D data standards
 
-### Real-time Updates
+> **GIF Placeholder:** Demonstrate Civil 3D compatibility
 
-All calculations update automatically when parameters change:
+### Cross-Reference Validation
 
-- **Parameter Modification** - Changes to surfaces, regions, or stripping
-- **Automatic Recalculation** - Totals update without manual intervention
-- **Hierarchical Updates** - Parent and grand totals update simultaneously
-- **Validation** - Verify calculations remain accurate after changes
+Validate calculations against Civil 3D:
+
+1. **Run Civil 3D Calculation** - Perform calculation in Civil 3D
+2. **Run Earthwork Tool** - Perform same calculation in Earthwork Tool
+3. **Compare Results** - Verify volumes match between tools
+4. **Document Differences** - Note any discrepancies for investigation
+
+> **GIF Placeholder:** Show cross-reference validation
+
+## Advanced Features
+
+### Hierarchical Calculations
+
+Maintain parent-child relationships:
+
+- **Child Elements** - Individual calculation components
+- **Parent Totals** - Sum of all child elements
+- **Grand Totals** - Overall project totals
+- **Automatic Updates** - Totals update when components change
+
+> **GIF Placeholder:** Demonstrate hierarchical calculations
 
 ### Object Association
 
-Manage and isolate associated calculation elements:
+Manage associated elements:
 
 - **Select Objects** - Choose elements related to calculations
 - **Isolate Elements** - Focus on specific components
-- **Remove Items** - Delete unwanted elements from calculations
-- **Real-time Updates** - Calculations update when elements are modified
+- **Remove Items** - Delete unwanted elements
+- **Real-time Updates** - Calculations update when elements change
 
-### Validation and Verification
-
-Use the tool to validate calculation accuracy:
-
-1. **Cross-Reference Results** - Compare with Civil 3D calculations
-2. **Test Calculations** - Use known values to verify accuracy
-3. **Component Validation** - Check individual calculation components
-4. **Total Verification** - Verify hierarchical totals are correct
+> **GIF Placeholder:** Show object association
 
 ## Workflow Examples
 
-### Example 1: Complete Project Calculation
+### Basic Volume Calculation
 
-1. **Add Full Volume Surface** - Execute complete surface comparison
-2. **Add Region Volume Surfaces** - Include region-specific calculations
-3. **Configure Stripping** - Add topsoil stripping for regions
-4. **Review Hierarchical Totals** - Check parent-child relationships
-5. **Verify Grand Totals** - Confirm complete project volumes
+1. **Select Surfaces** - Choose existing and proposed surfaces
+2. **Execute Calculation** - Run volume analysis
+3. **Review Results** - Check cut/fill volumes
+4. **Analyze Net Volume** - Determine overall balance
 
-### Example 2: Unit Conversion Workflow
+> **GIF Placeholder:** Demonstrate basic volume calculation
 
-1. **Run Calculations** - Execute volume calculations in default units
+### Unit Conversion Workflow
+
+1. **Run Calculation** - Execute volume calculation
 2. **Change Units** - Switch from m³ to yd³
-3. **Verify Conversion** - Check that all results update correctly
-4. **Export Results** - Save calculations in preferred units
+3. **Verify Conversion** - Check that results update correctly
+4. **Export Results** - Save in preferred units
 
-### Example 3: Validation Process
+> **GIF Placeholder:** Show unit conversion workflow
 
-1. **Create Test Scenario** - Set up known volume calculation
-2. **Execute Calculation** - Run Earthwork Tool analysis
-3. **Compare Results** - Verify against expected values
-4. **Adjust Parameters** - Modify settings if needed
-5. **Re-validate** - Confirm accuracy after adjustments
+### Validation Workflow
+
+1. **Create Civil 3D Dashboard** - Run calculation in Civil 3D
+2. **Run Earthwork Tool** - Perform same calculation
+3. **Compare Results** - Verify volumes match
+4. **Document Validation** - Record validation results
+
+> **GIF Placeholder:** Demonstrate validation workflow
 
 ## Best Practices
 
-### Calculation Management
-- **Start with Full Volume** - Begin with complete surface comparison
-- **Add Regions Incrementally** - Include regions one at a time
-- **Validate Each Step** - Verify results after each addition
-- **Document Settings** - Keep records of calculation parameters
+### Calculation Accuracy
+- **Verify Surface Integrity** - Ensure surfaces are complete and accurate
+- **Check Surface Boundaries** - Confirm surfaces cover the same area
+- **Validate Elevations** - Verify surface elevation data is correct
+- **Test Calculations** - Run test calculations to verify accuracy
 
 ### Unit Management
-- **Consistent Units** - Use consistent units throughout project
-- **Project Standards** - Follow project-specific unit requirements
-- **Validation** - Verify unit conversions are accurate
-- **Documentation** - Record unit preferences for future reference
+- **Consistent Unit Usage** - Use consistent units throughout project
+- **Unit Conversion Validation** - Verify unit conversions are correct
+- **Export in Preferred Units** - Export results in project standard units
+- **Document Unit Choices** - Document unit choices for future reference
 
 ### Quality Assurance
-- **Cross-Reference** - Compare with Civil 3D calculations
+- **Cross-Reference Results** - Compare with Civil 3D calculations
 - **Validate Totals** - Verify parent-child relationships are correct
-- **Check Units** - Ensure consistent unit usage
-- **Review Associated Objects** - Verify correct element associations 
+- **Check Unit Consistency** - Ensure consistent unit usage
+- **Review Associated Objects** - Verify correct element associations
+
+### Performance Optimization
+- **Efficient Calculations** - Optimize calculation performance
+- **Manage Surface Complexity** - Balance detail with performance
+- **Monitor Calculation Speed** - Monitor calculation performance
+- **Optimize Settings** - Adjust settings for optimal performance 

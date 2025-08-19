@@ -2,10 +2,10 @@
 layout: default
 title: Profile
 parent: Drawing Layers User Guide
-nav_order: 5
+nav_order: 6
 ---
 
-# Profiles
+# Profile
 {: .no_toc }
 
 ## Table of contents
@@ -16,176 +16,217 @@ nav_order: 5
 
 ---
 
-# Profiles
+# Profile
 
-Drawing Layers profiles store complete interface configurations and settings, enabling you to save and reuse spreadsheet interface setups for different workflows and projects. The profile system allows you to create, save, and switch between different interface configurations efficiently.
+Drawing Layers includes a comprehensive profile system that allows you to save and reuse configuration settings, making it easy to maintain consistent configurations across multiple projects.
 
-## What's Saved in Profiles
+## Overview
 
-The following settings are saved in Drawing Layers profiles:
+Profile system allows you to:
+- Save configuration settings for reuse
+- Switch between different profiles
+- Maintain consistent settings across projects
+- Share profiles across teams
 
-- **Interface Configurations** - Spreadsheet interface layout and organization
-- **Tab Preferences** - Active Layers and Layer States tab configurations
-- **Formula Settings** - Formula configurations and preferences
-- **Change Management Settings** - Change highlighting and confirmation preferences
-- **Export/Import Settings** - Excel export and import configurations
-- **Column Configurations** - Column order, width, and visibility settings
-- **Data Display Preferences** - Data display and organization preferences
-- **Workflow Configurations** - Workflow-specific settings and preferences
+> **GIF Placeholder:** Show overview of profile system
 
-## Creating Profiles
+## Profile Creation
 
-Drawing Layers profiles let you save your interface settings, spreadsheet configurations, and workflow preferences for reuse and sharing across projects and teams.
+### New Profile Creation
 
-### Steps to Create a Profile
+Create new profiles for configuration settings:
 
-1. **Configure Your Settings**
-   - Set up spreadsheet interface layout and organization
-   - Configure tab preferences and data display
-   - Set up formula configurations and preferences
-   - Configure change management settings
+- **Profile Setup** - Set up new profiles with specific configurations
+- **Configuration Saving** - Save configuration settings to profiles
+- **Profile Naming** - Name profiles appropriately for easy identification
+- **Profile Organization** - Organize profiles systematically
 
-2. **Save as Profile**
-   - In the window header, click the save button next to the profiles list
-   - Name the profile (choose a meaningful name for easy identification)
-   - Choose the location to save it
-   - Click "Save" to store the profile
+> **GIF Placeholder:** Demonstrate new profile creation
 
-3. **Profile Organization**
-   - Use descriptive names for easy identification
-   - Organize profiles by workflow or project type
-   - Consider versioning for different scenarios
+### Profile Configuration
 
-![Drawing Layers Creating profiles](../../../assets/images/DrawingLayers/DL-SaveProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Drawing Layers.</sub>
+Configure profiles with specific settings:
 
-```yaml
-Tip for BIM Managers!
-Create profiles in a network location to allow other users to import them.
-See the "Importing Profiles" section for details.
-```
+- **Interface Settings** - Configure interface settings for profiles
+- **Data Settings** - Set data settings for profiles
+- **Export Settings** - Configure export settings for profiles
+- **Custom Settings** - Add custom settings to profiles
 
-## Importing Profiles
+> **GIF Placeholder:** Show profile configuration
 
-Import existing profiles to stay compliant with company standards and maintain consistency across projects.
+### Profile Templates
 
-### Steps to Import Profiles
+Use profile templates for consistency:
 
-1. **Access Import Function**
-   - Click the Import button next to the profiles list
-   - Navigate to the profile file location
+- **Template Selection** - Select appropriate profile templates
+- **Template Customization** - Customize templates for specific needs
+- **Template Management** - Manage profile templates
+- **Template Sharing** - Share templates across teams
 
-2. **Select Profile**
-   - Use File Explorer to find the profile (shared folder, network, or local)
-   - Browse to the desired profile file
-   - Click "Open" to import the profile
-
-3. **Apply Profile**
-   - The imported profile will be available in your profile list
-   - Select the profile to apply its settings to your current project
-   - Modify settings as needed for the current project requirements
-
-![Drawing Layers importing profiles](../../../assets/images/DrawingLayers/DL-ImportProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Drawing Layers.</sub>
-
-## Deleting Profiles
-
-Remove unwanted or outdated profiles from your profile library.
-
-### Steps to Delete Profiles
-
-1. **Select Profile**
-   - Select the profile from the profile dropdown list
-   - Ensure you're selecting the correct profile to delete
-
-2. **Delete Profile**
-   - Click the Delete icon next to the profiles list
-   - Confirm deletion when prompted
-   - The profile will be permanently removed
-
-![Drawing Layers delete profiles](../../../assets/images/DrawingLayers/DL-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the latest version of Drawing Layers.</sub>
-
-## Advanced Profile Features
-
-### Interface Configuration Storage
-
-Profiles store comprehensive interface configurations:
-
-- **Tab Layout** - Active Layers and Layer States tab configurations
-- **Column Settings** - Column order, width, and visibility preferences
-- **Data Display** - Data display and organization preferences
-- **Formula Configurations** - Formula settings and preferences
-
-### Workflow Optimization
-
-Profiles optimized for different workflows:
-
-- **Project-Specific Profiles** - Profiles tailored to specific project types
-- **Workflow Profiles** - Profiles optimized for specific workflows
-- **User Preferences** - Profiles customized for individual user preferences
-- **Team Standards** - Profiles that enforce team standards
-
-### Change Management Integration
-
-Integrate change management settings in profiles:
-
-- **Change Highlighting** - Change highlighting preferences and settings
-- **Confirmation Settings** - Change confirmation process settings
-- **Reset Preferences** - Reset functionality preferences
-- **Update Process** - Update process configurations
+> **GIF Placeholder:** Demonstrate profile templates
 
 ## Profile Management
 
 ### Profile Switching
 
-Efficient profile switching:
+Switch between different profiles:
 
-- **Quick Switching** - Switch between profiles quickly
-- **Configuration Application** - Apply saved configurations immediately
-- **Workflow Adaptation** - Adapt to different workflows with profile switching
-- **Consistency Maintenance** - Maintain consistency across different projects
+- **Profile Selection** - Select different profiles for use
+- **Quick Switching** - Switch profiles quickly and efficiently
+- **Profile Loading** - Load profile configurations
+- **Profile Activation** - Activate selected profiles
+
+> **GIF Placeholder:** Show profile switching
 
 ### Profile Organization
 
-Organize profiles efficiently:
+Organize profiles effectively:
 
-- **Descriptive Naming** - Use descriptive names for easy identification
-- **Category Organization** - Organize profiles by category or workflow
-- **Version Control** - Maintain different versions for different needs
-- **Access Control** - Control access to shared profiles
+- **Profile Categories** - Categorize profiles by type or purpose
+- **Profile Hierarchy** - Organize profiles hierarchically
+- **Profile Search** - Search for specific profiles
+- **Profile Filtering** - Filter profiles by criteria
 
-### Profile Sharing
+> **GIF Placeholder:** Demonstrate profile organization
 
-Share profiles across teams:
+### Profile Backup
 
-- **Network Storage** - Store profiles in network locations for sharing
-- **Team Access** - Allow team members to access shared profiles
-- **Standardization** - Standardize workflows with shared profiles
-- **Collaboration** - Enable collaboration through shared configurations
+Backup and restore profiles:
+
+- **Profile Backup** - Backup important profiles
+- **Profile Restoration** - Restore profiles from backups
+- **Backup Verification** - Verify backup integrity
+- **Backup Management** - Manage profile backups
+
+> **GIF Placeholder:** Show profile backup and restoration
+
+## Profile Features
+
+### Configuration Reuse
+
+Reuse saved configurations:
+
+- **Saved Configurations** - Access saved configuration settings
+- **Configuration Application** - Apply saved configurations to new projects
+- **Configuration Modification** - Modify saved configurations
+- **Configuration Sharing** - Share configurations across teams
+
+> **GIF Placeholder:** Demonstrate configuration reuse
+
+### Profile Synchronization
+
+Synchronize profiles across systems:
+
+- **Cross-System Sync** - Synchronize profiles across different systems
+- **Cloud Sync** - Synchronize profiles via cloud storage
+- **Network Sync** - Synchronize profiles across network
+- **Sync Management** - Manage synchronization settings
+
+> **GIF Placeholder:** Show profile synchronization
+
+### Profile Versioning
+
+Manage profile versions:
+
+- **Version Control** - Control profile versions
+- **Version History** - Track profile version history
+- **Version Rollback** - Rollback to previous versions
+- **Version Comparison** - Compare different versions
+
+> **GIF Placeholder:** Demonstrate profile versioning
+
+## Advanced Features
+
+### Profile Automation
+
+Automate profile operations:
+
+- **Automatic Loading** - Automatically load profiles based on conditions
+- **Profile Triggers** - Set triggers for profile activation
+- **Automated Switching** - Automatically switch profiles
+- **Automation Rules** - Define automation rules for profiles
+
+> **GIF Placeholder:** Show profile automation
+
+### Profile Security
+
+Secure profile access:
+
+- **Access Control** - Control access to profiles
+- **Profile Encryption** - Encrypt sensitive profile data
+- **User Permissions** - Set user permissions for profiles
+- **Security Management** - Manage profile security settings
+
+> **GIF Placeholder:** Demonstrate profile security
+
+### Profile Analytics
+
+Analyze profile usage:
+
+- **Usage Tracking** - Track profile usage patterns
+- **Performance Analysis** - Analyze profile performance
+- **Usage Reports** - Generate usage reports
+- **Analytics Dashboard** - View analytics dashboard
+
+> **GIF Placeholder:** Show profile analytics
+
+## Workflow Examples
+
+### Basic Profile Setup
+
+1. **Create Profile** - Create new profile with settings
+2. **Configure Settings** - Configure profile settings
+3. **Save Profile** - Save profile configuration
+4. **Test Profile** - Test profile functionality
+
+> **GIF Placeholder:** Demonstrate basic profile setup
+
+### Profile Switching Workflow
+
+1. **Select Profile** - Choose profile to switch to
+2. **Load Configuration** - Load profile configuration
+3. **Verify Settings** - Verify profile settings
+4. **Apply Configuration** - Apply profile configuration
+
+> **GIF Placeholder:** Show profile switching workflow
+
+### Profile Sharing Workflow
+
+1. **Export Profile** - Export profile for sharing
+2. **Share Profile** - Share profile with team members
+3. **Import Profile** - Import shared profile
+4. **Apply Profile** - Apply imported profile
+
+> **GIF Placeholder:** Demonstrate profile sharing workflow
 
 ## Best Practices
 
 ### Profile Creation
-- **Start with Standards** - Base profiles on established workflow standards
-- **Test Thoroughly** - Verify profiles work across different scenarios
-- **Document Purpose** - Clearly document what each profile is for
-- **Version Control** - Maintain different versions for different needs
+- **Plan Profiles** - Plan profile creation carefully
+- **Use Templates** - Use templates for consistency
+- **Document Profiles** - Document profile configurations
+- **Test Profiles** - Test profiles before production use
 
 ### Profile Management
-- **Organize Systematically** - Use consistent naming and organization
-- **Regular Reviews** - Periodically review and update profiles
-- **User Training** - Train team members on profile usage
-- **Feedback Loop** - Collect feedback to improve profiles
+- **Organize Profiles** - Organize profiles systematically
+- **Regular Maintenance** - Maintain profiles regularly
+- **Version Control** - Use version control for profiles
+- **Backup Strategy** - Implement backup strategy for profiles
 
-### Profile Sharing
-- **Centralized Storage** - Store profiles in a central, accessible location
-- **Access Control** - Control who can modify shared profiles
-- **Change Management** - Establish processes for profile updates
-- **Communication** - Notify team members of profile changes
+### Profile Usage
+- **Select Appropriate Profiles** - Select appropriate profiles for projects
+- **Validate Configurations** - Validate profile configurations
+- **Monitor Usage** - Monitor profile usage and performance
+- **Update Profiles** - Update profiles as needed
 
-### Interface Configuration Management
-- **Save Useful Configurations** - Save configurations for common workflows
-- **Test Configurations** - Test configurations before sharing
-- **Document Configurations** - Document what each configuration includes
-- **Regular Updates** - Update configurations as workflows evolve 
+### Profile Security
+- **Access Control** - Implement proper access control
+- **Data Protection** - Protect sensitive profile data
+- **Security Monitoring** - Monitor profile security
+- **Regular Audits** - Conduct regular security audits
+
+### Profile Performance
+- **Optimize Profiles** - Optimize profiles for performance
+- **Resource Management** - Manage system resources efficiently
+- **Performance Monitoring** - Monitor profile performance
+- **Performance Tuning** - Tune profiles for optimal performance 

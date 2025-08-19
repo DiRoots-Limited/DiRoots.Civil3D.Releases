@@ -18,146 +18,145 @@ nav_order: 2
 
 # Region Calculations
 
-The Earthwork Tool provides comprehensive region-based volume calculations, allowing you to define specific areas and calculate cut and fill volumes for each region separately. This feature supports hierarchical calculations with parent-child relationships.
+The Earthwork Tool provides region-based volume calculations with defined boundaries for precise earthwork analysis in specific project areas.
 
 ## Overview
 
-Region Volume Surfaces enable you to perform targeted volume calculations within defined boundaries. Unlike full volume surface calculations, region calculations allow you to focus on specific areas of your project, making it ideal for phased construction, zones with different requirements, or areas requiring special attention.
+Region calculations allow you to:
+- Calculate volumes for specific areas using defined boundaries
+- Support multiple regions for phased construction
+- Maintain hierarchical relationships with automatic totals
+- Configure topsoil stripping per region
 
-## Region Volume Surfaces Workflow
+> **GIF Placeholder:** Show overview of region calculations capabilities
 
-### Accessing the Feature
+## Region Volume Surfaces
 
-1. **Open Earthwork Tool** from the DiRoots tab
-2. **Main UI** - The tool displays the main interface with calculation options
-3. **Add Region Volume Surfaces** - Click this option to create region-based calculations
+### Creating Region Calculations
 
-### Region Definition Process
+1. **Access Region Feature**
+   - Click "Add Region Volume Surfaces" in the main UI
+   - Select defined regions for calculation boundaries
+   - Configure surfaces for each region
 
-1. **Select Defined Region**
-   - Choose a closed region boundary from your drawing
-   - The region must be properly closed for accurate calculations
-   - Multiple regions can be added to the same calculation
+2. **Region Selection**
+   - Choose closed regions that define calculation boundaries
+   - Ensure regions are properly closed and valid
+   - Select appropriate regions for your analysis
 
-2. **Configure Surfaces**
-   - Select existing surface for current conditions
-   - Select proposed/future surface for design conditions
-   - Configure additional parameters as needed
+> **GIF Placeholder:** Demonstrate creating region calculations
 
-3. **Add Stripping Configuration** (Optional)
-   - Configure topsoil stripping thickness for the region
-   - Set stripping depth (e.g., 0.1m, 0.2m)
-   - Stripping affects the calculation results
+### Multiple Region Support
 
-4. **Execute Calculation**
-   - Run the region analysis
-   - View individual region results
-   - Check hierarchical totals
+Support for multiple regions:
 
-### Hierarchical Calculation Structure
+- **Individual Regions** - Calculate volumes for each region separately
+- **Phased Construction** - Support construction phasing with multiple regions
+- **Region Organization** - Organize regions logically for project needs
+- **Hierarchical Results** - Maintain parent-child relationships
 
-The tool maintains parent-child relationships in calculations:
+> **GIF Placeholder:** Show multiple region support
 
-#### Child Elements
-- **Individual Region Calculations** - Each region's cut/fill volumes
-- **Stripping Adjustments** - Topsoil removal calculations per region
-- **Surface Comparisons** - Region-specific surface analysis
+### Hierarchical Calculations
 
-#### Parent Totals
-- **Region Group Totals** - Sum of all child elements within a region group
-- **Stripping Totals** - Total stripping volumes across regions
-- **Surface Totals** - Combined surface comparison results
+Maintain parent-child relationships:
 
-#### Grand Totals
-- **Full Project Totals** - Sum of full volume surface and all region volume surfaces
-- **Complete Earthwork Summary** - Total project cut/fill requirements
-- **Automatic Updates** - Totals update when components change
+- **Child Elements** - Individual region calculations
+- **Parent Totals** - Sum of all child elements within a region
+- **Grand Totals** - Sum of full volume surface and all region volume surfaces
+- **Automatic Updates** - Totals update automatically when components change
 
-![Earthwork Tool region calculations](../../../assets/images/EarthworkTool/EW-RegionCalculations.gif)
-<sub>Note: the version on the image may not reflect the latest version of Earthwork Tool.</sub>
+> **GIF Placeholder:** Demonstrate hierarchical calculations
 
-## Advanced Region Features
+## Advanced Features
 
-### Multiple Region Management
+### Region Configuration
 
-Add and manage multiple regions in a single calculation:
+Configure regions for specific needs:
 
-1. **Add First Region**
-   - Select initial region boundary
-   - Configure surfaces and stripping
-   - Execute initial calculation
+- **Region Properties** - Set region-specific properties and parameters
+- **Surface Assignment** - Assign appropriate surfaces to each region
+- **Stripping Configuration** - Configure topsoil stripping per region
+- **Region Validation** - Validate region configurations
 
-2. **Add Additional Regions**
-   - Click "Add" to include more regions
-   - Select new region boundaries
-   - Configure parameters for each region
+> **GIF Placeholder:** Show region configuration
 
-3. **Remove Regions**
-   - Select unwanted regions
-   - Click "Remove" to delete from calculation
-   - Totals update automatically
+### Stripping Integration
 
-### Stripping Configuration
+Integrate topsoil stripping with regions:
 
-Configure topsoil stripping for each region:
+- **Per-Region Stripping** - Configure stripping thickness for each region
+- **Stripping Surfaces** - Generate stripping surfaces for regions
+- **Volume Calculations** - Calculate stripping volumes per region
+- **Construction Planning** - Plan stripping operations by region
 
-- **Stripping Thickness** - Set depth of topsoil removal (e.g., 0.1m)
-- **Region-Specific** - Different stripping depths per region
-- **Calculation Impact** - Stripping affects final volume results
-- **Validation** - Verify stripping calculations match expected values
+> **GIF Placeholder:** Demonstrate stripping integration
 
-### Validation and Verification
+### Region Management
 
-Use the tool to validate region calculations:
+Manage regions effectively:
 
-1. **Create Test Surface** - Generate stripping surface with known thickness
-2. **Compare Surfaces** - Use full volume surface to compare existing vs. stripping
-3. **Verify Results** - Check that calculated volumes match expected values
-4. **Adjust Parameters** - Modify settings as needed for accuracy
+- **Region Selection** - Select and manage multiple regions
+- **Region Editing** - Edit region properties and configurations
+- **Region Organization** - Organize regions systematically
+- **Region Validation** - Validate region configurations
+
+> **GIF Placeholder:** Show region management
 
 ## Workflow Examples
 
-### Example 1: Single Region Calculation
+### Single Region Calculation
 
 1. **Click "Add Region Volume Surfaces"** in the main UI
-2. **Select Region** - Choose a closed region boundary
+2. **Select Defined Region** - Choose a closed region boundary
 3. **Configure Surfaces** - Set existing and proposed surfaces
-4. **Add Stripping** (optional) - Set topsoil stripping thickness
+4. **Add Stripping** (optional) - Configure topsoil stripping thickness
 5. **Execute Calculation** - Run the region analysis
-6. **Review Results** - Check region-specific cut/fill volumes
 
-### Example 2: Multiple Region Project
+> **GIF Placeholder:** Demonstrate single region calculation
 
-1. **Add First Region** - Configure initial region with surfaces
-2. **Execute Calculation** - Run analysis for first region
-3. **Add Second Region** - Include additional region boundary
-4. **Configure Parameters** - Set surfaces and stripping for new region
-5. **Update Calculation** - Re-run analysis for both regions
-6. **Review Totals** - Check hierarchical totals and grand totals
+### Multiple Region Workflow
 
-### Example 3: Stripping Validation
+1. **Create First Region** - Set up initial region calculation
+2. **Add Additional Regions** - Add more regions as needed
+3. **Configure Each Region** - Set up surfaces and stripping for each
+4. **Review Hierarchical Results** - Check parent-child relationships
+5. **Validate Totals** - Verify automatic totals are correct
 
-1. **Create Stripping Surface** - Generate surface with 0.1m stripping
-2. **Compare Surfaces** - Use full volume surface to compare existing vs. stripping
-3. **Verify Calculation** - Check that region stripping matches full surface result
-4. **Adjust Parameters** - Modify stripping depth if needed
+> **GIF Placeholder:** Show multiple region workflow
+
+### Phased Construction
+
+1. **Define Construction Phases** - Create regions for each phase
+2. **Configure Phase-Specific Settings** - Set up each phase appropriately
+3. **Calculate Phase Volumes** - Calculate volumes for each phase
+4. **Review Phase Totals** - Check totals for each construction phase
+5. **Plan Construction Sequence** - Use results for construction planning
+
+> **GIF Placeholder:** Demonstrate phased construction workflow
 
 ## Best Practices
 
-### Region Definition
-- **Closed Boundaries** - Ensure regions are properly closed
-- **Clear Boundaries** - Use well-defined region boundaries
-- **Logical Grouping** - Group related areas into single regions
-- **Descriptive Names** - Name regions clearly for easy identification
+### Region Planning
+- **Define Clear Boundaries** - Ensure regions have clear, closed boundaries
+- **Consider Construction Phases** - Align regions with construction phases
+- **Plan Region Hierarchy** - Plan parent-child relationships logically
+- **Document Region Purposes** - Document the purpose of each region
 
-### Calculation Management
-- **Start Simple** - Begin with single region calculations
-- **Add Incrementally** - Add regions one at a time for better control
-- **Validate Each Step** - Verify results after each region addition
-- **Document Settings** - Keep records of region configurations
+### Configuration Management
+- **Use Descriptive Names** - Name regions clearly for easy identification
+- **Organize Regions Logically** - Group related regions together
+- **Validate Configurations** - Verify region configurations before calculation
+- **Document Settings** - Keep records of region settings and parameters
 
 ### Quality Assurance
-- **Cross-Reference Results** - Compare with full volume surface calculations
-- **Validate Totals** - Verify parent-child relationships are correct
-- **Check Stripping** - Confirm stripping calculations are accurate
-- **Review Hierarchical Structure** - Ensure totals update correctly 
+- **Verify Region Boundaries** - Ensure regions are properly closed
+- **Check Surface Assignment** - Verify correct surfaces are assigned to regions
+- **Validate Hierarchical Results** - Check that parent-child relationships are correct
+- **Cross-Reference Results** - Compare with full volume calculations
+
+### Performance Optimization
+- **Efficient Region Design** - Design regions for efficient calculation
+- **Manage Region Complexity** - Balance detail with performance
+- **Optimize Calculations** - Optimize region calculations for speed
+- **Monitor Performance** - Monitor calculation performance 

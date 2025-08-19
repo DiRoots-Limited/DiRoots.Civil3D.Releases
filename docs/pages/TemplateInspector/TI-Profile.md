@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Profile
+title: Profile System
 parent: Template Inspector User Guide
-nav_order: 5
+nav_order: 4
 ---
 
-# Profiles
+# Profile System
 {: .no_toc }
 
 ## Table of contents
@@ -16,146 +16,199 @@ nav_order: 5
 
 ---
 
-# Profiles
+# Profile System
 
-Template Inspector profiles store complete inspection and object management configurations, including object type preferences, search and filter settings, and batch operation preferences. The profile system enables efficient management and reuse of inspection settings across projects and teams.
+Template Inspector profiles store scan configurations, search preferences, and batch operation settings, enabling you to save and reuse inspection setups for different workflows and projects.
 
-## What's Saved in Profiles
+## Overview
 
-The following settings are saved in Template Inspector profiles:
+The profile system allows you to:
+- Save scan configurations for reuse
+- Store search and filter preferences
+- Maintain batch operation settings
+- Share configurations across teams
 
-- **Object Type Preferences** - Preferred object types for inspection (layers, line types, hatch styles, etc.)
-- **Search and Filter Settings** - Search criteria and filter configurations
-- **Display Preferences** - Display settings for usage status and results
-- **Batch Operation Settings** - Batch action preferences and default behaviors
-- **Isolation Settings** - Object isolation preferences and configurations
-- **Layer Management Settings** - Layer swapping and modification preferences
-- **Component Configuration** - Component inspection and modification settings
+> **GIF Placeholder:** Show overview of the profile system interface
 
-## Creating Profiles
+## Profile Components
 
-Template Inspector profiles let you save your inspection and object management settings for reuse and sharing across projects and teams.
+### What Profiles Store
 
-### Steps to Create a Profile
+Profiles save comprehensive configuration data:
 
-1. **Configure Your Settings**
-   - Set up object type preferences
-   - Configure search and filter settings
-   - Set up display preferences
-   - Configure batch operation settings
+- **Scan Configurations** - Scan parameters, scope, and filter settings
+- **Search Preferences** - Search criteria and filter preferences
+- **Batch Operation Settings** - Batch operation configurations
+- **Object Type Preferences** - Preferred object types for inspection
+- **Display Settings** - Interface display and organization preferences
+- **Workflow Settings** - Workflow-specific configurations
 
-2. **Save as Profile**
-   - In the window header, click the save button next to the profiles list
-   - Name the profile (choose a meaningful name for easy identification)
-   - Choose the location to save it
-   - Click "Save" to store the profile
+> **GIF Placeholder:** Show what information is stored in profiles
 
-3. **Profile Organization**
-   - Use descriptive names for easy identification
-   - Organize profiles by project type or inspection purpose
-   - Consider versioning for different scenarios
+### Profile Structure
 
-![Template Inspector Creating profiles](../../../assets/images/TemplateInspector/TI-SaveProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Template Inspector.</sub>
+Understanding profile organization:
 
-```yaml
-Tip for BIM Managers!
-Create profiles in a network location to allow other users to import them.
-See the "Importing Profiles" section for details.
-```
+- **Profile Name** - Descriptive name for easy identification
+- **Profile Description** - Optional description of profile purpose
+- **Creation Date** - When the profile was created
+- **Last Modified** - When the profile was last updated
+- **Profile Version** - Version information for tracking changes
 
-## Importing Profiles
+> **GIF Placeholder:** Demonstrate profile structure and organization
 
-Import existing profiles to stay compliant with company standards and maintain consistency across projects.
+## Profile Creation
 
-### Steps to Import Profiles
+### Creating New Profiles
 
-1. **Access Import Function**
-   - Click the Import button next to the profiles list
-   - Navigate to the profile file location
+Create profiles with specific configurations:
 
-2. **Select Profile**
-   - Use File Explorer to find the profile (shared folder, network, or local)
-   - Browse to the desired profile file
-   - Click "Open" to import the profile
+- **New Profile Creation** - Create new profiles with specific scan configurations
+- **Configuration Saving** - Save all scan settings and preferences
+- **Profile Naming** - Use descriptive names for easy identification
+- **Profile Organization** - Organize profiles by workflow or project type
 
-3. **Apply Profile**
-   - The imported profile will be available in your profile list
-   - Select the profile to apply its settings to your current project
-   - Modify settings as needed for the current project requirements
+> **GIF Placeholder:** Show the process of creating a new profile
 
-![Template Inspector importing profiles](../../../assets/images/TemplateInspector/TI-ImportProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Template Inspector.</sub>
+### Profile Setup
 
-## Deleting Profiles
+Set up profiles for different workflows:
 
-Remove unwanted or outdated profiles from your profile library.
+- **Configure Scans** - Set up desired scan configuration
+- **Set Search Preferences** - Configure search and filter settings
+- **Configure Batch Operations** - Set up batch operation preferences
+- **Save Configuration** - Save the complete configuration as a profile
 
-### Steps to Delete Profiles
+> **GIF Placeholder:** Demonstrate setting up a profile with specific configurations
 
-1. **Select Profile**
-   - Select the profile from the profile dropdown list
-   - Ensure you're selecting the correct profile to delete
+## Profile Management
 
-2. **Delete Profile**
-   - Click the Delete icon next to the profiles list
-   - Confirm deletion when prompted
-   - The profile will be permanently removed
+### Profile Switching
 
-![Template Inspector delete profiles](../../../assets/images/TemplateInspector/TI-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the latest version of Template Inspector.</sub>
+Switch between different profiles:
+
+- **Profile Selection** - Choose profile to load configuration
+- **Configuration Application** - Apply saved configuration
+- **Quick Switching** - Switch between different configurations
+- **Workflow Optimization** - Optimize workflow with saved configurations
+
+> **GIF Placeholder:** Show how to switch between different profiles
+
+### Profile Organization
+
+Organize profiles efficiently:
+
+- **Profile Categories** - Organize profiles by category or workflow
+- **Naming Conventions** - Use consistent naming conventions
+- **Version Control** - Maintain different profile versions for different needs
+- **Profile Sharing** - Share profiles across teams and projects
+
+> **GIF Placeholder:** Demonstrate profile organization and management
+
+## Profile Operations
+
+### Loading Profiles
+
+Load saved configurations:
+
+- **Profile Selection** - Select the profile to load
+- **Configuration Loading** - Load the saved configuration
+- **Settings Application** - Apply all saved settings
+- **Verification** - Verify that settings are applied correctly
+
+> **GIF Placeholder:** Show the profile loading process
+
+### Updating Profiles
+
+Update existing profiles:
+
+- **Profile Modification** - Modify existing profile settings
+- **Configuration Updates** - Update scan configurations
+- **Settings Changes** - Change profile settings
+- **Profile Saving** - Save updated profile configuration
+
+> **GIF Placeholder:** Demonstrate updating existing profiles
+
+### Profile Deletion
+
+Remove unwanted profiles:
+
+- **Profile Removal** - Delete profiles that are no longer needed
+- **Confirmation** - Confirm profile deletion to prevent accidents
+- **Cleanup** - Keep profile list organized and clean
+- **Backup** - Backup important profiles before deletion
+
+> **GIF Placeholder:** Show profile deletion process
 
 ## Advanced Profile Features
 
-### Search and Filter Integration
+### Profile Import/Export
 
-Profiles can include search and filter configurations:
+Share profiles across systems:
 
-- **Search Criteria** - Save search settings for quick object location
-- **Filter Configurations** - Store filter settings for efficient data management
-- **Data Organization** - Maintain data organization preferences
-- **Quick Access** - Rapid access to frequently used search/filter combinations
+- **Profile Export** - Export profiles for sharing or backup
+- **Profile Import** - Import profiles from other systems
+- **Cross-Platform Sharing** - Share profiles across different installations
+- **Backup and Restore** - Backup and restore profile configurations
 
-### Object Management Settings
+> **GIF Placeholder:** Demonstrate profile import and export functionality
 
-Profiles store comprehensive object management settings:
+### Profile Templates
 
-- **Object Type Preferences** - Preferred object types for inspection
-- **Selection Preferences** - Multi-selection and isolation preferences
-- **Batch Operation Settings** - Batch action configurations and preferences
-- **Layer Management** - Layer swapping and modification settings
+Use profile templates for consistency:
 
-### Display and Interface Settings
+- **Template Creation** - Create profile templates for common workflows
+- **Template Application** - Apply templates to new projects
+- **Standardization** - Standardize configurations across projects
+- **Best Practices** - Implement best practices through templates
 
-Profiles include display and interface configurations:
+> **GIF Placeholder:** Show profile template creation and application
 
-- **Display Preferences** - How results are displayed and organized
-- **Column Configurations** - Settings and objects column preferences
-- **Usage Display** - How usage information is presented
-- **Interface Layout** - Interface layout and organization preferences
+### Profile Synchronization
 
-## Best Practices
+Keep profiles synchronized:
 
-### Profile Creation
-- **Start with Standards** - Base profiles on established inspection standards
-- **Test Thoroughly** - Verify profiles work across different scenarios
-- **Document Purpose** - Clearly document what each profile is for
-- **Version Control** - Maintain different versions for different needs
+- **Multi-User Environments** - Synchronize profiles across multiple users
+- **Version Control** - Maintain version control for profiles
+- **Conflict Resolution** - Resolve conflicts in profile versions
+- **Consistency Management** - Maintain consistency across environments
 
-### Profile Management
-- **Organize Systematically** - Use consistent naming and organization
-- **Regular Reviews** - Periodically review and update profiles
-- **User Training** - Train team members on profile usage
-- **Feedback Loop** - Collect feedback to improve profiles
+> **GIF Placeholder:** Demonstrate profile synchronization in multi-user environments
+
+## Profile Best Practices
+
+### Profile Naming
+
+Use effective naming conventions:
+
+- **Descriptive Names** - Use descriptive names for profiles
+- **Workflow Identification** - Include workflow information in names
+- **Version Information** - Include version information when appropriate
+- **Consistent Format** - Use consistent naming format across profiles
+
+### Profile Organization
+
+Organize profiles effectively:
+
+- **Workflow-Based Organization** - Organize profiles by workflow or project type
+- **Category Grouping** - Group profiles by category or purpose
+- **Accessibility** - Make profiles easily accessible
+- **Maintenance** - Regular maintenance of profile organization
+
+### Profile Maintenance
+
+Maintain profiles regularly:
+
+- **Regular Updates** - Update profiles as workflows evolve
+- **Cleanup** - Remove outdated or unused profiles
+- **Backup** - Regular backup of important profiles
+- **Documentation** - Document profile purposes and configurations
 
 ### Profile Sharing
-- **Centralized Storage** - Store profiles in a central, accessible location
-- **Access Control** - Control who can modify shared profiles
-- **Change Management** - Establish processes for profile updates
-- **Communication** - Notify team members of profile changes
 
-### Search and Filter Management
-- **Save Useful Searches** - Save frequently used search configurations
-- **Filter Organization** - Organize filter settings for efficiency
-- **Quick Access** - Create profiles with quick access to common searches
-- **Data Navigation** - Optimize data navigation with saved configurations 
+Share profiles effectively:
+
+- **Team Standards** - Establish team standards for profiles
+- **Documentation** - Document shared profile configurations
+- **Training** - Train team members on profile usage
+- **Feedback** - Collect feedback on shared profiles

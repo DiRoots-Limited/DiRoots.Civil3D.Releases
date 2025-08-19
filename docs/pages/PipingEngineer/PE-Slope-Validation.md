@@ -2,7 +2,7 @@
 layout: default
 title: Slope Validation
 parent: Piping Engineer User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Slope Validation
@@ -18,116 +18,180 @@ nav_order: 4
 
 # Slope Validation
 
-Piping Engineer provides comprehensive slope validation capabilities that allow you to validate applied rules to the network and override slope rules for quick slope checks.
+Piping Engineer provides comprehensive slope validation capabilities to ensure your piping networks meet design standards and perform optimally.
 
 ## Overview
 
-The Slope Validation feature ensures your piping networks meet design standards and regulatory requirements. Key capabilities include:
+Slope validation allows you to:
+- Validate slopes across entire piping networks
+- Identify and resolve slope issues
+- Optimize slopes for better performance
+- Ensure compliance with design standards
 
-- **Rule-based validation** against industry standards
-- **Custom rule creation** for project-specific requirements
-- **Slope override capabilities** for design flexibility
-- **Real-time validation** during design modifications
-- **Comprehensive reporting** of validation results
+> **GIF Placeholder:** Show overview of slope validation capabilities
 
-## Rule-based Validation
+## Validation Process
 
-### Understanding Slope Rules
+### Comprehensive Validation
 
-Piping Engineer applies slope rules based on industry standards and best practices:
+Validate slopes across entire networks:
 
-```yaml
-# Standard Slope Rules:
-- Sanitary Systems: 2% minimum slope
-- Storm Systems: 1% minimum slope
-- Water Systems: Pressure-based (no minimum slope)
-- Gas Systems: Pressure-based (no minimum slope)
-- Process Piping: System-specific requirements
-```
+- **Network-wide Analysis** - Analyze slopes across entire networks
+- **Slope Calculation** - Calculate and validate slope values
+- **Issue Identification** - Identify slope-related issues
+- **Compliance Checking** - Check compliance with design standards
 
-![Piping Engineer slope rules](../../../assets\images\PipingEngineer\PE-SlopeRules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Demonstrate comprehensive validation process
 
-### Applying Validation Rules
+### Validation Criteria
 
-Steps to validate your piping network against established rules:
+Apply validation criteria:
 
-1. **Select the network** or network segment to validate
-2. **Choose validation scope**:
-   - **Entire network**: Validate all pipes in the system
-   - **Selected elements**: Validate only selected pipes
-   - **Network segment**: Validate a specific portion of the network
-3. **Run validation** to check against applicable rules
-4. **Review results** and address any violations
+- **Minimum Slope Requirements** - Check minimum slope requirements
+- **Maximum Slope Limits** - Validate maximum slope limits
+- **Optimal Slope Ranges** - Ensure slopes are within optimal ranges
+- **Design Standards** - Validate against design standards
 
-![Piping Engineer applying rules](../../../assets\images\PipingEngineer\PE-ApplyingRules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Show validation criteria application
 
-## Custom Rule Creation
+### Validation Reports
 
-### Creating Project-specific Rules
+Generate comprehensive validation reports:
 
-Define custom slope rules for your specific project requirements:
+- **Issue Reports** - Generate reports of identified issues
+- **Compliance Reports** - Create compliance reports
+- **Optimization Suggestions** - Provide optimization suggestions
+- **Detailed Analysis** - Provide detailed analysis of slope conditions
 
-Steps:
-1. **Access the Rules Manager** in the main interface
-2. **Create new rule** with custom parameters:
-   - **Rule name** and description
-   - **Applicable systems** (sanitary, storm, etc.)
-   - **Pipe size ranges** for the rule
-   - **Minimum and maximum slope** values
-   - **Special conditions** or exceptions
-3. **Save the rule** to your project or profile
-4. **Apply the rule** to your validation process
+> **GIF Placeholder:** Demonstrate validation report generation
 
-![Piping Engineer custom rules](../../../assets\images\PipingEngineer\PE-CustomRules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+## Issue Detection
 
-### Rule Categories
+### Slope Issues
 
-Organize your validation rules into logical categories:
+Identify common slope issues:
 
-```yaml
-# Rule Categories:
-- Code Requirements: Based on local building codes
-- Industry Standards: Based on professional standards
-- Project Specifications: Based on project requirements
-- Client Requirements: Based on client preferences
-- Quality Control: Based on internal quality standards
-```
+- **Insufficient Slopes** - Identify pipes with insufficient slopes
+- **Excessive Slopes** - Detect pipes with excessive slopes
+- **Inconsistent Slopes** - Find inconsistent slope patterns
+- **Flow Direction Issues** - Identify flow direction problems
 
-![Piping Engineer rule categories](../../../assets\images\PipingEngineer\PE-RuleCategories.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Show slope issue detection
 
-## Slope Override Capabilities
+### Problem Resolution
 
-### Quick Slope Override
+Resolve identified issues:
 
-Override slope rules for specific design situations:
+- **Issue Prioritization** - Prioritize issues by severity
+- **Resolution Strategies** - Develop resolution strategies
+- **Automatic Corrections** - Apply automatic corrections where possible
+- **Manual Adjustments** - Guide manual adjustments
 
-Steps:
-1. **Select the pipe** or pipe segment requiring override
-2. **Choose override type**:
-   - **Temporary override**: For design exploration
-   - **Permanent override**: For approved design changes
-   - **Conditional override**: Based on specific conditions
-3. **Specify override parameters**:
-   - **New slope value** or range
-   - **Override reason** and justification
-   - **Override duration** (if temporary)
-4. **Apply the override** with proper documentation
+> **GIF Placeholder:** Demonstrate problem resolution
 
-![Piping Engineer slope override](../../../assets\images\PipingEngineer\PE-SlopeOverride.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Error Handling
 
-### Override Management
+Handle validation errors:
 
-Manage and track slope overrides throughout your project:
+- **Error Detection** - Detect validation errors
+- **Error Reporting** - Report errors clearly
+- **Error Resolution** - Provide error resolution guidance
+- **Error Prevention** - Prevent future errors
 
-- **Override log** with history and reasons
-- **Approval workflow** for permanent overrides
-- **Expiration tracking** for temporary overrides
-- **Override reporting** for project documentation
+> **GIF Placeholder:** Show error handling
 
-![Piping Engineer override management](../../../assets\images\PipingEngineer\PE-OverrideManagement.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+## Optimization Tools
+
+### Slope Optimization
+
+Optimize slopes for better performance:
+
+- **Performance Analysis** - Analyze slope performance
+- **Optimization Algorithms** - Apply optimization algorithms
+- **Efficiency Improvements** - Improve network efficiency
+- **Cost Optimization** - Optimize for cost considerations
+
+> **GIF Placeholder:** Demonstrate slope optimization
+
+### Network Analysis
+
+Analyze network performance:
+
+- **Flow Analysis** - Analyze flow patterns
+- **Capacity Analysis** - Analyze network capacity
+- **Performance Metrics** - Calculate performance metrics
+- **Bottleneck Identification** - Identify network bottlenecks
+
+> **GIF Placeholder:** Show network analysis
+
+### Optimization Suggestions
+
+Provide optimization suggestions:
+
+- **Slope Adjustments** - Suggest slope adjustments
+- **Network Modifications** - Recommend network modifications
+- **Performance Improvements** - Suggest performance improvements
+- **Cost Reductions** - Recommend cost reduction strategies
+
+> **GIF Placeholder:** Demonstrate optimization suggestions
+
+## Advanced Features
+
+### Custom Validation Rules
+
+Define custom validation rules:
+
+- **Project-specific Rules** - Define project-specific validation rules
+- **Custom Criteria** - Set custom validation criteria
+- **Flexible Standards** - Apply flexible design standards
+- **Rule Management** - Manage validation rules
+
+> **GIF Placeholder:** Show custom validation rules
+
+### Batch Validation
+
+Perform batch validation operations:
+
+- **Multiple Networks** - Validate multiple networks simultaneously
+- **Batch Processing** - Process large networks efficiently
+- **Consistent Validation** - Ensure consistent validation across networks
+- **Time Optimization** - Optimize validation time
+
+> **GIF Placeholder:** Demonstrate batch validation
+
+### Real-time Validation
+
+Perform real-time validation:
+
+- **Live Validation** - Validate changes in real-time
+- **Instant Feedback** - Provide instant validation feedback
+- **Dynamic Updates** - Update validation results dynamically
+- **Interactive Validation** - Enable interactive validation
+
+> **GIF Placeholder:** Show real-time validation
+
+## Best Practices
+
+### Validation Planning
+- **Plan Validation** - Plan validation activities carefully
+- **Set Clear Criteria** - Set clear validation criteria
+- **Define Standards** - Define applicable design standards
+- **Establish Procedures** - Establish validation procedures
+
+### Issue Resolution
+- **Prioritize Issues** - Prioritize issues by severity and impact
+- **Address Promptly** - Address issues promptly
+- **Document Solutions** - Document resolution strategies
+- **Prevent Recurrence** - Prevent issue recurrence
+
+### Optimization
+- **Regular Optimization** - Perform regular optimization
+- **Monitor Performance** - Monitor network performance
+- **Track Improvements** - Track optimization improvements
+- **Validate Results** - Validate optimization results
+
+### Quality Assurance
+- **Quality Checks** - Perform quality checks regularly
+- **Compliance Verification** - Verify compliance with standards
+- **Performance Monitoring** - Monitor performance metrics
+- **Documentation** - Maintain comprehensive documentation

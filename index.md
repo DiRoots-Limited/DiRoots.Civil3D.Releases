@@ -15,8 +15,8 @@ DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. 
 ## Core Features
 
 - Design piping networks and their elevations, slope adjustments, part swapping, and multi-property edition, including edition of the network structures properties, delivering mass property updates.
-- Export your Civil 3D model data (by layers, objects, schedules) to Excel and Google Sheets. Edit the data and import it back to update the model.
 - Manage your Civil 3D objects and layers.
+- 
 
 
 [Download](https://diroots.com/civil3d-plugins/dicivil/){: .btn .btn-di-orange } ToUpdate

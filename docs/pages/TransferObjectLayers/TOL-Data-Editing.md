@@ -2,7 +2,7 @@
 layout: default
 title: Data Editing
 parent: Transfer Object Layers User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Data Editing
@@ -18,159 +18,215 @@ nav_order: 4
 
 # Data Editing
 
-Transfer Object Layers provides comprehensive data editing capabilities that allow you to modify object layer settings directly in the UI before applying them to files or exporting them to Excel. The tool displays all imported data in an organized interface for easy review and modification.
+Transfer Object Layers provides comprehensive data editing capabilities, allowing you to modify object layer data directly in the UI before importing to your target file.
 
 ## Overview
 
-Data editing is a key feature that enables you to review and modify object layer settings before importing them to target files. The tool displays all imported data in the UI, allowing you to make necessary modifications and ensure data quality before applying changes.
+Data editing allows you to:
+- Modify data directly in the UI interface
+- Edit data before importing to target file
+- Validate modified data before import
+- Perform bulk modifications
+
+> **GIF Placeholder:** Show overview of data editing interface
 
 ## UI Data Display
 
 ### Complete Data View
 
-View all imported object layer data in the UI:
+View all imported object layer data:
 
-- **Data Organization** - Organized display of all transfer data
-- **Complete Information** - See all object layer settings and properties
-- **Data Structure** - Clear structure showing object types and settings
-- **Data Association** - View layer data associated with objects
+- **Data Organization** - Organized display of transfer data
+- **Data Structure** - Clear structure for easy navigation
+- **Data Visibility** - View all relevant data fields
+- **Data Context** - Understand data relationships
+
+> **GIF Placeholder:** Demonstrate complete data view
 
 ### Data Organization
 
-Organized data display for easy review:
+Organize data for efficient editing:
 
-- **Object Type Grouping** - Group data by Civil 3D object types
-- **Property Display** - Display all layer properties and settings
-- **Layer Association** - Show layer assignments for each object
-- **Data Relationships** - Display relationships between objects and layers
+- **Logical Grouping** - Group related data together
+- **Hierarchical Display** - Display data hierarchically
+- **Searchable Content** - Make data searchable
+- **Filterable Results** - Allow filtering of data
 
-## Pre-Import Editing
+> **GIF Placeholder:** Show data organization
 
-### Data Modification
+### Real-time Updates
 
-Modify data before importing to target files:
+See updates in real-time:
 
-- **Direct Editing** - Edit data directly in the UI interface
-- **Pre-import Modifications** - Make changes before applying to target file
-- **Data Validation** - Validate modified data before import
-- **Bulk Modifications** - Modify multiple items simultaneously
+- **Live Updates** - View updates as they happen
+- **Dynamic Display** - Display updates dynamically
+- **Instant Results** - See editing results immediately
+- **Real-time Validation** - Validate changes in real-time
 
-### Editing Interface Features
+> **GIF Placeholder:** Demonstrate real-time updates
 
-Comprehensive editing capabilities:
+## Direct Editing
 
-- **Grid View** - Spreadsheet-style interface for easy data editing
-- **Property Filtering** - Filter and focus on specific properties
-- **Search and Replace** - Find and replace values across multiple settings
-- **Undo/Redo** - Full undo and redo capabilities for all changes
+### In-Place Editing
 
-## Data Review Process
+Edit data directly in the UI:
 
-### Step-by-Step Review
+- **Direct Modification** - Edit data directly in the interface
+- **In-Place Changes** - Make changes without leaving the interface
+- **Immediate Feedback** - Get immediate feedback on changes
+- **Visual Confirmation** - See changes visually
 
-Complete data review workflow:
+> **GIF Placeholder:** Show in-place editing
 
-1. **Import Data** - Import data from source file or Excel
-2. **Review Display** - Review all imported data in the UI
-3. **Identify Issues** - Identify any data issues or modifications needed
-4. **Make Changes** - Edit data directly in the UI
-5. **Validate Changes** - Validate all modifications
-6. **Apply Changes** - Import modified data to target file
+### Pre-import Modifications
+
+Modify data before importing:
+
+- **Pre-import Editing** - Edit data before applying to target file
+- **Data Preparation** - Prepare data for import
+- **Customization** - Customize data for specific needs
+- **Quality Control** - Ensure data quality before import
+
+> **GIF Placeholder:** Demonstrate pre-import modifications
 
 ### Data Validation
 
-Validate data before importing:
+Validate modified data:
 
-- **Data Completeness** - Ensure all required data is present
-- **Data Accuracy** - Verify data accuracy and consistency
-- **Layer Compatibility** - Check layer compatibility with target file
-- **Property Validation** - Validate all property values
+- **Data Integrity** - Ensure data integrity after modifications
+- **Validation Rules** - Apply validation rules to modified data
+- **Error Detection** - Detect errors in modified data
+- **Quality Assurance** - Ensure data quality
 
-## Editing Capabilities
+> **GIF Placeholder:** Show data validation
 
-### Layer Names and Assignments
+## Bulk Modifications
 
-Modify layer-related settings:
+### Multi-Item Editing
 
-- **Layer Names** - Modify layer names and assignments
-- **Layer Properties** - Edit layer properties and settings
-- **Layer Compatibility** - Ensure layer compatibility
-- **Layer Standards** - Apply consistent layer standards
-
-### Object Properties
-
-Edit object layer properties:
-
-- **Property Values** - Edit all object layer properties
-- **Display Settings** - Adjust display and visibility settings
-- **Color and Style** - Modify color, linetype, and style assignments
-- **Configuration Settings** - Edit configuration and setup properties
-
-### Bulk Editing
-
-Efficient bulk editing operations:
+Edit multiple items simultaneously:
 
 - **Multi-selection** - Select multiple items for editing
-- **Bulk Modifications** - Apply changes to multiple items simultaneously
+- **Bulk Modifications** - Apply changes to multiple items at once
 - **Consistent Updates** - Ensure consistent changes across items
 - **Efficiency** - Save time with bulk operations
 
-## Pre-Export Editing
+> **GIF Placeholder:** Demonstrate multi-item editing
 
-### Excel Preparation
+### Batch Editing Workflow
 
-Edit data before exporting to Excel:
+Perform batch editing operations:
 
-- **Excel Preparation** - Edit data before exporting to Excel templates
-- **Template Compliance** - Ensure data meets template requirements
-- **Data Validation** - Validate data structure and content
-- **Format Standardization** - Standardize data formats for consistency
+1. **Select Items** - Select multiple items for editing
+2. **Choose Modifications** - Select modifications to apply
+3. **Apply Changes** - Apply changes to all selected items
+4. **Verify Results** - Verify that changes were applied correctly
 
-### Standard Creation
+> **GIF Placeholder:** Show batch editing workflow
 
-Prepare data for standard creation:
+### Bulk Operations
 
-- **Standard Data** - Prepare data for standard configuration files
-- **Data Organization** - Organize data for standard format
-- **Quality Control** - Ensure data quality for standards
-- **Documentation** - Include necessary documentation
+Perform various bulk operations:
 
-## Safety Features
+- **Bulk Updates** - Update multiple items at once
+- **Bulk Deletions** - Delete multiple items simultaneously
+- **Bulk Additions** - Add multiple items efficiently
+- **Bulk Modifications** - Modify multiple items consistently
 
-### Change Tracking
+> **GIF Placeholder:** Demonstrate bulk operations
 
-Track all modifications made during editing:
+## Advanced Editing Features
 
-- **Change Logging** - Log all changes made during editing
-- **Modification History** - Maintain history of all modifications
-- **Change Validation** - Validate changes before applying
-- **Rollback Capability** - Ability to undo changes if needed
+### Conditional Editing
 
-### Data Protection
+Edit data based on conditions:
 
-Protect data during editing:
+- **Conditional Selection** - Select data based on conditions
+- **Conditional Modifications** - Apply modifications based on conditions
+- **Smart Editing** - Apply intelligent editing rules
+- **Custom Conditions** - Define custom editing conditions
 
-- **Backup Creation** - Automatic backups of original data
-- **Validation Rules** - Built-in validation to prevent invalid changes
-- **Error Prevention** - Prevent errors during editing process
-- **Data Integrity** - Maintain data integrity throughout process
+> **GIF Placeholder:** Show conditional editing
+
+### Template-Based Editing
+
+Use templates for editing:
+
+- **Template Creation** - Create editing templates
+- **Template Application** - Apply templates to data
+- **Template Management** - Manage editing templates
+- **Template Sharing** - Share templates across teams
+
+> **GIF Placeholder:** Demonstrate template-based editing
+
+### Advanced Validation
+
+Perform advanced data validation:
+
+- **Complex Validation** - Apply complex validation rules
+- **Custom Validation** - Define custom validation rules
+- **Validation Reports** - Generate validation reports
+- **Error Correction** - Suggest error corrections
+
+> **GIF Placeholder:** Show advanced validation
+
+## Data Management
+
+### Data Backup
+
+Backup data before editing:
+
+- **Automatic Backup** - Automatically backup data before editing
+- **Manual Backup** - Manually backup important data
+- **Backup Verification** - Verify backup integrity
+- **Backup Restoration** - Restore data from backups
+
+> **GIF Placeholder:** Demonstrate data backup
+
+### Data Recovery
+
+Recover from editing mistakes:
+
+- **Undo Operations** - Undo recent editing operations
+- **Redo Operations** - Redo undone operations
+- **Data Restoration** - Restore data from backups
+- **Error Recovery** - Recover from editing errors
+
+> **GIF Placeholder:** Show data recovery
+
+### Data Export
+
+Export edited data:
+
+- **Data Export** - Export edited data to files
+- **Format Options** - Choose export formats
+- **Custom Exports** - Create custom exports
+- **Export Validation** - Validate exported data
+
+> **GIF Placeholder:** Demonstrate data export
 
 ## Best Practices
 
-### Data Review
-- **Complete Review** - Always review all imported data before editing
-- **Identify Issues** - Identify any data issues or inconsistencies
-- **Plan Changes** - Plan changes before making modifications
-- **Validate Results** - Validate results after making changes
+### Editing Planning
+- **Plan Edits** - Plan editing operations carefully
+- **Review Data** - Review data before editing
+- **Backup Data** - Backup important data before editing
+- **Document Changes** - Document all changes made
 
-### Editing Process
-- **Use Interface** - Use the built-in editing interface for modifications
-- **Bulk Operations** - Use bulk operations for efficiency
-- **Consistent Changes** - Ensure changes are consistent across data
-- **Document Changes** - Document any significant changes made
+### Editing Execution
+- **Use Validation** - Use validation during editing
+- **Test Changes** - Test changes before applying
+- **Monitor Results** - Monitor editing results
+- **Verify Quality** - Verify data quality after editing
 
-### Quality Control
-- **Data Validation** - Validate all data before importing
-- **Error Checking** - Check for errors during editing process
-- **Consistency Check** - Ensure data consistency across all items
-- **Final Review** - Perform final review before applying 
+### Data Management
+- **Organize Data** - Organize data for efficient editing
+- **Use Templates** - Use templates for consistency
+- **Validate Results** - Validate results after editing
+- **Backup Regularly** - Backup data regularly
+
+### Quality Assurance
+- **Quality Checks** - Perform quality checks after editing
+- **Error Detection** - Detect and correct errors
+- **Data Integrity** - Ensure data integrity
+- **Documentation** - Document all editing procedures 

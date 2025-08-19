@@ -2,7 +2,7 @@
 layout: default
 title: System Edition
 parent: Piping Engineer User Guide
-nav_order: 3
+nav_order: 4
 ---
 
 # System Edition
@@ -18,168 +18,145 @@ nav_order: 3
 
 # System Edition
 
-Piping Engineer provides flexible system edition capabilities that allow you to work with piping networks by network, specific elements, or by picking the start and end of the network.
+Piping Engineer provides flexible system edition capabilities with multiple editing modes for comprehensive network modification and management.
 
 ## Overview
 
-The System Edition feature offers three main approaches to selecting and editing piping systems:
+System edition allows you to:
+- Modify piping networks with multiple editing modes
+- Maintain system integrity during modifications
+- Integrate seamlessly with Civil 3D
+- Handle errors and conflicts effectively
 
-- **Network-based selection**: Work with entire piping networks
-- **Element-based selection**: Focus on specific pipes or structures
-- **Start/End point selection**: Define network boundaries by picking start and end points
+> **GIF Placeholder:** Show overview of system edition capabilities
 
-## Network-based System Edition
+## Editing Modes
 
-### Selecting by Network
+### Flexible Editing
 
-This method allows you to work with entire piping networks as cohesive units.
+Multiple editing modes for different scenarios:
 
-Steps:
-1. Select the "Network" option in the main interface
-2. Choose from available piping networks in your model:
-   - **Sanitary Systems**
-   - **Storm Systems**
-   - **Domestic Water Systems**
-   - **Fire Protection Systems**
-   - **Other MEP Systems**
+- **Network-wide Editing** - Edit entire networks simultaneously
+- **Selective Editing** - Edit specific network components
+- **Bulk Editing** - Perform bulk operations on multiple elements
+- **Precise Editing** - Perform precise modifications on individual elements
 
-![Piping Engineer network selection](../../../assets\images\PipingEngineer\PE-NetworkSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Demonstrate flexible editing modes
 
-### Network Properties
+### Network Modifications
 
-When working with networks, you can access and modify:
+Comprehensive network modification capabilities:
 
-- **System-wide properties** that affect all elements in the network
-- **Network topology** and connectivity
-- **Flow direction** and system type
-- **Network-level parameters** and calculations
+- **Topology Changes** - Modify network topology
+- **Component Modifications** - Modify individual components
+- **System Reconfiguration** - Reconfigure entire systems
+- **Network Optimization** - Optimize network configurations
 
-![Piping Engineer network properties](../../../assets\images\PipingEngineer\PE-NetworkProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Show network modification capabilities
 
-## Element-based System Edition
+### System Integration
 
-### Selecting Specific Elements
+Seamless integration with Civil 3D:
 
-This approach allows you to focus on particular pipes or structures within your piping systems.
+- **Native Civil 3D Objects** - Work with existing Civil 3D objects
+- **Real-time Updates** - Updates reflect immediately in Civil 3D
+- **Flow Direction Awareness** - Understands Civil 3D flow direction
+- **Drawing Method Flexibility** - Accommodates different drawing approaches
 
-Steps:
-1. Select the "Elements" option in the main interface
-2. Choose your selection method:
-   - **Pre-select in Civil 3D**: Select elements in the Civil 3D model first
-   - **Pick from List**: Choose from a list of available elements
-   - **Filter by Properties**: Use property filters to select elements
+> **GIF Placeholder:** Demonstrate system integration
 
-![Piping Engineer element selection](../../../assets\images\PipingEngineer\PE-ElementSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+## Advanced Features
 
-### Element Filtering
+### Multiple Editing Modes
 
-Use advanced filtering options to select specific elements:
+Support for various editing approaches:
 
-```yaml
-# Filter Options:
-- System Type: Filter by piping system category
-- Material: Filter by pipe/structure material
-- Size Range: Filter by diameter or dimensions
-- Elevation Range: Filter by elevation values
-- Connection Type: Filter by fitting or connection type
-- Custom Parameters: Filter by any custom project parameters
-```
+- **Interactive Editing** - Interactive editing with real-time feedback
+- **Batch Processing** - Process multiple modifications in batches
+- **Automated Editing** - Automated editing for repetitive tasks
+- **Custom Workflows** - Support for custom editing workflows
 
-![Piping Engineer element filtering](../../../assets\images\PipingEngineer\PE-ElementFiltering.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **GIF Placeholder:** Show multiple editing modes
 
-## Start/End Point Selection
+### Error Handling
 
-### Picking Network Boundaries
+Robust error handling and validation:
 
-This method allows you to define network segments by selecting start and end points.
+- **Validation Checks** - Perform validation checks before modifications
+- **Conflict Detection** - Detect and resolve conflicts during editing
+- **Rollback Capability** - Rollback problematic modifications
+- **User Feedback** - Provide clear feedback for operations
 
-Steps:
-1. Select the "Start/End Points" option in the main interface
-2. Click "Pick Start Point" and select the starting element in your model
-3. Click "Pick End Point" and select the ending element in your model
-4. The tool will automatically select all elements between the start and end points
+> **GIF Placeholder:** Demonstrate error handling
 
-![Piping Engineer start end selection](../../../assets\images\PipingEngineer\PE-StartEndSelection.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Performance Optimization
 
-### Network Path Analysis
+Optimize editing performance:
 
-When using start/end point selection, the tool provides:
+- **Efficient Processing** - Process modifications efficiently
+- **Memory Management** - Optimize memory usage during editing
+- **Speed Optimization** - Optimize editing speed for large networks
+- **Resource Management** - Manage system resources effectively
 
-- **Path visualization** showing the selected network segment
-- **Element count** and type breakdown
-- **Connection validation** to ensure path continuity
-- **Alternative path suggestions** if multiple routes exist
+> **GIF Placeholder:** Show performance optimization
 
-![Piping Engineer path analysis](../../../assets\images\PipingEngineer\PE-PathAnalysis.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+## Workflow Management
 
-## System-aware Editing
+### Editing Workflows
 
-### Maintaining Network Integrity
+Manage editing workflows effectively:
 
-All system edition methods maintain the integrity of your piping networks:
+- **Workflow Planning** - Plan editing workflows carefully
+- **Step-by-step Execution** - Execute modifications step by step
+- **Progress Tracking** - Track progress during editing operations
+- **Workflow Optimization** - Optimize workflows for efficiency
 
-- **Connection preservation** during edits
-- **Flow direction** maintenance
-- **System type** consistency
-- **Topology validation** after changes
+> **GIF Placeholder:** Demonstrate editing workflows
 
-![Piping Engineer system integrity](../../../assets\images\PipingEngineer\PE-SystemIntegrity.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Quality Control
 
-### Bulk Operations
+Maintain quality during editing:
 
-Perform bulk operations across selected systems:
+- **Quality Checks** - Perform quality checks during editing
+- **Validation Procedures** - Follow validation procedures
+- **Documentation** - Document all modifications
+- **Review Processes** - Review modifications before finalization
 
-1. **Select multiple systems** or elements
-2. **Apply changes** to all selected items simultaneously
-3. **Validate results** to ensure network integrity
-4. **Preview changes** before applying
+> **GIF Placeholder:** Show quality control processes
 
-![Piping Engineer bulk operations](../../../assets\images\PipingEngineer\PE-BulkOperations.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Collaboration Support
 
-## Validation and Error Checking
+Support for collaborative editing:
 
-### Pre-edit Validation
+- **Multi-user Editing** - Support for multiple users editing simultaneously
+- **Change Tracking** - Track changes made by different users
+- **Conflict Resolution** - Resolve conflicts between users
+- **Version Control** - Maintain version control for modifications
 
-Before applying changes, the tool validates:
+> **GIF Placeholder:** Demonstrate collaboration support
 
-- **Network connectivity** and completeness
-- **Parameter compatibility** across selected elements
-- **System type** consistency
-- **Elevation** and slope constraints
+## Best Practices
 
-![Piping Engineer pre-edit validation](../../../assets\images\PipingEngineer\PE-PreEditValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+### Planning and Preparation
+- **Plan Modifications** - Plan modifications carefully before execution
+- **Understand Network Structure** - Understand network structure before editing
+- **Backup Important Data** - Backup important data before modifications
+- **Test on Copies** - Test modifications on copies before production
 
-### Post-edit Validation
+### Execution and Monitoring
+- **Execute Carefully** - Execute modifications carefully and methodically
+- **Monitor Progress** - Monitor progress during editing operations
+- **Validate Results** - Validate results after modifications
+- **Document Changes** - Document all changes made
 
-After applying changes, the tool checks:
+### Quality Assurance
+- **Quality Checks** - Perform quality checks after modifications
+- **Compliance Verification** - Verify compliance with standards
+- **Performance Testing** - Test performance after modifications
+- **User Acceptance** - Ensure user acceptance of modifications
 
-- **Network integrity** maintenance
-- **Parameter consistency** across the system
-- **Connection validity** and flow direction
-- **Error reporting** for any issues found
-
-![Piping Engineer post-edit validation](../../../assets\images\PipingEngineer\PE-PostEditValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
-
-## Undo and Redo
-
-### Change Management
-
-Piping Engineer provides comprehensive change management:
-
-- **Undo operations** to revert recent changes
-- **Redo operations** to reapply undone changes
-- **Change history** tracking for audit purposes
-- **Selective undo** for specific operations
-
-![Piping Engineer undo redo](../../../assets\images\PipingEngineer\PE-UndoRedo.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiCivil](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub> 
+### Maintenance and Updates
+- **Regular Maintenance** - Perform regular maintenance on modified systems
+- **Update Documentation** - Update documentation after modifications
+- **Monitor Performance** - Monitor performance after modifications
+- **Address Issues** - Address any issues that arise after modifications 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Export and Import Excel
+title: Export Import Excel
 parent: Transfer Object Layers User Guide
-nav_order: 2
+nav_order: 4
 ---
 
-# Export and Import Excel
+# Export Import Excel
 {: .no_toc }
 
 ## Table of contents
@@ -16,167 +16,236 @@ nav_order: 2
 
 ---
 
-# Export and Import Excel
+# Export Import Excel
 
-Transfer Object Layers provides comprehensive Excel export and import functionality for creating and managing standard configuration files. The tool enables you to export current file settings as standards and import those standards into other projects.
+Transfer Object Layers provides comprehensive Excel export and import functionality, allowing you to create and manage standards via Excel files with structured templates.
 
 ## Overview
 
-Excel export and import functionality allows you to create standard configuration files from existing Civil 3D files and apply those standards to other projects. This workflow is essential for maintaining consistency across projects and establishing company standards.
+Excel workflow allows you to:
+- Export current file settings as standards
+- Import standards from Excel files
+- Create and manage standards efficiently
+- Share standards across teams
+
+> **GIF Placeholder:** Show overview of Excel export/import capabilities
 
 ## Export to Excel
 
 ### Standard Creation
 
-Create standard configuration files from existing files:
+Create standard configuration files:
 
-- **Standard Export** - Export current file settings as a standard
+- **Standard Export** - Export current file settings as standard
 - **Excel File Creation** - Create Excel file with all object layer data
-- **File Naming** - Name the exported Excel file appropriately
 - **Data Organization** - Organize data in structured Excel format
+- **File Naming** - Name the exported Excel file appropriately
+
+> **GIF Placeholder:** Demonstrate standard creation and export
 
 ### Export Process
 
 Complete export workflow:
 
-1. **Open Source File** - Open the file you want to use as a standard
-2. **Open Transfer Tool** - Open Transfer Object Layers from Civil Management
-3. **Export to Excel** - Export current file settings to Excel
-4. **Name and Save** - Name and save the Excel standard file
-5. **Review Output** - Verify the exported data structure and content
+1. **Select Export Source** - Choose source file for export
+2. **Configure Export** - Configure export settings and options
+3. **Generate Excel File** - Create Excel file with object layer data
+4. **Save File** - Save Excel file with appropriate name
+5. **Verify Export** - Verify exported data is complete and accurate
 
-### Export Features
+> **GIF Placeholder:** Show complete export process
 
-Comprehensive export capabilities:
+### Export Options
 
-- **Complete Data Export** - Export all object layer settings and properties
-- **Structured Templates** - Use pre-formatted Excel templates for consistent data structure
-- **Multiple Formats** - Support for various Excel formats (.xlsx, .xls, .csv)
-- **Data Organization** - Organize data in logical structure
+Configure export settings:
 
-## Import from Excel
+- **Data Selection** - Select specific data for export
+- **Format Options** - Choose Excel format options
+- **Template Selection** - Select appropriate Excel template
+- **Customization** - Customize export format and structure
 
-### Standard Application
+> **GIF Placeholder:** Demonstrate export options configuration
 
-Import standards from Excel files:
+## Excel Import
 
-- **Excel File Selection** - Select Excel file containing standard data
-- **Data Loading** - Load all data from Excel file
-- **Layer Association** - View layer data associated with objects
-- **Import Process** - Import all data to target file
+### File Selection
+
+Select Excel files for import:
+
+- **Excel File Selection** - Select Excel files containing object layer data
+- **File Validation** - Validate Excel file format and content
+- **Template Support** - Use structured Excel templates
+- **Data Verification** - Verify Excel data before import
+
+> **GIF Placeholder:** Show Excel file selection process
 
 ### Import Process
 
 Complete import workflow:
 
-1. **Open Target File** - Open the file where you want to apply the standard
-2. **Open Transfer Tool** - Open Transfer Object Layers
-3. **Import from Excel** - Select Excel file containing standard
-4. **Review Data** - Review imported standard data
-5. **Apply Standard** - Import all data to apply the standard
+1. **Select Excel File** - Choose Excel file containing standard data
+2. **Load Data** - Load all data from Excel file
+3. **Review Data** - Review imported data in the UI
+4. **Validate Data** - Validate Excel data before import
+5. **Import Data** - Import all data to target file
 
-### Import Features
+> **GIF Placeholder:** Demonstrate complete import process
 
-Comprehensive import capabilities:
+### Data Loading
 
-- **Template Validation** - Validate imported data against template structure
-- **Data Mapping** - Map Excel data to Civil 3D object layer settings
-- **Error Handling** - Identify and resolve import errors
-- **Batch Import** - Import all data with single operation
+Load data from Excel files:
+
+- **Data Extraction** - Extract object layer data from Excel
+- **Layer Association** - View layer data associated with objects
+- **Data Mapping** - Map Excel data to object layer structure
+- **Data Validation** - Validate data during loading process
+
+> **GIF Placeholder:** Show data loading from Excel
 
 ## Standard Management
 
 ### Standard Creation
 
-Create effective standards:
+Create standards from existing files:
 
 - **Representative Files** - Use representative files for standard creation
-- **Complete Settings** - Include all relevant object layer settings
-- **Documentation** - Document what each standard includes
+- **Standard Documentation** - Document what each standard includes
 - **Version Control** - Maintain different versions of standards
+- **Quality Assurance** - Ensure standard quality and completeness
+
+> **GIF Placeholder:** Demonstrate standard creation
 
 ### Standard Distribution
 
 Share standards across teams:
 
-- **Excel Files** - Distribute standards as Excel files
-- **Network Sharing** - Share standards via network locations
-- **Team Access** - Provide team access to standard files
-- **Standard Updates** - Update and maintain standards
+- **File Sharing** - Share standards via Excel files
+- **Team Distribution** - Distribute standards across teams
+- **Access Control** - Control access to standards
+- **Version Management** - Manage different versions of standards
+
+> **GIF Placeholder:** Show standard distribution
 
 ### Standard Application
 
-Apply standards to projects:
+Apply standards to new projects:
 
 - **Project Setup** - Apply standards to new projects
-- **Consistency** - Maintain consistency across projects
-- **Standard Compliance** - Ensure projects comply with standards
-- **Quality Control** - Use standards for quality control
+- **Standard Integration** - Integrate standards into project workflow
+- **Consistency** - Ensure consistency across projects
+- **Quality Control** - Maintain quality through standards
 
-## Excel Workflow Examples
+> **GIF Placeholder:** Demonstrate standard application
 
-### Example 1: Creating a Standard
+### Standard Maintenance
 
-1. **Open Source File** - Open file with desired settings
-2. **Open Transfer Tool** - Open Transfer Object Layers
-3. **Export to Excel** - Export current settings to Excel
-4. **Name Standard** - Give the standard a descriptive name
-5. **Save File** - Save the Excel standard file
-6. **Document Standard** - Document what the standard includes
+Maintain and update standards:
 
-### Example 2: Applying a Standard
+- **Regular Updates** - Update standards regularly
+- **Version Tracking** - Track standard versions
+- **Change Management** - Manage changes to standards
+- **Documentation Updates** - Update standard documentation
 
-1. **Open Target File** - Open file where you want to apply standard
-2. **Open Transfer Tool** - Open Transfer Object Layers
-3. **Import from Excel** - Select Excel standard file
-4. **Review Data** - Review imported standard data
-5. **Import All** - Import all data to apply the standard
-6. **Verify Application** - Verify standard is applied correctly
+> **GIF Placeholder:** Show standard maintenance
 
-### Example 3: Updating Standards
+## Excel Templates
 
-1. **Modify Source File** - Update settings in source file
-2. **Export Updated Standard** - Export updated settings to Excel
-3. **Version Control** - Create new version of standard
-4. **Distribute Updates** - Share updated standard with team
-5. **Apply Updates** - Apply updated standard to projects
+### Template Structure
 
-## Template Structure
+Use structured Excel templates:
 
-### Excel Template Components
+- **Template Design** - Design structured Excel templates
+- **Data Organization** - Organize data in template format
+- **Validation Rules** - Include validation rules in templates
+- **User Guidance** - Provide guidance for template use
 
-Structured Excel templates for data consistency:
+> **GIF Placeholder:** Demonstrate template structure
 
-- **Object Type Sheets** - Separate worksheets for different Civil 3D object types
-- **Property Columns** - Structured columns for layer properties and settings
-- **Validation Rules** - Built-in validation for data integrity
-- **Metadata Fields** - Additional information for tracking and management
+### Template Management
 
-### Data Organization
+Manage Excel templates:
 
-Organize data effectively in Excel:
+- **Template Creation** - Create new Excel templates
+- **Template Updates** - Update existing templates
+- **Template Distribution** - Distribute templates to users
+- **Template Support** - Provide support for template use
 
-- **Logical Structure** - Organize data in logical structure
-- **Clear Headers** - Use clear column headers
-- **Data Validation** - Include data validation rules
-- **Documentation** - Include documentation in Excel file
+> **GIF Placeholder:** Show template management
+
+### Custom Templates
+
+Create custom Excel templates:
+
+- **Custom Design** - Design custom templates for specific needs
+- **Specialized Formats** - Create specialized formats for different uses
+- **Branding** - Include branding in templates
+- **Functionality** - Add functionality to templates
+
+> **GIF Placeholder:** Demonstrate custom template creation
+
+## Advanced Excel Features
+
+### Data Validation
+
+Validate Excel data:
+
+- **Format Validation** - Validate Excel file format
+- **Content Validation** - Validate Excel content and structure
+- **Data Integrity** - Ensure data integrity in Excel files
+- **Error Detection** - Detect errors in Excel data
+
+> **GIF Placeholder:** Show Excel data validation
+
+### Batch Excel Operations
+
+Perform batch Excel operations:
+
+- **Multiple File Import** - Import multiple Excel files
+- **Batch Export** - Export data to multiple Excel files
+- **Batch Processing** - Process multiple Excel files
+- **Automation** - Automate Excel operations
+
+> **GIF Placeholder:** Demonstrate batch Excel operations
+
+### Excel Integration
+
+Integrate with Excel workflows:
+
+- **Excel Automation** - Automate Excel operations
+- **Data Synchronization** - Synchronize data with Excel
+- **Real-time Updates** - Update Excel data in real-time
+- **Workflow Integration** - Integrate Excel into workflows
+
+> **GIF Placeholder:** Show Excel integration
 
 ## Best Practices
 
+### Excel File Management
+- **File Organization** - Organize Excel files systematically
+- **Naming Conventions** - Use consistent naming conventions
+- **Version Control** - Maintain version control for Excel files
+- **Backup Strategy** - Implement backup strategy for Excel files
+
 ### Standard Creation
 - **Use Representative Files** - Use representative files for standard creation
-- **Include All Settings** - Include all relevant object layer settings
 - **Document Standards** - Document what each standard includes
-- **Version Control** - Maintain different versions of standards
+- **Quality Control** - Ensure standard quality and completeness
+- **Regular Updates** - Update standards regularly
 
-### Standard Management
-- **Organize Standards** - Organize standards by project type or purpose
-- **Regular Updates** - Update standards as workflows evolve
-- **Team Communication** - Communicate standard changes to team
-- **Quality Control** - Use standards for quality control
+### Import/Export Process
+- **Validate Data** - Validate Excel data before import/export
+- **Test Procedures** - Test import/export procedures
+- **Document Procedures** - Document import/export procedures
+- **Error Handling** - Handle errors during import/export
 
-### Excel Workflow
+### Template Usage
 - **Use Structured Templates** - Use structured Excel templates for consistency
-- **Validate Excel Data** - Validate Excel data before importing
-- **Maintain Standards** - Keep standards updated and current
-- **Test Standards** - Test standards before widespread use 
+- **Template Validation** - Validate templates before use
+- **Template Updates** - Keep templates updated
+- **User Training** - Train users on template usage
+
+### Data Quality
+- **Data Validation** - Validate data quality in Excel files
+- **Consistency Checks** - Perform consistency checks on data
+- **Error Correction** - Correct errors in Excel data
+- **Quality Assurance** - Ensure data quality throughout process 

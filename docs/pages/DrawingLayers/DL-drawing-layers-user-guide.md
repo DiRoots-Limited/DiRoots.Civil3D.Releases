@@ -11,7 +11,7 @@ permalink: /docs/drawing-layers-user-guide
 Learn how to use Drawing Layers to edit layer data and layer states using a spreadsheet-format interface, with Excel export and import capabilities.
 {: .fs-6 .fw-300 }
 
-## Description
+## Overview
 
 Drawing Layers provides a powerful spreadsheet-format interface for editing layer data and layer states. The tool features two main tabs (Active Layers and Layer States) and allows you to manage your layer and state data efficiently using a familiar spreadsheet interface, complete with formula features, and enables seamless export and import of data to Excel for external editing.
 
@@ -34,6 +34,8 @@ The Drawing Layers tool opens with two main tabs:
 - **Active Layers Tab** - Access and edit all used layers
 - **Layer States Tab** - Manage layer states and their properties
 
+> **GIF Placeholder:** Show the main interface and basic navigation
+
 ### Tool Access
 
 Access the tool efficiently:
@@ -43,143 +45,74 @@ Access the tool efficiently:
 - **State Management** - Manage layer states from Layer States tab
 - **Spreadsheet Interface** - Work with familiar spreadsheet format
 
-## Active Layers Management
+### Basic Workflow
 
-### Layer Data Access
+1. **Open Drawing Layers** from the DiRoots tab
+2. **Choose Tab** - Select Active Layers or Layer States tab
+3. **Edit Data** - Modify layer data directly in the spreadsheet interface
+4. **Use Formulas** - Apply formulas for bulk operations
+5. **Review Changes** - Check highlighted changes before applying
+6. **Apply Updates** - Confirm and apply changes to layer data
 
-Access and edit all used layers:
+> **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes
 
+## Quick Reference
+
+### Spreadsheet Interface
+- **Two-Tab Structure** - Active Layers and Layer States tabs
+- **Direct Cell Editing** - Edit data directly in spreadsheet cells
+- **Formula Support** - Use Excel-like formulas for data manipulation
+- **Change Highlighting** - Visual indicators for modified values
+
+### Active Layers Management
 - **Complete Layer View** - See all used layers in spreadsheet format
-- **Direct Editing** - Edit layer data directly in cells
-- **Property Modification** - Modify any layer property
+- **Property Modification** - Modify any layer property directly
+- **Bulk Operations** - Apply changes to multiple layers simultaneously
 - **Real-time Updates** - See changes immediately in the interface
 
-### Formula Capabilities
-
-Use Excel-like formulas for data manipulation:
-
-- **Column Concatenation** - Concatenate two columns together
-- **Prefix Addition** - Add prefixes to layer names
-- **Formula Expansion** - Expand formulas across multiple rows
-- **Dynamic Updates** - Apply formulas to update multiple layers
-
-### Change Management
-
-Track and manage changes:
-
-- **Color Highlighting** - Modified values are highlighted in a different color
-- **Change Confirmation** - Confirm changes before applying
-- **Reset Functionality** - Reset changes before confirming
-- **Update Process** - Apply changes to update layer data
-
-## Layer States Management
-
-### State Editing
-
-Edit layer state properties:
-
+### Layer States Management
 - **State Selection** - Select specific layer states for editing
 - **Property Modification** - Edit state properties and settings
 - **Bulk Changes** - Apply changes to multiple states
 - **Color Management** - Change colors for related layers
 
-### State Properties
-
-Manage comprehensive state properties:
-
-- **State Names** - Edit layer state names
-- **Layer Assignments** - Modify which layers are in each state
-- **Color Settings** - Change colors for state-related layers
-- **Property Values** - Edit any state property value
-
-### Bulk Operations
-
-Efficient bulk operations:
-
-- **Selective Changes** - Apply changes to specific layer groups
-- **Color Updates** - Change colors for related layers (e.g., corridor layers to red)
-- **State Application** - Apply state changes to multiple layers
-- **Verification** - Verify changes are applied correctly
-
-## Excel Integration
-
-### Export to Excel
-
-Export data for external editing:
-
-- **Active Layers Export** - Export active layers data to Excel
-- **File Saving** - Save Excel file with layer data
-- **External Editing** - Edit data in Excel environment
-- **Data Preservation** - Preserve all layer data and properties
-
-### Import from Excel
-
-Import updated data with change detection:
-
-- **File Selection** - Select updated Excel file for import
+### Excel Integration
+- **Export to Excel** - Export layer data for external editing
+- **Import from Excel** - Import updated data with change detection
 - **Change Detection** - Automatically detect changes in imported data
-- **Color Highlighting** - Highlight changed values.
-- **Change Review** - Review changes before applying
-- **Update Process** - Apply verified changes to layer data
+- **Change Review** - Review highlighted changes before applying
 
-### Excel Workflow
-
-Complete Excel workflow:
-
-1. **Export Data** - Export layer data to Excel
-2. **External Editing** - Edit data in Excel (e.g., change layer names)
-3. **Save Changes** - Save modified Excel file
-4. **Import Data** - Import updated Excel file
-5. **Review Changes** - Review highlighted changes
-6. **Apply Updates** - Apply verified changes
-
-## Formula Features
-
-### Advanced Formula Capabilities
-
-Powerful formula functionality:
-
+### Formula Capabilities
 - **Column Concatenation** - Combine two columns into one
 - **Prefix Addition** - Add prefixes to existing values
 - **Formula Expansion** - Apply formulas across multiple rows
 - **Dynamic Calculations** - Perform calculations on layer data
 
-### Formula Examples
-
-Practical formula usage:
-
-- **Layer Name Concatenation** - Combine layer name with prefix
-- **Property Calculations** - Calculate derived properties
-- **Conditional Formatting** - Apply conditional logic to data
-- **Bulk Updates** - Update multiple layers with single formula
-
-## Change Management
-
-### Visual Change Tracking
-
-Track changes visually:
-
-- **Color Highlighting** - Modified values highlighted in a different color
+### Change Management
+- **Visual Change Tracking** - Modified values highlighted in color
 - **Change Confirmation** - Confirm changes before applying
-- **Reset Options** - Reset changes before confirming
-- **Update Process** - Apply confirmed changes
-
-### Safety Features
-
-Safe change management:
-
-- **Change Review** - Review all changes before applying
 - **Reset Functionality** - Undo changes before confirming
-- **Confirmation Process** - Confirm changes before applying
-- **Verification** - Verify changes are applied correctly
+- **Safety Features** - Review and verify changes before applying
+
+### Profile Management
+- **Configuration Saving** - Save and reuse configuration settings
+- **Profile Organization** - Organize profiles systematically
+- **Profile Sharing** - Share profiles across teams
+- **Version Control** - Version control for configurations
 
 ## Best Practices
 
-### Formula Usage
-- **Plan Formulas** - Plan formulas before applying to multiple rows
+### Getting Started
+- **Familiarize with Interface** - Understand the two-tab structure
+- **Start with Small Changes** - Begin with minor modifications
+- **Use Reset Function** - Use reset to undo unwanted changes
+- **Backup Important Data** - Always backup important layer data
+
+### Spreadsheet Interface
+- **Plan Edits** - Plan your edits before making changes
+- **Use Formulas** - Leverage formulas for bulk operations
+- **Monitor Changes** - Watch for color highlighting of changes
 - **Test Formulas** - Test formulas on small datasets first
-- **Expand Carefully** - Expand formulas carefully across rows
-- **Verify Results** - Verify formula results before applying
 
 ### Change Management
 - **Review Changes** - Always review changes before applying
@@ -197,4 +130,10 @@ Safe change management:
 - **Select States Carefully** - Select appropriate states for editing
 - **Apply Changes Consistently** - Apply changes consistently across states
 - **Verify State Changes** - Verify state changes are applied correctly
-- **Test State Applications** - Test state applications before widespread use 
+- **Test State Applications** - Test state applications before widespread use
+
+### Profile Management
+- **Create Useful Profiles** - Create profiles for common workflows
+- **Organize Profiles** - Organize profiles systematically
+- **Share Best Practices** - Share profiles with team members
+- **Regular Updates** - Update profiles as workflows evolve 

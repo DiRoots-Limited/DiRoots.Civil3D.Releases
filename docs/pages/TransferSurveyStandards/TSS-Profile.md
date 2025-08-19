@@ -5,7 +5,7 @@ parent: Transfer Survey Standards User Guide
 nav_order: 5
 ---
 
-# Profiles
+# Profile
 {: .no_toc }
 
 ## Table of contents
@@ -16,146 +16,223 @@ nav_order: 5
 
 ---
 
-# Profiles
+# Profile
 
-Transfer Survey Standards profiles store complete transfer configurations including source and destination settings, survey standards data, and export/import preferences. The profile system enables efficient management and reuse of transfer settings across projects and teams.
+Transfer Survey Standards includes a comprehensive profile system that allows you to save and reuse transfer configurations, making it easy to maintain consistent settings across multiple projects.
 
-## What's Saved in Profiles
+## Overview
 
-The following settings are saved in Transfer Survey Standards profiles:
+Profile system allows you to:
+- Save transfer configurations for reuse
+- Switch between different profiles
+- Maintain consistent settings across projects
+- Share profiles across teams
 
-- **Transfer Source and Destination** - File preferences and transfer paths
-- **Point Description Keys Configurations** - PDK settings and mappings
-- **Figure Prefix Database Settings** - Database configurations and associations
-- **Export/Import Settings** - Excel template preferences and configurations
-- **Survey Standards Data** - Complete survey standards configurations
-- **Editing Preferences** - Data editing settings and validation rules
-- **Search and Filter Settings** - Search criteria and filter configurations
+> **GIF Placeholder:** Show overview of profile system
 
-## Creating Profiles
+## Profile Creation
 
-Transfer Survey Standards profiles let you save your transfer settings, survey standards configurations, and export/import preferences for reuse and sharing across projects and teams.
+### New Profile Creation
 
-### Steps to Create a Profile
+Create new profiles for transfer configurations:
 
-1. **Configure Your Settings**
-   - Set up transfer sources and destinations
-   - Configure PDKs and Figure Prefix Database settings
-   - Set up Excel export/import preferences
-   - Configure search and filter settings
+- **Profile Setup** - Set up new profiles with specific configurations
+- **Configuration Saving** - Save transfer configurations to profiles
+- **Profile Naming** - Name profiles appropriately for easy identification
+- **Profile Organization** - Organize profiles systematically
 
-2. **Save as Profile**
-   - In the window header, click the save button next to the profiles list
-   - Name the profile (choose a meaningful name for easy identification)
-   - Choose the location to save it
-   - Click "Save" to store the profile
+> **GIF Placeholder:** Demonstrate new profile creation
 
-3. **Profile Organization**
-   - Use descriptive names for easy identification
-   - Organize profiles by project type or standard
-   - Consider versioning for different scenarios
+### Profile Configuration
 
-![Transfer Survey Standards Creating profiles](../../../assets/images/TransferSurveyStandards/TSS-SaveProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+Configure profiles with specific settings:
 
-```yaml
-Tip for BIM Managers!
-Create profiles in a network location to allow other users to import them.
-See the "Importing Profiles" section for details.
-```
+- **Transfer Settings** - Configure transfer settings for profiles
+- **Import Options** - Set import options for profiles
+- **Export Settings** - Configure export settings for profiles
+- **Custom Settings** - Add custom settings to profiles
 
-## Importing Profiles
+> **GIF Placeholder:** Show profile configuration
 
-Import existing profiles to stay compliant with company standards and maintain consistency across projects.
+### Profile Templates
 
-### Steps to Import Profiles
+Use profile templates for consistency:
 
-1. **Access Import Function**
-   - Click the Import button next to the profiles list
-   - Navigate to the profile file location
+- **Template Selection** - Select appropriate profile templates
+- **Template Customization** - Customize templates for specific needs
+- **Template Management** - Manage profile templates
+- **Template Sharing** - Share templates across teams
 
-2. **Select Profile**
-   - Use File Explorer to find the profile (shared folder, network, or local)
-   - Browse to the desired profile file
-   - Click "Open" to import the profile
+> **GIF Placeholder:** Demonstrate profile templates
 
-3. **Apply Profile**
-   - The imported profile will be available in your profile list
-   - Select the profile to apply its settings to your current project
-   - Modify settings as needed for the current project requirements
+## Profile Management
 
-![Transfer Survey Standards importing profiles](../../../assets/images/TransferSurveyStandards/TSS-ImportProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+### Profile Switching
 
-## Deleting Profiles
+Switch between different profiles:
 
-Remove unwanted or outdated profiles from your profile library.
+- **Profile Selection** - Select different profiles for use
+- **Quick Switching** - Switch profiles quickly and efficiently
+- **Profile Loading** - Load profile configurations
+- **Profile Activation** - Activate selected profiles
 
-### Steps to Delete Profiles
+> **GIF Placeholder:** Show profile switching
 
-1. **Select Profile**
-   - Select the profile from the profile dropdown list
-   - Ensure you're selecting the correct profile to delete
+### Profile Organization
 
-2. **Delete Profile**
-   - Click the Delete icon next to the profiles list
-   - Confirm deletion when prompted
-   - The profile will be permanently removed
+Organize profiles effectively:
 
-![Transfer Survey Standards delete profiles](../../../assets/images/TransferSurveyStandards/TSS-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+- **Profile Categories** - Categorize profiles by type or purpose
+- **Profile Hierarchy** - Organize profiles hierarchically
+- **Profile Search** - Search for specific profiles
+- **Profile Filtering** - Filter profiles by criteria
+
+> **GIF Placeholder:** Demonstrate profile organization
+
+### Profile Backup
+
+Backup and restore profiles:
+
+- **Profile Backup** - Backup important profiles
+- **Profile Restoration** - Restore profiles from backups
+- **Backup Verification** - Verify backup integrity
+- **Backup Management** - Manage profile backups
+
+> **GIF Placeholder:** Show profile backup and restoration
+
+## Profile Features
+
+### Configuration Reuse
+
+Reuse saved configurations:
+
+- **Saved Configurations** - Access saved transfer configurations
+- **Configuration Application** - Apply saved configurations to new projects
+- **Configuration Modification** - Modify saved configurations
+- **Configuration Sharing** - Share configurations across teams
+
+> **GIF Placeholder:** Demonstrate configuration reuse
+
+### Profile Synchronization
+
+Synchronize profiles across systems:
+
+- **Cross-System Sync** - Synchronize profiles across different systems
+- **Cloud Sync** - Synchronize profiles via cloud storage
+- **Network Sync** - Synchronize profiles across network
+- **Sync Management** - Manage synchronization settings
+
+> **GIF Placeholder:** Show profile synchronization
+
+### Profile Versioning
+
+Manage profile versions:
+
+- **Version Control** - Control profile versions
+- **Version History** - Track profile version history
+- **Version Rollback** - Rollback to previous versions
+- **Version Comparison** - Compare different versions
+
+> **GIF Placeholder:** Demonstrate profile versioning
 
 ## Advanced Profile Features
 
-### Search and Filter Integration
+### Profile Automation
 
-Profiles can include search and filter configurations:
+Automate profile operations:
 
-- **Search Criteria** - Save search settings for quick data location
-- **Filter Configurations** - Store filter settings for efficient data management
-- **Data Organization** - Maintain data organization preferences
-- **Quick Access** - Rapid access to frequently used search/filter combinations
+- **Automatic Loading** - Automatically load profiles based on conditions
+- **Profile Triggers** - Set triggers for profile activation
+- **Automated Switching** - Automatically switch profiles
+- **Automation Rules** - Define automation rules for profiles
 
-### Similar Workflow to Transfer Object Layers
+> **GIF Placeholder:** Show profile automation
 
-Transfer Survey Standards follows a similar workflow to Transfer Object Layers:
+### Profile Security
 
-- **Familiar Interface** - Similar UI and workflow patterns
-- **Consistent Experience** - Familiar user experience across tools
-- **Shared Capabilities** - Common features like Excel export/import
-- **Standardized Process** - Consistent transfer and management processes
+Secure profile access:
 
-### Data Management Integration
+- **Access Control** - Control access to profiles
+- **Profile Encryption** - Encrypt sensitive profile data
+- **User Permissions** - Set user permissions for profiles
+- **Security Management** - Manage profile security settings
 
-Profiles integrate with data management features:
+> **GIF Placeholder:** Demonstrate profile security
 
-- **Transfer Settings** - Complete transfer configuration storage
-- **Data Editing Preferences** - Save editing preferences and settings
-- **Validation Rules** - Store validation and error checking rules
-- **Conflict Resolution** - Save conflict resolution preferences
+### Profile Analytics
+
+Analyze profile usage:
+
+- **Usage Tracking** - Track profile usage patterns
+- **Performance Analysis** - Analyze profile performance
+- **Usage Reports** - Generate usage reports
+- **Analytics Dashboard** - View analytics dashboard
+
+> **GIF Placeholder:** Show profile analytics
+
+## Profile Integration
+
+### Project Integration
+
+Integrate profiles with projects:
+
+- **Project Association** - Associate profiles with projects
+- **Project Templates** - Use profiles as project templates
+- **Project Workflow** - Integrate profiles into project workflow
+- **Project Management** - Manage projects with profiles
+
+> **GIF Placeholder:** Demonstrate project integration
+
+### Team Collaboration
+
+Collaborate with teams using profiles:
+
+- **Team Sharing** - Share profiles with team members
+- **Collaborative Editing** - Edit profiles collaboratively
+- **Team Workflow** - Integrate profiles into team workflow
+- **Team Management** - Manage team profile access
+
+> **GIF Placeholder:** Show team collaboration
+
+### External Integration
+
+Integrate with external systems:
+
+- **API Integration** - Integrate profiles with external APIs
+- **System Integration** - Integrate with other systems
+- **Data Exchange** - Exchange profile data with external systems
+- **Integration Management** - Manage external integrations
+
+> **GIF Placeholder:** Demonstrate external integration
 
 ## Best Practices
 
 ### Profile Creation
-- **Start with Standards** - Base profiles on established survey standards
-- **Test Thoroughly** - Verify profiles work across different scenarios
-- **Document Purpose** - Clearly document what each profile is for
-- **Version Control** - Maintain different versions for different needs
+- **Plan Profiles** - Plan profile creation carefully
+- **Use Templates** - Use templates for consistency
+- **Document Profiles** - Document profile configurations
+- **Test Profiles** - Test profiles before production use
 
 ### Profile Management
-- **Organize Systematically** - Use consistent naming and organization
-- **Regular Reviews** - Periodically review and update profiles
-- **User Training** - Train team members on profile usage
-- **Feedback Loop** - Collect feedback to improve profiles
+- **Organize Profiles** - Organize profiles systematically
+- **Regular Maintenance** - Maintain profiles regularly
+- **Version Control** - Use version control for profiles
+- **Backup Strategy** - Implement backup strategy for profiles
 
-### Profile Sharing
-- **Centralized Storage** - Store profiles in a central, accessible location
-- **Access Control** - Control who can modify shared profiles
-- **Change Management** - Establish processes for profile updates
-- **Communication** - Notify team members of profile changes
+### Profile Usage
+- **Select Appropriate Profiles** - Select appropriate profiles for projects
+- **Validate Configurations** - Validate profile configurations
+- **Monitor Usage** - Monitor profile usage and performance
+- **Update Profiles** - Update profiles as needed
 
-### Search and Filter Management
-- **Save Useful Searches** - Save frequently used search configurations
-- **Filter Organization** - Organize filter settings for efficiency
-- **Quick Access** - Create profiles with quick access to common searches
-- **Data Navigation** - Optimize data navigation with saved configurations 
+### Profile Security
+- **Access Control** - Implement proper access control
+- **Data Protection** - Protect sensitive profile data
+- **Security Monitoring** - Monitor profile security
+- **Regular Audits** - Conduct regular security audits
+
+### Profile Performance
+- **Optimize Profiles** - Optimize profiles for performance
+- **Resource Management** - Manage system resources efficiently
+- **Performance Monitoring** - Monitor profile performance
+- **Performance Tuning** - Tune profiles for optimal performance 

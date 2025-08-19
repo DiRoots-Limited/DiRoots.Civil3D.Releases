@@ -18,171 +18,163 @@ nav_order: 4
 
 # Bulk Editing
 
-Style Helper enables you to select and edit multiple Civil 3D objects and rows at once, making large-scale changes fast and efficient. The tool provides comprehensive filtering capabilities and supports editing multiple rows simultaneously, including parent properties that affect multiple child components.
+Style Helper enables you to edit multiple objects and table rows simultaneously, significantly improving productivity when working with large datasets.
 
 ## Overview
 
-Bulk editing is a powerful feature that allows you to efficiently modify multiple objects and rows simultaneously. The tool provides filtering capabilities to focus on specific data and supports editing parent properties that automatically affect multiple child components, making large-scale style modifications quick and consistent.
+Bulk editing allows you to:
+- Edit multiple objects at once
+- Modify multiple table rows simultaneously
+- Apply consistent changes across multiple components
+- Save time with efficient batch operations
 
-## Filtering Capabilities
+> **GIF Placeholder:** Show overview of bulk editing capabilities
 
-### Data Filtering
+## Multi-Object Editing
 
-Filter data to focus on specific information:
+### Object Selection
 
-- **Column Filtering** - Filter by any column in the table
-- **Value-based Filtering** - Filter by specific values or criteria
-- **Multiple Row Filtering** - Filter to show multiple rows with specific data
-- **Real-time Filtering** - See filtered results immediately
+Select multiple objects for bulk editing:
 
-### Filter Examples
+- **Multi-selection** - Check multiple objects in the tree structure
+- **Bulk Modifications** - Apply changes to multiple objects at once
+- **Consistent Updates** - Ensure consistent changes across objects
+- **Efficiency** - Save time with bulk operations
 
-Practical filtering examples:
+> **GIF Placeholder:** Demonstrate selecting multiple objects and applying bulk changes
 
-- **Filter by Value** - Filter to show rows with specific values
-- **Filter by Design** - Filter to show rows with specific design criteria
-- **Multi-column Filtering** - Filter across multiple columns simultaneously
-- **Dynamic Filtering** - Filter data dynamically as you work
+### Object-Level Changes
 
-### Filter Usage
+When you select multiple objects, changes are applied to all selected objects:
 
-Using filters effectively:
+- **Property Updates** - Update properties across all selected objects
+- **Style Modifications** - Modify styles for multiple objects simultaneously
+- **Data Consistency** - Maintain data consistency across objects
+- **Visual Feedback** - See which objects are affected by changes
 
-- **Value Search** - Search for specific values in the data
-- **Design Search** - Find objects with specific design criteria
-- **Efficient Navigation** - Quickly locate relevant data
-- **Focused Editing** - Focus editing on filtered data only
+> **GIF Placeholder:** Show object-level bulk property updates
 
 ## Multi-Row Editing
 
 ### Row Selection
 
-Select multiple rows for bulk editing:
+Select multiple rows in the table for simultaneous editing:
 
-- **Individual Selection** - Select specific rows for editing
-- **Multi-selection** - Select multiple rows using Ctrl+Click or Shift+Click
-- **Select All Filtered** - Select all rows in filtered view
-- **Bulk Selection** - Select large numbers of rows efficiently
+- **Row Selection** - Select multiple rows using checkboxes or keyboard shortcuts
+- **Simultaneous Editing** - Edit multiple rows at the same time
+- **Visual Confirmation** - See which rows are selected and affected
+- **Bulk Updates** - Apply changes to all selected rows
 
-### Simultaneous Editing
+> **GIF Placeholder:** Demonstrate row selection and multi-row editing
 
-Edit multiple rows at once:
+### Row-Level Operations
 
-- **Multi-row Modifications** - Apply changes to multiple rows simultaneously
-- **Consistent Updates** - Ensure consistent changes across selected rows
-- **Efficiency** - Save time with bulk operations
-- **Error Reduction** - Reduce errors with consistent bulk updates
+Perform operations on multiple selected rows:
 
-## Parent Property Editing
+- **Property Editing** - Edit properties for multiple rows simultaneously
+- **Data Updates** - Update data values across multiple rows
+- **Style Changes** - Apply style changes to multiple rows
+- **Consistent Modifications** - Ensure consistent modifications across rows
 
-### Parent-Level Changes
+> **GIF Placeholder:** Show row-level bulk operations
 
-Modify properties that affect multiple components:
+## Parent-Child Relationships
 
-- **Parent Property Identification** - Identify properties that belong to parent objects
-- **Bulk Modifications** - Changes to parent properties affect all child components
+### Parent Property Editing
+
+Edit parent properties that affect multiple child components:
+
+- **Parent-Level Changes** - Changes to parent properties affect all child components
 - **Checkbox Indicators** - Checkboxes show which rows are affected by parent changes
-- **Visual Feedback** - Clear indication of which rows will be modified
+- **Bulk Modifications** - Modify parent properties to update multiple components
+- **Visual Feedback** - Clear indication of parent-child relationships
 
-### Parent Property Examples
+> **GIF Placeholder:** Demonstrate parent property editing and its effect on child components
 
-Examples of parent property editing:
+### Inheritance Management
 
-- **Style Properties** - Edit style properties that affect multiple components
-- **Display Properties** - Modify display properties for parent objects
-- **Configuration Properties** - Change configuration properties at parent level
-- **Inheritance Properties** - Modify properties that are inherited by child components
+Manage how parent properties affect child components:
 
-## Bulk Operation Types
+- **Inheritance Rules** - Understand how parent properties are inherited
+- **Override Capabilities** - Override inherited properties when needed
+- **Consistent Updates** - Maintain consistency across parent-child relationships
+- **Visual Indicators** - Clear visual indicators of inheritance relationships
 
-### Object Style Properties
+> **GIF Placeholder:** Show inheritance management and override capabilities
 
-Edit multiple object style properties:
+## Bulk Operations
 
-- **Surface Styles** - Bulk edit surface style properties
-- **Alignment Styles** - Bulk edit alignment style properties
-- **Corridor Styles** - Bulk edit corridor style properties
-- **Other Object Styles** - Bulk edit other Civil 3D object style properties
+### Common Bulk Tasks
 
-### Label Style Properties
+Perform common bulk editing tasks:
 
-Edit multiple label style properties:
+- **Property Updates** - Update specific properties across multiple objects
+- **Style Applications** - Apply styles to multiple objects or components
+- **Data Synchronization** - Synchronize data across multiple items
+- **Configuration Changes** - Change configurations for multiple items
 
-- **Surface Labels** - Bulk edit surface label properties
-- **Alignment Labels** - Bulk edit alignment label properties
-- **Profile Labels** - Bulk edit profile label properties
-- **General Labels** - Bulk edit general label properties
+> **GIF Placeholder:** Demonstrate common bulk editing tasks
 
-### Table Style Properties
+### Batch Processing
 
-Edit multiple table style properties:
+Process large datasets efficiently:
 
-- **Quantity Takeoff Tables** - Bulk edit quantity takeoff table properties
-- **Surface Tables** - Bulk edit surface table properties
-- **Alignment Tables** - Bulk edit alignment table properties
-- **Other Table Types** - Bulk edit other table style properties
+- **Large Object Sets** - Handle large numbers of objects efficiently
+- **Performance Optimization** - Optimize performance for bulk operations
+- **Progress Indicators** - Visual feedback during bulk operations
+- **Error Handling** - Handle errors gracefully during bulk operations
 
-## Filtering and Bulk Editing Workflow
+> **GIF Placeholder:** Show batch processing of large datasets
 
-### Complete Workflow
+## Data Validation
 
-Efficient bulk editing workflow:
+### Bulk Validation
 
-1. **Configure Columns** - Set up table columns for your workflow
-2. **Apply Filters** - Filter data to focus on specific information
-3. **Select Rows** - Select multiple rows for bulk editing
-4. **Identify Parent Properties** - Identify which properties are parent-level
-5. **Make Changes** - Apply changes to selected rows
-6. **Verify Results** - Verify changes are applied correctly
+Validate data across multiple objects:
 
-### Filtering Strategy
+- **Data Consistency** - Ensure data consistency across objects
+- **Validation Rules** - Apply validation rules to multiple items
+- **Error Detection** - Detect errors across multiple objects
+- **Correction Suggestions** - Suggest corrections for bulk errors
 
-Effective filtering for bulk editing:
+> **GIF Placeholder:** Demonstrate bulk data validation
 
-- **Start with Filters** - Use filters to narrow down data before editing
-- **Focus on Relevant Data** - Filter to show only relevant data for editing
-- **Use Multiple Criteria** - Combine multiple filter criteria for precise results
-- **Dynamic Filtering** - Adjust filters as needed during editing process
+### Quality Assurance
 
-## Efficiency Features
+Maintain data quality during bulk operations:
 
-### Time-Saving Operations
+- **Quality Checks** - Perform quality checks on bulk changes
+- **Verification** - Verify that bulk changes are applied correctly
+- **Rollback Capabilities** - Rollback bulk changes if needed
+- **Audit Trail** - Maintain audit trail of bulk operations
 
-Efficient bulk editing operations:
-
-- **Multi-selection** - Select multiple objects/rows quickly
-- **Bulk Modifications** - Apply changes to multiple items simultaneously
-- **Filtered Editing** - Edit only filtered data for focused operations
-- **Consistent Updates** - Ensure consistent changes across multiple items
-
-### Error Reduction
-
-Reduce errors in bulk operations:
-
-- **Visual Feedback** - Clear indication of which items will be affected
-- **Checkbox Indicators** - Checkboxes show affected rows
-- **Filtered Views** - Focus on specific data to reduce errors
-- **Verification Tools** - Tools to verify changes before applying
+> **GIF Placeholder:** Show quality assurance processes for bulk operations
 
 ## Best Practices
 
-### Filtering Strategy
-- **Use Specific Filters** - Use specific filters to focus on relevant data
-- **Combine Filters** - Combine multiple filters for precise results
-- **Dynamic Adjustment** - Adjust filters as needed during editing
-- **Save Filter Configurations** - Save useful filter configurations
-
-### Bulk Editing Strategy
-- **Plan Your Changes** - Plan bulk changes before executing
-- **Use Parent Properties** - Use parent properties for bulk modifications
-- **Verify Selections** - Verify correct rows are selected before editing
+### Object Selection
+- **Select Relevant Objects** - Only select objects that need the same changes
+- **Verify Selection** - Double-check your object selection before applying changes
 - **Test on Small Sets** - Test bulk operations on small sets first
+- **Backup Important Data** - Backup important data before bulk operations
 
-### Efficiency Tips
-- **Use Filters First** - Use filters to narrow down data before bulk editing
-- **Select Efficiently** - Use efficient selection methods for large datasets
-- **Use Parent Properties** - Leverage parent properties for bulk modifications
-- **Verify Results** - Always verify bulk editing results
+### Row Selection
+- **Use Efficient Selection** - Use efficient methods to select multiple rows
+- **Verify Row Selection** - Ensure correct rows are selected before editing
+- **Check Dependencies** - Consider dependencies between rows
+- **Monitor Changes** - Monitor changes to ensure they're applied correctly
+
+### Bulk Operations
+- **Plan Your Changes** - Plan bulk changes carefully before execution
+- **Use Consistent Values** - Use consistent values across bulk operations
+- **Validate Results** - Validate results after bulk operations
+- **Document Changes** - Document bulk changes for future reference
+
+### Error Handling
+- **Handle Errors Gracefully** - Handle errors without losing progress
+- **Use Rollback Options** - Use rollback options when available
+- **Monitor Progress** - Monitor progress during long bulk operations
+- **Verify Final Results** - Always verify final results after bulk operations
 
 
 

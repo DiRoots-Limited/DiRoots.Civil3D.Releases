@@ -2,7 +2,7 @@
 layout: default
 title: Profile Manager
 parent: Grading Pro User Guide
-nav_order: 4
+nav_order: 5
 ---
 
 # Profile Manager
@@ -18,126 +18,186 @@ nav_order: 4
 
 # Profile Manager
 
-The Profile Manager in Grading Pro provides comprehensive template management capabilities, allowing you to store, load, and share your grading configuration profiles across projects and teams. This system ensures consistency and efficiency in grading design workflows.
+Grading Pro includes a comprehensive profile management system that allows you to save and reuse configuration settings, making it easy to maintain consistent configurations across multiple projects.
 
 ## Overview
 
-The Profile Manager enables you to save your complete grading configurations as reusable templates. These templates can include station configurations, section definitions, grading types, and all associated settings, making it easy to maintain consistency across projects and share configurations with team members.
+Profile management allows you to:
+- Save configuration settings for reuse
+- Switch between different profiles
+- Maintain consistent settings across projects
+- Share profiles across teams
 
-## Template Management Features
+> **GIF Placeholder:** Show overview of profile management capabilities
 
-### Creating Templates
+## Profile Creation
 
-Save your current configuration as a reusable template:
+### New Profile Creation
 
-1. **Configure Your Settings**
-   - Set up stations, sections, and grading types
-   - Configure all parameters to your requirements
-   - Test the configuration to ensure it works as expected
+Create new profiles for configuration settings:
 
-2. **Save as Template**
-   - Click the "Add New Template" button
-   - Enter a descriptive name (e.g., "Project X Standard" or "Standard Section")
-   - Choose an appropriate location for the template
-   - Click "Save" to store the template
+- **Profile Setup** - Set up new profiles with specific configurations
+- **Configuration Saving** - Save configuration settings to profiles
+- **Profile Naming** - Name profiles appropriately for easy identification
+- **Profile Organization** - Organize profiles systematically
 
-3. **Template Organization**
-   - Use descriptive names for easy identification
-   - Organize templates by project type or standard
-   - Create versioned templates for different scenarios
+> **GIF Placeholder:** Demonstrate new profile creation
 
-### Template Categories
+### Profile Configuration
 
-#### Project-Specific Templates
-- **Project X Standard** - Templates specific to particular projects
-- **Custom Configurations** - Tailored to specific project requirements
-- **Version Control** - Different versions for different project phases
+Configure profiles with specific settings:
 
-#### Standard Templates
-- **Company Standards** - Templates that follow company design standards
-- **Industry Standards** - Templates based on industry best practices
-- **Common Scenarios** - Templates for frequently used grading scenarios
+- **Station Settings** - Configure station settings for profiles
+- **Section Settings** - Set section settings for profiles
+- **Grading Type Settings** - Configure grading type settings for profiles
+- **Custom Settings** - Add custom settings to profiles
 
-### Importing Templates
+> **GIF Placeholder:** Show profile configuration
 
-Load existing templates to maintain consistency:
+### Profile Templates
 
-1. **Access Import Function**
-   - Click the import button in the template management area
-   - Navigate to the template file location
+Use profile templates for consistency:
 
-2. **Select Template**
-   - Browse to find the desired template file
-   - Templates can be stored locally or on network locations
-   - Click "Open" to import the template
+- **Template Selection** - Select appropriate profile templates
+- **Template Customization** - Customize templates for specific needs
+- **Template Management** - Manage profile templates
+- **Template Sharing** - Share templates across teams
 
-3. **Apply Template**
-   - The imported template will be available in your template list
-   - Select the template to apply its settings to your current project
-   - Modify settings as needed for the current project
+> **GIF Placeholder:** Demonstrate profile templates
 
-### Sharing Templates
+## Profile Management
 
-Share templates across different machines and team members:
+### Profile Switching
 
-#### Network Sharing
-- **Shared Network Location** - Store templates in a shared network folder
-- **Team Access** - Allow multiple team members to access the same templates
-- **Centralized Management** - Maintain templates in a central location
-- **Version Control** - Ensure everyone uses the same template versions
+Switch between different profiles:
 
-#### Export/Import Process
-1. **Export Template** - Save template to a portable format
-2. **Transfer File** - Share the template file with team members
-3. **Import Template** - Team members import the template on their machines
-4. **Apply Settings** - Use the shared template in their projects
+- **Profile Selection** - Select different profiles for use
+- **Quick Switching** - Switch profiles quickly and efficiently
+- **Profile Loading** - Load profile configurations
+- **Profile Activation** - Activate selected profiles
 
-## Advanced Template Features
+> **GIF Placeholder:** Show profile switching
 
-### Template Organization
+### Profile Organization
 
-#### Naming Conventions
-- **Descriptive Names** - Use clear, descriptive names for templates
-- **Project Prefixes** - Include project identifiers in template names
-- **Version Numbers** - Include version information for template updates
-- **Category Labels** - Use labels to categorize templates by type
+Organize profiles effectively:
 
-#### File Management
-- **Backup Templates** - Keep backup copies of important templates
-- **Archive Old Versions** - Store previous versions for reference
-- **Regular Updates** - Update templates as standards evolve
-- **Documentation** - Document template purposes and applications
+- **Profile Categories** - Categorize profiles by type or purpose
+- **Profile Hierarchy** - Organize profiles hierarchically
+- **Profile Search** - Search for specific profiles
+- **Profile Filtering** - Filter profiles by criteria
 
-### Template Customization
+> **GIF Placeholder:** Demonstrate profile organization
 
-#### Modifying Templates
-- **Load and Edit** - Load a template and modify it for current needs
-- **Save As New** - Save modifications as a new template version
-- **Incremental Changes** - Make small changes to existing templates
-- **Customization Tracking** - Track what changes were made and why
+### Profile Backup
 
-#### Template Validation
-- **Test Templates** - Verify templates work correctly before sharing
-- **Quality Assurance** - Ensure templates meet project standards
-- **Performance Testing** - Test templates with different project sizes
-- **User Feedback** - Gather feedback from template users
+Backup and restore profiles:
+
+- **Profile Backup** - Backup important profiles
+- **Profile Restoration** - Restore profiles from backups
+- **Backup Verification** - Verify backup integrity
+- **Backup Management** - Manage profile backups
+
+> **GIF Placeholder:** Show profile backup and restoration
+
+## Profile Features
+
+### Configuration Reuse
+
+Reuse saved configurations:
+
+- **Saved Configurations** - Access saved configuration settings
+- **Configuration Application** - Apply saved configurations to new projects
+- **Configuration Modification** - Modify saved configurations
+- **Configuration Sharing** - Share configurations across teams
+
+> **GIF Placeholder:** Demonstrate configuration reuse
+
+### Profile Synchronization
+
+Synchronize profiles across systems:
+
+- **Cross-System Sync** - Synchronize profiles across different systems
+- **Cloud Sync** - Synchronize profiles via cloud storage
+- **Network Sync** - Synchronize profiles across network
+- **Sync Management** - Manage synchronization settings
+
+> **GIF Placeholder:** Show profile synchronization
+
+### Profile Versioning
+
+Manage profile versions:
+
+- **Version Control** - Control profile versions
+- **Version History** - Track profile version history
+- **Version Rollback** - Rollback to previous versions
+- **Version Comparison** - Compare different versions
+
+> **GIF Placeholder:** Demonstrate profile versioning
+
+## Advanced Features
+
+### Profile Automation
+
+Automate profile operations:
+
+- **Automatic Loading** - Automatically load profiles based on conditions
+- **Profile Triggers** - Set triggers for profile activation
+- **Automated Switching** - Automatically switch profiles
+- **Automation Rules** - Define automation rules for profiles
+
+> **GIF Placeholder:** Show profile automation
+
+### Profile Security
+
+Secure profile access:
+
+- **Access Control** - Control access to profiles
+- **Profile Encryption** - Encrypt sensitive profile data
+- **User Permissions** - Set user permissions for profiles
+- **Security Management** - Manage profile security settings
+
+> **GIF Placeholder:** Demonstrate profile security
+
+### Profile Analytics
+
+Analyze profile usage:
+
+- **Usage Tracking** - Track profile usage patterns
+- **Performance Analysis** - Analyze profile performance
+- **Usage Reports** - Generate usage reports
+- **Analytics Dashboard** - View analytics dashboard
+
+> **GIF Placeholder:** Show profile analytics
 
 ## Best Practices
 
-### Template Creation
-- **Start with Standards** - Base templates on established design standards
-- **Test Thoroughly** - Verify templates work across different scenarios
-- **Document Purpose** - Clearly document what each template is for
-- **Version Control** - Maintain different versions for different needs
+### Profile Creation
+- **Plan Profiles** - Plan profile creation carefully
+- **Use Templates** - Use templates for consistency
+- **Document Profiles** - Document profile configurations
+- **Test Profiles** - Test profiles before production use
 
-### Template Management
-- **Organize Systematically** - Use consistent naming and organization
-- **Regular Reviews** - Periodically review and update templates
-- **User Training** - Train team members on template usage
-- **Feedback Loop** - Collect feedback to improve templates
+### Profile Management
+- **Organize Profiles** - Organize profiles systematically
+- **Regular Maintenance** - Maintain profiles regularly
+- **Version Control** - Use version control for profiles
+- **Backup Strategy** - Implement backup strategy for profiles
 
-### Template Sharing
-- **Centralized Storage** - Store templates in a central, accessible location
-- **Access Control** - Control who can modify shared templates
-- **Change Management** - Establish processes for template updates
-- **Communication** - Notify team members of template changes 
+### Profile Usage
+- **Select Appropriate Profiles** - Select appropriate profiles for projects
+- **Validate Configurations** - Validate profile configurations
+- **Monitor Usage** - Monitor profile usage and performance
+- **Update Profiles** - Update profiles as needed
+
+### Profile Security
+- **Access Control** - Implement proper access control
+- **Data Protection** - Protect sensitive profile data
+- **Security Monitoring** - Monitor profile security
+- **Regular Audits** - Conduct regular security audits
+
+### Profile Performance
+- **Optimize Profiles** - Optimize profiles for performance
+- **Resource Management** - Manage system resources efficiently
+- **Performance Monitoring** - Monitor profile performance
+- **Performance Tuning** - Tune profiles for optimal performance 

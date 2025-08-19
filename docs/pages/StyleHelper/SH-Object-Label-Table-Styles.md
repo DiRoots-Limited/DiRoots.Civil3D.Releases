@@ -2,10 +2,10 @@
 layout: default
 title: Object, Label, and Table Styles
 parent: Style Helper User Guide
-nav_order: 1
+nav_order: 2
 ---
 
-# Object, Label, and Table Styles
+# Style Data Support: Object, Label, and Table Styles
 {: .no_toc }
 
 ## Table of contents
@@ -16,185 +16,124 @@ nav_order: 1
 
 ---
 
-# Object, Label, and Table Styles
+# Style Data Support: Object, Label, and Table Styles
 
-Style Helper supports editing multiple Civil 3D object styles, label styles, and table styles at the same time through a three-tab interface that mirrors the Civil 3D Tool Space structure. The tool provides comprehensive access to style data and enables efficient bulk editing operations.
+Style Helper displays the Civil 3D object styles, label styles, and table styles data in a table interface, where each row represents a style and each column shows a property. You can edit many of these properties directly within the table interface. Some properties are read only and can not be edited, the interface does not allow to edit them.
 
 ## Overview
 
-The Style Helper interface is organized into three main tabs that correspond directly to Civil 3D's Tool Space structure:
+The tool has a tree structure that allows you to:
+- Edit Civil 3D object styles (surfaces, alignments, corridors, etc.)
+- Modify label styles (point labels, parcel labels, etc.)
+- Configure table styles (quantity takeoff, surface tables, etc.)
 
-- **Object Styles Tab** - Access and edit object styles (e.g., Surface Styles, Alignment Styles)
-- **Label Styles Tab** - Access and edit label styles for various Civil 3D objects
-- **Table Styles Tab** - Access and edit table styles (fewer elements as not all objects have table styles)
+> **GIF Placeholder:** Show the three-tab interface and navigation between tabs
 
-## Three-Tab Structure
+## Object Styles Tab
 
-### Object Styles Tab
+### Object Style Types
 
-Access and manage object styles:
+Edit various Civil 3D object styles:
 
-- **Object Type Selection** - Choose Civil 3D object types (e.g., Surface, Alignment, Corridor)
-- **Style Management** - Manage styles for selected object types
-- **Data Access** - Access comprehensive style data and properties
-- **Bulk Operations** - Perform bulk operations on multiple styles
+- **Surface Styles** - Edit surface display and analysis styles
+- **Alignment Styles** - Modify alignment display and annotation styles
+- **Corridor Styles** - Configure corridor display and component styles
+- **Profile Styles** - Edit profile display and annotation styles
+- **Section Styles** - Modify section display and annotation styles
+- **Pipe Styles** - Configure pipe and structure display styles
 
-### Label Styles Tab
+> **GIF Placeholder:** Demonstrate editing different object style types
 
-Manage label styles for Civil 3D objects:
+### Object Style Properties
 
-- **Label Style Access** - Access label styles for various object types
-- **Style Configuration** - Configure label style properties
-- **Component Editing** - Edit label style components and properties
-- **Consistent Labeling** - Ensure consistent labeling across objects
+Modify object style properties:
 
-### Table Styles Tab
+- **Display Properties** - Edit display-related style properties
+- **Geometry Properties** - Modify geometry-related style settings
+- **Analysis Properties** - Configure analysis-related style properties
+- **Behavior Properties** - Adjust style behavior settings
 
-Manage table styles (limited availability):
+> **GIF Placeholder:** Show object style property editing
 
-- **Table Style Access** - Access table styles where available
-- **Style Configuration** - Configure table style properties
-- **Limited Elements** - Fewer elements as not all objects have table styles
-- **Specialized Editing** - Specialized editing for table-specific properties
+## Label Styles Tab
 
-## Civil 3D Integration
+### Label Style Types
 
-### Tool Space Correspondence
+Edit various label style categories:
 
-Style Helper mirrors the Civil 3D Tool Space structure:
+- **Point Label Styles** - Edit point annotation and label styles
+- **Line Label Styles** - Modify line and curve label styles
+- **Area Label Styles** - Configure area and region label styles
+- **General Label Styles** - Edit general annotation styles
+- **Profile Label Styles** - Modify profile annotation styles
+- **Section Label Styles** - Configure section annotation styles
 
-- **Settings Comparison** - Compare data with Civil 3D Tool Space Settings
-- **Familiar Navigation** - Navigate using the same structure as Civil 3D
-- **Data Consistency** - Ensure data consistency between Style Helper and Civil 3D
-- **Structure Mirroring** - Tool structure directly corresponds to Civil 3D structure
+> **GIF Placeholder:** Demonstrate editing different label style types
 
-### Data Verification
+### Label Style Components
 
-Verify data against Civil 3D:
+Work with label style components:
 
-- **Cross-Reference** - Cross-reference data with Civil 3D Tool Space
-- **Data Validation** - Validate data consistency between tools
-- **Settings Comparison** - Compare settings between Style Helper and Civil 3D
-- **Real-time Verification** - Verify changes in real-time
+- **Text Components** - Edit text content and formatting
+- **Line Components** - Modify line and leader components
+- **Block Components** - Configure block and symbol components
+- **Border Components** - Edit border and background components
 
-## Object Selection and Data Loading
+> **GIF Placeholder:** Show label style component editing
 
-### Object Type Selection
+## Table Styles Tab
 
-Choose Civil 3D object types to work with:
+### Table Style Types
 
-1. **Select Object Type** - Choose from available Civil 3D object types
-2. **View Object Structure** - See the structure for the selected object type
-3. **Check Specific Objects** - Check specific objects within the selected type
-4. **Load Associated Data** - Load data associated with checked objects
+Edit various table style categories:
 
-### Example: Surface Object Selection
+- **Quantity Takeoff Tables** - Edit quantity takeoff table styles
+- **Surface Tables** - Modify surface analysis table styles
+- **Alignment Tables** - Configure alignment table styles
+- **Profile Tables** - Edit profile table styles
+- **Section Tables** - Modify section table styles
+- **Pipe Tables** - Configure pipe and structure table styles
 
-When working with Surface objects:
+> **GIF Placeholder:** Demonstrate editing different table style types
 
-- **Surface Selection** - Select "Surface" as the object type
-- **Surface Styles** - Access Surface Styles within the object type
-- **Object Checking** - Check specific surface objects to work with
-- **Data Loading** - Load data associated with checked surface objects
+### Table Style Properties
 
-### Object Preferences
+Modify table style properties:
 
-Access comprehensive data for selected objects:
+- **Table Layout** - Edit table layout and structure
+- **Column Properties** - Modify column formatting and behavior
+- **Header Properties** - Configure table header settings
+- **Data Properties** - Edit data formatting and display
 
-- **Data Association** - View all data associated with checked objects
-- **Column Addition** - Add data columns to the table from object preferences
-- **Data Organization** - Organize data in a structured table format
-- **Component Data** - Access component-level data for objects
+> **GIF Placeholder:** Show table style property editing
 
-## Style Data Management
+## Style Editing Workflows
 
-### Style Structure
+### Object Style Editing
 
-Understanding style structure:
+Complete workflow for editing object styles:
 
-- **Parent Objects** - Main style objects (e.g., Elevation Binding 2D)
-- **Child Components** - Components within parent objects
-- **Data Association** - Some data is associated with parent, some with components
-- **Inheritance** - Parent properties affect multiple child components
+1. **Select Object Styles Tab** - Choose the Object Styles tab
+2. **Select Object Type** - Choose the object type (e.g., Surface)
+3. **Check Objects** - Select specific objects to work with
+4. **Access Object Preferences** - Load associated data for checked objects
+5. **Configure Columns** - Use Preferences button to configure table columns
+6. **Edit Style Properties** - Modify style properties directly in the table
+7. **Save Profile** - Save column configuration for the Object Styles tab
 
-### Data Organization
+> **GIF Placeholder:** Show complete object style editing workflow
 
-Organize style data efficiently:
+### Label Style Editing
 
-- **Column Configuration** - Configure which data columns to display
-- **Data Filtering** - Filter data to focus on specific information
-- **Sorting Options** - Sort data by various criteria
-- **Data Export** - Export data for external analysis
+Complete workflow for editing label styles:
 
-## Editing Workflow
+1. **Select Label Styles Tab** - Choose the Label Styles tab
+2. **Select Object Type** - Choose the object type (e.g., Point)
+3. **Check Objects** - Select specific label styles to work with
+4. **Access Object Preferences** - Load associated data for checked objects
+5. **Configure Columns** - Use Preferences button to configure table columns
+6. **Edit Label Properties** - Modify label properties directly in the table
+7. **Save Profile** - Save column configuration for the Label Styles tab
 
-### Step-by-Step Editing Process
+> **GIF Placeholder:** Show complete label style editing workflow
 
-Complete editing workflow:
-
-1. **Select Object Type** - Choose the Civil 3D object type (e.g., Surface)
-2. **Check Objects** - Select specific objects to work with
-3. **Access Object Preferences** - Load associated data for checked objects
-4. **Configure Columns** - Add, remove, or reorder table columns
-5. **Edit Data** - Modify style data directly in the table
-6. **Apply Changes** - Apply changes to selected objects
-7. **Verify Results** - Verify changes are applied correctly
-
-### Multi-Style Editing
-
-Edit multiple styles simultaneously:
-
-- **Multi-selection** - Select multiple styles for editing
-- **Bulk Modifications** - Apply changes to multiple styles at once
-- **Consistent Updates** - Ensure consistent changes across styles
-- **Efficiency** - Save time with bulk operations
-
-## Supported Style Types
-
-### Object Styles
-
-Comprehensive object style support:
-
-- **Surface Styles** - Surface object styles and properties
-- **Alignment Styles** - Alignment object styles and properties
-- **Corridor Styles** - Corridor object styles and properties
-- **Profile Styles** - Profile object styles and properties
-- **Other Civil 3D Objects** - Styles for other Civil 3D object types
-
-### Label Styles
-
-Label style management:
-
-- **Surface Labels** - Surface label styles and properties
-- **Alignment Labels** - Alignment label styles and properties
-- **Profile Labels** - Profile label styles and properties
-- **General Labels** - General label styles and properties
-
-### Table Styles
-
-Table style management:
-
-- **Quantity Takeoff Tables** - Quantity takeoff table styles
-- **Surface Tables** - Surface table styles
-- **Alignment Tables** - Alignment table styles
-- **Other Table Types** - Other Civil 3D table styles
-
-## Best Practices
-
-### Object Selection
-- **Start with Object Type** - Begin by selecting the appropriate object type
-- **Check Relevant Objects** - Only check objects you need to work with
-- **Use Object Preferences** - Access object preferences to see all available data
-- **Verify Data Loading** - Ensure data is loaded before making changes
-
-### Style Management
-- **Understand Structure** - Understand the style structure before editing
-- **Use Bulk Operations** - Use bulk operations for efficiency
-- **Verify Changes** - Verify changes are applied correctly
-- **Backup Important Data** - Backup important data before major changes
-
-### Data Organization
-- **Configure Columns** - Configure columns to focus on relevant data
-- **Use Filtering** - Use filtering to focus on specific information
-- **Organize Data** - Organize data in a logical structure
-- **Save Configurations** - Save useful configurations as profiles 

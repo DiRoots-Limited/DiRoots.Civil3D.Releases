@@ -5,7 +5,7 @@ parent: Earthwork Tool User Guide
 nav_order: 6
 ---
 
-# Profiles
+# Profile
 {: .no_toc }
 
 ## Table of contents
@@ -16,148 +16,188 @@ nav_order: 6
 
 ---
 
-# Profiles
+# Profile
 
-Earthwork Tool profiles store complete calculation configurations including surface selections, region definitions, stripping parameters, and volume unit preferences. The profile system enables efficient management and reuse of calculation settings across projects.
+The Earthwork Tool includes a comprehensive profile system that allows you to save and reuse configuration settings, making it easy to maintain consistent configurations across multiple projects.
 
-## What's Saved in Profiles
+## Overview
 
-The following settings are saved in Earthwork Tool profiles:
+Profile system allows you to:
+- Save configuration settings for reuse
+- Switch between different profiles
+- Maintain consistent settings across projects
+- Share profiles across teams
 
-- **Surface Selections** - Existing and proposed surface configurations
-- **Region Definitions** - Defined calculation regions and boundaries
-- **Stripping Parameters** - Topsoil stripping thickness and configurations
-- **Volume Unit Preferences** - m³, yd³, ft³, acre-ft settings
-- **Calculation Parameters** - All calculation settings and configurations
-- **Object Associations** - Associated elements and their relationships
+> **GIF Placeholder:** Show overview of profile system
 
-## Creating Profiles
+## Profile Creation
 
-Earthwork Tool profiles let you save your calculation settings and reuse them later. This is ideal for standardizing workflows and sharing settings across teams.
+### New Profile Creation
 
-### Steps to Create a Profile
+Create new profiles for configuration settings:
 
-1. **Configure Your Settings**
-   - Set up surfaces, regions, and stripping parameters
-   - Configure volume units and calculation preferences
-   - Test the configuration to ensure it works correctly
+- **Profile Setup** - Set up new profiles with specific configurations
+- **Configuration Saving** - Save configuration settings to profiles
+- **Profile Naming** - Name profiles appropriately for easy identification
+- **Profile Organization** - Organize profiles systematically
 
-2. **Save as Profile**
-   - In the window header, click the save button next to the profiles list
-   - Name the profile (choose a meaningful name for easy identification)
-   - Choose the location to save it
-   - Click "Save" to store the profile
+> **GIF Placeholder:** Demonstrate new profile creation
 
-3. **Profile Organization**
-   - Use descriptive names for easy identification
-   - Organize profiles by project type or standard
-   - Consider versioning for different scenarios
+### Profile Configuration
 
-![Earthwork Tool Creating profiles](../../../assets/images/EarthworkTool/EW-SaveProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Earthwork Tool.</sub>
+Configure profiles with specific settings:
 
-```yaml
-Tip for BIM Managers!
-Create profiles in a network location to allow other users to import them.
-See the "Importing Profiles" section for details.
-```
+- **Calculation Settings** - Configure calculation settings for profiles
+- **Surface Settings** - Set surface settings for profiles
+- **Region Settings** - Configure region settings for profiles
+- **Custom Settings** - Add custom settings to profiles
 
-## Importing Profiles
+> **GIF Placeholder:** Show profile configuration
 
-Import existing profiles to stay compliant with company standards and maintain consistency across projects.
+### Profile Templates
 
-### Steps to Import Profiles
+Use profile templates for consistency:
 
-1. **Access Import Function**
-   - Click the Import button next to the profiles list
-   - Navigate to the profile file location
+- **Template Selection** - Select appropriate profile templates
+- **Template Customization** - Customize templates for specific needs
+- **Template Management** - Manage profile templates
+- **Template Sharing** - Share templates across teams
 
-2. **Select Profile**
-   - Use File Explorer to find the profile (shared folder, network, or local)
-   - Browse to the desired profile file
-   - Click "Open" to import the profile
+> **GIF Placeholder:** Demonstrate profile templates
 
-3. **Apply Profile**
-   - The imported profile will be available in your profile list
-   - Select the profile to apply its settings to your current project
-   - Modify settings as needed for the current project requirements
+## Profile Management
 
-![Earthwork Tool importing profiles](../../../assets/images/EarthworkTool/EW-ImportProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Earthwork Tool.</sub>
+### Profile Switching
 
-## Deleting Profiles
+Switch between different profiles:
 
-Remove unwanted or outdated profiles from your profile library.
+- **Profile Selection** - Select different profiles for use
+- **Quick Switching** - Switch profiles quickly and efficiently
+- **Profile Loading** - Load profile configurations
+- **Profile Activation** - Activate selected profiles
 
-### Steps to Delete Profiles
+> **GIF Placeholder:** Show profile switching
 
-1. **Select Profile**
-   - Select the profile from the profile dropdown list
-   - Ensure you're selecting the correct profile to delete
+### Profile Organization
 
-2. **Delete Profile**
-   - Click the Delete icon next to the profiles list
-   - Confirm deletion when prompted
-   - The profile will be permanently removed
+Organize profiles effectively:
 
-![Earthwork Tool delete profiles](../../../assets/images/EarthworkTool/EW-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the latest version of Earthwork Tool.</sub>
+- **Profile Categories** - Categorize profiles by type or purpose
+- **Profile Hierarchy** - Organize profiles hierarchically
+- **Profile Search** - Search for specific profiles
+- **Profile Filtering** - Filter profiles by criteria
 
-## Advanced Profile Features
+> **GIF Placeholder:** Demonstrate profile organization
 
-### Object Association Management
+### Profile Backup
 
-Manage and isolate associated calculation elements:
+Backup and restore profiles:
 
-#### Select Objects
-- **Choose Associated Elements** - Select objects related to calculations
-- **Element Identification** - Identify which elements are associated with profiles
-- **Relationship Management** - Manage relationships between elements and calculations
-- **Context Awareness** - Understand how elements relate to calculation results
+- **Profile Backup** - Backup important profiles
+- **Profile Restoration** - Restore profiles from backups
+- **Backup Verification** - Verify backup integrity
+- **Backup Management** - Manage profile backups
 
-#### Isolate Elements
-- **Focus on Components** - Isolate specific elements for detailed analysis
-- **Element Filtering** - Filter elements to focus on specific components
-- **Detailed Review** - Review isolated elements in detail
-- **Quality Control** - Verify element associations are correct
+> **GIF Placeholder:** Show profile backup and restoration
 
-#### Remove Items
-- **Delete Unwanted Elements** - Remove elements from calculations
-- **Clean Up Associations** - Remove incorrect or outdated associations
-- **Update Calculations** - Calculations update when elements are removed
-- **Maintain Integrity** - Ensure calculation integrity after removals
+## Profile Features
 
-### Real-time Updates
+### Configuration Reuse
 
-All calculations and associations update automatically:
+Reuse saved configurations:
 
-- **Dynamic Updates** - Changes reflect immediately in calculations
-- **Automatic Recalculation** - Totals update when elements are modified
-- **Hierarchical Updates** - Parent and grand totals update simultaneously
-- **Validation** - Verify calculations remain accurate after changes
+- **Saved Configurations** - Access saved configuration settings
+- **Configuration Application** - Apply saved configurations to new projects
+- **Configuration Modification** - Modify saved configurations
+- **Configuration Sharing** - Share configurations across teams
+
+> **GIF Placeholder:** Demonstrate configuration reuse
+
+### Profile Synchronization
+
+Synchronize profiles across systems:
+
+- **Cross-System Sync** - Synchronize profiles across different systems
+- **Cloud Sync** - Synchronize profiles via cloud storage
+- **Network Sync** - Synchronize profiles across network
+- **Sync Management** - Manage synchronization settings
+
+> **GIF Placeholder:** Show profile synchronization
+
+### Profile Versioning
+
+Manage profile versions:
+
+- **Version Control** - Control profile versions
+- **Version History** - Track profile version history
+- **Version Rollback** - Rollback to previous versions
+- **Version Comparison** - Compare different versions
+
+> **GIF Placeholder:** Demonstrate profile versioning
+
+## Advanced Features
+
+### Profile Automation
+
+Automate profile operations:
+
+- **Automatic Loading** - Automatically load profiles based on conditions
+- **Profile Triggers** - Set triggers for profile activation
+- **Automated Switching** - Automatically switch profiles
+- **Automation Rules** - Define automation rules for profiles
+
+> **GIF Placeholder:** Show profile automation
+
+### Profile Security
+
+Secure profile access:
+
+- **Access Control** - Control access to profiles
+- **Profile Encryption** - Encrypt sensitive profile data
+- **User Permissions** - Set user permissions for profiles
+- **Security Management** - Manage profile security settings
+
+> **GIF Placeholder:** Demonstrate profile security
+
+### Profile Analytics
+
+Analyze profile usage:
+
+- **Usage Tracking** - Track profile usage patterns
+- **Performance Analysis** - Analyze profile performance
+- **Usage Reports** - Generate usage reports
+- **Analytics Dashboard** - View analytics dashboard
+
+> **GIF Placeholder:** Show profile analytics
 
 ## Best Practices
 
 ### Profile Creation
-- **Start with Standards** - Base profiles on established calculation standards
-- **Test Thoroughly** - Verify profiles work across different scenarios
-- **Document Purpose** - Clearly document what each profile is for
-- **Version Control** - Maintain different versions for different needs
+- **Plan Profiles** - Plan profile creation carefully
+- **Use Templates** - Use templates for consistency
+- **Document Profiles** - Document profile configurations
+- **Test Profiles** - Test profiles before production use
 
 ### Profile Management
-- **Organize Systematically** - Use consistent naming and organization
-- **Regular Reviews** - Periodically review and update profiles
-- **User Training** - Train team members on profile usage
-- **Feedback Loop** - Collect feedback to improve profiles
+- **Organize Profiles** - Organize profiles systematically
+- **Regular Maintenance** - Maintain profiles regularly
+- **Version Control** - Use version control for profiles
+- **Backup Strategy** - Implement backup strategy for profiles
 
-### Profile Sharing
-- **Centralized Storage** - Store profiles in a central, accessible location
-- **Access Control** - Control who can modify shared profiles
-- **Change Management** - Establish processes for profile updates
-- **Communication** - Notify team members of profile changes
+### Profile Usage
+- **Select Appropriate Profiles** - Select appropriate profiles for projects
+- **Validate Configurations** - Validate profile configurations
+- **Monitor Usage** - Monitor profile usage and performance
+- **Update Profiles** - Update profiles as needed
 
-### Object Association
-- **Verify Associations** - Ensure correct elements are associated
-- **Regular Cleanup** - Remove outdated or incorrect associations
-- **Documentation** - Document element associations for future reference
-- **Quality Assurance** - Verify associations meet project requirements 
+### Profile Security
+- **Access Control** - Implement proper access control
+- **Data Protection** - Protect sensitive profile data
+- **Security Monitoring** - Monitor profile security
+- **Regular Audits** - Conduct regular security audits
+
+### Profile Performance
+- **Optimize Profiles** - Optimize profiles for performance
+- **Resource Management** - Manage system resources efficiently
+- **Performance Monitoring** - Monitor profile performance
+- **Performance Tuning** - Tune profiles for optimal performance 

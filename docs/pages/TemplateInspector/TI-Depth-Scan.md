@@ -2,7 +2,7 @@
 layout: default
 title: Depth Scan
 parent: Template Inspector User Guide
-nav_order: 2
+nav_order: 3
 ---
 
 # Depth Scan
@@ -18,183 +18,250 @@ nav_order: 2
 
 # Depth Scan
 
-Template Inspector performs comprehensive depth scans to automatically detect and display where objects are used throughout your files, including nested dependencies and indirect references. The tool provides detailed analysis of object associations and usage patterns.
+Template Inspector's Depth Scan feature performs comprehensive scans to find object usage and dependencies throughout your drawings, providing detailed information about where objects are used.
 
 ## Overview
 
-Depth scan is an automatic feature that analyzes object usage throughout your files, detecting both direct and indirect associations. The tool automatically loads all settings and associated objects, providing comprehensive information about how objects are used and referenced.
+Depth Scan allows you to:
+- Find all instances where objects are used
+- Discover hidden dependencies and references
+- Analyze object usage patterns
+- Identify unused objects for cleanup
 
-## Automatic Object Detection
+> **GIF Placeholder:** Show overview of Depth Scan interface
 
-### Comprehensive Scanning
+## Scan Types
 
-The tool automatically performs depth scans to find object usage:
+### Object Usage Scan
 
-- **Automatic Detection** - Automatically detects object associations
-- **Complete Analysis** - Analyzes all object relationships
-- **Real-time Results** - Provides results immediately
-- **Comprehensive Coverage** - Covers all object types and relationships
+Scan for object usage throughout drawings:
 
-### Scanning Process
+- **Usage Detection** - Find all places where objects are used
+- **Reference Discovery** - Discover object references and dependencies
+- **Usage Patterns** - Analyze how objects are used
+- **Dependency Mapping** - Map object dependencies
 
-How the depth scan works:
+> **GIF Placeholder:** Demonstrate object usage scanning
 
-1. **Object Selection** - Select object to scan
-2. **Automatic Analysis** - Tool automatically analyzes object usage
-3. **Association Detection** - Detects all associations and dependencies
-4. **Results Display** - Displays comprehensive results immediately
+### Dependency Scan
 
-## Associated Objects Detection
+Scan for object dependencies:
 
-### Direct Associations
+- **Dependency Detection** - Find objects that depend on selected items
+- **Reference Tracking** - Track object references across drawings
+- **Dependency Chains** - Map dependency chains
+- **Impact Analysis** - Analyze impact of object changes
 
-Objects directly assigned to the selected item:
+> **GIF Placeholder:** Show dependency scanning
 
-- **Layer Assignments** - Objects assigned to a specific layer
-- **Style References** - Objects using specific styles
-- **Property Assignments** - Objects with specific property values
-- **Direct Usage** - Objects directly using the selected item
+### Unused Object Scan
 
-### Indirect Associations
+Scan for unused objects:
 
-Objects that reference the selected item through other objects:
+- **Unused Detection** - Identify objects that are not used
+- **Orphaned Object Detection** - Find orphaned objects
+- **Cleanup Opportunities** - Identify cleanup opportunities
+- **Space Optimization** - Optimize drawing space
 
-- **Nested Dependencies** - Objects that depend on the selected item through other objects
-- **Style Dependencies** - Objects that use styles referencing the selected item
-- **Property Dependencies** - Objects with properties that reference the selected item
-- **Indirect Usage** - Objects indirectly using the selected item
+> **GIF Placeholder:** Demonstrate unused object scanning
 
-### Usage Pattern Analysis
+## Scan Configuration
 
-Analysis of how objects are used:
+### Scan Parameters
 
-- **Usage Distribution** - How the object is used across different object types
-- **Usage Frequency** - How frequently the object is used
-- **Usage Context** - Context in which the object is used
-- **Usage Patterns** - Patterns of object usage
+Configure scan parameters:
 
-## Settings and Objects Display
+- **Scan Depth** - Set how deep to scan for references
+- **Scan Scope** - Define what to include in scan
+- **Scan Filters** - Apply filters to scan results
+- **Scan Options** - Configure scan behavior
 
-### Two-Column Results
+> **GIF Placeholder:** Show scan parameter configuration
 
-Depth scan results are displayed in a two-column format:
+### Scan Scope
 
-#### Settings Column
-- **Associated Settings** - All settings related to the selected object
-- **Property Values** - Current property values and configurations
-- **Setting Details** - Detailed information about each setting
-- **Configuration Data** - Complete configuration information
+Define scan scope:
 
-#### Objects Column
-- **Associated Objects** - All objects that use the selected item
-- **Usage Count** - Number of objects associated with the item
-- **Object Types** - Types of objects using the selected item
-- **Object Details** - Detailed information about associated objects
+- **Current Drawing** - Scan current drawing only
+- **Multiple Drawings** - Scan multiple drawings
+- **Specific Areas** - Scan specific drawing areas
+- **Custom Scope** - Define custom scan scope
 
-### Example Results
+> **GIF Placeholder:** Demonstrate scan scope configuration
 
-When scanning a layer:
-- **Settings Column** - Shows layer properties, color, line type, etc.
-- **Objects Column** - Lists all objects assigned to that layer
-- **Usage Information** - Shows how many objects use the layer
-- **Property Details** - Displays detailed property information
+### Scan Filters
 
-## Usage Count and Analysis
+Apply filters to scan results:
 
-### Usage Count Display
+- **Object Type Filters** - Filter by object types
+- **Layer Filters** - Filter by layers
+- **Property Filters** - Filter by properties
+- **Usage Filters** - Filter by usage patterns
 
-The tool displays usage count information:
+> **GIF Placeholder:** Show scan filter application
 
-- **Total Usage** - Total number of objects using the selected item
-- **Usage by Type** - Usage broken down by object type
-- **Usage Distribution** - Distribution of usage across different categories
-- **Usage Trends** - Trends in object usage
+## Scan Execution
+
+### Scan Process
+
+Execute depth scans:
+
+1. **Configure Scan** - Set up scan parameters and scope
+2. **Start Scan** - Begin the scanning process
+3. **Monitor Progress** - Monitor scan progress
+4. **Review Results** - Review scan results
+
+> **GIF Placeholder:** Demonstrate complete scan execution process
+
+### Progress Monitoring
+
+Monitor scan progress:
+
+- **Progress Indicators** - Visual progress indicators
+- **Status Updates** - Real-time status updates
+- **Time Estimates** - Estimated completion times
+- **Cancel Options** - Option to cancel scans
+
+> **GIF Placeholder:** Show progress monitoring
+
+### Scan Completion
+
+Handle scan completion:
+
+- **Result Summary** - Summary of scan results
+- **Result Export** - Export scan results
+- **Result Analysis** - Analyze scan results
+- **Action Planning** - Plan actions based on results
+
+> **GIF Placeholder:** Demonstrate scan completion handling
+
+## Scan Results
+
+### Usage Information
+
+View detailed usage information:
+
+- **Usage Locations** - Where objects are used
+- **Usage Counts** - How many times objects are used
+- **Usage Context** - Context of object usage
+- **Usage Patterns** - Patterns in object usage
+
+> **GIF Placeholder:** Show usage information display
+
+### Dependency Information
+
+View dependency information:
+
+- **Dependency Trees** - Hierarchical dependency information
+- **Dependency Types** - Types of dependencies
+- **Dependency Strength** - Strength of dependencies
+- **Dependency Impact** - Impact of dependency changes
+
+> **GIF Placeholder:** Demonstrate dependency information display
+
+### Unused Object Information
+
+View unused object information:
+
+- **Unused Object Lists** - Lists of unused objects
+- **Unused Object Types** - Types of unused objects
+- **Cleanup Recommendations** - Recommendations for cleanup
+- **Space Savings** - Potential space savings
+
+> **GIF Placeholder:** Show unused object information
+
+## Result Analysis
 
 ### Usage Analysis
 
-Comprehensive usage analysis:
+Analyze usage patterns:
 
-- **Active Usage** - Objects that are actively used
-- **Inactive Usage** - Objects that are not actively used
-- **Usage Patterns** - Patterns of how objects are used
-- **Usage Recommendations** - Recommendations based on usage analysis
+- **Usage Frequency** - Analyze usage frequency
+- **Usage Distribution** - Analyze usage distribution
+- **Usage Trends** - Identify usage trends
+- **Usage Optimization** - Optimize usage patterns
 
-## Automatic Loading
+> **GIF Placeholder:** Demonstrate usage analysis
 
-### Settings Loading
+### Dependency Analysis
 
-The tool automatically loads all settings:
+Analyze dependencies:
 
-- **Complete Settings** - Loads all settings related to the selected object
-- **Property Values** - Loads current property values
-- **Configuration Data** - Loads complete configuration information
-- **Setting Relationships** - Loads relationships between settings
+- **Dependency Complexity** - Analyze dependency complexity
+- **Dependency Risk** - Assess dependency risks
+- **Dependency Optimization** - Optimize dependencies
+- **Dependency Management** - Manage dependencies
 
-### Objects Loading
+> **GIF Placeholder:** Show dependency analysis
 
-The tool automatically loads all associated objects:
+### Cleanup Analysis
 
-- **Associated Objects** - Loads all objects associated with the selected item
-- **Object Details** - Loads detailed information about associated objects
-- **Usage Information** - Loads usage count and distribution information
-- **Object Relationships** - Loads relationships between objects
+Analyze cleanup opportunities:
 
-## Real-time Analysis
+- **Cleanup Potential** - Assess cleanup potential
+- **Cleanup Impact** - Analyze cleanup impact
+- **Cleanup Strategy** - Develop cleanup strategy
+- **Cleanup Execution** - Execute cleanup operations
 
-### Immediate Results
+> **GIF Placeholder:** Demonstrate cleanup analysis
 
-Depth scan provides immediate results:
+## Advanced Scan Features
 
-- **Instant Analysis** - Analysis results are available immediately
-- **Real-time Updates** - Results update in real-time as selections change
-- **Dynamic Display** - Display updates based on current selections
-- **Live Information** - Live information about object usage
+### Incremental Scans
 
-### Dynamic Updates
+Perform incremental scans:
 
-Results update dynamically:
+- **Change Detection** - Detect changes since last scan
+- **Incremental Updates** - Update scan results incrementally
+- **Delta Analysis** - Analyze changes between scans
+- **Scan Synchronization** - Synchronize scan results
 
-- **Selection Changes** - Results update when selection changes
-- **Object Changes** - Results update when objects change
-- **Real-time Filtering** - Results update with filtering
-- **Live Search** - Results update with search
+> **GIF Placeholder:** Show incremental scan functionality
 
-## Advanced Scanning Features
+### Scheduled Scans
 
-### Multi-Object Scanning
+Schedule automatic scans:
 
-Scan multiple objects simultaneously:
+- **Scan Scheduling** - Schedule scans to run automatically
+- **Background Scans** - Run scans in background
+- **Scan Notifications** - Notify when scans complete
+- **Scan Reports** - Generate scan reports
 
-- **Multi-selection** - Select multiple objects for scanning
-- **Batch Analysis** - Analyze multiple objects at once
-- **Comparative Analysis** - Compare scanning results between objects
-- **Efficient Processing** - Process multiple objects efficiently
+> **GIF Placeholder:** Demonstrate scheduled scans
 
-### Comprehensive Coverage
+### Custom Scan Scripts
 
-Complete coverage of object relationships:
+Use custom scan scripts:
 
-- **All Object Types** - Covers all supported object types
-- **All Relationships** - Covers all types of relationships
-- **Nested Dependencies** - Covers nested dependencies
-- **Indirect References** - Covers indirect references
+- **Script Creation** - Create custom scan scripts
+- **Script Execution** - Execute custom scan scripts
+- **Script Management** - Manage custom scan scripts
+- **Script Sharing** - Share custom scan scripts
+
+> **GIF Placeholder:** Show custom scan script functionality
 
 ## Best Practices
 
-### Effective Scanning
-- **Use Search** - Use search to find specific objects quickly
-- **Review Results** - Review scanning results thoroughly
-- **Understand Relationships** - Understand object relationships
-- **Plan Actions** - Plan actions based on scanning results
+### Scan Planning
+- **Plan Scan Scope** - Plan scan scope carefully
+- **Configure Parameters** - Configure scan parameters appropriately
+- **Set Expectations** - Set realistic expectations for scan results
+- **Prepare Resources** - Ensure adequate resources for scanning
+
+### Scan Execution
+- **Monitor Progress** - Monitor scan progress closely
+- **Handle Interruptions** - Handle scan interruptions gracefully
+- **Validate Results** - Validate scan results
+- **Document Scans** - Document scan configurations and results
 
 ### Result Analysis
-- **Check Usage Count** - Pay attention to usage count information
-- **Review Associations** - Review all associations carefully
-- **Understand Dependencies** - Understand dependencies before actions
-- **Document Findings** - Document scanning findings
+- **Analyze Patterns** - Analyze usage and dependency patterns
+- **Identify Opportunities** - Identify optimization opportunities
+- **Plan Actions** - Plan actions based on scan results
+- **Track Changes** - Track changes over time
 
 ### Performance Optimization
-- **Efficient Selection** - Select objects efficiently
-- **Use Filtering** - Use filtering to focus on specific results
-- **Monitor Performance** - Monitor performance with large datasets
-- **Optimize Workflow** - Optimize workflow for efficiency 
+- **Optimize Scan Parameters** - Optimize scan parameters for performance
+- **Use Incremental Scans** - Use incremental scans when appropriate
+- **Schedule Scans** - Schedule scans during off-peak hours
+- **Monitor Performance** - Monitor scan performance 

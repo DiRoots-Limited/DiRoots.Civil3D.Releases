@@ -18,158 +18,180 @@ nav_order: 4
 
 # Import Data
 
-Drawing Layers provides intelligent import functionality that highlights changes before applying them, ensuring you have full control over what modifications are made to your layer data. The tool automatically detects changes in imported Excel files and provides visual feedback for review.
+Drawing Layers provides comprehensive import capabilities that allow you to import updated layer data from Excel files with automatic change detection and validation features.
 
 ## Overview
 
-Import functionality allows you to bring updated Excel data back into the Drawing Layers tool with automatic change detection and highlighting. The tool compares imported data with current data and highlights any changes for review before applying them.
+Import functionality allows you to:
+- Import updated layer data from Excel files
+- Automatically detect changes in imported data
+- Review and validate changes before applying
+- Maintain data integrity during import process
+
+> **GIF Placeholder:** Show overview of import capabilities
 
 ## Import Process
 
+### Import from Excel
+
+Import updated data with change detection:
+
+- **File Selection** - Select updated Excel file for import
+- **Change Detection** - Automatically detect changes in imported data
+- **Color Highlighting** - Highlight changed values
+- **Change Review** - Review changes before applying
+
+> **GIF Placeholder:** Demonstrate import from Excel
+
 ### Change Detection
 
-Automatic change detection and highlighting:
+Automatically identify changes:
 
-- **File Selection** - Choose the updated Excel file to import
-- **Automatic Comparison** - Tool automatically compares imported data with current data
-- **Change Identification** - Identify all changes in the imported data
-- **Visual Highlighting** - Highlight changes for easy identification
+- **Automatic Detection** - Automatically detect changes in imported data
+- **Visual Indicators** - Highlight changed values with color coding
+- **Change Summary** - Provide summary of detected changes
+- **Validation** - Validate detected changes for accuracy
 
-### Change Highlighting Features
+> **GIF Placeholder:** Show change detection
 
-Comprehensive change highlighting:
+### Import Options
 
-- **Color Highlighting** - Modified values are highlighted in a different color
-- **Change Visibility** - All changes are clearly visible in the interface
-- **Value Comparison** - Compare imported values with current values
-- **Change Review** - Review all changes before applying
+Configure import settings:
 
-### Import Workflow
+- **File Selection** - Choose appropriate Excel file for import
+- **Import Settings** - Configure import parameters and options
+- **Data Mapping** - Map imported data to existing structure
+- **Validation Rules** - Apply validation rules during import
 
-Complete import workflow:
+> **GIF Placeholder:** Demonstrate import options
 
-1. **Select File** - Choose the updated Excel file for import
-2. **Load Data** - Load the Excel file into the tool
-3. **Change Detection** - Tool automatically detects changes
-4. **Color Highlighting** - See changed values highlighted
-5. **Review Changes** - Review all highlighted changes
-6. **Apply Updates** - Apply verified changes to layer data
-
-## Import Options
+## Advanced Import Features
 
 ### Selective Import
 
-Choose which changes to apply:
+Import specific data subsets:
 
-- **Change Selection** - Select specific changes to apply
-- **Partial Import** - Import only selected changes
-- **Custom Selection** - Create custom selection of changes
-- **Targeted Import** - Import only specific data sections
+- **Data Selection** - Select specific data for import
+- **Partial Import** - Import only changed or selected data
+- **Filtered Import** - Import filtered data sets
+- **Custom Import** - Create custom import configurations
+
+> **GIF Placeholder:** Show selective import
+
+### Import Templates
+
+Use import templates for consistency:
+
+- **Template Selection** - Select appropriate import templates
+- **Template Customization** - Customize templates for specific needs
+- **Template Management** - Manage import templates
+- **Template Sharing** - Share templates across teams
+
+> **GIF Placeholder:** Demonstrate import templates
 
 ### Batch Import
 
-Apply all changes at once:
+Import multiple data sets:
 
-- **Complete Import** - Import all changes from Excel file
-- **Bulk Application** - Apply all changes simultaneously
-- **Efficient Processing** - Process all changes efficiently
-- **Consistent Application** - Apply changes consistently
+- **Multiple Imports** - Import multiple data sets simultaneously
+- **Batch Processing** - Process multiple imports efficiently
+- **Import Scheduling** - Schedule imports for automation
+- **Import Monitoring** - Monitor import progress
 
-### Conflict Resolution
+> **GIF Placeholder:** Show batch import
 
-Handle conflicts between imported and existing data:
+## Import Workflow
 
-- **Conflict Detection** - Detect conflicts between data
-- **Resolution Options** - Choose how to resolve conflicts
-- **Data Validation** - Validate data before importing
-- **Error Handling** - Handle import errors gracefully
+### Basic Import Workflow
 
-## Safety Features
+1. **Select File** - Choose Excel file to import
+2. **Configure Import** - Set import options and settings
+3. **Review Changes** - Review detected changes
+4. **Validate Data** - Validate imported data
+5. **Apply Changes** - Apply verified changes
 
-### Change Review
+> **GIF Placeholder:** Demonstrate basic import workflow
 
-Safe change review process:
+### Advanced Import Workflow
 
-- **Visual Feedback** - See all changes highlighted in green
-- **Change Review** - Review all changes before applying
+1. **Plan Import** - Plan import requirements
+2. **Select Template** - Choose appropriate import template
+3. **Configure Settings** - Configure advanced import settings
+4. **Execute Import** - Perform the import operation
+5. **Validate Results** - Validate imported data
+
+> **GIF Placeholder:** Show advanced import workflow
+
+### Collaborative Import Workflow
+
+1. **Receive Updates** - Receive updated files from team members
+2. **Review Changes** - Review changes made by team members
+3. **Validate Updates** - Validate updates before import
+4. **Import Changes** - Import validated changes
+5. **Apply Updates** - Apply updates to layer data
+
+> **GIF Placeholder:** Demonstrate collaborative import workflow
+
+## Change Management
+
+### Visual Change Tracking
+
+Track changes with visual indicators:
+
+- **Color Highlighting** - Changed values highlighted in color
+- **Change Indicators** - Visual indicators for different change types
+- **Change Summary** - Summary of all detected changes
+- **Change Details** - Detailed view of specific changes
+
+> **GIF Placeholder:** Show visual change tracking
+
+### Change Validation
+
+Validate changes before applying:
+
+- **Change Review** - Review all detected changes
+- **Validation Rules** - Apply validation rules to changes
+- **Error Detection** - Detect and flag import errors
+- **Data Integrity** - Ensure data integrity during import
+
+> **GIF Placeholder:** Demonstrate change validation
+
+### Change Application
+
+Apply validated changes:
+
+- **Selective Application** - Apply only selected changes
+- **Bulk Application** - Apply all validated changes
 - **Confirmation Process** - Confirm changes before applying
-- **Verification** - Verify changes are applied correctly
+- **Rollback Options** - Provide rollback options if needed
 
-### Backup Creation
-
-Automatic backup and safety features:
-
-- **Automatic Backup** - Automatic backup of current data before import
-- **Data Protection** - Protect current data during import
-- **Rollback Capability** - Ability to undo import operations if needed
-- **Data Integrity** - Maintain data integrity throughout process
-
-### Validation Checks
-
-Comprehensive validation:
-
-- **Data Validation** - Validate imported data meets requirements
-- **Format Checking** - Check data format and structure
-- **Property Validation** - Validate layer properties
-- **Consistency Checking** - Check data consistency
-
-## Excel Workflow Integration
-
-### Complete Excel Workflow
-
-Integrated Excel workflow demonstrated in the video:
-
-1. **Export Data** - Export layer data to Excel
-2. **External Editing** - Edit data in Excel (e.g., change layer names)
-3. **Save Changes** - Save modified Excel file
-4. **Import Data** - Import updated Excel file
-5. **Change Detection** - See changes highlighted in green
-6. **Review Changes** - Review all highlighted changes
-7. **Apply Updates** - Apply verified changes
-
-### External Editing
-
-Edit data in Excel environment:
-
-- **Familiar Interface** - Use familiar Excel interface for editing
-- **Advanced Features** - Leverage Excel's advanced editing features
-- **Data Manipulation** - Perform data manipulation in Excel
-- **Collaboration** - Collaborate with team members using Excel
-
-### Change Tracking
-
-Track changes through the workflow:
-
-- **Export Tracking** - Track what was exported
-- **Edit Tracking** - Track what was edited in Excel
-- **Import Tracking** - Track what is being imported
-- **Change Verification** - Verify changes are correct
+> **GIF Placeholder:** Show change application
 
 ## Best Practices
 
-### Import Strategy
-- **Review Before Import** - Always review changes before importing
-- **Verify Changes** - Verify all highlighted changes are correct
-- **Test Imports** - Test imports on small datasets first
-- **Backup Data** - Backup important data before importing
-
-### Change Management
-- **Monitor Highlighting** - Monitor different color highlighting for changes
-- **Review Carefully** - Review all changes carefully before applying
-- **Verify Results** - Verify import results are as expected
-- **Document Changes** - Document significant changes made
-
-### Excel Workflow
-- **Edit Carefully** - Edit Excel data carefully to avoid errors
-- **Save Regularly** - Save Excel files regularly during editing
-- **Import Safely** - Import data safely with change review
-- **Verify Imports** - Verify imported changes are correct
+### Import Planning
+- **Plan Imports** - Plan import requirements carefully
+- **Validate Source Data** - Validate source data before import
+- **Use Templates** - Use templates for consistency
+- **Document Imports** - Document import configurations
 
 ### Data Validation
-- **Check Format** - Check Excel file format before importing
-- **Validate Data** - Validate data structure and content
-- **Verify Properties** - Verify layer properties are correct
-- **Test Import** - Test import process with sample data
+- **Verify Source** - Verify source data integrity
+- **Check Format** - Ensure data format compatibility
+- **Validate Structure** - Validate data structure before import
+- **Test Imports** - Test imports with sample data
+
+### Change Management
+- **Review Changes** - Always review changes before applying
+- **Validate Changes** - Validate detected changes
+- **Backup Data** - Backup data before major imports
+- **Test Applications** - Test change applications
+
+### Error Handling
+- **Error Detection** - Detect and handle import errors
+- **Error Resolution** - Resolve errors before proceeding
+- **Rollback Strategy** - Implement rollback strategy
+- **Error Documentation** - Document errors and resolutions
 
 
 

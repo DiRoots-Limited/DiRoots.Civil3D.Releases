@@ -11,7 +11,7 @@ permalink: /docs/grading-pro-user-guide
 Learn how to use Grading Pro to automate and optimize surface design, section configuration, and site grading for any project.
 {: .fs-6 .fw-300 }
 
-## Description
+## Overview
 
 Grading Pro automatically modifies or creates surfaces based on sections positioned from a reference path and groups of feature lines, with configurations you can store and reuse across projects. Whether you're designing proposed terrain, pads, or optimizing cut/fill, Grading Pro takes the complexity out of site grading with high-performance, multi-criteria surface design.
 
@@ -36,6 +36,8 @@ The Grading Pro tool is accessed through the DiRoots tab in Civil 3D. The main U
 - **Grading Type Selection** - Choose predefined configurations or create new ones
 - **Configuration Access** - Direct access to station, section, and grading type setup
 
+> **GIF Placeholder:** Show the main interface and basic navigation
+
 ### Basic Workflow
 
 1. **Open Grading Pro** from the DiRoots tab
@@ -44,60 +46,47 @@ The Grading Pro tool is accessed through the DiRoots tab in Civil 3D. The main U
 4. **Configure or Select Grading Type** - Set up stations and sections
 5. **Apply Changes** - Execute the surface modifications
 
-## Configuration Interface
+> **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes
 
-The configuration interface consists of three main tabs:
+## Quick Reference
 
-### Station Configuration Tab
-- **Create New Stations** - Add individual or range-based stations
+### Station Management
+- **Individual Stations** - Create and manage individual stations
+- **Range-based Stations** - Generate stations in ranges with intervals
 - **Side and Angle Settings** - Define section placement orientation
-- **Duplicate and Remove** - Manage station configurations
-- **Range Intervals** - Set start, end, and interval for automatic station generation
+- **Station Organization** - Organize stations systematically
 
-### Section Configuration Tab
-- **Multiple Definition Methods**:
-  - **Distance with Offset** - Define points by distance from path and offset
-  - **Distance with Slope** - Define points by distance and slope percentage
-  - **Offset with Slope** - Define points by offset and slope percentage
+### Section Configuration
+- **Multiple Definition Methods** - Distance with offset, distance with slope, offset with slope
 - **Point Management** - Add, remove, and reorder section points
 - **Object Feature Lines** - Integrate existing feature lines into sections
+- **Section Validation** - Validate section configurations
 
-### Grading Types Tab
-- **Combine Stations and Sections** - Create reusable grading configurations
-- **Name and Organize** - Structure configurations for project needs
-- **Save and Reuse** - Store configurations for future projects
-
-## Advanced Features
-
-### Object Feature Line Integration
-- **Select Existing Feature Lines** - Choose from drawing objects
-- **Origin Point Definition** - Specify where the object connects to the section
-- **Orientation Control** - Define rotation and placement of feature line objects
+### Feature Line Integration
+- **Existing Feature Lines** - Select and integrate existing feature lines
+- **Origin Point Definition** - Specify connection points for feature lines
+- **Orientation Control** - Define rotation and placement of objects
 - **Offset Management** - Adjust placement relative to section points
 
-### Template Management
-- **Save Templates** - Store configurations as reusable templates
-- **Import/Export** - Share templates across different machines
-- **Standard Templates** - Create company or project standards
-- **Template Organization** - Structure templates by project type or standard
+### Profile Management
+- **Configuration Saving** - Save and reuse configurations
+- **Profile Organization** - Organize profiles systematically
+- **Profile Sharing** - Share profiles across teams
+- **Version Control** - Version control for configurations
 
-### Search and Filter
-- **Filter by Type** - Quickly find specific configurations
-- **Search Functionality** - Locate configurations by name or properties
-- **Isolate Elements** - Focus on specific grading elements
-- **Associated Elements** - View and manage related objects
-
-### Direct Configuration Access
-- **Gear Button** - Quick access to configuration for specific grading types
-- **Inline Editing** - Modify configurations without leaving main interface
-- **Real-time Updates** - See changes immediately in the interface
+### Section Configuration
+- **Configuration Setup** - Set up section configurations
+- **Parameter Management** - Manage section parameters
+- **Configuration Validation** - Validate section configurations
+- **Configuration Optimization** - Optimize configurations for performance
 
 ## Best Practices
 
-### Surface Preparation
-- **Modify Surface Styles** - Ensure visibility of contours and lines before grading
-- **Verify Surface Integrity** - Check for gaps or issues before modification
-- **Backup Original Surfaces** - Keep copies of original surfaces for reference
+### Getting Started
+- **Understand Surface Structure** - Familiarize yourself with surface structure before grading
+- **Choose Appropriate Paths** - Select appropriate reference paths for section placement
+- **Test on Small Areas** - Test configurations on small areas first
+- **Backup Important Surfaces** - Always backup important surfaces before modification
 
 ### Configuration Management
 - **Use Descriptive Names** - Name stations, sections, and grading types clearly
@@ -105,8 +94,25 @@ The configuration interface consists of three main tabs:
 - **Document Standards** - Create templates for common grading scenarios
 - **Version Control** - Maintain different versions of configurations
 
+### Surface Preparation
+- **Modify Surface Styles** - Ensure visibility of contours and lines before grading
+- **Verify Surface Integrity** - Check for gaps or issues before modification
+- **Backup Original Surfaces** - Keep copies of original surfaces for reference
+
 ### Workflow Optimization
 - **Start Small** - Test configurations on small areas first
 - **Use Templates** - Leverage saved configurations for consistency
 - **Regular Saves** - Save work frequently during complex operations
-- **Validate Results** - Check surface modifications after application 
+- **Validate Results** - Check surface modifications after application
+
+### Feature Line Integration
+- **Choose Appropriate Objects** - Select feature lines that fit the section purpose
+- **Verify Object Integrity** - Ensure selected objects are complete and valid
+- **Test Integration** - Verify integration works as expected
+- **Document Integration** - Document how objects are integrated
+
+### Profile Management
+- **Create Useful Profiles** - Create profiles for common workflows
+- **Organize Profiles** - Organize profiles systematically
+- **Share Best Practices** - Share profiles with team members
+- **Regular Updates** - Update profiles as workflows evolve 

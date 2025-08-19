@@ -2,7 +2,7 @@
 layout: default
 title: Object Inspection
 parent: Template Inspector User Guide
-nav_order: 1
+nav_order: 5
 ---
 
 # Object Inspection
@@ -18,135 +18,123 @@ nav_order: 1
 
 # Object Inspection
 
-Template Inspector supports inspecting multiple object types to find where they are used in your files, helping you identify dependencies and make informed decisions about deletion or modification. The tool provides comprehensive search functionality and detailed inspection results.
+Template Inspector provides comprehensive object inspection capabilities to examine object properties, usage, and dependencies in detail.
 
 ## Overview
 
-Object inspection is the core functionality of Template Inspector, allowing you to examine how objects are used throughout your files. The tool displays associated settings and objects, enabling you to understand dependencies and make informed decisions about object management.
+Object inspection allows you to:
+- Examine object properties and settings
+- View detailed usage information
+- Analyze object dependencies
+- Understand object relationships
 
-## Supported Object Types
+> **GIF Placeholder:** Show overview of object inspection interface
 
-### Comprehensive Object Support
+## Inspection Types
 
-Template Inspector supports inspection of multiple object types:
+### Property Inspection
 
-- **Layers** - Inspect layer usage across all objects and styles
-- **Line Types** - Find where line types are assigned
-- **Hatch Styles** - Locate hatch pattern usage
-- **Dimension Styles** - Check dimension style assignments
-- **Text Styles** - Find text style usage throughout the file
+Examine object properties in detail:
 
-### Object Selection Process
+- **Property Values** - View current property values
+- **Property Types** - Understand property types and formats
+- **Property Settings** - Examine property configurations
+- **Property Relationships** - Understand property relationships
 
-Choose which object type to inspect:
+> **GIF Placeholder:** Demonstrate property inspection
 
-1. **Select Object Type** - Choose from layers, line types, dimension styles, hatch styles, text styles
-2. **View Object List** - See all objects of the selected type
-3. **Search Objects** - Use search functionality to find specific objects
-4. **Filter Results** - Apply filters to narrow down results
+### Usage Inspection
 
-## Search and Filter Functionality
+Examine how objects are used:
 
-### Search Capabilities
+- **Usage Locations** - Find where objects are used
+- **Usage Patterns** - Analyze usage patterns
+- **Usage Frequency** - Check usage frequency
+- **Usage Context** - Understand usage context
 
-Find specific objects quickly using search:
+> **GIF Placeholder:** Show usage inspection
 
-- **Search by Name** - Search for objects by name or partial name
-- **Real-time Results** - See results as you type
-- **Case-insensitive** - Search works regardless of case
-- **Partial Matching** - Find objects with partial name matches
+### Dependency Inspection
 
-### Example Search Usage
+Examine object dependencies:
 
-Search for specific objects:
-- **Search "Section"** - Find all objects with "Section" in the name
-- **Filter Results** - Narrow down results to specific categories
-- **Quick Location** - Quickly locate objects in large datasets
-- **Efficient Navigation** - Navigate through object lists efficiently
+- **Direct Dependencies** - Find direct dependencies
+- **Indirect Dependencies** - Find indirect dependencies
+- **Dependency Chains** - Map dependency chains
+- **Dependency Impact** - Analyze dependency impact
 
-### Filtering Options
+> **GIF Placeholder:** Demonstrate dependency inspection
 
-Filter data to focus on specific items:
+## Inspection Interface
 
-- **Name-based Filtering** - Filter by object names
-- **Category Filtering** - Filter by object categories
-- **Usage Filtering** - Filter by usage status
-- **Dynamic Filtering** - Apply multiple filter criteria simultaneously
+### Two-Column Display
 
-## Inspection Results Display
+View inspection results in organized format:
 
-### Two-Column Layout
+- **Settings Column** - Shows object settings and properties
+- **Objects Column** - Shows associated objects and usage
+- **Usage Count** - Displays usage count information
+- **Property Details** - Shows detailed property information
 
-The inspection interface displays results in a two-column format:
+> **GIF Placeholder:** Show two-column display interface
 
-#### Settings Column
-- **Associated Settings** - Shows all settings related to the selected object
-- **Property Values** - Displays current property values
-- **Configuration Details** - Shows detailed configuration information
-- **Setting Relationships** - Displays relationships between settings
+### Information Organization
 
-#### Objects Column
-- **Associated Objects** - Lists all objects that use the selected item
-- **Usage Count** - Shows number of associated objects
-- **Object Types** - Displays types of associated objects
-- **Object Details** - Shows detailed information about associated objects
+Organize inspection information effectively:
 
-### Inspection Example
+- **Logical Grouping** - Group related information together
+- **Hierarchical Display** - Display information hierarchically
+- **Searchable Content** - Make content searchable
+- **Filterable Results** - Allow filtering of results
 
-When inspecting a layer:
-- **Settings Column** - Shows layer properties, color, line type, etc.
-- **Objects Column** - Lists all objects assigned to that layer
-- **Usage Information** - Shows how many objects use the layer
-- **Property Details** - Displays detailed property information
+> **GIF Placeholder:** Demonstrate information organization
 
-## Object Association Analysis
+### Real-time Updates
 
-### Associated Objects Detection
+See updates in real-time:
 
-The tool automatically detects and displays associated objects:
+- **Live Updates** - View updates as they happen
+- **Dynamic Display** - Display updates dynamically
+- **Instant Results** - See results immediately
+- **Real-time Filtering** - Filter results in real-time
 
-- **Direct Associations** - Objects directly assigned to the selected item
-- **Indirect Associations** - Objects that reference the selected item
-- **Nested Dependencies** - Objects that depend on the selected item through other objects
-- **Usage Patterns** - Patterns of how the object is used
+> **GIF Placeholder:** Show real-time updates
 
-### Association Examples
+## Inspection Workflow
 
-Different types of associations:
+### Object Selection
 
-#### Layer Associations
-- **Objects on Layer** - All objects assigned to a specific layer
-- **Layer Properties** - Layer color, line type, visibility settings
-- **Usage Count** - Number of objects using the layer
-- **Object Types** - Types of objects on the layer
+Select objects for inspection:
 
-#### Line Type Associations
-- **Objects with Line Type** - All objects using a specific line type
-- **Line Type Properties** - Line type definition and properties
-- **Usage Distribution** - How the line type is used across objects
-- **Style References** - Styles that reference the line type
+1. **Choose Object Type** - Select the type of object to inspect
+2. **Search for Objects** - Search for specific objects
+3. **Select Target Object** - Select the object to inspect
+4. **Begin Inspection** - Start the inspection process
 
-## Detailed Inspection Process
+> **GIF Placeholder:** Demonstrate object selection workflow
 
-### Step-by-Step Inspection
+### Inspection Process
 
-Complete inspection workflow:
+Conduct comprehensive inspection:
 
-1. **Select Object Type** - Choose the type of object to inspect
-2. **Search for Objects** - Use search to find specific objects
-3. **Select Object** - Choose the object to inspect
-4. **View Results** - Examine associated settings and objects
-5. **Analyze Dependencies** - Understand object relationships
-6. **Make Decisions** - Decide on modification or deletion
+1. **Load Object Data** - Load object data and properties
+2. **Analyze Properties** - Analyze object properties
+3. **Check Usage** - Check object usage
+4. **Examine Dependencies** - Examine object dependencies
+5. **Review Results** - Review inspection results
 
-### Inspection Results Analysis
+> **GIF Placeholder:** Show complete inspection process
 
-Understanding inspection results:
+### Result Analysis
 
-- **Usage Assessment** - Determine if object is used or unused
-- **Dependency Analysis** - Identify dependencies and relationships
-- **Risk Assessment** - Evaluate risks of modification or deletion
-- **Action Planning** - Plan appropriate actions based on results
+Analyze inspection results:
+
+1. **Review Properties** - Review object properties
+2. **Analyze Usage** - Analyze usage patterns
+3. **Assess Dependencies** - Assess dependency relationships
+4. **Plan Actions** - Plan actions based on results
+
+> **GIF Placeholder:** Demonstrate result analysis
 
 ## Advanced Inspection Features
 
@@ -155,35 +143,126 @@ Understanding inspection results:
 Inspect multiple objects simultaneously:
 
 - **Multi-selection** - Select multiple objects for inspection
-- **Batch Analysis** - Analyze multiple objects at once
-- **Comparative Analysis** - Compare inspection results between objects
+- **Comparative Analysis** - Compare inspection results
+- **Batch Inspection** - Inspect objects in batches
 - **Efficient Processing** - Process multiple objects efficiently
 
-### Real-time Updates
+> **GIF Placeholder:** Show multi-object inspection
 
-See inspection results immediately:
+### Deep Inspection
 
-- **Live Updates** - View results as they are processed
-- **Dynamic Display** - Interface updates based on selections
-- **Instant Feedback** - Immediate feedback on object selection
-- **Real-time Filtering** - Filter results dynamically
+Perform deep inspection analysis:
+
+- **Nested Dependencies** - Examine nested dependencies
+- **Complex Relationships** - Analyze complex relationships
+- **Hidden References** - Find hidden references
+- **Complete Analysis** - Perform complete analysis
+
+> **GIF Placeholder:** Demonstrate deep inspection
+
+### Custom Inspection
+
+Create custom inspection criteria:
+
+- **Custom Filters** - Apply custom filters
+- **Custom Criteria** - Define custom inspection criteria
+- **Custom Reports** - Generate custom reports
+- **Custom Analysis** - Perform custom analysis
+
+> **GIF Placeholder:** Show custom inspection features
+
+## Inspection Results
+
+### Property Information
+
+View detailed property information:
+
+- **Property Names** - Display property names
+- **Property Values** - Show property values
+- **Property Types** - Indicate property types
+- **Property Descriptions** - Provide property descriptions
+
+> **GIF Placeholder:** Show property information display
+
+### Usage Information
+
+View detailed usage information:
+
+- **Usage Count** - Show usage count
+- **Usage Locations** - List usage locations
+- **Usage Types** - Indicate usage types
+- **Usage Details** - Provide usage details
+
+> **GIF Placeholder:** Demonstrate usage information display
+
+### Dependency Information
+
+View detailed dependency information:
+
+- **Dependency Types** - Show dependency types
+- **Dependency Strength** - Indicate dependency strength
+- **Dependency Impact** - Show dependency impact
+- **Dependency Details** - Provide dependency details
+
+> **GIF Placeholder:** Show dependency information display
+
+## Result Export and Reporting
+
+### Export Options
+
+Export inspection results:
+
+- **Data Export** - Export inspection data
+- **Report Generation** - Generate inspection reports
+- **Format Options** - Choose export formats
+- **Custom Exports** - Create custom exports
+
+> **GIF Placeholder:** Demonstrate export options
+
+### Report Types
+
+Generate different report types:
+
+- **Summary Reports** - Generate summary reports
+- **Detailed Reports** - Generate detailed reports
+- **Custom Reports** - Create custom reports
+- **Comparative Reports** - Generate comparative reports
+
+> **GIF Placeholder:** Show different report types
+
+### Report Management
+
+Manage inspection reports:
+
+- **Report Storage** - Store inspection reports
+- **Report Organization** - Organize reports effectively
+- **Report Sharing** - Share reports with others
+- **Report Archiving** - Archive old reports
+
+> **GIF Placeholder:** Demonstrate report management
 
 ## Best Practices
 
-### Effective Inspection
-- **Start with Search** - Use search to find specific objects quickly
-- **Review Both Columns** - Examine both settings and objects columns
-- **Check Dependencies** - Verify dependencies before making changes
-- **Document Findings** - Keep records of inspection results
+### Inspection Planning
+- **Plan Inspection Scope** - Plan inspection scope carefully
+- **Define Objectives** - Define clear inspection objectives
+- **Prepare Resources** - Ensure adequate resources
+- **Set Expectations** - Set realistic expectations
 
-### Search and Filter Usage
-- **Use Specific Terms** - Use specific search terms for better results
-- **Combine Filters** - Use multiple filters for precise results
-- **Save Useful Searches** - Remember useful search combinations
-- **Regular Updates** - Update search results as needed
+### Inspection Execution
+- **Follow Process** - Follow established inspection process
+- **Document Findings** - Document all findings
+- **Validate Results** - Validate inspection results
+- **Review Thoroughly** - Review results thoroughly
 
 ### Result Analysis
-- **Understand Relationships** - Understand object relationships
-- **Assess Usage** - Determine if objects are actively used
-- **Plan Actions** - Plan appropriate actions based on results
-- **Verify Decisions** - Verify decisions before taking action 
+- **Analyze Patterns** - Analyze patterns in results
+- **Identify Issues** - Identify potential issues
+- **Plan Actions** - Plan actions based on results
+- **Track Changes** - Track changes over time
+
+### Performance Optimization
+- **Optimize Scope** - Optimize inspection scope
+- **Use Filters** - Use filters to focus inspection
+- **Batch Processing** - Use batch processing when appropriate
+- **Monitor Performance** - Monitor inspection performance 

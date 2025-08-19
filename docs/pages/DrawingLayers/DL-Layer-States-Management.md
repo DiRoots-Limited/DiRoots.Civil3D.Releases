@@ -18,147 +18,177 @@ nav_order: 5
 
 # Layer States Management
 
-Drawing Layers provides comprehensive tools for managing layer states, allowing you to create, modify, and organize layer state configurations efficiently through the spreadsheet interface. The tool enables bulk operations and selective editing of layer state properties.
+Drawing Layers provides comprehensive layer states management capabilities that allow you to edit layer states and their properties using the spreadsheet interface.
 
 ## Overview
 
-Layer States Management allows you to edit layer state properties and apply bulk changes to related layers. The interface provides efficient tools for managing layer states, including selective editing, color management, and bulk operations for related layer groups.
+Layer states management allows you to:
+- Edit layer state properties and settings
+- Manage layer assignments within states
+- Apply bulk changes to multiple states
+- Manage color and property settings for states
 
-## Layer States Interface
+> **GIF Placeholder:** Show overview of layer states management capabilities
 
-### State Selection and Editing
+## State Editing
 
-Select and edit specific layer states:
+### State Selection
 
-- **State Selection** - Select specific layer states for editing
-- **Property Modification** - Edit state properties and settings
-- **Bulk Changes** - Apply changes to multiple states
-- **Selective Editing** - Edit only specific layer states
+Select specific layer states for editing:
 
-### State Properties Management
+- **State Identification** - Identify and select specific layer states
+- **State Navigation** - Navigate through available layer states
+- **State Filtering** - Filter states based on criteria
+- **State Organization** - Organize states for efficient management
 
-Manage comprehensive state properties:
+> **GIF Placeholder:** Demonstrate state selection
+
+### Property Modification
+
+Edit state properties and settings:
 
 - **State Names** - Edit layer state names and identifiers
 - **Layer Assignments** - Modify which layers are in each state
 - **Color Settings** - Change colors for state-related layers
 - **Property Values** - Edit any state property value
 
+> **GIF Placeholder:** Show property modification
+
+### State Properties
+
+Manage comprehensive state properties:
+
+- **Visibility Settings** - Configure on/off, freeze/thaw, lock/unlock settings
+- **Color Overrides** - Set color override settings for states
+- **Linetype Overrides** - Configure linetype override settings
+- **Plot Settings** - Manage print visibility and plot style overrides
+
+> **GIF Placeholder:** Demonstrate state properties management
+
 ## Bulk Operations
 
-### Selective Layer Changes
+### Selective Changes
 
 Apply changes to specific layer groups:
 
-- **Layer Group Selection** - Select specific layer groups for editing
-- **Related Layer Management** - Manage layers related to specific objects
-- **Bulk Property Changes** - Apply property changes to multiple layers
-- **Group-based Operations** - Perform operations on related layer groups
+- **Group Selection** - Select specific layer groups for modification
+- **Targeted Changes** - Apply changes to selected groups only
+- **Change Validation** - Validate changes before applying
+- **Result Verification** - Verify changes are applied correctly
 
-### Color Management
+> **GIF Placeholder:** Show selective changes
 
-Efficient color management for related layers:
+### Color Updates
 
-- **Color Updates** - Change colors for related layers (e.g., corridor layers to red)
-- **Group Color Changes** - Apply color changes to entire layer groups
-- **Selective Color Application** - Apply colors to specific layer types
-- **Bulk Color Operations** - Change colors for multiple related layers
+Change colors for related layers:
 
-### Example: Corridor Layer Management
+- **Color Assignment** - Assign colors to related layers
+- **Bulk Color Changes** - Change colors for multiple layers simultaneously
+- **Color Consistency** - Maintain color consistency across states
+- **Color Validation** - Validate color assignments
 
-Practical example demonstrated in the video:
+> **GIF Placeholder:** Demonstrate color updates
 
-- **Corridor Layer Selection** - Select corridor-related layers
-- **Color Change** - Change corridor layers to red color
-- **Bulk Application** - Apply color change to all corridor layers
-- **State Application** - Apply changes to "Only Corridor" state
-- **Verification** - Verify changes are applied correctly
+### State Application
 
-## State Editing Workflow
+Apply state changes to multiple layers:
 
-### Complete State Editing Process
+- **Multi-layer Application** - Apply state changes to multiple layers
+- **Consistent Application** - Ensure consistent application across layers
+- **Change Verification** - Verify state applications
+- **Result Validation** - Validate application results
 
-Efficient state editing workflow:
-
-1. **Select State** - Select the layer state to edit
-2. **Choose Layers** - Select specific layers or layer groups
-3. **Make Changes** - Edit properties (e.g., change colors)
-4. **Apply Changes** - Apply changes to selected layers
-5. **Update State** - Update the layer state with changes
-6. **Verify Results** - Verify changes are applied correctly
-
-### Change Management
-
-Safe change management for layer states:
-
-- **Change Review** - Review changes before applying
-- **Reset Functionality** - Reset changes before confirming
-- **Confirmation Process** - Confirm changes before applying
-- **Verification** - Verify state changes are applied correctly
+> **GIF Placeholder:** Show state application
 
 ## Advanced Features
 
-### State Templates
+### State Configuration
 
-Create and manage state templates:
+Configure states for specific needs:
 
-- **Template Creation** - Create reusable state configurations
-- **Template Application** - Apply templates to new states
-- **Template Management** - Manage and organize state templates
-- **Consistency** - Maintain consistency across state configurations
+- **State Setup** - Set up states for specific requirements
+- **Configuration Management** - Manage state configurations
+- **State Optimization** - Optimize states for performance
+- **Configuration Validation** - Validate state configurations
 
-### State Comparison
+> **GIF Placeholder:** Demonstrate state configuration
 
-Compare different layer states:
+### State Organization
 
-- **Side-by-Side Comparison** - Compare states side by side
-- **Difference Highlighting** - Highlight differences between states
-- **State Analysis** - Analyze state configurations
-- **Optimization** - Optimize state configurations
+Organize states effectively:
+
+- **State Categorization** - Categorize states by purpose or function
+- **State Hierarchy** - Organize states hierarchically
+- **State Naming** - Use descriptive names for states
+- **State Documentation** - Document state purposes and configurations
+
+> **GIF Placeholder:** Show state organization
 
 ### State Validation
 
 Validate state configurations:
 
-- **Configuration Verification** - Verify state configurations
-- **Consistency Checking** - Check consistency across states
-- **Error Detection** - Detect configuration errors
-- **Quality Assurance** - Ensure state quality
+- **Configuration Validation** - Validate state configurations
+- **Property Validation** - Validate state properties
+- **Assignment Validation** - Validate layer assignments
+- **Consistency Checking** - Check state consistency
+
+> **GIF Placeholder:** Demonstrate state validation
+
+## Workflow Examples
+
+### Basic State Editing
+
+1. **Select State** - Choose layer state to edit
+2. **Modify Properties** - Edit state properties as needed
+3. **Apply Changes** - Apply changes to the state
+4. **Verify Results** - Verify changes are applied correctly
+
+> **GIF Placeholder:** Demonstrate basic state editing
+
+### Bulk State Management
+
+1. **Select Multiple States** - Choose multiple states for editing
+2. **Configure Changes** - Set up changes for all selected states
+3. **Apply Bulk Changes** - Apply changes to all selected states
+4. **Validate Results** - Validate all changes are applied correctly
+
+> **GIF Placeholder:** Show bulk state management
+
+### Color Management Workflow
+
+1. **Identify Layer Groups** - Identify related layer groups
+2. **Assign Colors** - Assign appropriate colors to groups
+3. **Apply Color Changes** - Apply color changes to states
+4. **Verify Color Application** - Verify colors are applied correctly
+
+> **GIF Placeholder:** Demonstrate color management workflow
 
 ## Best Practices
 
-### State Management
-- **Organize States** - Organize states logically and consistently
-- **Use Descriptive Names** - Use descriptive names for states
-- **Group Related Layers** - Group related layers in states
-- **Maintain Consistency** - Maintain consistency across states
+### State Planning
+- **Plan States** - Plan state configurations carefully
+- **Define Purposes** - Define clear purposes for each state
+- **Organize Logically** - Organize states logically
+- **Document Configurations** - Document state configurations
+
+### Property Management
+- **Validate Properties** - Validate state properties before applying
+- **Test Configurations** - Test state configurations
+- **Monitor Performance** - Monitor state performance
+- **Optimize Settings** - Optimize state settings
 
 ### Bulk Operations
-- **Plan Changes** - Plan bulk changes before applying
-- **Test Operations** - Test operations on small groups first
-- **Verify Results** - Verify results after bulk operations
-- **Backup States** - Backup states before major changes
+- **Plan Changes** - Plan bulk changes carefully
+- **Test on Small Sets** - Test changes on small state sets first
+- **Validate Results** - Validate bulk operation results
+- **Document Changes** - Document bulk changes made
 
 ### Color Management
-- **Use Consistent Colors** - Use consistent colors for related layers
-- **Plan Color Schemes** - Plan color schemes for layer groups
-- **Apply Systematically** - Apply colors systematically across groups
-- **Verify Color Changes** - Verify color changes are applied correctly
-
-### Change Management
-- **Review Changes** - Always review changes before applying
-- **Use Reset** - Use reset functionality to undo unwanted changes
-- **Confirm Carefully** - Confirm changes carefully before applying
-- **Verify Applications** - Verify state applications are successful
-
-
-
-
-#### Bulk Operation Issues
-- **Changes Not Applied** - Check if bulk changes are being applied
-- **Color Not Updated** - Verify color changes are being applied
-- **Group Selection Problems** - Check if layer group selection is working
-- **Operation Failures** - Verify bulk operations are completing
+- **Use Consistent Colors** - Use consistent colors across states
+- **Validate Color Assignments** - Validate color assignments
+- **Test Color Applications** - Test color applications
+- **Document Color Schemes** - Document color schemes used
 
 
 

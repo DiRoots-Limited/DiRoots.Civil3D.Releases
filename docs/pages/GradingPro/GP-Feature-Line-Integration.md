@@ -18,47 +18,42 @@ nav_order: 3
 
 # Feature Line Integration
 
-Grading Pro allows you to integrate existing feature lines as objects in your section definitions, providing greater control and flexibility in grading design. This feature enables you to incorporate complex geometry from existing objects into your grading sections.
+Grading Pro allows you to integrate existing feature lines as objects in your section definitions, providing greater control and flexibility in grading design.
 
 ## Overview
 
-Feature line integration enables you to use existing feature lines, platforms, or other geometric objects as part of your section definitions. This powerful capability allows you to maintain exact geometry from existing designs while incorporating them into new grading scenarios.
+Feature line integration enables you to:
+- Use existing feature lines, platforms, or other geometric objects as part of your section definitions
+- Maintain exact geometry from existing designs while incorporating them into new grading scenarios
+- Achieve precise control over complex geometric forms
+- Ensure design consistency with existing elements
 
-## Adding Feature Lines to Sections
+> **GIF Placeholder:** Show overview of feature line integration capabilities
 
-### Step-by-Step Process
+## Integration Process
 
-1. **Access Section Configuration**
-   - Navigate to the "Section Configuration" tab
-   - Create a new section or select an existing one
+### Adding Feature Lines to Sections
 
-2. **Add Object Feature Lines**
-   - Click the "Object Feature Lines" button in the section configuration
-   - The interface will switch to AutoCAD for object selection
+Step-by-step integration process:
 
-3. **Select Feature Lines**
-   - Select the feature lines or objects you want to integrate
-   - You can select multiple objects simultaneously
-   - Press Enter to confirm your selection
+1. **Access Section Configuration** - Navigate to the "Section Configuration" tab
+2. **Add Object Feature Lines** - Click the "Object Feature Lines" button
+3. **Select Feature Lines** - Select the feature lines or objects to integrate
+4. **Define Origin Point** - Specify where the feature line connects to the section
+5. **Set Orientation** - Define rotation and placement of the object
 
-4. **Define Origin Point**
-   - The application will prompt for an origin point
-   - This point defines where the feature line connects to the section
-   - Choose from available points (midpoint, endpoint, etc.)
-
-5. **Set Orientation**
-   - Select an endpoint to define the rotation/orientation of the object
-   - This determines how the feature line is positioned relative to the section
-   - Adjust offset if needed for precise placement
+> **GIF Placeholder:** Demonstrate complete integration process
 
 ### Origin Point Selection
 
-The origin point is critical for proper feature line integration:
+Critical for proper feature line integration:
 
 - **Midpoint** - Connect at the middle of the feature line
 - **Endpoint** - Connect at one end of the feature line
 - **Custom Point** - Select any point along the feature line
-- **Impact on Placement** - Origin point determines where the object connects to the section
+- **Impact on Placement** - Origin point determines connection location
+
+> **GIF Placeholder:** Show origin point selection options
 
 ### Orientation Control
 
@@ -67,35 +62,9 @@ Setting the orientation ensures proper placement:
 - **Endpoint Selection** - Choose which end defines the orientation
 - **Rotation Control** - Determines how the object is rotated
 - **Placement Accuracy** - Ensures the feature line is positioned correctly
+- **Design Consistency** - Maintains consistent orientation across objects
 
-## Feature Line Applications
-
-### Platform Integration
-
-One of the most common applications is integrating existing platforms:
-
-1. **Select Platform Feature Lines** - Choose the feature lines that define the platform
-2. **Define Connection Point** - Specify where the platform connects to the section
-3. **Set Orientation** - Ensure the platform is oriented correctly
-4. **Apply to Section** - The platform becomes part of the section definition
-
-### Complex Geometry Integration
-
-Incorporate detailed feature line geometry:
-
-- **Existing Designs** - Use feature lines from previous design work
-- **Complex Shapes** - Integrate intricate geometric forms
-- **Precise Control** - Maintain exact geometry from source objects
-- **Design Consistency** - Ensure consistency with existing design elements
-
-### Reusable Objects
-
-Use the same feature lines in multiple sections:
-
-- **Standard Elements** - Create standard feature line objects for reuse
-- **Consistent Design** - Apply the same geometry across different areas
-- **Efficient Workflow** - Save time by reusing existing objects
-- **Quality Assurance** - Ensure consistency in design application
+> **GIF Placeholder:** Demonstrate orientation control
 
 ## Advanced Integration Techniques
 
@@ -103,10 +72,12 @@ Use the same feature lines in multiple sections:
 
 Combine multiple feature lines in a single section:
 
-1. **Select Multiple Objects** - Choose several feature lines simultaneously
-2. **Define Individual Origins** - Set origin points for each object
-3. **Coordinate Placement** - Ensure objects work together in the section
-4. **Verify Integration** - Check that all objects integrate properly
+- **Select Multiple Objects** - Choose several feature lines simultaneously
+- **Define Individual Origins** - Set origin points for each object
+- **Coordinate Placement** - Ensure objects work together in the section
+- **Verify Integration** - Check that all objects integrate properly
+
+> **GIF Placeholder:** Show multiple feature line integration
 
 ### Offset Management
 
@@ -117,6 +88,8 @@ Adjust placement relative to section points:
 - **Design Flexibility** - Adjust placement without modifying source objects
 - **Quality Control** - Ensure proper alignment with section geometry
 
+> **GIF Placeholder:** Demonstrate offset management
+
 ### Complex Scenarios
 
 Handle complex integration scenarios:
@@ -125,6 +98,43 @@ Handle complex integration scenarios:
 - **Mixed Geometry** - Combine different types of feature lines
 - **Custom Applications** - Create specialized integration solutions
 - **Project-Specific Needs** - Address unique project requirements
+
+> **GIF Placeholder:** Show complex integration scenarios
+
+## Applications
+
+### Platform Integration
+
+One of the most common applications:
+
+- **Select Platform Feature Lines** - Choose the feature lines that define the platform
+- **Define Connection Point** - Specify where the platform connects to the section
+- **Set Orientation** - Ensure the platform is oriented correctly
+- **Apply to Section** - The platform becomes part of the section definition
+
+> **GIF Placeholder:** Demonstrate platform integration
+
+### Complex Geometry Integration
+
+Incorporate detailed feature line geometry:
+
+- **Existing Designs** - Use feature lines from previous design work
+- **Complex Shapes** - Integrate intricate geometric forms
+- **Precise Control** - Maintain exact geometry from source objects
+- **Design Consistency** - Ensure consistency with existing design elements
+
+> **GIF Placeholder:** Show complex geometry integration
+
+### Reusable Objects
+
+Use the same feature lines in multiple sections:
+
+- **Standard Elements** - Create standard feature line objects for reuse
+- **Consistent Design** - Apply the same geometry across different areas
+- **Efficient Workflow** - Save time by reusing existing objects
+- **Quality Assurance** - Ensure consistency in design application
+
+> **GIF Placeholder:** Demonstrate reusable objects
 
 ## Best Practices
 

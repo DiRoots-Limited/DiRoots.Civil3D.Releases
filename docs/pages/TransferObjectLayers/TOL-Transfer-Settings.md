@@ -2,7 +2,7 @@
 layout: default
 title: Transfer Settings
 parent: Transfer Object Layers User Guide
-nav_order: 1
+nav_order: 6
 ---
 
 # Transfer Settings
@@ -18,175 +18,291 @@ nav_order: 1
 
 # Transfer Settings
 
-Transfer Object Layers enables you to transfer Civil 3D object layer settings between projects through multiple import options, including open files, closed files, and Excel files. The tool provides comprehensive data management and layer validation capabilities.
+Transfer Object Layers provides comprehensive transfer settings that allow you to configure and customize transfer operations according to your specific requirements and project needs.
 
 ## Overview
 
-Transfer Settings is the core functionality that allows you to transfer object layer settings between Civil 3D projects. The tool supports multiple import sources and provides comprehensive data management capabilities, including pre-import editing and layer validation.
+Transfer settings allow you to:
+- Configure transfer source and destination options
+- Set up import and export preferences
+- Customize transfer behavior and validation
+- Manage transfer workflow settings
 
-## Import Options
+> **GIF Placeholder:** Show overview of transfer settings interface
 
-### Import from Open File
+## Source Configuration
 
-Transfer data from currently open Civil 3D files:
+### Import Source Settings
 
-- **Direct Import** - Import data directly from open Civil 3D files
-- **Real-time Data** - Access current file data immediately
-- **Data Display** - View all imported data in the UI
-- **Pre-import Editing** - Modify data before importing
+Configure import source options:
 
-### Import from Closed File
+- **Open File Import** - Configure import from open Civil 3D files
+- **Closed File Import** - Configure import from closed files
+- **Excel Import** - Configure import from Excel files
+- **Source Validation** - Validate source files before import
 
-Transfer data from closed Civil 3D files:
+> **GIF Placeholder:** Demonstrate source configuration
 
-- **File Selection** - Select closed .dwg or Civil 3D files
-- **Three-dot Interface** - Use three-dot button to browse for files
-- **File Validation** - Validate file compatibility before import
-- **Data Extraction** - Extract object layer data from closed files
+### Source File Selection
 
-### Import from Excel
+Configure source file selection:
 
-Import data from Excel files:
+- **File Browser** - Configure file browser settings
+- **File Filtering** - Set up file filtering options
+- **File Validation** - Configure file validation rules
+- **Source Paths** - Manage source file paths
 
-- **Excel File Selection** - Select Excel files containing object layer data
-- **Template Support** - Use structured Excel templates
-- **Data Validation** - Validate Excel data before import
-- **Standard Import** - Import standard configurations from Excel
+> **GIF Placeholder:** Show source file selection configuration
 
-## Data Management
+### Source Data Configuration
 
-### UI Data Display
+Configure source data settings:
 
-View and manage imported data in the UI:
+- **Data Selection** - Configure data selection options
+- **Data Filtering** - Set up data filtering rules
+- **Data Validation** - Configure data validation
+- **Data Mapping** - Set up data mapping rules
 
-- **Complete Data View** - See all imported object layer data
-- **Data Organization** - Organized display of transfer data
-- **Data Modification** - Edit data directly in the UI
-- **Pre-import Review** - Review data before importing
+> **GIF Placeholder:** Demonstrate source data configuration
 
-### Data Editing
+## Destination Configuration
 
-Modify data before importing:
+### Target File Settings
 
-- **Direct Editing** - Edit data directly in the UI interface
-- **Pre-import Modifications** - Make changes before applying to target file
-- **Data Validation** - Validate modified data before import
-- **Bulk Modifications** - Modify multiple items simultaneously
+Configure target file settings:
 
-## Layer Validation
+- **Target File Selection** - Configure target file selection
+- **File Creation** - Set up file creation options
+- **File Overwrite** - Configure file overwrite settings
+- **Target Validation** - Validate target files
 
-### Undefined Layer Detection
+> **GIF Placeholder:** Show target file configuration
 
-Identify and handle undefined layers:
+### Destination Paths
 
-- **Layer Validation** - Check if layers are defined in target file
-- **Warning System** - Display warnings for undefined layers
-- **Layer Status** - Show which layers are not defined
-- **Future Enhancement** - Warning messages planned for next version
+Configure destination paths:
 
-### Layer Management
+- **Path Management** - Manage destination paths
+- **Path Validation** - Validate destination paths
+- **Path Creation** - Configure path creation options
+- **Path Security** - Set up path security settings
 
-Handle undefined layer scenarios:
+> **GIF Placeholder:** Demonstrate destination path configuration
 
-- **Layer Definition** - Ensure required layers exist in target file
-- **Import Limitations** - Cannot import settings for undefined layers
-- **Data Filtering** - Filter out data for undefined layers
-- **User Awareness** - Keep users informed about layer status
+### Transfer Destination
 
-## Transfer Process
+Configure transfer destination:
 
-### Step-by-Step Transfer
+- **Transfer Location** - Set transfer destination location
+- **Transfer Method** - Configure transfer method
+- **Transfer Options** - Set up transfer options
+- **Transfer Validation** - Validate transfer destination
 
-Complete transfer workflow:
+> **GIF Placeholder:** Show transfer destination configuration
 
-1. **Open Target File** - Open the file where you want to import settings
-2. **Open Transfer Tool** - Open Transfer Object Layers from Civil Management
-3. **Choose Import Source** - Select from open file, closed file, or Excel
-4. **Import Data** - Import object layer data from selected source
-5. **Review Data** - Review imported data in the UI
-6. **Edit if Needed** - Modify data before importing
-7. **Import All** - Import all data to target file
+## Import/Export Settings
 
-### Import Process Examples
+### Import Configuration
 
-Different import scenarios:
+Configure import settings:
 
-#### Open File Import
-- **Source File Open** - Source file is currently open in Civil 3D
-- **Direct Import** - Import data directly from open file
-- **Real-time Access** - Access current file data immediately
-- **Data Display** - View all imported data in the UI
+- **Import Options** - Configure import options
+- **Import Validation** - Set up import validation
+- **Import Behavior** - Configure import behavior
+- **Import Performance** - Optimize import performance
 
-#### Closed File Import
-- **File Selection** - Select closed file using three-dot button
-- **File Browsing** - Navigate to and select the closed file
-- **Data Extraction** - Extract object layer data from closed file
-- **Import Process** - Import extracted data to target file
+> **GIF Placeholder:** Demonstrate import configuration
 
-#### Excel Import
-- **Excel File Selection** - Select Excel file containing standard data
-- **Data Loading** - Load all data from Excel file
-- **Layer Association** - View layer data associated with objects
-- **Standard Application** - Apply standard to target file
+### Export Configuration
 
-## Supported Object Types
+Configure export settings:
 
-### Civil 3D Objects
+- **Export Options** - Configure export options
+- **Export Format** - Set up export format
+- **Export Validation** - Configure export validation
+- **Export Performance** - Optimize export performance
 
-Comprehensive object type support:
+> **GIF Placeholder:** Show export configuration
 
-- **Alignment Objects** - Alignment layer settings and properties
-- **Profile Objects** - Profile layer configurations
-- **Surface Objects** - Surface layer settings and display properties
-- **Pipe Networks** - Pipe and structure layer assignments
-- **Corridors** - Corridor layer settings and component assignments
-- **Other Civil 3D Objects** - All standard Civil 3D object types
+### Data Format Settings
 
-### Object Layer Settings
+Configure data format settings:
 
-Transfer comprehensive object layer settings:
+- **Format Options** - Configure format options
+- **Format Validation** - Set up format validation
+- **Format Conversion** - Configure format conversion
+- **Format Compatibility** - Ensure format compatibility
 
-- **Layer Assignments** - Layer assignments for all object types
-- **Display Properties** - Display and visibility settings
-- **Color and Style** - Color, linetype, and style assignments
-- **Property Values** - All object layer property values
+> **GIF Placeholder:** Demonstrate data format configuration
 
-## Transfer Options
+## Validation Settings
 
-### Complete Transfer
+### Layer Validation
 
-Transfer all object layer settings:
+Configure layer validation:
 
-- **All Data Transfer** - Transfer all available object layer data
-- **Comprehensive Settings** - Include all layer settings and properties
-- **Batch Import** - Import all data with single operation
-- **Complete Configuration** - Transfer complete layer configuration
+- **Layer Checking** - Configure layer checking rules
+- **Layer Compatibility** - Set up layer compatibility checks
+- **Layer Warnings** - Configure layer warning settings
+- **Layer Resolution** - Set up layer resolution options
 
-### Selective Transfer
+> **GIF Placeholder:** Show layer validation configuration
 
-Choose specific settings to transfer:
+### Data Validation
 
-- **Object Type Selection** - Choose specific Civil 3D object types
-- **Property Filtering** - Filter which properties to transfer
-- **Layer Selection** - Select specific layers to transfer
-- **Custom Configuration** - Create custom transfer configurations
+Configure data validation:
+
+- **Data Integrity** - Configure data integrity checks
+- **Data Completeness** - Set up data completeness validation
+- **Data Accuracy** - Configure data accuracy validation
+- **Data Consistency** - Set up data consistency checks
+
+> **GIF Placeholder:** Demonstrate data validation configuration
+
+### Error Handling
+
+Configure error handling:
+
+- **Error Detection** - Configure error detection rules
+- **Error Reporting** - Set up error reporting options
+- **Error Recovery** - Configure error recovery procedures
+- **Error Prevention** - Set up error prevention measures
+
+> **GIF Placeholder:** Show error handling configuration
+
+## Performance Settings
+
+### Transfer Performance
+
+Configure transfer performance:
+
+- **Transfer Speed** - Optimize transfer speed
+- **Memory Usage** - Configure memory usage
+- **Processing Options** - Set up processing options
+- **Performance Monitoring** - Configure performance monitoring
+
+> **GIF Placeholder:** Demonstrate performance configuration
+
+### Batch Processing
+
+Configure batch processing:
+
+- **Batch Size** - Configure batch processing size
+- **Batch Optimization** - Optimize batch processing
+- **Batch Monitoring** - Set up batch monitoring
+- **Batch Error Handling** - Configure batch error handling
+
+> **GIF Placeholder:** Show batch processing configuration
+
+### Resource Management
+
+Configure resource management:
+
+- **Resource Allocation** - Configure resource allocation
+- **Resource Optimization** - Optimize resource usage
+- **Resource Monitoring** - Set up resource monitoring
+- **Resource Limits** - Configure resource limits
+
+> **GIF Placeholder:** Demonstrate resource management
+
+## Advanced Settings
+
+### Custom Configuration
+
+Configure custom settings:
+
+- **Custom Rules** - Set up custom transfer rules
+- **Custom Validation** - Configure custom validation
+- **Custom Workflows** - Set up custom workflows
+- **Custom Integration** - Configure custom integration
+
+> **GIF Placeholder:** Show custom configuration
+
+### Automation Settings
+
+Configure automation settings:
+
+- **Automated Transfer** - Configure automated transfer
+- **Scheduled Transfer** - Set up scheduled transfer
+- **Trigger Conditions** - Configure trigger conditions
+- **Automation Rules** - Set up automation rules
+
+> **GIF Placeholder:** Demonstrate automation configuration
+
+### Security Settings
+
+Configure security settings:
+
+- **Access Control** - Configure access control
+- **Data Protection** - Set up data protection
+- **Security Validation** - Configure security validation
+- **Security Monitoring** - Set up security monitoring
+
+> **GIF Placeholder:** Show security configuration
+
+## Settings Management
+
+### Settings Profiles
+
+Manage settings profiles:
+
+- **Profile Creation** - Create settings profiles
+- **Profile Management** - Manage settings profiles
+- **Profile Sharing** - Share settings profiles
+- **Profile Versioning** - Version control for profiles
+
+> **GIF Placeholder:** Demonstrate settings profile management
+
+### Settings Backup
+
+Backup and restore settings:
+
+- **Settings Backup** - Backup transfer settings
+- **Settings Restoration** - Restore settings from backup
+- **Settings Migration** - Migrate settings between systems
+- **Settings Synchronization** - Synchronize settings
+
+> **GIF Placeholder:** Show settings backup and restoration
+
+### Settings Validation
+
+Validate settings configuration:
+
+- **Configuration Validation** - Validate settings configuration
+- **Settings Testing** - Test settings configuration
+- **Settings Optimization** - Optimize settings configuration
+- **Settings Documentation** - Document settings configuration
+
+> **GIF Placeholder:** Demonstrate settings validation
 
 ## Best Practices
 
-### File Preparation
-- **Open Target File** - Always open the file where you want to import data
-- **Layer Preparation** - Ensure required layers exist in target file
-- **File Validation** - Validate source files before importing
-- **Backup Creation** - Backup important files before transfer
+### Configuration Planning
+- **Plan Configuration** - Plan settings configuration carefully
+- **Document Settings** - Document all settings configurations
+- **Test Settings** - Test settings before production use
+- **Validate Settings** - Validate settings configuration
 
-### Data Management
-- **Review Before Import** - Always review data before importing
-- **Edit as Needed** - Modify data in UI before importing
-- **Validate Changes** - Validate any modifications before applying
-- **Test Imports** - Test imports on small datasets first
+### Settings Management
+- **Organize Settings** - Organize settings systematically
+- **Version Control** - Use version control for settings
+- **Regular Updates** - Update settings regularly
+- **Backup Strategy** - Implement backup strategy for settings
 
-### Layer Management
-- **Check Layer Definitions** - Verify layers exist in target file
-- **Handle Undefined Layers** - Address undefined layer issues
-- **Layer Compatibility** - Ensure layer compatibility between files
-- **Layer Standards** - Maintain consistent layer standards 
+### Performance Optimization
+- **Optimize Settings** - Optimize settings for performance
+- **Monitor Performance** - Monitor settings performance
+- **Resource Management** - Manage resources efficiently
+- **Performance Tuning** - Tune settings for optimal performance
+
+### Security and Validation
+- **Security Configuration** - Configure security settings properly
+- **Validation Rules** - Set up appropriate validation rules
+- **Error Handling** - Configure proper error handling
+- **Security Monitoring** - Monitor security settings
+
+### Maintenance and Updates
+- **Regular Maintenance** - Maintain settings regularly
+- **Update Procedures** - Follow update procedures
+- **Change Management** - Manage settings changes
+- **Documentation Updates** - Update settings documentation 

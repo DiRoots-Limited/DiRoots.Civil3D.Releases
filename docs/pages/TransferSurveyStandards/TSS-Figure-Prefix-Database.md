@@ -2,7 +2,7 @@
 layout: default
 title: Figure Prefix Database
 parent: Transfer Survey Standards User Guide
-nav_order: 2
+nav_order: 4
 ---
 
 # Figure Prefix Database
@@ -18,180 +18,251 @@ nav_order: 2
 
 # Figure Prefix Database
 
-Transfer Survey Standards provides comprehensive tools for managing the Figure Prefix Database, allowing you to transfer, edit, and maintain figure prefix configurations across multiple Civil 3D projects. The tool works with file-based databases and Excel integration.
+Transfer Survey Standards provides comprehensive Figure Prefix Database management capabilities, allowing you to transfer and manage figure prefix databases across projects with Excel export and import functionality.
 
 ## Overview
 
-The Figure Prefix Database is a critical component of Civil 3D survey standards that defines how survey figures are displayed and managed. Unlike Point Description Keys, the Figure Prefix Database data is fixed and stored in dedicated files (.fdb files). The Transfer Survey Standards tool enables you to read, modify, and transfer these database configurations.
+Figure Prefix Database management allows you to:
+- Transfer complete or partial Figure Prefix Database
+- Work with .fdb files and Excel exports
+- Ensure database integrity during transfer
+- Export to Excel for external modification
 
-## File-Based Database Management
+> **GIF Placeholder:** Show overview of Figure Prefix Database management
 
-### Database File Location
+## Database Transfer
 
-The Figure Prefix Database is stored in dedicated files:
+### Complete Database Transfer
 
-- **Default Location** - Database files are stored in specific system locations
-- **File Format** - Uses .fdb file format for database storage
-- **Data Reading** - Tool can read all database data and display it in the UI
-- **File Management** - Locate and manage database files efficiently
+Transfer complete Figure Prefix Database:
 
-### Database Access
+- **Full Database Transfer** - Transfer entire Figure Prefix Database
+- **Database Integrity** - Maintain database integrity during transfer
+- **Property Preservation** - Preserve all database properties
+- **Data Validation** - Validate database data during transfer
 
-Access and manage Figure Prefix Database files:
+> **GIF Placeholder:** Demonstrate complete database transfer
 
-1. **Navigate to Figure Prefix DB Tab** - Access database management interface
-2. **Locate Database File** - Find the .fdb file in the system
-3. **Read Database** - Load database data into the tool interface
-4. **View Data** - Examine all database entries and configurations
-5. **Modify Data** - Edit database entries as needed
+### Partial Database Transfer
 
-![Transfer Survey Standards figure prefix database](../../../assets/images/TransferSurveyStandards/TSS-FigurePrefixDatabase.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+Transfer specific database sections:
 
-## Excel Integration
+- **Selective Transfer** - Choose specific database sections to transfer
+- **Custom Selection** - Select custom database entries
+- **Targeted Transfer** - Transfer only required database data
+- **Efficient Transfer** - Transfer only necessary data
 
-### Export to Excel
-
-Export Figure Prefix Database for external editing:
-
-- **Excel Export** - Export database data to Excel format
-- **External Editing** - Modify data in familiar Excel environment
-- **Data Preservation** - Maintain all database structure and relationships
-- **Template Support** - Use structured Excel templates for consistency
-
-### Import from Excel
-
-Import modified data back to the tool:
-
-- **Excel Import** - Import modified data from Excel files
-- **Data Validation** - Validate imported data before applying
-- **Change Application** - Apply modifications to database
-- **Error Handling** - Handle import errors and data conflicts
-
-### Excel Workflow
-
-Complete Excel-based editing workflow:
-
-1. **Export to Excel** - Export current database to Excel
-2. **External Editing** - Modify data in Excel
-3. **Import Back** - Import modified data to the tool
-4. **Apply Changes** - Apply modifications to target files
-5. **Validation** - Verify changes are applied correctly
-
-## Database Components
-
-### Fixed Data Structure
-
-The Figure Prefix Database has a fixed structure:
-
-- **Prefix Codes** - Unique identifiers for different figure types
-- **Descriptions** - Human-readable descriptions of figure types
-- **Line Types** - Line type assignments for figure components
-- **Layers** - Layer assignments for different figure elements
-- **Styles** - Annotation and display style configurations
-
-### Data Management
-
-Unlike PDKs, Figure Prefix Database data is fixed:
-
-- **No Preferences Tab** - Figure Prefix DB tab doesn't have preferences
-- **Fixed Structure** - Database structure is predefined
-- **File-based Storage** - Data is stored in .fdb files
-- **Complete Data Access** - Tool can read and display all database data
-
-## Transfer Options
-
-### Database Transfer Methods
-
-Multiple ways to transfer Figure Prefix Database:
-
-- **File-based Transfer** - Transfer complete database files
-- **Excel Export/Import** - Use Excel for external editing and transfer
-- **Selective Transfer** - Choose specific prefixes or categories
-- **Merge Operations** - Combine databases from multiple sources
+> **GIF Placeholder:** Show partial database transfer
 
 ### Transfer Process
 
-Complete transfer workflow:
+Complete database transfer workflow:
 
-1. **Access Database** - Navigate to Figure Prefix DB tab
-2. **Locate Source** - Find source database file (.fdb)
-3. **Read Data** - Load database data into interface
-4. **Export to Excel** (optional) - Export for external editing
-5. **Import Data** - Import modified or original data
-6. **Apply Changes** - Transfer to target files
+1. **Select Database Source** - Choose database source file
+2. **Configure Transfer** - Configure transfer settings and options
+3. **Validate Database** - Validate database integrity
+4. **Execute Transfer** - Transfer database to target
+5. **Verify Transfer** - Verify transfer completion
 
-## Advanced Features
+> **GIF Placeholder:** Demonstrate complete transfer process
 
-### Data Validation
+## File-based Storage
+
+### .fdb File Management
+
+Work with .fdb files:
+
+- **File Location** - Locate and manage .fdb files
+- **File Reading** - Read database data from .fdb files
+- **File Writing** - Write database data to .fdb files
+- **File Validation** - Validate .fdb file integrity
+
+> **GIF Placeholder:** Show .fdb file management
+
+### Database File Operations
+
+Perform database file operations:
+
+- **File Import** - Import database from .fdb files
+- **File Export** - Export database to .fdb files
+- **File Backup** - Backup database files
+- **File Restoration** - Restore database from backups
+
+> **GIF Placeholder:** Demonstrate database file operations
+
+### File Integration
+
+Integrate with file systems:
+
+- **File System Access** - Access database files in file system
+- **File Synchronization** - Synchronize database files
+- **File Monitoring** - Monitor database file changes
+- **File Security** - Secure database file access
+
+> **GIF Placeholder:** Show file integration
+
+## Data Validation
+
+### Database Integrity
 
 Ensure database integrity:
 
-- **Structure Validation** - Verify database structure is correct
-- **Data Integrity** - Check for missing or invalid data
-- **Relationship Validation** - Ensure relationships between components are valid
-- **Error Detection** - Identify and resolve database errors
+- **Data Completeness** - Verify database data completeness
+- **Data Consistency** - Check database data consistency
+- **Data Accuracy** - Validate database data accuracy
+- **Data Relationships** - Verify database relationships
 
-### Database Comparison
+> **GIF Placeholder:** Demonstrate database integrity validation
 
-Compare different Figure Prefix Databases:
+### Validation Rules
 
-- **Database Analysis** - Compare databases from different sources
-- **Difference Identification** - Identify differences between databases
-- **Merge Planning** - Plan database merges and updates
-- **Conflict Resolution** - Resolve conflicts between databases
+Apply validation rules:
 
-### Bulk Operations
+- **Format Validation** - Validate database format
+- **Content Validation** - Validate database content
+- **Structure Validation** - Validate database structure
+- **Custom Validation** - Apply custom validation rules
 
-Efficient database management:
+> **GIF Placeholder:** Show validation rules application
 
-- **Batch Processing** - Apply changes to multiple prefixes simultaneously
-- **Data Import** - Import large datasets efficiently
-- **Validation Tools** - Validate multiple database entries
-- **Error Reporting** - Comprehensive error reporting for bulk operations
+### Error Detection
 
-## Workflow Examples
+Detect and handle errors:
 
-### Example 1: Basic Database Transfer
+- **Error Identification** - Identify database errors
+- **Error Reporting** - Report database errors
+- **Error Correction** - Correct database errors
+- **Error Prevention** - Prevent database errors
 
-1. **Access Figure Prefix DB Tab** - Navigate to database management
-2. **Locate Database File** - Find the .fdb file location
-3. **Read Database** - Load database data into the interface
-4. **Review Data** - Examine database entries and configurations
-5. **Apply Changes** - Transfer database to target files
+> **GIF Placeholder:** Demonstrate error detection and handling
 
-### Example 2: Excel-based Editing
+## External Editing
 
-1. **Export to Excel** - Export current database to Excel
-2. **Edit in Excel** - Modify database entries in Excel
-3. **Import Modified Data** - Import changes back to the tool
-4. **Validate Changes** - Verify modifications are correct
-5. **Apply to Target** - Transfer modified database to target files
+### Excel Export
 
-### Example 3: Database Comparison
+Export database to Excel:
 
-1. **Load Source Database** - Load first database for comparison
-2. **Load Target Database** - Load second database for comparison
-3. **Compare Data** - Identify differences between databases
-4. **Plan Merges** - Plan how to merge or update databases
-5. **Execute Transfer** - Apply planned changes to target database
+- **Database Export** - Export Figure Prefix Database to Excel
+- **Excel Format** - Format database data for Excel
+- **Data Organization** - Organize database data in Excel
+- **Export Validation** - Validate exported data
+
+> **GIF Placeholder:** Show database export to Excel
+
+### Excel Import
+
+Import database from Excel:
+
+- **Excel Import** - Import database data from Excel
+- **Data Mapping** - Map Excel data to database structure
+- **Import Validation** - Validate imported data
+- **Data Integration** - Integrate imported data
+
+> **GIF Placeholder:** Demonstrate database import from Excel
+
+### External Modification
+
+Modify database externally:
+
+- **External Editing** - Edit database data externally
+- **Data Synchronization** - Synchronize external changes
+- **Change Tracking** - Track external modifications
+- **Version Control** - Control database versions
+
+> **GIF Placeholder:** Show external modification workflow
+
+## Database Management
+
+### Database Organization
+
+Organize database effectively:
+
+- **Logical Structure** - Organize database logically
+- **Hierarchical Organization** - Organize database hierarchically
+- **Category Management** - Manage database categories
+- **Data Grouping** - Group related database data
+
+> **GIF Placeholder:** Demonstrate database organization
+
+### Database Search
+
+Search database efficiently:
+
+- **Text Search** - Search database by text
+- **Advanced Search** - Use advanced search options
+- **Search Results** - Manage search results
+- **Search History** - Track search history
+
+> **GIF Placeholder:** Show database search functionality
+
+### Database Filtering
+
+Filter database data:
+
+- **Criteria Filtering** - Filter by specific criteria
+- **Multiple Filters** - Apply multiple filters
+- **Filter Management** - Manage database filters
+- **Filter Results** - View filtered results
+
+> **GIF Placeholder:** Demonstrate database filtering
+
+## Advanced Features
+
+### Database Backup
+
+Backup database data:
+
+- **Automatic Backup** - Automatically backup database
+- **Manual Backup** - Manually backup database
+- **Backup Verification** - Verify backup integrity
+- **Backup Restoration** - Restore from backups
+
+> **GIF Placeholder:** Show database backup
+
+### Database Recovery
+
+Recover database data:
+
+- **Data Recovery** - Recover database data
+- **Error Recovery** - Recover from errors
+- **Corruption Recovery** - Recover from corruption
+- **Restoration Process** - Restore database data
+
+> **GIF Placeholder:** Demonstrate database recovery
+
+### Database Optimization
+
+Optimize database performance:
+
+- **Performance Tuning** - Tune database performance
+- **Resource Optimization** - Optimize resource usage
+- **Query Optimization** - Optimize database queries
+- **Storage Optimization** - Optimize storage usage
+
+> **GIF Placeholder:** Show database optimization
 
 ## Best Practices
 
 ### Database Management
-- **Backup Original Files** - Keep backups of original .fdb files
-- **Version Control** - Maintain different versions of databases
-- **Documentation** - Document database changes and modifications
-- **Testing** - Test database transfers before large-scale operations
-
-### Excel Workflow
-- **Use Templates** - Use structured Excel templates for consistency
-- **Validate Data** - Check Excel data before importing
-- **Maintain Structure** - Preserve database structure during editing
-- **Test Imports** - Verify Excel imports work correctly
+- **Regular Maintenance** - Maintain database regularly
+- **Data Validation** - Validate database data
+- **Backup Strategy** - Implement backup strategy
+- **Version Control** - Use version control for database
 
 ### Transfer Process
-- **Verify Source Data** - Ensure source database is valid and complete
-- **Check Target Compatibility** - Verify target files can accept database
-- **Test Transfers** - Test transfers with small datasets first
-- **Validate Results** - Confirm transfers completed successfully 
+- **Plan Transfers** - Plan database transfers carefully
+- **Validate Data** - Validate data before transfer
+- **Test Transfers** - Test transfers before production
+- **Document Transfers** - Document transfer procedures
+
+### External Editing
+- **Use Templates** - Use Excel templates for consistency
+- **Validate Changes** - Validate external changes
+- **Track Modifications** - Track all modifications
+- **Test Integration** - Test data integration
+
+### Data Quality
+- **Quality Checks** - Perform quality checks regularly
+- **Error Detection** - Detect and correct errors
+- **Data Integrity** - Maintain data integrity
+- **Documentation** - Document database procedures 

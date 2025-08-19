@@ -2,7 +2,7 @@
 layout: default
 title: Batch Transfer
 parent: Transfer Object Layers User Guide
-nav_order: 3
+nav_order: 2
 ---
 
 # Batch Transfer
@@ -18,149 +18,197 @@ nav_order: 3
 
 # Batch Transfer
 
-Transfer Object Layers provides powerful batch transfer functionality that allows you to transfer object layer settings efficiently using "Import All" operations. The tool enables you to import all data with a single click, making large-scale transfers quick and consistent.
+Transfer Object Layers enables you to perform batch transfer operations, importing all data with a single click and handling multiple files efficiently.
 
 ## Overview
 
-Batch transfer capabilities enable you to efficiently transfer object layer settings using bulk operations. The "Import All" feature allows you to import all available data with a single operation, making the transfer process fast and consistent across multiple objects and settings.
+Batch transfer allows you to:
+- Import all data with a single click
+- Handle multiple files efficiently
+- Perform bulk modifications
+- Create configuration files for standards
 
-## Import All Functionality
+> **GIF Placeholder:** Show overview of batch transfer capabilities
 
-### Single-Click Import
+## Single Click Import
 
-Import all data with a single operation:
+### Import All Data
 
-- **Import All Button** - Use "Import All" button to import all available data
-- **Complete Transfer** - Transfer all object layer settings at once
-- **Efficiency** - Save time with single-click operations
-- **Consistency** - Ensure consistent transfer across all data
+Import all object layer data with one click:
 
-### Batch Import Process
+- **Single Click Operation** - Import all data with a single click
+- **Complete Import** - Import all available object layer settings
+- **Efficient Processing** - Process large datasets efficiently
+- **Automatic Validation** - Automatically validate data during import
+
+> **GIF Placeholder:** Demonstrate single click import functionality
+
+### Import Process
 
 Complete batch import workflow:
 
-1. **Import Data** - Import data from source file or Excel
-2. **Review Data** - Review imported data in the UI
-3. **Edit if Needed** - Modify data before importing (optional)
-4. **Select All** - Check all items for import
-5. **Import All** - Click "Import All" to transfer all data
-6. **Verify Results** - Verify all data is transferred correctly
+1. **Select Import Source** - Choose source file or Excel file
+2. **Load Data** - Load all object layer data from source
+3. **Review Data** - Review imported data in the UI
+4. **Single Click Import** - Click import button to apply all data
+5. **Verification** - Verify that all data was imported successfully
 
-## Batch Operations
+> **GIF Placeholder:** Show complete batch import process
 
-### Check All Functionality
+## Bulk Modifications
 
-Select all items for batch operations:
+### Multi-Item Editing
 
-- **Check All** - Select all available items for import
-- **Bulk Selection** - Efficiently select multiple items
-- **Select All Data** - Include all object layer data in transfer
-- **Comprehensive Transfer** - Transfer complete configuration
+Edit multiple items simultaneously:
 
-### Selective Import
+- **Multi-selection** - Select multiple items for editing
+- **Bulk Modifications** - Apply changes to multiple items at once
+- **Consistent Updates** - Ensure consistent changes across items
+- **Efficiency** - Save time with bulk operations
 
-Choose specific items for import:
+> **GIF Placeholder:** Demonstrate bulk modifications
 
-- **Individual Selection** - Select specific items for import
-- **Partial Import** - Import only selected items
-- **Custom Selection** - Create custom selection for import
-- **Targeted Transfer** - Transfer only specific settings
+### Batch Editing Workflow
 
-## Transfer Efficiency
+Perform batch editing operations:
 
-### Time-Saving Operations
+1. **Select Items** - Select multiple items for editing
+2. **Choose Modifications** - Select modifications to apply
+3. **Apply Changes** - Apply changes to all selected items
+4. **Verify Results** - Verify that changes were applied correctly
 
-Efficient batch transfer operations:
+> **GIF Placeholder:** Show batch editing workflow
 
-- **Single-Click Import** - Import all data with single click
-- **Bulk Operations** - Perform bulk operations efficiently
-- **Consistent Results** - Ensure consistent results across all transfers
-- **Reduced Manual Work** - Minimize manual selection and transfer work
+## Configuration Files
 
-### Error Reduction
+### Standard Configuration Files
 
-Reduce errors in batch operations:
+Create configuration files for standards:
 
-- **Automated Process** - Automate the transfer process
-- **Consistent Application** - Apply settings consistently across all items
-- **Validation** - Validate all transfers automatically
-- **Quality Assurance** - Ensure quality across all transferred data
+- **Standard Creation** - Create standard configuration files
+- **File Export** - Export configurations to files
+- **Standard Distribution** - Distribute standards via files
+- **Version Control** - Maintain different versions of standards
 
-## Supported Batch Operations
+> **GIF Placeholder:** Show configuration file creation
 
-### Object Layer Settings
+### Configuration Management
 
-Batch transfer comprehensive object layer settings:
+Manage configuration files effectively:
 
-- **Alignment Objects** - Transfer alignment layer settings in batch
-- **Profile Objects** - Transfer profile layer configurations in batch
-- **Surface Objects** - Transfer surface layer settings in batch
-- **Pipe Networks** - Transfer pipe and structure layer assignments in batch
-- **Corridors** - Transfer corridor layer settings in batch
-- **Other Civil 3D Objects** - Transfer all standard Civil 3D object types in batch
+- **File Organization** - Organize configuration files systematically
+- **Naming Conventions** - Use consistent naming conventions
+- **File Storage** - Store configuration files in accessible locations
+- **File Sharing** - Share configuration files across teams
 
-### Layer Properties
+> **GIF Placeholder:** Demonstrate configuration file management
 
-Batch transfer layer properties:
+## Batch Processing
 
-- **Layer Assignments** - Transfer layer assignments for all objects
-- **Display Properties** - Transfer display and visibility settings
-- **Color and Style** - Transfer color, linetype, and style assignments
-- **Property Values** - Transfer all object layer property values
+### Multiple File Processing
 
-## Batch Transfer Workflow
+Process multiple files efficiently:
 
-### Complete Workflow
+- **File Selection** - Select multiple files for processing
+- **Batch Processing** - Process multiple files simultaneously
+- **Progress Tracking** - Track progress during batch operations
+- **Error Handling** - Handle errors during batch processing
 
-Efficient batch transfer workflow:
+> **GIF Placeholder:** Show multiple file processing
 
-1. **Open Target File** - Open the file where you want to import settings
-2. **Open Transfer Tool** - Open Transfer Object Layers from Civil Management
-3. **Import Source Data** - Import data from source file or Excel
-4. **Review Imported Data** - Review all imported data in the UI
-5. **Edit if Needed** - Modify data before importing (optional)
-6. **Check All Items** - Select all items for import
-7. **Import All** - Click "Import All" to transfer all data
-8. **Verify Transfer** - Verify all data is transferred correctly
+### Batch Workflow
 
-### Workflow Examples
+Complete batch processing workflow:
 
-Different batch transfer scenarios:
+1. **Select Files** - Select multiple files for processing
+2. **Configure Settings** - Configure batch processing settings
+3. **Start Processing** - Begin batch processing operations
+4. **Monitor Progress** - Monitor progress during processing
+5. **Review Results** - Review results after processing
 
-#### Example 1: Complete Transfer
-- **Import All Data** - Import all available object layer data
-- **Check All Items** - Select all items for transfer
-- **Single-Click Import** - Use "Import All" for complete transfer
-- **Verify Results** - Verify complete transfer results
+> **GIF Placeholder:** Demonstrate complete batch workflow
 
-#### Example 2: Selective Transfer
-- **Review Data** - Review imported data for relevance
-- **Select Specific Items** - Choose specific items for transfer
-- **Custom Import** - Import only selected items
-- **Verify Selection** - Verify selected items are transferred
+## Advanced Batch Features
 
-#### Example 3: Modified Transfer
-- **Import Data** - Import data from source
-- **Edit Data** - Modify data before importing
-- **Check All** - Select all modified items
-- **Import All** - Transfer all modified data
+### Conditional Processing
+
+Process files based on conditions:
+
+- **Conditional Selection** - Select files based on conditions
+- **Filtered Processing** - Process only files that meet criteria
+- **Smart Processing** - Apply intelligent processing rules
+- **Custom Conditions** - Define custom processing conditions
+
+> **GIF Placeholder:** Show conditional processing
+
+### Scheduled Processing
+
+Schedule batch operations:
+
+- **Operation Scheduling** - Schedule batch operations for later execution
+- **Background Processing** - Process operations in background
+- **Scheduled Execution** - Execute scheduled operations automatically
+- **Schedule Management** - Manage scheduled operations
+
+> **GIF Placeholder:** Demonstrate scheduled processing
+
+### Batch Reporting
+
+Generate batch operation reports:
+
+- **Operation Reports** - Generate reports for batch operations
+- **Progress Reports** - Create progress reports during processing
+- **Result Reports** - Generate result reports after processing
+- **Error Reports** - Create error reports for failed operations
+
+> **GIF Placeholder:** Show batch reporting
+
+## Performance Optimization
+
+### Processing Optimization
+
+Optimize batch processing performance:
+
+- **Resource Management** - Manage system resources efficiently
+- **Memory Optimization** - Optimize memory usage during processing
+- **Processing Speed** - Improve processing speed for large datasets
+- **Performance Monitoring** - Monitor performance during operations
+
+> **GIF Placeholder:** Demonstrate performance optimization
+
+### Error Handling
+
+Handle errors during batch operations:
+
+- **Error Detection** - Detect errors during batch operations
+- **Error Recovery** - Recover from errors gracefully
+- **Error Reporting** - Report errors clearly to users
+- **Error Prevention** - Prevent errors through validation
+
+> **GIF Placeholder:** Show error handling processes
 
 ## Best Practices
 
-### Batch Transfer Strategy
-- **Review Before Import** - Always review data before batch importing
-- **Use Import All** - Use "Import All" for complete transfers
-- **Validate Results** - Verify all transfers are successful
-- **Test First** - Test batch operations on small datasets first
+### Batch Planning
+- **Plan Operations** - Plan batch operations carefully
+- **Test on Small Sets** - Test operations on small datasets first
+- **Backup Data** - Backup important data before batch operations
+- **Document Procedures** - Document batch operation procedures
 
-### Efficiency Tips
-- **Use Check All** - Use "Check All" for comprehensive transfers
-- **Single-Click Operations** - Leverage single-click import operations
-- **Consistent Workflow** - Maintain consistent batch transfer workflow
-- **Quality Control** - Ensure quality across all batch operations
+### Processing
+- **Monitor Progress** - Monitor progress during batch operations
+- **Handle Errors** - Handle errors gracefully during processing
+- **Validate Results** - Validate results after processing
+- **Document Changes** - Document all changes made during processing
 
-### Error Prevention
-- **Data Validation** - Validate data before batch importing
-- **Layer Compatibility** - Ensure layer compatibility for batch transfers
-- **Backup Creation** - Backup important files before batch operations
-- **Error Monitoring** - Monitor for errors during batch operations 
+### Performance
+- **Optimize Resources** - Optimize system resources for batch operations
+- **Schedule Operations** - Schedule operations during off-peak hours
+- **Monitor Performance** - Monitor performance during operations
+- **Scale Operations** - Scale operations based on system capacity
+
+### Safety
+- **Backup Important Data** - Backup important data before batch operations
+- **Test Procedures** - Test procedures before production use
+- **Validate Results** - Validate results after operations
+- **Document Procedures** - Document all procedures for future reference 

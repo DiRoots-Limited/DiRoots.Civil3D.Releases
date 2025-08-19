@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Export and Import Excel
+title: Export Import Excel
 parent: Transfer Survey Standards User Guide
 nav_order: 3
 ---
 
-# Export and Import Excel
+# Export Import Excel
 {: .no_toc }
 
 ## Table of contents
@@ -16,197 +16,236 @@ nav_order: 3
 
 ---
 
-# Export and Import Excel
+# Export Import Excel
 
-Transfer Survey Standards provides comprehensive Excel export and import functionality for Point Description Keys and Figure Prefix Database, enabling you to transfer survey standards data efficiently and maintain data integrity. The tool includes search, filter, and data editing capabilities.
+Transfer Survey Standards provides comprehensive Excel export and import functionality, allowing you to create and manage survey standards via Excel files with structured templates.
 
 ## Overview
 
-Excel integration allows you to export survey standards data for external editing and import modified data back to the tool. This workflow is similar to Transfer Object Layers, providing a familiar experience for users. The tool supports data editing before import and includes search and filter capabilities for efficient data management.
+Excel workflow allows you to:
+- Export survey standards data to Excel for external editing
+- Import modified data from Excel back to the tool
+- Create and manage standards efficiently
+- Share standards across teams
 
-## Excel Export Features
+> **GIF Placeholder:** Show overview of Excel export/import capabilities
 
-### Comprehensive Data Export
+## Export to Excel
 
-Export survey standards data to Excel format:
+### Data Export
 
-- **Point Description Keys Export** - Export all PDK configurations
-- **Figure Prefix DB Export** - Export complete Figure Prefix Database
-- **Structured Templates** - Pre-formatted Excel templates for consistent data structure
-- **Multiple Formats** - Support for various Excel formats (.xlsx, .xls, .csv)
+Export survey standards data to Excel:
+
+- **Complete Export** - Export all survey standards data
+- **Selective Export** - Export specific data subsets
+- **Excel File Creation** - Create Excel file with survey standards data
+- **Data Organization** - Organize data in structured Excel format
+
+> **GIF Placeholder:** Demonstrate data export to Excel
 
 ### Export Process
 
 Complete export workflow:
 
-1. **Select Data Type** - Choose to export PDKs, Figure Prefix DB, or both
-2. **Choose Template** - Select appropriate Excel template for your data
-3. **Configure Export** - Set export options and data selection
-4. **Generate File** - Create Excel file with structured survey standards data
-5. **Review Output** - Verify exported data structure and content
+1. **Select Export Data** - Choose data to export
+2. **Configure Export** - Configure export settings and options
+3. **Generate Excel File** - Create Excel file with survey standards data
+4. **Save File** - Save Excel file with appropriate name
+5. **Verify Export** - Verify exported data is complete and accurate
 
-![Transfer Survey Standards export to Excel](../../../assets/images/TransferSurveyStandards/TSS-ExportExcel.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+> **GIF Placeholder:** Show complete export process
 
-## Excel Import Features
+### Export Options
 
-### Data Import Capabilities
+Configure export settings:
 
-Import survey standards data from Excel:
+- **Data Selection** - Select specific data for export
+- **Format Options** - Choose Excel format options
+- **Template Selection** - Select appropriate Excel template
+- **Customization** - Customize export format and structure
 
-- **Template Validation** - Validate imported data against template structure
-- **Data Mapping** - Map Excel data to Civil 3D survey standards
-- **Error Handling** - Identify and resolve import errors
-- **Batch Import** - Import multiple Excel files simultaneously
+> **GIF Placeholder:** Demonstrate export options configuration
+
+## Excel Import
+
+### File Selection
+
+Select Excel files for import:
+
+- **Excel File Selection** - Select Excel files containing survey standards data
+- **File Validation** - Validate Excel file format and content
+- **Template Support** - Use structured Excel templates
+- **Data Verification** - Verify Excel data before import
+
+> **GIF Placeholder:** Show Excel file selection process
 
 ### Import Process
 
 Complete import workflow:
 
-1. **Select Template** - Choose Excel template format for import
-2. **Load File** - Select Excel file containing survey standards data
-3. **Validate Data** - Review and validate imported data structure
-4. **Edit Data** - Modify data before applying (if needed)
-5. **Map Settings** - Map Excel data to target Civil 3D survey standards
-6. **Apply Changes** - Import settings to target file
+1. **Select Excel File** - Choose Excel file containing survey standards data
+2. **Load Data** - Load all data from Excel file
+3. **Review Data** - Review imported data in the UI
+4. **Validate Data** - Validate Excel data before import
+5. **Import Data** - Import all data to target file
 
-![Transfer Survey Standards import from Excel](../../../assets/images/TransferSurveyStandards/TSS-ImportExcel.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+> **GIF Placeholder:** Demonstrate complete import process
 
-## Data Editing Before Import
+### Data Loading
 
-### Pre-import Modifications
+Load data from Excel files:
 
-Edit data before applying to target files:
+- **Data Extraction** - Extract survey standards data from Excel
+- **Data Mapping** - Map Excel data to survey standards structure
+- **Data Validation** - Validate data during loading process
+- **Error Handling** - Handle errors during data loading
 
-- **Column Management** - Add or modify columns as needed
-- **Value Editing** - Change values before importing
-- **Data Validation** - Ensure data integrity before transfer
-- **Bulk Modifications** - Make changes to multiple items simultaneously
+> **GIF Placeholder:** Show data loading from Excel
 
-### Editing Workflow
+## Standard Management
 
-Complete editing process:
+### Standard Creation
 
-1. **Import Excel Data** - Load data from Excel file
-2. **Review Structure** - Examine data structure and columns
-3. **Add Missing Columns** - Add columns that don't exist (e.g., layer columns)
-4. **Edit Values** - Modify values as needed
-5. **Validate Data** - Check data integrity
-6. **Apply Changes** - Import modified data
+Create standards from existing data:
 
-### Example Editing Scenario
+- **Representative Data** - Use representative data for standard creation
+- **Standard Documentation** - Document what each standard includes
+- **Version Control** - Maintain different versions of standards
+- **Quality Assurance** - Ensure standard quality and completeness
 
-When importing from Excel:
-- **Missing Layer Column** - Excel file doesn't have layer assignments
-- **Add Layer Column** - Add layer column to the data
-- **Assign Layers** - Assign appropriate layers to PDKs
-- **Import Data** - Import modified data with layer assignments
+> **GIF Placeholder:** Demonstrate standard creation
 
-## Search and Filter Capabilities
+### Standard Distribution
 
-### Search Functionality
+Share standards across teams:
 
-Quickly locate specific data:
+- **File Sharing** - Share standards via Excel files
+- **Team Distribution** - Distribute standards across teams
+- **Access Control** - Control access to standards
+- **Version Management** - Manage different versions of standards
 
-- **Search Rows** - Find specific items in large datasets
-- **Filter Options** - Filter data by various criteria
-- **Efficient Navigation** - Quickly locate and modify specific items
-- **Data Organization** - Organize data for easier management
+> **GIF Placeholder:** Show standard distribution
 
-### Filter Features
+### Standard Application
 
-Advanced filtering capabilities:
+Apply standards to new projects:
 
-- **Column-based Filtering** - Filter by specific columns
-- **Value-based Filtering** - Filter by specific values
-- **Multiple Criteria** - Apply multiple filter criteria simultaneously
-- **Dynamic Filtering** - Real-time filtering as you type
+- **Project Setup** - Apply standards to new projects
+- **Standard Integration** - Integrate standards into project workflow
+- **Consistency** - Ensure consistency across projects
+- **Quality Control** - Maintain quality through standards
 
-## Template Structure
+> **GIF Placeholder:** Demonstrate standard application
 
-### Excel Template Components
+### Standard Maintenance
 
-Structured Excel templates for data consistency:
+Maintain and update standards:
 
-- **Point Description Keys Sheet** - Dedicated worksheet for PDK data
-- **Figure Prefix DB Sheet** - Dedicated worksheet for Figure Prefix Database
-- **Property Columns** - Structured columns for all survey standards properties
-- **Validation Rules** - Built-in validation for data integrity
-- **Metadata Fields** - Additional information for tracking and management
+- **Regular Updates** - Update standards regularly
+- **Version Tracking** - Track standard versions
+- **Change Management** - Manage changes to standards
+- **Documentation Updates** - Update standard documentation
 
-### Template Validation
+> **GIF Placeholder:** Show standard maintenance
 
-Ensure data integrity:
+## Excel Templates
 
-- **Structure Validation** - Verify Excel structure matches template
-- **Data Type Validation** - Check data types are correct
-- **Required Field Validation** - Ensure all required fields have values
-- **Relationship Validation** - Verify relationships between data elements
+### Template Structure
 
-## Conflict Resolution
+Use structured Excel templates:
 
-### Import Conflict Handling
+- **Template Design** - Design structured Excel templates
+- **Data Organization** - Organize data in template format
+- **Validation Rules** - Include validation rules in templates
+- **User Guidance** - Provide guidance for template use
 
-Handle conflicts during Excel import:
+> **GIF Placeholder:** Demonstrate template structure
 
-- **Conflict Detection** - Identify conflicts between existing and imported data
-- **User Choice** - Choose to replace existing data or retain current settings
-- **Selective Resolution** - Handle conflicts on a case-by-case basis
-- **Data Preservation** - Ensure no data is lost during conflict resolution
+### Template Management
 
-### Conflict Resolution Process
+Manage Excel templates:
 
-1. **Conflict Identification** - Tool identifies conflicts between existing and imported data
-2. **User Prompt** - System asks if you want to replace existing data with imported data
-3. **Choice Options**:
-   - **Replace** - Replace existing data with imported data
-   - **Retain** - Keep existing data and skip imported data
-4. **Confirmation** - Confirm your choice to proceed
-5. **Update** - System updates data based on your selection
+- **Template Creation** - Create new Excel templates
+- **Template Updates** - Update existing templates
+- **Template Distribution** - Distribute templates to users
+- **Template Support** - Provide support for template use
 
-## Workflow Examples
+> **GIF Placeholder:** Show template management
 
-### Example 1: Basic Excel Export/Import
+### Custom Templates
 
-1. **Export to Excel** - Export current survey standards to Excel
-2. **Edit in Excel** - Modify data in Excel environment
-3. **Import Back** - Import modified data to the tool
-4. **Handle Conflicts** - Resolve any conflicts with existing data
-5. **Apply Changes** - Apply modifications to target files
+Create custom Excel templates:
 
-### Example 2: Excel Import with Editing
+- **Custom Design** - Design custom templates for specific needs
+- **Specialized Formats** - Create specialized formats for different uses
+- **Branding** - Include branding in templates
+- **Functionality** - Add functionality to templates
 
-1. **Import Excel File** - Load data from Excel spreadsheet
-2. **Add Missing Columns** - Add layer columns if needed
-3. **Edit Data** - Modify values before applying
-4. **Handle Conflicts** - Resolve conflicts with existing data
-5. **Apply Changes** - Import modified data to target files
+> **GIF Placeholder:** Demonstrate custom template creation
 
-### Example 3: Search and Filter Workflow
+## Advanced Excel Features
 
-1. **Import Large Dataset** - Load large Excel dataset
-2. **Use Search** - Find specific items using search function
-3. **Apply Filters** - Filter data by specific criteria
-4. **Edit Filtered Data** - Modify filtered data as needed
-5. **Apply Changes** - Import modified data to target files
+### Data Validation
+
+Validate Excel data:
+
+- **Format Validation** - Validate Excel file format
+- **Content Validation** - Validate Excel content and structure
+- **Data Integrity** - Ensure data integrity in Excel files
+- **Error Detection** - Detect errors in Excel data
+
+> **GIF Placeholder:** Show Excel data validation
+
+### Batch Excel Operations
+
+Perform batch Excel operations:
+
+- **Multiple File Import** - Import multiple Excel files
+- **Batch Export** - Export data to multiple Excel files
+- **Batch Processing** - Process multiple Excel files
+- **Automation** - Automate Excel operations
+
+> **GIF Placeholder:** Demonstrate batch Excel operations
+
+### Excel Integration
+
+Integrate with Excel workflows:
+
+- **Excel Automation** - Automate Excel operations
+- **Data Synchronization** - Synchronize data with Excel
+- **Real-time Updates** - Update Excel data in real-time
+- **Workflow Integration** - Integrate Excel into workflows
+
+> **GIF Placeholder:** Show Excel integration
 
 ## Best Practices
 
-### Excel Workflow
-- **Use Templates** - Use structured Excel templates for consistency
-- **Validate Data** - Check Excel data before importing
-- **Maintain Structure** - Preserve Excel structure during editing
-- **Test Imports** - Verify Excel imports work correctly
+### Excel File Management
+- **File Organization** - Organize Excel files systematically
+- **Naming Conventions** - Use consistent naming conventions
+- **Version Control** - Maintain version control for Excel files
+- **Backup Strategy** - Implement backup strategy for Excel files
 
-### Data Management
-- **Backup Original Data** - Keep backups of original Excel files
-- **Version Control** - Maintain different versions of Excel files
-- **Documentation** - Document Excel modifications and changes
-- **Testing** - Test Excel workflows before large-scale operations
+### Standard Creation
+- **Use Representative Data** - Use representative data for standard creation
+- **Document Standards** - Document what each standard includes
+- **Quality Control** - Ensure standard quality and completeness
+- **Regular Updates** - Update standards regularly
 
-### Import Process
-- **Verify Source Data** - Ensure Excel data is valid and complete
-- **Check Data Structure** - Verify Excel structure matches requirements
-- **Validate Before Import** - Check data integrity before importing
-- **Handle Conflicts** - Resolve conflicts appropriately 
+### Import/Export Process
+- **Validate Data** - Validate Excel data before import/export
+- **Test Procedures** - Test import/export procedures
+- **Document Procedures** - Document import/export procedures
+- **Error Handling** - Handle errors during import/export
+
+### Template Usage
+- **Use Structured Templates** - Use structured Excel templates for consistency
+- **Template Validation** - Validate templates before use
+- **Template Updates** - Keep templates updated
+- **User Training** - Train users on template usage
+
+### Data Quality
+- **Data Validation** - Validate data quality in Excel files
+- **Consistency Checks** - Perform consistency checks on data
+- **Error Correction** - Correct errors in Excel data
+- **Quality Assurance** - Ensure data quality throughout process 

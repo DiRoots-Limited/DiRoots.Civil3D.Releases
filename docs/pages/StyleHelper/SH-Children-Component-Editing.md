@@ -2,7 +2,7 @@
 layout: default
 title: Children Component Editing
 parent: Style Helper User Guide
-nav_order: 2
+nav_order: 6
 ---
 
 # Children Component Editing
@@ -18,160 +18,207 @@ nav_order: 2
 
 # Children Component Editing
 
-Style Helper allows you to view and edit children component data from styles, understanding the parent-child relationships and how parent properties affect multiple child components. The tool provides comprehensive access to component-level data and enables efficient editing of complex style hierarchies.
+Style Helper enables you to edit children component data within parent objects, providing granular control over individual components while maintaining the parent-child relationship structure.
 
 ## Overview
 
-Children component editing is a key feature that enables you to understand and modify the hierarchical structure of Civil 3D styles. The tool displays parent-child relationships clearly, showing how parent properties affect multiple child components and allowing you to edit both parent and child data efficiently.
+Children component editing allows you to:
+- Access and edit individual component data
+- Modify component-specific properties
+- Maintain parent-child relationships
+- Apply changes to specific components
 
-## Parent-Child Relationships
+> **GIF Placeholder:** Show overview of children component editing interface
 
-### Understanding the Structure
+## Understanding Parent-Child Relationships
 
-Style Helper displays clear parent-child relationships:
+### Component Structure
 
-- **Parent Objects** - Main style objects (e.g., "Elevation Binding 2D")
-- **Child Components** - Components within parent objects
-- **Data Association** - Some data is associated with parent, some with components
-- **Inheritance** - Parent properties affect multiple child components
+Civil 3D objects have hierarchical component structures:
 
-### Example: Elevation Binding 2D
+- **Parent Objects** - Main style objects (e.g., Surface Styles)
+- **Child Components** - Individual components within parent objects
+- **Component Types** - Different types of components (e.g., Display, Plan, Model)
+- **Data Association** - Some data belongs to parent, some to specific components
 
-When working with "Elevation Binding 2D":
+> **GIF Placeholder:** Demonstrate the parent-child relationship structure
 
-- **Parent Name** - "Elevation Binding 2D" is the parent object
-- **Child Components** - The style contains multiple components inside
-- **Component Data** - Each component has its own associated data
-- **Parent Properties** - Some properties belong to the parent and affect all children
-
-### Visual Indicators
-
-The tool provides clear visual indicators of relationships:
-
-- **Checkbox Indicators** - Checkboxes show which rows are affected by parent changes
-- **Name Column** - Parent name is displayed in the name column
-- **Component Column** - Component information is displayed separately
-- **Data Association** - Clear indication of which data belongs to parent vs. components
-
-## Component Data Access
-
-### Accessing Component Data
+### Component Data Access
 
 Access comprehensive component data through object preferences:
 
+- **Component Identification** - Identify which components are available
 - **Object Preferences** - Click "Object Preferences" to access component data
-- **Data Loading** - Load all data associated with checked objects
-- **Component Information** - View detailed component information
-- **Data Association** - See which data is associated with which components
+- **Data Loading** - Load component-specific data into the table
+- **Component Selection** - Select specific components for editing
 
-### Component Data Organization
+> **GIF Placeholder:** Show how to access component data through Object Preferences
 
-Organize component data efficiently:
-
-- **Column Addition** - Add component data columns to the table
-- **Data Structure** - Organize data in a structured table format
-- **Component Details** - View detailed component properties
-- **Data Relationships** - Understand relationships between components
-
-## Editing Parent Properties
-
-### Parent-Level Changes
-
-Modify properties that affect multiple components:
-
-- **Parent Property Editing** - Edit properties that belong to the parent object
-- **Bulk Modifications** - Changes to parent properties affect all child components
-- **Checkbox Indicators** - Checkboxes show which rows are affected by parent changes
-- **Visual Feedback** - Clear indication of which rows will be modified
-
-### Example: Parent Property Modification
-
-When editing a parent property:
-
-- **Select Parent Property** - Choose a property that belongs to the parent
-- **Modify Value** - Change the property value
-- **Multiple Row Effect** - See checkboxes indicating which rows will be affected
-- **Bulk Update** - All child components inherit the parent property change
-
-## Component-Level Editing
+## Component Editing
 
 ### Individual Component Editing
 
 Edit individual component properties:
 
 - **Component Selection** - Select specific components for editing
-- **Component Properties** - Edit properties specific to individual components
-- **Data Association** - Modify data associated with specific components
-- **Individual Updates** - Update individual components without affecting others
+- **Property Modification** - Modify component-specific properties
+- **Data Updates** - Update component data values
+- **Visual Feedback** - See which components are being edited
 
-### Component Data Management
+> **GIF Placeholder:** Demonstrate editing individual component properties
 
-Manage component data efficiently:
+### Component-Specific Properties
 
-- **Data Access** - Access component-specific data through object preferences
-- **Property Editing** - Edit component properties directly in the table
-- **Data Validation** - Validate component data before applying changes
-- **Change Verification** - Verify component changes are applied correctly
+Work with component-specific data:
 
-## Data Association Understanding
+- **Display Properties** - Edit display-related component properties
+- **Geometry Properties** - Modify geometry-related component settings
+- **Style Properties** - Change style-specific component properties
+- **Behavior Properties** - Adjust component behavior settings
 
-### Parent vs. Component Data
+> **GIF Placeholder:** Show different types of component-specific properties
 
-Understanding data association:
+## Parent vs Component Data
 
-- **Parent Data** - Data associated with the parent object
-- **Component Data** - Data associated with individual components
-- **Inheritance** - Child components inherit some parent properties
-- **Independent Properties** - Some component properties are independent
+### Data Association
 
-### Data Organization
+Understand how data is associated:
 
-Organize data by association:
+- **Parent-Level Data** - Data that affects the entire object
+- **Component-Level Data** - Data specific to individual components
+- **Inherited Data** - Data inherited from parent to components
+- **Override Data** - Component-specific overrides of parent data
 
-- **Column Configuration** - Configure columns to show parent vs. component data
-- **Data Filtering** - Filter data by parent or component association
-- **Data Sorting** - Sort data by parent-child relationships
-- **Data Display** - Display data in a logical parent-child structure
+> **GIF Placeholder:** Demonstrate the difference between parent and component data
 
-## Editing Workflow
+### Editing Strategies
 
-### Step-by-Step Component Editing
+Choose appropriate editing strategies:
 
-Complete component editing workflow:
+- **Parent-Level Changes** - Make changes that affect all components
+- **Component-Level Changes** - Make changes to specific components only
+- **Selective Editing** - Edit only the components that need changes
+- **Bulk Component Editing** - Edit multiple components simultaneously
 
-1. **Select Object Type** - Choose the Civil 3D object type
-2. **Check Objects** - Select objects containing components
-3. **Access Object Preferences** - Load component data
-4. **Configure Columns** - Add component data columns
-5. **Understand Relationships** - Identify parent-child relationships
-6. **Edit Data** - Modify parent or component properties
-7. **Verify Changes** - Confirm changes are applied correctly
+> **GIF Placeholder:** Show different editing strategies for parent vs component data
 
-### Multi-Component Editing
+## Component Data Management
 
-Edit multiple components efficiently:
+### Component Identification
 
-- **Component Selection** - Select multiple components for editing
-- **Bulk Modifications** - Apply changes to multiple components
-- **Parent Property Editing** - Edit parent properties affecting multiple components
-- **Consistent Updates** - Ensure consistent changes across components
+Identify and work with specific components:
+
+- **Component Names** - Identify components by their names
+- **Component Types** - Understand different component types
+- **Component Hierarchy** - Navigate component hierarchy
+- **Component Selection** - Select components for editing
+
+> **GIF Placeholder:** Demonstrate component identification and selection
+
+### Component Data Organization
+
+Organize component data effectively:
+
+- **Data Grouping** - Group related component data
+- **Logical Organization** - Organize data in logical order
+- **Component Relationships** - Understand relationships between components
+- **Data Dependencies** - Identify data dependencies between components
+
+> **GIF Placeholder:** Show component data organization and relationships
+
+## Advanced Component Operations
+
+### Component Filtering
+
+Filter components for focused editing:
+
+- **Component Type Filtering** - Filter by component type
+- **Property-Based Filtering** - Filter by specific properties
+- **Status-Based Filtering** - Filter by component status
+- **Custom Filtering** - Create custom component filters
+
+> **GIF Placeholder:** Demonstrate component filtering capabilities
+
+### Component Validation
+
+Validate component data:
+
+- **Data Validation** - Validate component data integrity
+- **Relationship Validation** - Validate parent-child relationships
+- **Dependency Checking** - Check component dependencies
+- **Error Detection** - Detect component-related errors
+
+> **GIF Placeholder:** Show component validation processes
+
+### Component Synchronization
+
+Synchronize component data:
+
+- **Data Synchronization** - Synchronize data across components
+- **Property Synchronization** - Synchronize properties between components
+- **Style Synchronization** - Synchronize styles across components
+- **Configuration Synchronization** - Synchronize configurations
+
+> **GIF Placeholder:** Demonstrate component synchronization
+
+## Component Editing Workflows
+
+### Single Component Editing
+
+Edit individual components:
+
+1. **Identify Component** - Identify the component to edit
+2. **Access Component Data** - Access component-specific data
+3. **Make Changes** - Modify component properties
+4. **Verify Changes** - Verify changes are applied correctly
+
+> **GIF Placeholder:** Show single component editing workflow
+
+### Multiple Component Editing
+
+Edit multiple components simultaneously:
+
+1. **Select Components** - Select multiple components for editing
+2. **Identify Common Properties** - Identify properties common to selected components
+3. **Apply Changes** - Apply changes to all selected components
+4. **Verify Results** - Verify changes across all components
+
+> **GIF Placeholder:** Demonstrate multiple component editing workflow
+
+### Component Template Application
+
+Apply templates to components:
+
+1. **Select Template** - Choose component template to apply
+2. **Select Target Components** - Select components to apply template to
+3. **Apply Template** - Apply template properties to components
+4. **Customize as Needed** - Customize template properties as needed
+
+> **GIF Placeholder:** Show component template application process
 
 ## Best Practices
 
-### Understanding Relationships
-- **Study Structure** - Study the parent-child structure before editing
-- **Identify Parent Properties** - Identify which properties belong to parents
-- **Understand Inheritance** - Understand how parent properties affect children
-- **Plan Changes** - Plan changes considering parent-child relationships
+### Component Selection
+- **Select Appropriate Components** - Select only components that need changes
+- **Understand Relationships** - Understand parent-child relationships before editing
+- **Verify Selection** - Double-check component selection before making changes
+- **Consider Dependencies** - Consider component dependencies when editing
 
-### Component Editing
+### Data Access
 - **Use Object Preferences** - Use object preferences to access component data
-- **Configure Columns** - Configure columns to show relevant component data
-- **Edit Efficiently** - Use parent property editing for bulk changes
-- **Verify Results** - Verify component changes are applied correctly
+- **Navigate Hierarchy** - Navigate component hierarchy effectively
+- **Identify Data Sources** - Identify whether data is parent or component level
+- **Access Component Data** - Access component-specific data when needed
 
-### Data Management
-- **Organize Data** - Organize data by parent-child relationships
-- **Use Filtering** - Use filtering to focus on specific components
-- **Save Configurations** - Save useful column configurations as profiles
-- **Document Changes** - Document changes to parent-child relationships 
+### Editing Strategy
+- **Choose Right Level** - Choose appropriate editing level (parent vs component)
+- **Plan Changes** - Plan component changes before execution
+- **Test Changes** - Test changes on small component sets first
+- **Document Changes** - Document component changes for future reference
+
+### Quality Assurance
+- **Validate Changes** - Validate component changes after editing
+- **Check Relationships** - Verify parent-child relationships are maintained
+- **Test Functionality** - Test component functionality after changes
+- **Backup Important Data** - Backup important component data before major changes
+
