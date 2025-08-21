@@ -32,4 +32,10 @@ Piping Engineer provides an interface for managing Civil 3D piping networks with
 ![DiRoots-Tips select rows](../../../assets/images/PNGs/MainInterface.png)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-
+GIFS:
+1)Full WF: Select system, add columns, bulk modify data, check.
+2)WF: Different cases to edit pipe elevations. Show only Pipe tables.
+3)Profile saving.
+4)Rule Validation and override slope.
+5)Bulk edition, refresh.
+6)Different pipes/structures, networks selection modes.
