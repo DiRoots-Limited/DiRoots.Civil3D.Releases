@@ -10,7 +10,7 @@ permalink: /docs/template-inspector-user-guide
 
 Learn how to use Template Inspector to inspect object usage, find where they are being used, and perform batch modifications and delete them in your files efficiently.
 
-<img src="{{ '/assets/images/logos/TemplateInspectorLight.png' | relative_url }}" alt="Template Inspector Logo" width="200" style="display:block;margin:0 auto;">
+<img src="{{ '/assets/images/logos/TemplateInspectorLight.png' | relative_url }}" alt="Template Inspector Logo" width="128" style="display:block;margin:0 auto;">
 
 {: .fs-6 .fw-300 }
 

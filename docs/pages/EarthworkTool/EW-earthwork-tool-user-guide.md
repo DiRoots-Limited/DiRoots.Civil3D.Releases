@@ -10,7 +10,7 @@ permalink: /docs/earthwork-tool-user-guide
 
 {: .fs-6 .fw-300 }
 
-<img src="{{ '/assets/images/logos/EarthWorkLight.png' | relative_url }}" alt="Earthwork Tool Logo" width="200" style="display:block;margin:0 auto;">
+<img src="{{ '/assets/images/logos/EarthWorkLight.png' | relative_url }}" alt="Earthwork Tool Logo" width="128" style="display:block;margin:0 auto;">
 
 ## Overview
 
