@@ -10,11 +10,25 @@ permalink: /docs/earthwork-tool-user-guide
 
 {: .fs-6 .fw-300 }
 
-<div align="center">
+<p align="center">
 
 ![Earthwork Tool Logo](../../../assets/images/logos/EarthWorkLight.png)
 
+</p>
+
+<p align="center">
+  <img src="../../../assets/images/logos/EarthWorkLight.png" alt="Earthwork Tool Logo">
+</p>
+
+<div style="text-align: center;">
+  <img src="../../../assets/images/logos/EarthWorkLight.png" alt="Earthwork Tool Logo">
 </div>
+
+| ![Earthwork Tool Logo](../../../assets/images/logos/EarthWorkLight.png) |
+|:----------------------------------------------------------------------:|
+
+| ![Earthwork Tool Logo](../../../assets/images/logos/EarthWorkLight.png) |
+|:----------------------------------------------------------------------:|
 
 ## Overview
 
