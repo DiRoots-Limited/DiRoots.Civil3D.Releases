@@ -7,7 +7,6 @@ permalink: /docs/grading-pro-user-guide
 ---
 
 
-
 # Grading Pro User Guide
 
 Learn how to use Grading Pro to create or modify surfaces reusable across different project.
