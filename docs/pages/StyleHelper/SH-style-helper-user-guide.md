@@ -1,17 +1,19 @@
 ---
 layout: default
 title: Style Helper User Guide
-nav_order: 1
+nav_order: 6
 has_children: true
 permalink: /docs/style-helper-user-guide
 ---
 
 # Style Helper User Guide
 
-![Style Helper Logo](../../../assets/images/logos/StyleHelperLight.png)
-
 Learn how to use Style Helper to efficiently edit Civil 3D object styles, label styles, table styles and their associate style components directly from the interface with bulk editing capabilities.
 {: .fs-6 .fw-300 }
+
+<div align="center">
+  <img src="../../../assets/images/logos/StyleHelperLight.png" alt="Style Helper Logo" />
+</div>
 
 ## Overview
 

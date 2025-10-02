@@ -6,11 +6,14 @@ has_children: true
 permalink: /docs/grading-pro-user-guide
 ---
 
+
+
 # Grading Pro User Guide
 
-![Grading Pro Logo](../../../assets/images/logos/GradingProLight.png)
-
 Learn how to use Grading Pro to create or modify surfaces reusable across different project.
+<div align="center">
+  <img src="../../../assets/images/logos/GradingProLight.png" alt="Grading Pro Logo" />
+</div>
 
 {: .fs-6 .fw-300 }
 

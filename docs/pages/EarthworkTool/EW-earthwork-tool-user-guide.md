@@ -8,9 +8,11 @@ permalink: /docs/earthwork-tool-user-guide
 
 # Earthwork Tool User Guide
 
-![Earthwork Tool Logo](../../../assets/images/logos/EarthWorkLight.png)
-
 {: .fs-6 .fw-300 }
+
+<div align="center">
+  <img src="../../../assets/images/logos/EarthWorkLight.png" alt="Earthwork Tool Logo" />
+</div>
 
 ## Overview
 
