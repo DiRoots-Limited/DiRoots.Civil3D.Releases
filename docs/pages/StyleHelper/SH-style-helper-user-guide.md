@@ -8,6 +8,8 @@ permalink: /docs/style-helper-user-guide
 
 # Style Helper User Guide
 
+![Style Helper Logo](../../../assets/images/logos/StyleHelper%20Light.png)
+
 Learn how to use Style Helper to efficiently edit Civil 3D object styles, label styles, table styles and their associate style components directly from the interface with bulk editing capabilities.
 {: .fs-6 .fw-300 }
 

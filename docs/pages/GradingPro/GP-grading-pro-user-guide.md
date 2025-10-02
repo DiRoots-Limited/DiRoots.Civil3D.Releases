@@ -8,6 +8,8 @@ permalink: /docs/grading-pro-user-guide
 
 # Grading Pro User Guide
 
+![Grading Pro Logo](../../../assets/images/logos/GradingPro%20Light.png)
+
 Learn how to use Grading Pro to create or modify surfaces reusable across different project.
 
 {: .fs-6 .fw-300 }

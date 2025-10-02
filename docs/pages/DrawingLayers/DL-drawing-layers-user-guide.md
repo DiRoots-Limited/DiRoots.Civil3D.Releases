@@ -8,6 +8,8 @@ permalink: /docs/drawing-layers-user-guide
 
 # Drawing Layers User Guide
 
+![Drawing Layers Logo](../../../assets/images/logos/Drawing%20Layer%20Light.png)
+
 Learn how to use Drawing Layers to edit layer data and layer states using a spreadsheet-format interface, with Excel export and import capabilities.
 {: .fs-6 .fw-300 }
 

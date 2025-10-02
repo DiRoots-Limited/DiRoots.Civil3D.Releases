@@ -8,7 +8,7 @@ permalink: /
 
 # DiCivil | Autodesk Civil 3D Plugin.
 
-![DiCivil Logo](/assets\images\DiCivil-Civil3D-Plugin-Logo.png)
+![DiCivil Logo](./assets/images/DiCivil-Civil3D-Plugin-Logo.png)
 
 DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. DiCivil provides users different tools to help design and manage their data to get your job done faster and better.
 

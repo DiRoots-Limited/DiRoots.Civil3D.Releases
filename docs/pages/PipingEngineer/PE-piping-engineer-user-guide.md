@@ -8,6 +8,8 @@ permalink: /docs/piping-engineer-user-guide
 
 # Piping Engineer User Guide
 
+![Piping Engineer Logo](../../../assets/images/logos/PipingEngineer%20Light-Dark.png)
+
 Learn how to use DiCivil - Piping Engineer to design, edit and validate your piping networks faster and easily.
 {: .fs-6 .fw-300 }
 
