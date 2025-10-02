@@ -8,7 +8,7 @@ permalink: /docs/transfer-object-layers-user-guide
 
 # Transfer Object Layers User Guide
 
-![Transfer Object Layers Logo](../../../assets/images/logos/transferObjectLayers%20Light.png)
+![Transfer Object Layers Logo](../../../assets/images/logos/transferObjectLayersLight.png)
 
 Learn how to use Transfer Object Layers to transfer Civil 3D object layer settings between projects while preserving all properties and layers, with Excel export and import capabilities.
 {: .fs-6 .fw-300 }
