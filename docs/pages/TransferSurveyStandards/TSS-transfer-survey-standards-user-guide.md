@@ -10,10 +10,8 @@ permalink: /docs/transfer-survey-standards-user-guide
 
 Learn how to use Transfer Survey Standards to transfer Civil 3D survey standards data between projects and manage Point Description Keys and Figure Prefix Database with Excel export and import capabilities.
 
-<div align="center">
-
-![Transfer Survey Standards Logo](../../../assets/images/logos/transferSurveyStandardsLight.png)
-
+<div class="centered-image">
+  <img src="../../../assets/images/logos/transferSurveyStandardsLight.png" alt="Transfer Survey Standards Logo" width="200">
 </div>
 
 {: .fs-6 .fw-300 }

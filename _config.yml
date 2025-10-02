@@ -48,5 +48,9 @@ heading_anchors: true
 # Color scheme supports "light" (default) and "dark"
 color_scheme: light
 
+# Custom CSS
+extra_css:
+  - styles/extra.css
+
 
 

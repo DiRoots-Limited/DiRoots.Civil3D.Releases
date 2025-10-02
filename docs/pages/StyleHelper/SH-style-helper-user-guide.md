@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Style Helper User Guide
-nav_order: 6
+nav_order: 1
 has_children: true
 permalink: /docs/style-helper-user-guide
 ---
@@ -10,10 +10,8 @@ permalink: /docs/style-helper-user-guide
 
 Learn how to use Style Helper to efficiently edit Civil 3D object styles, label styles, table styles and their associate style components directly from the interface with bulk editing capabilities.
 
-<div align="center">
-
-![Style Helper Logo](../../../assets/images/logos/StyleHelperLight.png)
-
+<div class="centered-image">
+  <img src="../../../assets/images/logos/StyleHelperLight.png" alt="Style Helper Logo" width="200">
 </div>
 
 {: .fs-6 .fw-300 }
@@ -60,6 +58,4 @@ This user guide is organized into the following sections:
 - **[Tabs Overview](SH-Three-Tabs-Overview.md)** - Explanation of the three tabs and Civil 3D structure with component column reference
 - **[Editing Features](SH-Editing-Features.md)** - Table customization, data editing for all tabs, batch editing, and children styles support
 - **[Profile](SH-Profile.md)** - Profile management for saving and reusing column configurations
-
-
 
