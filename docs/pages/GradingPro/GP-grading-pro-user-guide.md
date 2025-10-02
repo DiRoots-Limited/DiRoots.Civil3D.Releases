@@ -11,9 +11,7 @@ permalink: /docs/grading-pro-user-guide
 
 Learn how to use Grading Pro to create or modify surfaces reusable across different project.
 
-<div class="centered-image">
-  <img src="{{ '/assets/images/logos/GradingProLight.png' | relative_url }}" alt="Grading Pro Logo" width="200" style="display:block;margin:0 auto;">
-</div>
+<img src="{{ '/assets/images/logos/GradingProLight.png' | relative_url }}" alt="Grading Pro Logo" width="200" style="display:block;margin:0 auto;">
 
 {: .fs-6 .fw-300 }
 
