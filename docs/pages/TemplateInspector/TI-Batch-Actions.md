@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Batch Actions
+title: Delete and Batch Actions
 parent: Template Inspector User Guide
 nav_order: 2
 ---
 
-# Batch Actions
+# Delete and Batch Actions
 {: .no_toc }
 
 ## Table of contents
@@ -16,13 +16,16 @@ nav_order: 2
 
 ---
 
-# Batch Actions
+# Delete and Batch Actions
 
-Template Inspector enables you to perform batch operations on multiple objects simultaneously, significantly improving efficiency when managing large numbers of objects.
+Template Inspector enables you to perform batch operations on multiple objects simultaneously, significantly improving efficiency when managing large numbers of objects. The batch action feature allows you to select multiple instances and change the assignment of objects from a dropdown selection for all selected inputs at once. Additionally, you can delete objects from the drawing after ensuring they are unused.
 
 ## Overview
 
-Batch actions allow you to:
+Delete and batch actions allow you to:
+- Select multiple instances simultaneously
+- Change object assignments from dropdown selection for all selected inputs at once
+- Delete unused objects from the drawing
 - Update multiple objects at once
 - Apply consistent changes across objects
 - Save time with efficient batch operations
@@ -43,29 +46,20 @@ Select multiple objects for batch operations:
 
 > **GIF Placeholder:** Demonstrate multi-object selection
 
-### Selection Methods
 
-Different ways to select objects for batch operations:
+## Batch Assignment Operations
 
-- **Checkbox Selection** - Use checkboxes to select individual objects
-- **Range Selection** - Select objects in a range using Shift+Click
-- **Filtered Selection** - Select objects based on filter criteria
-- **Bulk Selection** - Select large numbers of objects efficiently
+### Object Assignment Updates
 
-> **GIF Placeholder:** Show different selection methods
+Change object assignments for multiple instances using dropdown selection:
 
-## Batch Update Operations
-
-### Layer Assignment Updates
-
-Update layer assignments for multiple objects:
-
-- **Target Layer Selection** - Choose the new layer for assignment
-- **Batch Layer Update** - Apply layer changes to all selected objects
+- **Multiple Instance Selection** - Select multiple instances to modify
+- **Dropdown Assignment Selection** - Choose new assignment from dropdown for all selected inputs
+- **Batch Assignment Update** - Apply assignment changes to all selected instances at once
 - **Confirmation Process** - Confirm changes before applying
 - **Verification** - Check that changes were applied correctly
 
-> **GIF Placeholder:** Demonstrate batch layer assignment updates
+> **GIF Placeholder:** Demonstrate batch assignment updates with dropdown selection
 
 ### Style Updates
 
@@ -89,169 +83,48 @@ Update properties for multiple objects:
 
 > **GIF Placeholder:** Demonstrate batch property updates
 
-## Batch Modification Workflow
 
-### Preparation Phase
+## Batch Assignment Workflow
 
-Prepare for batch operations:
+1. **Select Multiple Instances** - Choose multiple instances to modify
+2. **Choose Assignment from Dropdown** - Select new assignment from dropdown for all selected inputs
+3. **Review Selection** - Review selected instances and assignment changes
+4. **Execute Batch Assignment** - Apply assignment changes to all selected instances at once
 
-1. **Select Object Type** - Choose the type of objects to modify
-2. **Search and Filter** - Find specific objects to include in batch operation
-3. **Review Selection** - Review selected objects before proceeding
-4. **Verify Dependencies** - Check for any dependencies or conflicts
+> **GIF Placeholder:** Demonstrate batch assignment execution with dropdown selection
 
-> **GIF Placeholder:** Show preparation phase for batch operations
+## Object Deletion
 
-### Execution Phase
+Template Inspector provides the ability to delete objects from the drawing, but requires that objects be unused before deletion to ensure data integrity.
 
-Execute batch modifications:
+### Deletion Workflow
 
-1. **Choose Action** - Select the batch action to perform
-2. **Configure Settings** - Set up modification parameters
-3. **Confirm Operation** - Confirm batch operation before execution
-4. **Execute Changes** - Apply changes to all selected objects
-5. **Monitor Progress** - Monitor batch operation progress
+To delete objects safely:
 
-> **GIF Placeholder:** Demonstrate execution phase
+1. **Inspect Objects** - Use the inspection feature to identify which objects are currently in use
+2. **Batch Modify Reassignment** - Use batch actions to reassign all dependent objects to alternative objects
+3. **Verify Unused Status** - Confirm that the objects are no longer referenced or used
+4. **Select Objects for Deletion** - Check the objects you want to delete
+5. **Execute Deletion** - Click 'Delete' to remove the unused objects from the drawing
 
-### Verification Phase
+> **GIF Placeholder:** Demonstrate complete object deletion workflow
 
-Verify batch operation results:
+### Deletion Requirements
 
-1. **Check Results** - Verify that changes were applied correctly
-2. **Review Changes** - Review all modifications made
-3. **Validate Consistency** - Ensure consistency across modified objects
-4. **Document Changes** - Document batch operations performed
+Before objects can be deleted:
 
-> **GIF Placeholder:** Show verification phase
+- **Unused Status** - Objects must be completely unused (no references or dependencies)
+- **Verification** - Confirm through inspection that objects are safe to delete
 
-## Batch Operation Types
+> **GIF Placeholder:** Show deletion requirements and verification process
 
-### Layer Operations
+### Deletion Process
 
-Perform batch layer operations:
+Execute object deletion:
 
-- **Layer Assignment** - Assign objects to specific layers
-- **Layer Swapping** - Swap objects between layers
-- **Layer Cleanup** - Clean up layer assignments
-- **Layer Standardization** - Standardize layer usage
+1. **Check Objects** - Select the objects you want to delete by checking them
+2. **Click Delete** - Click the 'Delete' button to remove objects from the drawing
+3. **Confirmation** - Confirm the deletion action
+4. **Cleanup** - Objects are cleaned from the drawing
 
-> **GIF Placeholder:** Demonstrate different layer operations
-
-### Style Operations
-
-Perform batch style operations:
-
-- **Style Assignment** - Assign styles to objects
-- **Style Updates** - Update existing style assignments
-- **Style Cleanup** - Clean up unused styles
-- **Style Standardization** - Standardize style usage
-
-> **GIF Placeholder:** Show different style operations
-
-### Property Operations
-
-Perform batch property operations:
-
-- **Property Updates** - Update object properties
-- **Property Standardization** - Standardize property values
-- **Property Cleanup** - Clean up property assignments
-- **Property Validation** - Validate property values
-
-> **GIF Placeholder:** Demonstrate different property operations
-
-## Safety Features
-
-### Confirmation Dialogs
-
-Ensure safe batch operations:
-
-- **Operation Confirmation** - Confirm batch operations before execution
-- **Change Preview** - Preview changes before applying
-- **Risk Assessment** - Assess potential risks of batch operations
-- **Rollback Options** - Provide rollback options when possible
-
-> **GIF Placeholder:** Show confirmation dialogs and safety features
-
-### Progress Tracking
-
-Monitor batch operation progress:
-
-- **Progress Indicators** - Visual progress indicators during operations
-- **Status Updates** - Real-time status updates
-- **Error Handling** - Handle errors during batch operations
-- **Completion Notification** - Notify when operations are complete
-
-> **GIF Placeholder:** Demonstrate progress tracking
-
-### Error Recovery
-
-Handle errors during batch operations:
-
-- **Error Detection** - Detect errors during batch operations
-- **Error Reporting** - Report errors clearly to users
-- **Partial Completion** - Handle partial completion scenarios
-- **Recovery Options** - Provide recovery options for failed operations
-
-> **GIF Placeholder:** Show error recovery processes
-
-## Advanced Batch Features
-
-### Conditional Operations
-
-Perform conditional batch operations:
-
-- **Conditional Selection** - Select objects based on conditions
-- **Conditional Updates** - Update objects based on conditions
-- **Filtered Operations** - Apply operations to filtered objects
-- **Smart Updates** - Apply intelligent updates based on object properties
-
-> **GIF Placeholder:** Demonstrate conditional operations
-
-### Template-Based Operations
-
-Use templates for batch operations:
-
-- **Template Creation** - Create templates for common batch operations
-- **Template Application** - Apply templates to batch operations
-- **Template Management** - Manage batch operation templates
-- **Template Sharing** - Share templates across teams
-
-> **GIF Placeholder:** Show template-based operations
-
-### Scheduled Operations
-
-Schedule batch operations:
-
-- **Operation Scheduling** - Schedule batch operations for later execution
-- **Background Processing** - Process batch operations in background
-- **Scheduled Execution** - Execute scheduled operations automatically
-- **Schedule Management** - Manage scheduled operations
-
-> **GIF Placeholder:** Demonstrate scheduled operations
-
-## Best Practices
-
-### Preparation
-- **Plan Operations** - Plan batch operations carefully before execution
-- **Test on Small Sets** - Test batch operations on small object sets first
-- **Backup Data** - Backup important data before batch operations
-- **Review Dependencies** - Review object dependencies before operations
-
-### Execution
-- **Monitor Progress** - Monitor batch operation progress closely
-- **Handle Errors** - Handle errors gracefully during operations
-- **Verify Results** - Verify results after each batch operation
-- **Document Changes** - Document all batch operations performed
-
-### Safety
-- **Use Confirmation** - Always use confirmation dialogs for destructive operations
-- **Test Modifications** - Test modifications before applying to production
-- **Maintain Backups** - Maintain backups for important data
-- **Follow Procedures** - Follow established procedures for batch operations
-
-### Efficiency
-- **Optimize Selection** - Optimize object selection for efficiency
-- **Use Templates** - Use templates for common batch operations
-- **Schedule Operations** - Schedule operations during off-peak hours
-- **Monitor Performance** - Monitor performance during batch operations 
+> **GIF Placeholder:** Demonstrate object deletion process

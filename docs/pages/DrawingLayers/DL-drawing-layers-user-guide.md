@@ -36,14 +36,6 @@ The Drawing Layers tool opens with two main tabs:
 
 > **GIF Placeholder:** Show the main interface and basic navigation
 
-### Tool Access
-
-Access the tool efficiently:
-
-- **Direct Opening** - Open the tool from the DiRoots interface
-- **Layer Data Access** - Access all used layers from Active Layers tab
-- **State Management** - Manage layer states from Layer States tab
-- **Spreadsheet Interface** - Work with familiar spreadsheet format
 
 ### Basic Workflow
 
@@ -55,85 +47,3 @@ Access the tool efficiently:
 6. **Apply Updates** - Confirm and apply changes to layer data
 
 > **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes
-
-## Quick Reference
-
-### Spreadsheet Interface
-- **Two-Tab Structure** - Active Layers and Layer States tabs
-- **Direct Cell Editing** - Edit data directly in spreadsheet cells
-- **Formula Support** - Use Excel-like formulas for data manipulation
-- **Change Highlighting** - Visual indicators for modified values
-
-### Active Layers Management
-- **Complete Layer View** - See all used layers in spreadsheet format
-- **Property Modification** - Modify any layer property directly
-- **Bulk Operations** - Apply changes to multiple layers simultaneously
-- **Real-time Updates** - See changes immediately in the interface
-
-### Layer States Management
-- **State Selection** - Select specific layer states for editing
-- **Property Modification** - Edit state properties and settings
-- **Bulk Changes** - Apply changes to multiple states
-- **Color Management** - Change colors for related layers
-
-### Excel Integration
-- **Export to Excel** - Export layer data for external editing
-- **Import from Excel** - Import updated data with change detection
-- **Change Detection** - Automatically detect changes in imported data
-- **Change Review** - Review highlighted changes before applying
-
-### Formula Capabilities
-- **Column Concatenation** - Combine two columns into one
-- **Prefix Addition** - Add prefixes to existing values
-- **Formula Expansion** - Apply formulas across multiple rows
-- **Dynamic Calculations** - Perform calculations on layer data
-
-### Change Management
-- **Visual Change Tracking** - Modified values highlighted in color
-- **Change Confirmation** - Confirm changes before applying
-- **Reset Functionality** - Undo changes before confirming
-- **Safety Features** - Review and verify changes before applying
-
-### Profile Management
-- **Configuration Saving** - Save and reuse configuration settings
-- **Profile Organization** - Organize profiles systematically
-- **Profile Sharing** - Share profiles across teams
-- **Version Control** - Version control for configurations
-
-## Best Practices
-
-### Getting Started
-- **Familiarize with Interface** - Understand the two-tab structure
-- **Start with Small Changes** - Begin with minor modifications
-- **Use Reset Function** - Use reset to undo unwanted changes
-- **Backup Important Data** - Always backup important layer data
-
-### Spreadsheet Interface
-- **Plan Edits** - Plan your edits before making changes
-- **Use Formulas** - Leverage formulas for bulk operations
-- **Monitor Changes** - Watch for color highlighting of changes
-- **Test Formulas** - Test formulas on small datasets first
-
-### Change Management
-- **Review Changes** - Always review changes before applying
-- **Use Reset** - Use reset functionality to undo unwanted changes
-- **Verify Updates** - Verify updates are applied correctly
-- **Backup Data** - Backup important data before major changes
-
-### Excel Workflow
-- **Export Regularly** - Export data regularly for backup
-- **Edit Carefully** - Edit Excel data carefully to avoid errors
-- **Import Safely** - Import data safely with change review
-- **Verify Imports** - Verify imported changes are correct
-
-### Layer State Management
-- **Select States Carefully** - Select appropriate states for editing
-- **Apply Changes Consistently** - Apply changes consistently across states
-- **Verify State Changes** - Verify state changes are applied correctly
-- **Test State Applications** - Test state applications before widespread use
-
-### Profile Management
-- **Create Useful Profiles** - Create profiles for common workflows
-- **Organize Profiles** - Organize profiles systematically
-- **Share Best Practices** - Share profiles with team members
-- **Regular Updates** - Update profiles as workflows evolve 

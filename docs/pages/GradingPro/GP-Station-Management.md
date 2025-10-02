@@ -5,7 +5,7 @@ parent: Grading Pro User Guide
 nav_order: 2
 ---
 
-# Station Management
+# Station Setup
 {: .no_toc }
 
 ## Table of contents
@@ -16,19 +16,17 @@ nav_order: 2
 
 ---
 
-# Station Management
+# Station Setup
 
-Grading Pro provides flexible station management capabilities for creating and organizing stations along reference paths with individual and range-based configurations.
+Grading Pro provides station management capabilities for creating and organizing stations along reference paths with individual and range-based configurations.
 
 ## Overview
 
-Station management allows you to:
+Station setup allows you to:
 - Create individual stations at specific locations
 - Generate range-based stations with intervals
 - Configure side and angle settings for section placement
-- Organize and manage stations systematically
 
-> **GIF Placeholder:** Show overview of station management capabilities
 
 ## Individual Stations
 
@@ -37,13 +35,12 @@ Station management allows you to:
 Create stations at specific locations:
 
 - **Station Creation** - Create individual stations at specific points
-- **Location Specification** - Specify exact station locations
 - **Station Naming** - Name stations for easy identification
 - **Station Organization** - Organize individual stations logically
 
 > **GIF Placeholder:** Demonstrate individual station creation
 
-### Station Configuration
+### Station Setup
 
 Configure individual station settings:
 
@@ -170,28 +167,3 @@ Synchronize stations across configurations:
 
 > **GIF Placeholder:** Show station synchronization
 
-## Best Practices
-
-### Station Planning
-- **Plan Station Layout** - Plan station layout carefully
-- **Consider Design Intent** - Consider design intent when placing stations
-- **Optimize Placement** - Optimize station placement for efficiency
-- **Document Layout** - Document station layout for future reference
-
-### Configuration Management
-- **Use Templates** - Use templates for consistency
-- **Organize Stations** - Organize stations systematically
-- **Validate Configurations** - Validate station configurations
-- **Document Settings** - Document station settings
-
-### Quality Assurance
-- **Quality Checks** - Perform quality checks on stations
-- **Validation Procedures** - Follow validation procedures
-- **Error Correction** - Correct errors promptly
-- **Documentation** - Document all station configurations
-
-### Performance Optimization
-- **Efficient Placement** - Place stations efficiently
-- **Resource Management** - Manage resources effectively
-- **Performance Monitoring** - Monitor station performance
-- **Optimization Strategies** - Use optimization strategies 

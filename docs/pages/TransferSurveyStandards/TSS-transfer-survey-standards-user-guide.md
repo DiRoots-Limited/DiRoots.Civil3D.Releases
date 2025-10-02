@@ -68,11 +68,6 @@ The tool supports multiple transfer sources:
 - **Data Validation** - Check data integrity before import
 - **Bulk Modifications** - Make changes to multiple items simultaneously
 
-### Conflict Resolution
-- **Conflict Detection** - Identify conflicts between existing and imported data
-- **User Choice** - Choose to replace existing data or retain current settings
-- **Selective Resolution** - Handle conflicts on a case-by-case basis
-- **Data Preservation** - Ensure no data is lost during conflict resolution
 
 ### Excel Integration
 - **Export to Excel** - Export data for external editing
@@ -85,29 +80,3 @@ The tool supports multiple transfer sources:
 - **Filter Options** - Filter data by various criteria
 - **Efficient Navigation** - Quickly locate and modify specific items
 - **Data Organization** - Organize data for easier management
-
-## Best Practices
-
-### Getting Started
-- **Verify Source Data** - Ensure source files contain valid survey standards
-- **Check Layer Definitions** - Verify required layers exist in target files
-- **Start with Small Transfers** - Begin with limited data sets
-- **Test Transfers** - Verify transfers work correctly before large-scale operations
-
-### Data Management
-- **Validate Data Structure** - Check data integrity before transfer
-- **Backup Original Data** - Keep backups of original configurations
-- **Document Changes** - Keep records of transferred configurations
-- **Validate Results** - Check that transfers completed successfully
-
-### Conflict Management
-- **Review Conflicts** - Carefully examine conflict resolution options
-- **Choose Appropriate Action** - Select replace or retain based on project needs
-- **Document Decisions** - Record conflict resolution choices
-- **Verify Outcomes** - Confirm that conflict resolution worked as expected
-
-### Excel Workflow
-- **Use Templates** - Use structured Excel templates for consistency
-- **Validate Excel Data** - Check Excel data before importing
-- **Maintain Structure** - Preserve Excel structure during editing
-- **Test Imports** - Verify Excel imports work correctly 

@@ -107,33 +107,3 @@ Modify table style properties:
 
 > **GIF Placeholder:** Show table style property editing
 
-## Style Editing Workflows
-
-### Object Style Editing
-
-Complete workflow for editing object styles:
-
-1. **Select Object Styles Tab** - Choose the Object Styles tab
-2. **Select Object Type** - Choose the object type (e.g., Surface)
-3. **Check Objects** - Select specific objects to work with
-4. **Access Object Preferences** - Load associated data for checked objects
-5. **Configure Columns** - Use Preferences button to configure table columns
-6. **Edit Style Properties** - Modify style properties directly in the table
-7. **Save Profile** - Save column configuration for the Object Styles tab
-
-> **GIF Placeholder:** Show complete object style editing workflow
-
-### Label Style Editing
-
-Complete workflow for editing label styles:
-
-1. **Select Label Styles Tab** - Choose the Label Styles tab
-2. **Select Object Type** - Choose the object type (e.g., Point)
-3. **Check Objects** - Select specific label styles to work with
-4. **Access Object Preferences** - Load associated data for checked objects
-5. **Configure Columns** - Use Preferences button to configure table columns
-6. **Edit Label Properties** - Modify label properties directly in the table
-7. **Save Profile** - Save column configuration for the Label Styles tab
-
-> **GIF Placeholder:** Show complete label style editing workflow
-

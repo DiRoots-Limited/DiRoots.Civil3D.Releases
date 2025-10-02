@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Piping Engineer User Guide
-nav_order: 3
+nav_order: 5
 has_children: true
 permalink: /docs/piping-engineer-user-guide
 ---
@@ -34,8 +34,5 @@ Piping Engineer provides an interface for managing Civil 3D piping networks with
 
 GIFS:
 1)Full WF: Select system, add columns, bulk modify data, check.
-2)WF: Different cases to edit pipe elevations. Show only Pipe tables.
-3)Profile saving.
-4)Rule Validation and override slope.
-5)Bulk edition, refresh.
-6)Different pipes/structures, networks selection modes.
+2)Profile saving.
+3)Bulk edition, refresh.

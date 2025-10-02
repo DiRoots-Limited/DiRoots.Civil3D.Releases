@@ -152,17 +152,6 @@ Schedule batch operations:
 
 > **GIF Placeholder:** Demonstrate scheduled processing
 
-### Batch Reporting
-
-Generate batch operation reports:
-
-- **Operation Reports** - Generate reports for batch operations
-- **Progress Reports** - Create progress reports during processing
-- **Result Reports** - Generate result reports after processing
-- **Error Reports** - Create error reports for failed operations
-
-> **GIF Placeholder:** Show batch reporting
-
 ## Performance Optimization
 
 ### Processing Optimization
@@ -175,40 +164,3 @@ Optimize batch processing performance:
 - **Performance Monitoring** - Monitor performance during operations
 
 > **GIF Placeholder:** Demonstrate performance optimization
-
-### Error Handling
-
-Handle errors during batch operations:
-
-- **Error Detection** - Detect errors during batch operations
-- **Error Recovery** - Recover from errors gracefully
-- **Error Reporting** - Report errors clearly to users
-- **Error Prevention** - Prevent errors through validation
-
-> **GIF Placeholder:** Show error handling processes
-
-## Best Practices
-
-### Batch Planning
-- **Plan Operations** - Plan batch operations carefully
-- **Test on Small Sets** - Test operations on small datasets first
-- **Backup Data** - Backup important data before batch operations
-- **Document Procedures** - Document batch operation procedures
-
-### Processing
-- **Monitor Progress** - Monitor progress during batch operations
-- **Handle Errors** - Handle errors gracefully during processing
-- **Validate Results** - Validate results after processing
-- **Document Changes** - Document all changes made during processing
-
-### Performance
-- **Optimize Resources** - Optimize system resources for batch operations
-- **Schedule Operations** - Schedule operations during off-peak hours
-- **Monitor Performance** - Monitor performance during operations
-- **Scale Operations** - Scale operations based on system capacity
-
-### Safety
-- **Backup Important Data** - Backup important data before batch operations
-- **Test Procedures** - Test procedures before production use
-- **Validate Results** - Validate results after operations
-- **Document Procedures** - Document all procedures for future reference 

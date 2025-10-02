@@ -102,41 +102,6 @@ Transfer only required PDKs:
 
 > **GIF Placeholder:** Show targeted transfer
 
-## Conflict Resolution
-
-### Conflict Detection
-
-Identify conflicts between PDKs:
-
-- **Conflict Identification** - Identify conflicts between existing and imported PDKs
-- **Conflict Analysis** - Analyze conflict types and severity
-- **Conflict Reporting** - Report conflicts clearly to users
-- **Conflict Assessment** - Assess impact of conflicts
-
-> **GIF Placeholder:** Demonstrate conflict detection
-
-### User Choice Resolution
-
-Choose how to handle conflicts:
-
-- **Replace Option** - Choose to replace existing PDKs with imported ones
-- **Retain Option** - Choose to retain existing PDKs
-- **Selective Resolution** - Handle conflicts on a case-by-case basis
-- **User Control** - Give users control over conflict resolution
-
-> **GIF Placeholder:** Show user choice resolution
-
-### Conflict Management
-
-Manage conflict resolution:
-
-- **Conflict Handling** - Handle conflicts appropriately
-- **Data Preservation** - Ensure no data is lost during conflict resolution
-- **Resolution Tracking** - Track conflict resolution decisions
-- **Resolution Verification** - Verify conflict resolution results
-
-> **GIF Placeholder:** Demonstrate conflict management
-
 ## PDK Configuration
 
 ### Key Properties
@@ -185,17 +150,6 @@ Validate PDK configurations:
 
 > **GIF Placeholder:** Demonstrate PDK validation
 
-### PDK Comparison
-
-Compare PDK configurations:
-
-- **Configuration Comparison** - Compare PDK configurations
-- **Difference Analysis** - Analyze differences between PDKs
-- **Comparison Reports** - Generate comparison reports
-- **Merge Planning** - Plan PDK merges
-
-> **GIF Placeholder:** Show PDK comparison
-
 ### PDK Backup
 
 Backup PDK configurations:
@@ -220,16 +174,6 @@ Integrate PDKs with Excel:
 
 > **GIF Placeholder:** Show Excel integration
 
-### Profile Integration
-
-Integrate PDKs with profiles:
-
-- **Profile Storage** - Store PDK configurations in profiles
-- **Profile Application** - Apply PDK profiles to projects
-- **Profile Management** - Manage PDK profiles
-- **Profile Sharing** - Share PDK profiles
-
-> **GIF Placeholder:** Demonstrate profile integration
 
 ### Workflow Integration
 
@@ -242,28 +186,3 @@ Integrate PDKs into workflows:
 
 > **GIF Placeholder:** Show workflow integration
 
-## Best Practices
-
-### PDK Transfer
-- **Plan Transfers** - Plan PDK transfers carefully
-- **Validate Data** - Validate PDK data before transfer
-- **Test Transfers** - Test transfers before production
-- **Document Transfers** - Document transfer procedures
-
-### Conflict Management
-- **Review Conflicts** - Carefully review conflict resolution options
-- **Choose Appropriately** - Choose appropriate conflict resolution
-- **Document Decisions** - Document conflict resolution decisions
-- **Verify Results** - Verify conflict resolution results
-
-### Configuration Management
-- **Regular Maintenance** - Maintain PDK configurations regularly
-- **Version Control** - Use version control for PDK configurations
-- **Backup Strategy** - Implement backup strategy for PDKs
-- **Quality Assurance** - Ensure PDK configuration quality
-
-### Integration
-- **Use Excel** - Use Excel for external PDK editing
-- **Use Profiles** - Use profiles for PDK configuration management
-- **Validate Integration** - Validate integration workflows
-- **Test Integration** - Test integration procedures 

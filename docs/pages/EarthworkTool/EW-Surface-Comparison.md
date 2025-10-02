@@ -67,33 +67,17 @@ The tool provides comprehensive volume analysis:
 
 > **GIF Placeholder:** Demonstrate calculation results display
 
-## Civil 3D Compatibility
 
-### Same Calculation Methods
+## Additional Features Examples
 
-The Earthwork Tool uses identical calculation methods to Civil 3D:
+### Dynamic Unit Management, Unit Options
 
-- **Dashboard Feature** - Same algorithms as Civil 3D's dashboard
-- **Volume Accuracy** - Consistent results between tools
-- **Surface Handling** - Compatible with all Civil 3D surface types
-- **Data Integrity** - Maintains Civil 3D data standards
+Switch between volume units instantly:
 
-> **GIF Placeholder:** Show Civil 3D compatibility
-
-### Validation and Verification
-
-Use the tool to validate Civil 3D calculations:
-
-1. **Run Civil 3D Dashboard** - Perform calculation in Civil 3D
-2. **Run Earthwork Tool** - Perform same calculation in Earthwork Tool
-3. **Compare Results** - Verify volumes match between tools
-4. **Cross-Reference** - Use for quality assurance and validation
-
-> **GIF Placeholder:** Demonstrate validation and verification process
-
-## Advanced Features
-
-### Dynamic Unit Management
+- **Cubic Meters (m³)** - Metric volume unit
+- **Cubic Yards (yd³)** - Imperial volume unit
+- **Cubic Feet (ft³)** - Imperial volume unit
+- **Acre-Feet (acre-ft)** - Large volume unit
 
 Switch between volume units instantly:
 
@@ -104,7 +88,7 @@ Switch between volume units instantly:
 
 > **GIF Placeholder:** Show dynamic unit management
 
-### Object Association
+### Select Object Association
 
 Manage associated elements:
 
@@ -114,53 +98,3 @@ Manage associated elements:
 - **Real-time Updates** - Calculations update when elements change
 
 > **GIF Placeholder:** Demonstrate object association
-
-## Workflow Examples
-
-### Basic Surface Comparison
-
-1. **Click "Add Full Volume Surface"** in the main UI
-2. **Select Existing Surface** - Choose current ground surface
-3. **Select Proposed Surface** - Choose future ground surface
-4. **Execute Calculation** - Run the comparison
-5. **Review Results** - Check total cut/fill volumes
-
-> **GIF Placeholder:** Demonstrate basic surface comparison workflow
-
-### Validation with Civil 3D
-
-1. **Create Civil 3D Dashboard** - Run calculation in Civil 3D
-2. **Run Earthwork Tool** - Perform same calculation
-3. **Compare Results** - Verify volumes match
-4. **Document Differences** - Note any discrepancies for investigation
-
-> **GIF Placeholder:** Show validation with Civil 3D
-
-### Unit Conversion
-
-1. **Run Calculation** - Execute full volume surface comparison
-2. **Change Units** - Switch from m³ to yd³
-3. **Verify Conversion** - Check that results update correctly
-4. **Export Results** - Save in preferred units
-
-> **GIF Placeholder:** Demonstrate unit conversion
-
-## Best Practices
-
-### Surface Preparation
-- **Verify Surface Integrity** - Ensure surfaces are complete and accurate
-- **Check Surface Boundaries** - Confirm surfaces cover the same area
-- **Validate Elevations** - Verify surface elevation data is correct
-- **Test Calculations** - Run test calculations to verify accuracy
-
-### Workflow Optimization
-- **Start with Full Volume** - Begin with complete surface comparison
-- **Use Descriptive Names** - Name surfaces clearly for easy identification
-- **Document Settings** - Keep records of calculation parameters
-- **Regular Validation** - Periodically compare with Civil 3D results
-
-### Quality Assurance
-- **Cross-Reference Results** - Compare with Civil 3D calculations
-- **Check Unit Consistency** - Ensure consistent unit usage
-- **Validate Surface Selection** - Verify correct surfaces are selected
-- **Review Associated Objects** - Check element associations

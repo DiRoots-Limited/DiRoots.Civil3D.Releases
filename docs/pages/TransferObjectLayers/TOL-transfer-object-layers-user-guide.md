@@ -61,47 +61,19 @@ Access the tool efficiently:
 
 ### Import Options
 - **Open File Import** - Import data directly from open Civil 3D files
-- **Closed File Import** - Import from closed .dwg or Civil 3D files
+- **Closed File Import** - Import from open or closed .dwg or Civil 3D files
 - **Excel Import** - Import data from Excel files with templates
 
 ### Data Management
 - **UI Data Display** - View all imported object layer data
 - **Data Editing** - Modify data directly in the UI before importing
 - **Data Validation** - Validate data before applying to target file
-
-### Layer Validation
 - **Undefined Layer Detection** - Check if layers are defined in target file
-- **Warning System** - Display warnings for undefined layers
-- **Layer Management** - Handle undefined layer scenarios
+- **Layer Management** - Warns undefined scenarios
 
 ### Excel Workflow
-- **Export to Excel** - Create standard configuration files
+- **Export to Excel** - Create by exporting the configuration file and make any changes.
 - **Excel Import** - Import standards from Excel files
 - **Standard Management** - Create and manage standards efficiently
 
-### Batch Operations
-- **Single Click Import** - Import all data with one click
-- **Bulk Modifications** - Modify multiple items simultaneously
-- **Configuration Files** - Create standard configuration files
 
-## Best Practices
-
-### Getting Started
-- **Open Target File** - Always open the file where you want to import data
-- **Layer Preparation** - Ensure required layers exist in target file
-- **File Validation** - Validate source files before importing
-
-### Data Management
-- **Review Before Import** - Always review data before importing
-- **Edit as Needed** - Modify data in UI before importing
-- **Test Imports** - Test imports on small datasets first
-
-### Standard Creation
-- **Use Representative Files** - Use representative files for standard creation
-- **Document Standards** - Document what each standard includes
-- **Share Standards** - Share standards across teams
-
-### Safety Measures
-- **Backup Creation** - Backup important files before transfer
-- **Validate Changes** - Validate any modifications before applying
-- **Test Standards** - Test standards before widespread use 

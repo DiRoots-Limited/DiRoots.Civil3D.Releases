@@ -137,17 +137,6 @@ Perform various bulk operations:
 
 ## Advanced Editing Features
 
-### Conditional Editing
-
-Edit data based on conditions:
-
-- **Conditional Selection** - Select data based on conditions
-- **Conditional Modifications** - Apply modifications based on conditions
-- **Smart Editing** - Apply intelligent editing rules
-- **Custom Conditions** - Define custom editing conditions
-
-> **GIF Placeholder:** Show conditional editing
-
 ### Template-Based Editing
 
 Use templates for editing:
@@ -205,28 +194,4 @@ Export edited data:
 
 > **GIF Placeholder:** Demonstrate data export
 
-## Best Practices
 
-### Editing Planning
-- **Plan Edits** - Plan editing operations carefully
-- **Review Data** - Review data before editing
-- **Backup Data** - Backup important data before editing
-- **Document Changes** - Document all changes made
-
-### Editing Execution
-- **Use Validation** - Use validation during editing
-- **Test Changes** - Test changes before applying
-- **Monitor Results** - Monitor editing results
-- **Verify Quality** - Verify data quality after editing
-
-### Data Management
-- **Organize Data** - Organize data for efficient editing
-- **Use Templates** - Use templates for consistency
-- **Validate Results** - Validate results after editing
-- **Backup Regularly** - Backup data regularly
-
-### Quality Assurance
-- **Quality Checks** - Perform quality checks after editing
-- **Error Detection** - Detect and correct errors
-- **Data Integrity** - Ensure data integrity
-- **Documentation** - Document all editing procedures 

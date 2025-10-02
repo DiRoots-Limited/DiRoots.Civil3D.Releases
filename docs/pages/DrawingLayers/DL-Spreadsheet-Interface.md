@@ -26,6 +26,26 @@ The spreadsheet interface offers Excel-like functionality for managing layer dat
 
 > **GIF Placeholder:** Show overview of spreadsheet interface capabilities
 
+## Two-Tab Structure
+
+The interface is organized into two main tabs for different management tasks:
+
+### Active Layers Tab
+The main spreadsheet interface for comprehensive layer data management:
+- **Complete Layer View** - See all used layers in spreadsheet format
+- **Direct Editing** - Edit layer data directly in cells
+- **Property Modification** - Modify any layer property
+- **Real-time Updates** - See changes immediately in the interface
+
+### Layer States Tab
+Specialized interface for managing layer states and their properties:
+- **State Management** - Edit layer state properties and settings
+- **Layer Assignments** - Manage layer assignments within states
+- **Bulk Changes** - Apply bulk changes to multiple states
+- **Property Settings** - Manage color and property settings for states
+
+> **GIF Placeholder:** Show two-tab structure and switching
+
 ## Interface Features
 
 ### Grid Layout
@@ -39,20 +59,9 @@ Familiar spreadsheet format with rows and columns:
 
 > **GIF Placeholder:** Demonstrate grid layout and navigation
 
-### Two-Tab Structure
-
-Organized interface with two main tabs:
-
-- **Active Layers Tab** - Access and edit all used layers
-- **Layer States Tab** - Manage layer states and their properties
-- **Tab Switching** - Switch between tabs for different management tasks
-- **Context-Specific Interface** - Interface adapts to selected tab
-
-> **GIF Placeholder:** Show two-tab structure and switching
-
 ## Formula Capabilities
 
-### Advanced Formula Support
+### Formula Support
 
 Excel-like formula functionality:
 
@@ -94,9 +103,8 @@ Efficient formula application:
 
 > **GIF Placeholder:** Show formula expansion
 
-## Change Management
 
-### Visual Change Tracking
+## Visual Change Tracking
 
 Track changes with visual indicators:
 
@@ -107,32 +115,12 @@ Track changes with visual indicators:
 
 > **GIF Placeholder:** Demonstrate visual change tracking
 
-### Change Confirmation Process
 
-Safe change management workflow:
+## Active Layers Tab
 
-1. **Make Changes** - Edit data directly in cells
-2. **Change Color Highlighting** - See changes highlighted in green
-3. **Review Changes** - Review all highlighted changes
-4. **Confirm Changes** - Confirm changes before applying
-5. **Apply Updates** - Apply confirmed changes to layer data
+The Active Layers tab is the main spreadsheet interface for comprehensive layer data management.
 
-> **GIF Placeholder:** Show change confirmation process
-
-### Reset Functionality
-
-Undo changes before confirming:
-
-- **Reset Options** - Reset changes before confirming
-- **Undo Capability** - Undo unwanted changes
-- **Change Reversal** - Reverse changes before applying
-- **Safety Feature** - Prevent unwanted changes from being applied
-
-> **GIF Placeholder:** Demonstrate reset functionality
-
-## Working with Layer Data
-
-### Active Layers Management
+### Layer Data Management
 
 Comprehensive layer data management:
 
@@ -165,7 +153,65 @@ Efficient bulk editing capabilities:
 
 > **GIF Placeholder:** Show bulk operations
 
-## Interface Navigation
+## Layer States Tab
+
+The Layer States tab provides specialized spreadsheet interface capabilities for managing layer states and their properties within the Drawing Layers application.
+
+### Layer States Overview
+
+The Layer States tab allows you to:
+- Edit layer state properties and settings
+- Manage layer assignments within states
+- Apply bulk changes to multiple states
+- Manage color and property settings for states
+
+> **GIF Placeholder:** Show overview of layer states management capabilities
+
+### State Editing
+
+#### State Selection
+
+Select specific layer states for editing:
+
+- **State Identification** - Identify and select specific layer states
+- **State Navigation** - Navigate through available layer states
+- **State Filtering** - Filter states based on criteria
+- **State Organization** - Organize states for efficient management
+
+> **GIF Placeholder:** Demonstrate state selection
+
+#### Property Modification
+
+Edit state properties and settings:
+
+- **State Names** - Edit layer state names and identifiers
+- **Layer Assignments** - Modify which layers are in each state
+- **Color Settings** - Change colors for state-related layers
+- **Property Values** - Edit any state property value
+
+> **GIF Placeholder:** Show property modification
+
+#### State Properties
+
+Manage comprehensive state properties:
+
+- **Visibility Settings** - Configure on/off, freeze/thaw, lock/unlock settings
+- **Color Overrides** - Set color override settings for states
+- **Linetype Overrides** - Configure linetype override settings
+- **Plot Settings** - Manage print visibility and plot style overrides
+
+> **GIF Placeholder:** Demonstrate state properties management
+
+### Workflow Examples
+
+#### Basic State Editing
+
+1. **Select State** - Choose layer state to edit
+2. **Modify Properties** - Edit state properties as needed
+3. **Apply Changes** - Apply changes to the state
+4. **Verify Results** - Verify changes are applied correctly
+
+> **GIF Placeholder:** Demonstrate basic state editing
 
 ### Tab Navigation
 
@@ -178,33 +224,3 @@ Navigate between interface tabs:
 
 > **GIF Placeholder:** Demonstrate tab navigation
 
-### Data Navigation
-
-Navigate through layer data:
-
-- **Row Navigation** - Navigate through layer rows
-- **Column Navigation** - Navigate through property columns
-- **Search and Filter** - Find specific layers or properties
-- **Data Organization** - Organize data for efficient access
-
-> **GIF Placeholder:** Show data navigation
-
-## Best Practices
-
-### Formula Usage
-- **Plan Formulas** - Plan formulas before applying to multiple rows
-- **Test Formulas** - Test formulas on small datasets first
-- **Expand Carefully** - Expand formulas carefully across rows
-- **Verify Results** - Verify formula results before applying
-
-### Change Management
-- **Review Changes** - Always review changes before applying
-- **Use Reset** - Use reset functionality to undo unwanted changes
-- **Verify Updates** - Verify updates are applied correctly
-- **Backup Data** - Backup important data before major changes
-
-### Interface Efficiency
-- **Use Tabs Effectively** - Switch between tabs for different tasks
-- **Leverage Formulas** - Use formulas for bulk operations
-- **Monitor Changes** - Monitor color highlighting for changes
-- **Confirm Carefully** - Confirm changes carefully before applying 

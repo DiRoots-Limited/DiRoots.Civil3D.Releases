@@ -128,7 +128,7 @@ Holds the pipe start or pipe end as the elevation reference, the user can altern
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldSlope-Only%20Selection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-### Example 4: Modifying Pipe Slope modifying their Slope
+### Example 4: Modifying Pipe Slope from Start/End Pipe Reference
 
 - **Identify specific pipe** to modify
 - **Set Hold Reference and Auto-flow edition modes** Choose "Only Selection"** for auto-flow edition mode

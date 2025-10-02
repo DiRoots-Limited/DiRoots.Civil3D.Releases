@@ -2,7 +2,7 @@
 layout: default
 title: Object Inspection
 parent: Template Inspector User Guide
-nav_order: 5
+nav_order: 3
 ---
 
 # Object Inspection
@@ -18,87 +18,58 @@ nav_order: 5
 
 # Object Inspection
 
-Template Inspector provides comprehensive object inspection capabilities to examine object properties, usage, and dependencies in detail.
+Template Inspector provides comprehensive object inspection and depth scanning capabilities to examine object properties, usage, and dependencies in detail. The depth scan feature performs comprehensive scans to find object usage and dependencies throughout your settings and objects, providing detailed information about where inspected objects are used.
 
 ## Overview
 
-Object inspection allows you to:
+Object inspection and depth scanning allows you to:
 - Examine object properties and settings
 - View detailed usage information
 - Analyze object dependencies
 - Understand object relationships
+- Find all instances where objects are used
+- Discover hidden dependencies and references
+- Analyze object usage patterns
+- Identify unused objects for cleanup
 
-> **GIF Placeholder:** Show overview of object inspection interface
+> **GIF Placeholder:** Show overview of object inspection and depth scan interface
 
-## Inspection Types
+### Object Types Supported
+- **Layers** - Inspect layer usage and associated objects
+- **Line Types** - Find line type assignments and usage
+- **Dimension Styles** - Check dimension style usage
+- **Hatch Styles** - Locate hatch pattern usage
+- **Text Styles** - Find text style assignments
 
-### Property Inspection
 
-Examine object properties in detail:
+## Scan Types
 
-- **Property Values** - View current property values
-- **Property Types** - Understand property types and formats
-- **Property Settings** - Examine property configurations
-- **Property Relationships** - Understand property relationships
+### Object Usage Scan
 
-> **GIF Placeholder:** Demonstrate property inspection
+Scan for object usage throughout drawings:
 
-### Usage Inspection
+- **Created Objects Check** - Check all created objects in the drawing
+- **Settings with Object Assignment** - Find all settings with objects assigned to them
+- **Dependent Objects List** - List all dependent objects and their relationships
+- **Usage Detection** - Find all places where objects are used
+- **Reference Discovery** - Discover object references and dependencies
 
-Examine how objects are used:
-
-- **Usage Locations** - Find where objects are used
-- **Usage Patterns** - Analyze usage patterns
-- **Usage Frequency** - Check usage frequency
-- **Usage Context** - Understand usage context
-
-> **GIF Placeholder:** Show usage inspection
-
-### Dependency Inspection
-
-Examine object dependencies:
-
-- **Direct Dependencies** - Find direct dependencies
-- **Indirect Dependencies** - Find indirect dependencies
-- **Dependency Chains** - Map dependency chains
-- **Dependency Impact** - Analyze dependency impact
-
-> **GIF Placeholder:** Demonstrate dependency inspection
+> **GIF Placeholder:** Demonstrate object usage scanning
 
 ## Inspection Interface
 
-### Two-Column Display
+### Four-Column Display
 
-View inspection results in organized format:
+The inspector finds objects that reference the objects being inspected. View inspection results in organized format with four columns:
 
-- **Settings Column** - Shows object settings and properties
-- **Objects Column** - Shows associated objects and usage
-- **Usage Count** - Displays usage count information
-- **Property Details** - Shows detailed property information
+1. **Template Component Column** - Shows the settings path where the settings use the object
+2. **Associated Object Column** - Shows objects that are created in the drawing that have the inspected object referenced inside their properties
+3. **Assigned Object Column** - Shows the assigned object that can be modified
+4. **Count Column** - Lists the number of instances that have the object assigned
 
-> **GIF Placeholder:** Show two-column display interface
+> **GIF Placeholder:** Show four-column display interface
 
-### Information Organization
 
-Organize inspection information effectively:
-
-- **Logical Grouping** - Group related information together
-- **Hierarchical Display** - Display information hierarchically
-- **Searchable Content** - Make content searchable
-- **Filterable Results** - Allow filtering of results
-
-> **GIF Placeholder:** Demonstrate information organization
-
-### Real-time Updates
-
-See updates in real-time:
-
-- **Live Updates** - View updates as they happen
-- **Dynamic Display** - Display updates dynamically
-- **Instant Results** - See results immediately
-- **Real-time Filtering** - Filter results in real-time
-
-> **GIF Placeholder:** Show real-time updates
 
 ## Inspection Workflow
 
@@ -125,144 +96,59 @@ Conduct comprehensive inspection:
 
 > **GIF Placeholder:** Show complete inspection process
 
-### Result Analysis
+## Usage Display
 
-Analyze inspection results:
+Template Inspector shows usage display capabilities to show how objects are used throughout your drawings, including detailed usage counts, locations, and patterns. The usage count specifically tracks only the objects that are placed or created in the drawing.
 
-1. **Review Properties** - Review object properties
-2. **Analyze Usage** - Analyze usage patterns
-3. **Assess Dependencies** - Assess dependency relationships
-4. **Plan Actions** - Plan actions based on results
+### Usage Display Overview
 
-> **GIF Placeholder:** Demonstrate result analysis
+Usage display allows you to:
+- View detailed usage information for objects
+- See usage counts and patterns
+- Analyze usage distribution
 
-## Advanced Inspection Features
+> **GIF Placeholder:** Show overview of usage display interface
 
-### Multi-Object Inspection
+### Usage Count Display
 
-Inspect multiple objects simultaneously:
+View usage count information:
 
-- **Multi-selection** - Select multiple objects for inspection
-- **Comparative Analysis** - Compare inspection results
-- **Batch Inspection** - Inspect objects in batches
-- **Efficient Processing** - Process multiple objects efficiently
+- **Total Usage** - Total number of times objects are placed or created in the drawing
 
-> **GIF Placeholder:** Show multi-object inspection
+> **GIF Placeholder:** Demonstrate usage count display
 
-### Deep Inspection
+### Usage Display Interface
 
-Perform deep inspection analysis:
+#### Four-Column Layout
 
-- **Nested Dependencies** - Examine nested dependencies
-- **Complex Relationships** - Analyze complex relationships
-- **Hidden References** - Find hidden references
-- **Complete Analysis** - Perform complete analysis
+View usage information in organized format:
 
-> **GIF Placeholder:** Demonstrate deep inspection
+- **Template Component** - Shows the settings path where the settings use the object
+- **Associated Object** - Shows objects that are created in the drawing that have the inspected object referenced inside their properties
+- **Assigned Object** - Shows the assigned object that can be modified
+- **Count** - Displays usage count information for placed/created objects only
 
-### Custom Inspection
+> **GIF Placeholder:** Show four-column layout interface
 
-Create custom inspection criteria:
+## Component Column Reference
 
-- **Custom Filters** - Apply custom filters
-- **Custom Criteria** - Define custom inspection criteria
-- **Custom Reports** - Generate custom reports
-- **Custom Analysis** - Perform custom analysis
+The **Template Component column** identifies the Settings location from the Civil 3D object in the tree structure, making it easy to locate.
 
-> **GIF Placeholder:** Show custom inspection features
+### Component Path Structure
 
-## Inspection Results
+**Example Component Path for Layer:**
+```
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line
+```
+> **GIF Placeholder:** Show the path in the tool and find the same setting in the C3D structure.
 
-### Property Information
+## Missing Object Limitations
 
-View detailed property information:
+Due to current Civil 3D API limitations, Template Inspector cannot collect if data is associated to the following:
 
-- **Property Names** - Display property names
-- **Property Values** - Show property values
-- **Property Types** - Indicate property types
-- **Property Descriptions** - Provide property descriptions
+- **Section View Styles** - Drafting buffer outline
+- **Rail Turnout** - All rail turnout objects
+- **Can't View Styles** - Equilibrium can't line annotation, Applied cant line annotation
+- **Bridge Styles** - All bridge related styles
 
-> **GIF Placeholder:** Show property information display
-
-### Usage Information
-
-View detailed usage information:
-
-- **Usage Count** - Show usage count
-- **Usage Locations** - List usage locations
-- **Usage Types** - Indicate usage types
-- **Usage Details** - Provide usage details
-
-> **GIF Placeholder:** Demonstrate usage information display
-
-### Dependency Information
-
-View detailed dependency information:
-
-- **Dependency Types** - Show dependency types
-- **Dependency Strength** - Indicate dependency strength
-- **Dependency Impact** - Show dependency impact
-- **Dependency Details** - Provide dependency details
-
-> **GIF Placeholder:** Show dependency information display
-
-## Result Export and Reporting
-
-### Export Options
-
-Export inspection results:
-
-- **Data Export** - Export inspection data
-- **Report Generation** - Generate inspection reports
-- **Format Options** - Choose export formats
-- **Custom Exports** - Create custom exports
-
-> **GIF Placeholder:** Demonstrate export options
-
-### Report Types
-
-Generate different report types:
-
-- **Summary Reports** - Generate summary reports
-- **Detailed Reports** - Generate detailed reports
-- **Custom Reports** - Create custom reports
-- **Comparative Reports** - Generate comparative reports
-
-> **GIF Placeholder:** Show different report types
-
-### Report Management
-
-Manage inspection reports:
-
-- **Report Storage** - Store inspection reports
-- **Report Organization** - Organize reports effectively
-- **Report Sharing** - Share reports with others
-- **Report Archiving** - Archive old reports
-
-> **GIF Placeholder:** Demonstrate report management
-
-## Best Practices
-
-### Inspection Planning
-- **Plan Inspection Scope** - Plan inspection scope carefully
-- **Define Objectives** - Define clear inspection objectives
-- **Prepare Resources** - Ensure adequate resources
-- **Set Expectations** - Set realistic expectations
-
-### Inspection Execution
-- **Follow Process** - Follow established inspection process
-- **Document Findings** - Document all findings
-- **Validate Results** - Validate inspection results
-- **Review Thoroughly** - Review results thoroughly
-
-### Result Analysis
-- **Analyze Patterns** - Analyze patterns in results
-- **Identify Issues** - Identify potential issues
-- **Plan Actions** - Plan actions based on results
-- **Track Changes** - Track changes over time
-
-### Performance Optimization
-- **Optimize Scope** - Optimize inspection scope
-- **Use Filters** - Use filters to focus inspection
-- **Batch Processing** - Use batch processing when appropriate
-- **Monitor Performance** - Monitor inspection performance 
+The previous mentioned limitations are imposed by the Civil 3D API and are not within the control of Template Inspector. We continue to monitor API updates and will add support for these styles when they become available through the Civil 3D API.

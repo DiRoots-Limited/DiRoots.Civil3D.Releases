@@ -18,7 +18,7 @@ nav_order: 3
 
 # Feature Line Integration
 
-Grading Pro allows you to integrate existing feature lines as objects in your section definitions, providing greater control and flexibility in grading design.
+Grading Pro allows you to add feature lines as objects in your section definitions, providing greater control and flexibility in grading design.
 
 ## Overview
 

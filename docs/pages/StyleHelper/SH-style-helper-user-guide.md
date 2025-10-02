@@ -8,17 +8,18 @@ permalink: /docs/style-helper-user-guide
 
 # Style Helper User Guide
 
-Learn how to use Style Helper to efficiently edit Civil 3D object styles, label styles, and table styles using a spreadsheet-like interface with dynamic column configuration and bulk editing capabilities.
+Learn how to use Style Helper to efficiently edit Civil 3D object styles, label styles, table styles and their associate style components directly from the interface with bulk editing capabilities.
 {: .fs-6 .fw-300 }
 
 ## Overview
 
-Style Helper provides a powerful spreadsheet-like interface for editing Civil 3D object styles, label styles, and table styles. The tool features dynamic column configuration based on selected objects, parent-child relationship editing, and comprehensive bulk editing capabilities.
+Style Helper provides a interface for editing Civil 3D object styles, label styles, and table styles and their associated object components. The tool features custom column configuration based on selected objects, support for parent-child relationship label styles, and bulk editing capabilities.
 
 **Key Features:**
-- **Style Data Support** - Edit and displays the Object styles, Label styles, and Table styles in a table format interface
-- **Children Component Editing** - Edit children components directly from parent objects
+- **Style Data Support** - Edit and displays the Object styles, Label styles, Table styles in a table format interface
+- **Label Component Properties Editing Support** - The tool supports component properties edition
 - **Multi-Object Bulk Editing** - Edit multiple objects simultaneously in table format
+- **Children Nested Label Style Support** - The tool supports children nested label syles properties edition
 - **Customizable Data Display** - Configure table columns to show the data you need
 - **Profile System** - Save and reuse column configurations
 
@@ -44,4 +45,14 @@ Style Helper provides three main tabs for different style types:
 6. **Save Profile** - Save column configurations for reuse
 
 > **GIF Placeholder:** Demonstrate the complete workflow from opening to saving a profile
+
+## Documentation Structure
+
+This user guide is organized into the following sections:
+
+- **[Tabs Overview](SH-Three-Tabs-Overview.md)** - Explanation of the three tabs and Civil 3D structure with component column reference
+- **[Editing Features](SH-Editing-Features.md)** - Table customization, data editing for all tabs, batch editing, and children styles support
+- **[Profile](SH-Profile.md)** - Profile management for saving and reusing column configurations
+
+
 
