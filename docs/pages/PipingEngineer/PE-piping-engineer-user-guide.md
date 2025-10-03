@@ -32,10 +32,6 @@ Piping Engineer is a comprehensive tool for designing, editing, and validating C
 
 Piping Engineer provides an interface for managing Civil 3D piping networks with multiple specialized tools and table interfaces for efficient network design and validation of pipes and structures networks.
 
-![DiRoots-Tips select rows](../../../assets/images/PNGs/MainInterface.png)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+> **Placeholder:** Show section related image
 
-GIFS:
-1)Full WF: Select system, add columns, bulk modify data, check.
-2)Profile saving.
-3)Bulk edition, refresh.
+

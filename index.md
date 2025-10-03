@@ -14,11 +14,9 @@ DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. 
 
 ## Core Features
 
-- Design piping in elevation: Piping networks with elevation control, slope adjustments, system based elevation update.
+- Design piping in elevation: Piping networks with elevation control, slope adjustments, system based elevation update.System‑aware elevation design with upstream/downstream auto‑adjust; hold references during edits. 
+
 - Pipes and Structures tables: Edit pipes or structures; table based property data edition. Part swapping and multi‑property editing.
-- Edit systems by network, selected elements, or by picking the start and end of a network.
-- System‑aware elevation design with upstream/downstream auto‑adjust; hold references during edits.
-- Validate network rules and quickly override slope constraints.
 
 - Perform full‑surface and region cut/fill calculations.
 - Create stripping topsoil surfaces from existing surfaces.

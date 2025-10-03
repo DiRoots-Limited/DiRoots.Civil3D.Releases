@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Station Management
+title: Section Placement Management
 parent: Grading Pro User Guide
 nav_order: 2
 ---
 
-# Station Setup
+# Section Placement Setup
 {: .no_toc }
 
 ## Table of contents
@@ -16,79 +16,79 @@ nav_order: 2
 
 ---
 
-# Station Setup
+# Section Placement Setup
 
-Grading Pro provides station management capabilities for creating and organizing stations along reference paths with individual and range-based configurations.
+Grading Pro provides section placement management capabilities for creating and organizing section placements along reference paths with individual and range-based configurations.
 
 ## Overview
 
-Station setup allows you to:
-- Create individual stations at specific locations
-- Generate range-based stations with intervals
+Section placement setup allows you to:
+- Create individual section placements at specific locations
+- Generate range-based section placements with intervals
 - Configure side and angle settings for section placement
 
 
-## Individual Stations
+## Individual Section Placements
 
-### Creating Individual Stations
+### Creating Individual Section Placements
 
-Create stations at specific locations:
+Create section placements at specific locations:
 
-- **Station Creation** - Create individual stations at specific points
-- **Station Naming** - Name stations for easy identification
-- **Station Organization** - Organize individual stations logically
+- **Section Placement Creation** - Create individual section placements at specific points
+- **Section Placement Naming** - Name section placements for easy identification
+- **Section Placement Organization** - Organize individual section placements logically
 
-> **GIF Placeholder:** Demonstrate individual station creation
+> **GIF Placeholder:** Demonstrate individual section placement creation
 
-### Station Setup
+### Section Placement Setup
 
-Configure individual station settings:
+Configure individual section placement settings:
 
 - **Side Settings** - Configure which side of the path to place sections
 - **Angle Settings** - Define the angle of section placement
-- **Station Properties** - Set station-specific properties
-- **Configuration Validation** - Validate station configurations
+- **Section Placement Properties** - Set section placement-specific properties
 
-> **GIF Placeholder:** Show station configuration
 
-### Station Management
+> **GIF Placeholder:** Show section placement configuration
 
-Manage individual stations:
+### Section Placement Management
 
-- **Station Selection** - Select stations for modification
-- **Station Editing** - Edit station properties and settings
-- **Station Duplication** - Duplicate stations for similar configurations
-- **Station Removal** - Remove unwanted stations
+Manage individual section placements:
 
-> **GIF Placeholder:** Demonstrate station management
+- **Station Selection** - Select individual stations for modification
+- **Section Placement Editing** - Edit section placement properties and settings
+- **Section Placement Duplication** - Duplicate section placements for similar configurations
+- **Section Placement Removal** - Remove unwanted section placements
 
-## Range-based Stations
+> **GIF Placeholder:** Demonstrate section placement management
 
-### Creating Range-based Stations
+## Range-based Section Placements
 
-Generate stations in ranges with intervals:
+### Creating Range-based Section Placements
 
-- **Range Definition** - Define start and end points for station ranges
-- **Interval Specification** - Specify intervals between stations
-- **Automatic Generation** - Automatically generate stations within ranges
+Generate section placements in ranges with intervals:
+
+- **Range Definition** - Define start and end points for section placement ranges
+- **Interval Input** - Specify intervals for individual stations
+- **Automatic Generation** - Automatically generate individual stations within ranges
 - **Range Validation** - Validate range configurations
 
-> **GIF Placeholder:** Show range-based station creation
+> **GIF Placeholder:** Show range-based section placement creation
 
 ### Range Configuration
 
-Configure range-based station settings:
+Configure range-based section placement settings:
 
 - **Start Point** - Define the starting point of the range
 - **End Point** - Define the ending point of the range
-- **Interval Settings** - Configure intervals between stations
-- **Side and Angle** - Set side and angle for all stations in range
+- **Interval Settings** - Configure intervals between section placements
+- **Side and Angle** - Set side and angle for all section placements in range
 
 > **GIF Placeholder:** Demonstrate range configuration
 
 ### Range Management
 
-Manage range-based stations:
+Manage range-based section placements:
 
 - **Range Selection** - Select ranges for modification
 - **Range Editing** - Edit range properties and settings
@@ -97,7 +97,7 @@ Manage range-based stations:
 
 > **GIF Placeholder:** Show range management
 
-## Advanced Features
+### Additional Input Settings
 
 ### Side and Angle Settings
 
@@ -110,60 +110,4 @@ Configure section placement orientation:
 
 > **GIF Placeholder:** Demonstrate side and angle settings
 
-### Station Organization
-
-Organize stations systematically:
-
-- **Logical Grouping** - Group stations logically by purpose or location
-- **Naming Conventions** - Use consistent naming conventions
-- **Station Hierarchy** - Organize stations in hierarchical structure
-- **Quick Access** - Provide quick access to station configurations
-
-> **GIF Placeholder:** Show station organization
-
-### Station Validation
-
-Validate station configurations:
-
-- **Configuration Checking** - Check station configurations for errors
-- **Placement Validation** - Validate station placement
-- **Conflict Detection** - Detect conflicts between stations
-- **Error Reporting** - Report configuration errors clearly
-
-> **GIF Placeholder:** Demonstrate station validation
-
-## Configuration Management
-
-### Station Templates
-
-Use station templates for consistency:
-
-- **Template Creation** - Create station templates
-- **Template Application** - Apply templates to new stations
-- **Template Management** - Manage station templates
-- **Template Sharing** - Share templates across projects
-
-> **GIF Placeholder:** Show station templates
-
-### Bulk Operations
-
-Perform bulk operations on stations:
-
-- **Bulk Selection** - Select multiple stations for operations
-- **Bulk Modification** - Modify multiple stations simultaneously
-- **Bulk Duplication** - Duplicate multiple stations
-- **Bulk Removal** - Remove multiple stations
-
-> **GIF Placeholder:** Demonstrate bulk operations
-
-### Station Synchronization
-
-Synchronize stations across configurations:
-
-- **Cross-configuration Sync** - Synchronize stations across configurations
-- **Update Propagation** - Propagate updates to related stations
-- **Consistency Maintenance** - Maintain consistency across stations
-- **Sync Management** - Manage synchronization settings
-
-> **GIF Placeholder:** Show station synchronization
 
