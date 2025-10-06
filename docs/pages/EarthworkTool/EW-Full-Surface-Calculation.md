@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Surface Comparison
+title: Full Surface Calculation
 parent: Earthwork Tool User Guide
-nav_order: 1
+nav_order: 2
 ---
 
-# Surface Comparison
+# Full Surface Calculation
 {: .no_toc }
 
 ## Table of contents
@@ -16,19 +16,19 @@ nav_order: 1
 
 ---
 
-# Surface Comparison
+# Full Surface Calculation
 
 The Earthwork Tool provides comprehensive surface comparison capabilities for calculating cut and fill volumes across entire project areas.
 
 ## Overview
 
-Surface comparison allows you to:
+Full surface calculation allows you to:
 - Calculate cut and fill quantities by comparing two surfaces across the entire project area
 - Use the same calculation methods as Civil 3D's dashboard feature
 - Ensure consistency and accuracy in earthwork calculations
 - Generate comprehensive volume analysis results
 
-> **GIF Placeholder:** Show overview of surface comparison capabilities
+> **GIF Placeholder:** Show overview of full surface calculation capabilities
 
 ## Full Volume Surface Workflow
 
@@ -66,35 +66,3 @@ The tool provides comprehensive volume analysis:
 - **Unit Display** - Results shown in selected units (m³, yd³, ft³, acre-ft)
 
 > **GIF Placeholder:** Demonstrate calculation results display
-
-
-## Additional Features Examples
-
-### Dynamic Unit Management, Unit Options
-
-Switch between volume units instantly:
-
-- **Cubic Meters (m³)** - Metric volume unit
-- **Cubic Yards (yd³)** - Imperial volume unit
-- **Cubic Feet (ft³)** - Imperial volume unit
-- **Acre-Feet (acre-ft)** - Large volume unit
-
-Switch between volume units instantly:
-
-- **Unit Options** - m³, yd³, ft³, acre-ft
-- **Real-time Updates** - All results update immediately
-- **Civil 3D Integration** - Units can also be configured in Civil 3D
-- **Consistent Display** - All calculations shown in selected units
-
-> **GIF Placeholder:** Show dynamic unit management
-
-### Select Object Association
-
-Manage associated elements:
-
-- **Select Objects** - Choose elements related to the calculation
-- **Isolate Elements** - Focus on specific components
-- **Remove Items** - Delete unwanted elements
-- **Real-time Updates** - Calculations update when elements change
-
-> **GIF Placeholder:** Demonstrate object association

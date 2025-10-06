@@ -2,7 +2,7 @@
 layout: default
 title: Section Placement Management
 parent: Grading Pro User Guide
-nav_order: 2
+nav_order: 4
 ---
 
 # Section Placement Setup

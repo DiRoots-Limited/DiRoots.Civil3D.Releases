@@ -2,7 +2,7 @@
 layout: default
 title: Additional Features
 parent: Earthwork Tool User Guide
-nav_order: 5
+nav_order: 7
 ---
 
 # Additional Features
@@ -39,6 +39,16 @@ The tool provides dynamic volume unit management that allows you to switch betwe
 - **Acre-Feet (acre-ft)** - Large volume unit for major projects
 
 > **GIF Placeholder:** Show dynamic volume unit switching and real-time updates
+
+### Select Object Association
+
+Manage associated elements:
+
+- **Select Objects** - Choose elements related to the calculation
+- **Isolate Elements** - Focus on specific components
+
+> **GIF Placeholder:** Demonstrate object association
+
 
 ## Context Menu Features
 

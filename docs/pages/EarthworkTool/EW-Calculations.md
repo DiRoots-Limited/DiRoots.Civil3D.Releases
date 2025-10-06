@@ -2,7 +2,7 @@
 layout: default
 title: Calculations
 parent: Earthwork Tool User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Calculations
@@ -23,14 +23,14 @@ The Earthwork Tool provides comprehensive calculation capabilities for cut and f
 ## Overview
 
 The tool offers two main calculation approaches:
-- **Full Surface Comparison** - Complete calculation comparison across entire surfaces
+- **Full Surface Calculation** - Complete calculation comparison across entire surfaces
 - **Region Volume Surfaces** - Region-specific calculations with defined boundaries
 - **Hierarchical Totals** - Automatic calculation of parent and grand totals
 - **Type Column** - Shows calculation type: Full surface comparison, Parent region, or Child region
 
 > **GIF Placeholder:** Show overview of calculation capabilities
 
-## Full Surface Comparison
+## Full Surface Calculation
 
 ### Calculation Process
 
