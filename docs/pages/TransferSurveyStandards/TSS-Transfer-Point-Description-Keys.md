@@ -2,7 +2,7 @@
 layout: default
 title: Transfer Point Description Keys
 parent: Transfer Survey Standards User Guide
-nav_order: 6
+nav_order: 2
 ---
 
 # Transfer Point Description Keys
@@ -18,160 +18,146 @@ nav_order: 6
 
 # Transfer Point Description Keys
 
-Transfer Survey Standards provides comprehensive Point Description Keys (PDKs) transfer capabilities, allowing you to transfer PDK configurations between projects with complete property preservation and conflict resolution.
+Transfer Survey Standards allow Point Description Keys (PDKs) transfer between projects, allowing you to transfer PDK configurations between projects with property preservation.
 
 ## Overview
 
-PDK transfer allows you to:
-- Transfer complete PDK configurations between projects
-- Choose specific PDKs for selective transfer
-- Maintain all key properties during transfer
-- Handle conflicts between existing and imported PDKs
+Transfer Point Description Keys allows you to:
+- Import PDK data from multiple sources
+- Edit and modify data before transferring
+- Export current file settings as standards
+- Create and manage PDK standards efficiently
+- Share PDK standards across teams
 
-> **GIF Placeholder:** Show overview of PDK transfer capabilities
+> **GIF Placeholder:** Show overview of transfer PDK capabilities
 
-## Complete Transfer
+## Import Options
 
-### Full PDK Transfer
+Transfer Survey Standards provides three main ways to import PDK data:
 
-Transfer all PDK configurations:
+### 1. Import from Open File
 
-- **Complete Transfer** - Transfer all PDK configurations
-- **Property Preservation** - Maintain all key properties during transfer
-- **Data Integrity** - Ensure data integrity during transfer
-- **Comprehensive Coverage** - Transfer all available PDK data
+Import PDK data from currently open Civil 3D files:
 
-> **GIF Placeholder:** Demonstrate complete PDK transfer
+- **File Selection** - Select from currently open Civil 3D files
+- **Direct Import** - Import PDK data directly from open files
+- **Real-time Data** - Access current PDK settings
+- **Immediate Transfer** - Transfer data without file operations
 
-### Transfer Process
+> **GIF Placeholder:** Show import from open file process
 
-Complete PDK transfer workflow:
+### 2. Import from Closed File
 
-1. **Select PDK Source** - Choose source file containing PDKs
-2. **Configure Transfer** - Configure transfer settings and options
-3. **Validate PDKs** - Validate PDK data before transfer
-4. **Execute Transfer** - Transfer PDKs to target file
-5. **Verify Transfer** - Verify transfer completion
+Import PDK data from closed Civil 3D files:
 
-> **GIF Placeholder:** Show complete PDK transfer process
+- **File Browser** - Browse and select closed Civil 3D files
+- **File Validation** - Validate file format and accessibility
+- **Data Extraction** - Extract PDK data from closed files
+- **Offline Import** - Import data without opening the source file
 
-### Property Preservation
+> **GIF Placeholder:** Show import from closed file process
 
-Maintain all PDK properties:
+### 3. Import from Excel
 
-- **Key Properties** - Preserve all key properties during transfer
-- **Format Codes** - Maintain format code configurations
-- **Layer Assignments** - Preserve layer assignments
-- **Style Configurations** - Maintain style configurations
+Import PDK data from Excel files containing standards:
 
-> **GIF Placeholder:** Demonstrate property preservation
+- **Excel File Selection** - Select Excel files containing PDK data
+- **File Validation** - Validate Excel file format and content
+- **Template Support** - Use structured Excel templates
+- **Data Verification** - Verify Excel data before import
 
-## Selective Transfer
+> **GIF Placeholder:** Show Excel file selection and import process
 
-### Custom PDK Selection
+## PDK Data
 
-Choose specific PDKs for transfer:
+### PDK Data Management
 
-- **Individual Selection** - Select individual PDKs for transfer
-- **Group Selection** - Select groups of PDKs for transfer
-- **Criteria-based Selection** - Select PDKs based on criteria
-- **Custom Selection** - Create custom PDK selections
+Manage all aspects of Point Description Keys (PDKs) in one unified section, including key properties, layer assignments, and style configurations:
 
-> **GIF Placeholder:** Show custom PDK selection
+- **Key Properties** – Manage key names, format codes, property values, and configuration settings.
+- **Layer Assignments** – Configure, map, and validate layer assignments for PDKs.
+- **Style Configurations** – Set and validate display and annotation styles, and manage style properties.
 
-### Selective Transfer Process
+> **GIF Placeholder:** Show unified PDK data management
 
-Perform selective PDK transfer:
+### Column Preferences
 
-1. **Review PDKs** - Review available PDKs in source
-2. **Select PDKs** - Choose specific PDKs for transfer
-3. **Configure Transfer** - Configure transfer settings
-4. **Execute Transfer** - Transfer selected PDKs
-5. **Verify Results** - Verify selected PDKs were transferred
+Add or modify columns as needed:
 
-> **GIF Placeholder:** Demonstrate selective transfer process
+- **Column Addition** - Add new columns to the data view
+- **Column Modification** - Modify existing column properties
+- **Column Organization** - Organize columns for better workflow
+- **Column Customization** - Customize columns for specific needs
 
-### Targeted Transfer
+> **GIF Placeholder:** Show column management
 
-Transfer only required PDKs:
+## Editing PDK Data Before Transfer
 
-- **Efficient Transfer** - Transfer only necessary PDKs
-- **Time Optimization** - Save time with targeted transfers
-- **Resource Management** - Optimize resource usage
-- **Focused Transfer** - Focus on specific PDK requirements
+Transfer Survey Standards provides a unified data editing interface, allowing you to review and modify Point Description Key (PDK) data directly in the UI before transferring it to your target file.
 
-> **GIF Placeholder:** Show targeted transfer
+Key editing capabilities include:
+- **Direct In-UI Editing** – Make changes to PDK data directly within the interface, with immediate feedback and visual confirmation.
+- **Organized Data Display** – View all imported PDK data in a structured, searchable, and filterable table for easy navigation and efficient editing.
+- **Bulk Modifications** – Select and edit multiple items at once to ensure consistent updates and save time.
+- **Pre-transfer Validation** – Validate your changes with built-in rules and error detection to ensure data integrity and quality before applying to the target file.
+- **Customization** – Add, remove, or reorganize columns and fields to match your workflow and project requirements.
 
-## PDK Configuration
-
-### Key Properties
-
-Manage PDK key properties:
-
-- **Key Names** - Manage PDK key names
-- **Format Codes** - Configure format codes
-- **Property Values** - Set property values
-- **Configuration Settings** - Manage configuration settings
-
-> **GIF Placeholder:** Show PDK key properties management
-
-### Layer Assignments
-
-Manage PDK layer assignments:
-
-- **Layer Configuration** - Configure layer assignments for PDKs
-- **Layer Mapping** - Map PDKs to appropriate layers
-- **Layer Validation** - Validate layer assignments
-- **Layer Management** - Manage layer assignments
-
-> **GIF Placeholder:** Demonstrate layer assignments
-
-### Style Configurations
-
-Manage PDK style configurations:
-
-- **Display Styles** - Configure display styles for PDKs
-- **Annotation Styles** - Set annotation styles
-- **Style Properties** - Manage style properties
-- **Style Validation** - Validate style configurations
-
-> **GIF Placeholder:** Show style configurations
-
-## Advanced Features
-
-### PDK Validation
-
-Validate PDK configurations:
-
-- **Configuration Validation** - Validate PDK configurations
-- **Property Validation** - Validate PDK properties
-- **Relationship Validation** - Validate PDK relationships
-- **Data Integrity** - Ensure PDK data integrity
-
-> **GIF Placeholder:** Demonstrate PDK validation
+> **GIF Placeholder:** Show unified data editing and validation interface
 
 
-## Integration Features
 
-### Excel Integration
+### Bulk Modifications
 
-Integrate PDKs with Excel:
+#### Bulk Editing
 
-- **Excel Export** - Export PDKs to Excel
-- **Excel Import** - Import PDKs from Excel
-- **Excel Editing** - Edit PDKs in Excel
-- **Excel Validation** - Validate Excel PDK data
+Edit multiple Point Description Keys at once for efficient updates:
 
-> **GIF Placeholder:** Show Excel integration
+- **Multi-selection** – Select several items to edit together
+- **Bulk Modifications** – Apply changes to all selected items in one action
+- **Consistent Updates** – Ensure uniform changes across multiple keys
+- **Workflow**:
+    1. Select multiple items for editing
+    2. Edit on one and will modify in all the selected items 
+    3. Import and verify that changes were applied correctly and 
 
 
-### Workflow Integration
+> **GIF Placeholder:** Show batch editing workflow
 
-Integrate PDKs into workflows:
+## Export to Excel
 
-- **Workflow Automation** - Automate PDK workflows
-- **Process Integration** - Integrate PDKs into processes
-- **Workflow Management** - Manage PDK workflows
-- **Workflow Optimization** - Optimize PDK workflows
+Transfer Survey Standards provides Excel export functionality with two main export options to create and manage PDK standards.
 
-> **GIF Placeholder:** Show workflow integration
+### Export Options
+
+Choose from two export sources:
+
+#### 1. Export Active UI Data
+
+Export the currently displayed and edited data from the UI:
+
+- **Current UI State** - Export data as it appears in the current UI table
+- **Edited Data** - Include any modifications made in the data editing interface
+
+> **GIF Placeholder:** Show export of active UI data
+
+#### 2. Export Open Active File
+
+Export PDK data directly from the currently open Civil 3D file:
+
+- **File-based Export** - Export data from the open Civil 3D file
+- **Original Data** - Export original PDK settings without UI modifications
+
+> **GIF Placeholder:** Show export of open active file data
+
+### Export Process
+
+Complete export workflow:
+
+1. **Choose Export Source** - Select either Active UI Data or Open Active File
+2. **Configure Export** - Configure export settings and options
+3. **Generate Excel File** - Create Excel file with PDK data
+4. **Save File** - Save Excel file with appropriate name
+5. **Verify Export** - Verify exported data is complete and accurate
+6. **Future Import** - The exported Excel file can now be used to import standards later using the tool
+
+> **GIF Placeholder:** Show complete export process

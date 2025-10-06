@@ -8,7 +8,7 @@ permalink: /docs/transfer-object-layers-user-guide
 
 # Transfer Object Layers User Guide
 
-Learn how to use Transfer Object Layers to transfer Civil 3D object layer settings between projects while preserving all properties and layers, with Excel export and import capabilities.
+Learn how to use Transfer Object Layers to transfer Civil 3D object layer settings between projects while preserving all layer and properties, includes Excel export and import capabilities.
 
 <img src="{{ '/assets/images/logos/transferObjectLayersLight.png' | relative_url }}" alt="Transfer Object Layers Logo" width="128" style="display:block;margin:0 auto;">
 
@@ -16,27 +16,15 @@ Learn how to use Transfer Object Layers to transfer Civil 3D object layer settin
 
 ## Overview
 
-Transfer Object Layers helps you transfer or migrate Civil 3D drawing settings and object layers to any other project or create configuration files to define your standards. The tool provides two main options: transfer files directly or transfer all settings, with comprehensive Excel export and import functionality for creating and managing standards.
+Transfer Object Layers helps you transfer or migrate Civil 3D drawing object layers settings to any other project or create Excel file format to define your standards. The tool provides two main options: transfer to files directly, and Excel export and import functionality for creating and managing standards.
 
 **Key Features:**
-- **Two Main Options** - Transfer files directly or transfer all settings
+- **Two Main Options** - Transfer files directly or Excel file export/import
 - **Multiple Import Sources** - Import from open files, closed files, or Excel
 - **Data Editing** - Modify data directly in the UI before importing
-- **Layer Validation** - Warning system for undefined layers
-- **Excel Export/Import** - Create and manage standards via Excel
-- **Batch Operations** - Import all data with single click
-- **Configuration Files** - Create standard configuration files
+- **Data Validation** - Warning system for undefined layers
 
 ## Getting Started
-
-### Main Interface
-
-The Transfer Object Layers tool is accessed directly from the Civil Management button. The tool provides two main options:
-
-- **Transfer Files** - Transfer object layer settings directly between files
-- **Transfer All Settings** - Transfer comprehensive settings and configurations
-
-> **GIF Placeholder:** Show the main interface and basic navigation
 
 
 ### Basic Workflow
