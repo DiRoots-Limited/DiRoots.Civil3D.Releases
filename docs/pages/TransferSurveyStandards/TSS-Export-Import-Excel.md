@@ -102,27 +102,3 @@ Load data from Excel files:
 
 > **GIF Placeholder:** Show data loading from Excel
 
-## Standard Management
-
-### Standard Creation
-
-Create standards from existing data:
-
-- **Representative Data** - Use representative data for standard creation
-- **Standard Documentation** - Document what each standard includes
-- **Version Control** - Maintain different versions of standards
-- **Quality Assurance** - Ensure standard quality and completeness
-
-> **GIF Placeholder:** Demonstrate standard creation
-
-### Standard Application
-
-Apply standards to new projects:
-
-- **Project Setup** - Apply standards to new projects
-- **Standard Integration** - Integrate standards into project workflow
-- **Consistency** - Ensure consistency across projects
-- **Quality Control** - Maintain quality through standards
-
-> **GIF Placeholder:** Demonstrate standard application
-

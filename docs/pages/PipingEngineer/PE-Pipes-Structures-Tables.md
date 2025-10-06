@@ -2,7 +2,7 @@
 layout: default
 title: Pipes and Structures Tables
 parent: Piping Engineer User Guide
-nav_order: 5
+nav_order: 2
 ---
 
 # Pipes and Structures Tables
