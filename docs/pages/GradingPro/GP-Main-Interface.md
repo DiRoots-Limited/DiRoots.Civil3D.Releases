@@ -65,7 +65,7 @@ Define the section reference path for section placement:
 - **Path Direction** - Set the direction and orientation of the reference path
 - **Station Range** - Define the range of stations for section placement
 
-For detailed information on section placement configuration, see [Section Placement Management](GP-Station-Management.md).
+For detailed information on section placement configuration, see [Section Placement Setup](GP-Station-Management.md).
 
 > **GIF Placeholder:** Demonstrate section reference path selection and configuration
 
@@ -99,7 +99,7 @@ Select your section placements that define where sections are applied:
 - **Placement Preview** - Visualize section placement along the reference path
 - **Placement Validation** - Ensure proper section positioning
 
-For detailed information on section placement management, see [Section Placement Management](GP-Station-Management.md).
+For detailed information on Section Placement Setup, see [Section Placement Setup](GP-Station-Management.md).
 
 > **GIF Placeholder:** Show section placement selection and configuration
 

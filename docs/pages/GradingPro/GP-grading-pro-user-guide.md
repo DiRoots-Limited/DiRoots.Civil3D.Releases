@@ -23,7 +23,7 @@ Grading Pro modifies or creates surfaces based on sections positioned from a ref
 - **Surface Grading** - Main functionality to modify or to add surfaces with defined grading
 - **Grading Setup** - Two-tab interface to setup sections and sections placement
 - **Multiple Section Definition Methods** - A variety of methods to set points defining the feature lines.
-- **Flexible Section Placement Management** - Individual and range-based station configurations
+- **Flexible Section Placement Setups** - Individual and range-based station configurations
 - **Template System** - Save and reuse configurations across projects
 
 ## Getting Started

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Section Placement Management
+title: Section Placement Setup
 parent: Grading Pro User Guide
 nav_order: 4
 ---
@@ -18,7 +18,7 @@ nav_order: 4
 
 # Section Placement Setup
 
-Grading Pro provides section placement management capabilities for creating and organizing section placements along reference paths with individual and range-based configurations.
+Grading Pro provides Section Placement Setup capabilities for creating and organizing section placements along reference paths with individual and range-based configurations.
 
 ## Overview
 
@@ -51,7 +51,7 @@ Configure individual section placement settings:
 
 > **GIF Placeholder:** Show section placement configuration
 
-### Section Placement Management
+### Section Placement Setup
 
 Manage individual section placements:
 
@@ -60,7 +60,7 @@ Manage individual section placements:
 - **Section Placement Duplication** - Duplicate section placements for similar configurations
 - **Section Placement Removal** - Remove unwanted section placements
 
-> **GIF Placeholder:** Demonstrate section placement management
+> **GIF Placeholder:** Demonstrate Section Placement Setup
 
 ## Range-based Section Placements
 

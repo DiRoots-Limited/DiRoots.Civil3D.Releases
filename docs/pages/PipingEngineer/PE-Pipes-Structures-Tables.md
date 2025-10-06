@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Pipes and Structures Tables
+title: Pipe and Structure Data Tables
 parent: Piping Engineer User Guide
 nav_order: 2
 ---
 
-# Pipes and Structures Tables
+# Pipe and Structure Data Tables
 {: .no_toc }
 
 ## Table of contents
@@ -16,13 +16,13 @@ nav_order: 2
 
 ---
 
-# Pipes and Structures Tables
+# Pipe and Structure Data Tables
 
 Piping Engineer provides comprehensive table interfaces for managing pipes and structures with efficient data management and bulk operations capabilities.
 
 ## Overview
 
-Pipes and structures tables allow you to:
+Pipe and structure data tables allow you to:
 
 - Manage the pipes and structures data through comprehensive independent table interfaces
 - Perform bulk operations on multiple elements

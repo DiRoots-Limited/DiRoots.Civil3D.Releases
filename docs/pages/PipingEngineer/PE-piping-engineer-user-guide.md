@@ -22,7 +22,7 @@ Piping Engineer is a comprehensive tool for designing, editing, and validating C
 - **Elevation Design** - Advanced elevation control with hold reference options and auto-flow edition
 - **Slope Validation** - Comprehensive slope validation and optimization tools
 - **System Edition** - Flexible system modification with multiple editing modes
-- **Pipes and Structures Tables** - Comprehensive table interface for pipe and structure management
+- **Pipe and Structure Data Tables** - Comprehensive table interface for pipe and structure management
 - **Profile Management** - Save and reuse configuration profiles
 - **Auto-Flow Adjustment** - Automatic upstream/downstream adjustments
 
