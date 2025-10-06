@@ -60,23 +60,3 @@ Access the tool efficiently:
 
 > **GIF Placeholder:** Demonstrate the complete workflow from opening to applying settings
 
-## Quick Reference
-
-### Import Options
-- **Open File Import** - Import data directly from open Civil 3D files
-- **Closed File Import** - Import from open or closed .dwg or Civil 3D files
-- **Excel Import** - Import data from Excel files with templates
-
-### Data Management
-- **UI Data Display** - View all imported object layer data
-- **Data Editing** - Modify data directly in the UI before importing
-- **Data Validation** - Validate data before applying to target file
-- **Undefined Layer Detection** - Check if layers are defined in target file
-- **Layer Management** - Warns undefined scenarios
-
-### Excel Workflow
-- **Export to Excel** - Create by exporting the configuration file and make any changes.
-- **Excel Import** - Import standards from Excel files
-- **Standard Management** - Create and manage standards efficiently
-
-

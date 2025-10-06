@@ -150,16 +150,6 @@ Validate PDK configurations:
 
 > **GIF Placeholder:** Demonstrate PDK validation
 
-### PDK Backup
-
-Backup PDK configurations:
-
-- **Configuration Backup** - Backup PDK configurations
-- **Backup Verification** - Verify backup integrity
-- **Backup Restoration** - Restore from backups
-- **Backup Management** - Manage PDK backups
-
-> **GIF Placeholder:** Demonstrate PDK backup
 
 ## Integration Features
 
@@ -185,4 +175,3 @@ Integrate PDKs into workflows:
 - **Workflow Optimization** - Optimize PDK workflows
 
 > **GIF Placeholder:** Show workflow integration
-

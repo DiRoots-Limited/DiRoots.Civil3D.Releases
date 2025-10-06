@@ -211,6 +211,19 @@ Due to current Civil 3D API limitations, Style Helper cannot collect the followi
 These limitations are imposed by the Civil 3D API and are not within the control of Style Helper. We continue to monitor API updates and will add support for these styles when they become available through the Civil 3D API.
 
 
+## Children Component Editing
+
+Style Helper supports children label styles with comprehensive editing capabilities.
+
+### Understanding Parent-Child Relationships
+
+Civil 3D Label Styles have hierarchical component structures for label styles:
+
+- **Parent label Styles** - Main style objects (e.g., Point Label Styles)
+- **Child Label Style** - Inside the parent label style it could have additional nested children and subchildren label styles. We are also supporting these
+
+> **GIF Placeholder:** Display support for the parent-child label style relationship structure
+
 ## Best Practices
 
 - **Use Profiles** - Save and reuse column configurations for efficiency

@@ -56,30 +56,3 @@ The tool supports multiple transfer sources:
 6. **Handle Conflicts** - Resolve any conflicts between existing and imported data
 
 > **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes
-
-## Quick Reference
-
-### Transfer Capabilities
-- **Point Description Keys (PDKs)** - Transfer PDK configurations between projects
-- **Figure Prefix Database** - Manage figure prefix databases across projects
-- **Complete Transfer** - Transfer all survey standards configurations
-- **Selective Transfer** - Choose specific items to transfer
-
-### Data Management
-- **Pre-import Editing** - Edit values before importing
-- **Column Management** - Add or modify columns as needed
-- **Data Validation** - Check data integrity before import
-- **Bulk Modifications** - Make changes to multiple items simultaneously
-
-
-### Excel Integration
-- **Export to Excel** - Export data for external editing
-- **Import from Excel** - Import modified data back to the tool
-- **Template Support** - Use structured Excel templates
-- **Data Validation** - Validate Excel data before import
-
-### Search and Filter
-- **Search Functionality** - Find specific items in large datasets
-- **Filter Options** - Filter data by various criteria
-- **Efficient Navigation** - Quickly locate and modify specific items
-- **Data Organization** - Organize data for easier management

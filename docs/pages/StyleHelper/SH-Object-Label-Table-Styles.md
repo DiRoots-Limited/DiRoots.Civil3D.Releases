@@ -2,7 +2,7 @@
 layout: default
 title: Object, Label, and Table Styles
 parent: Style Helper User Guide
-nav_order: 2
+nav_order: 1
 ---
 
 # Style Data Support: Object, Label, and Table Styles
@@ -22,88 +22,107 @@ Style Helper displays the Civil 3D object styles, label styles, and table styles
 
 ## Overview
 
-The tool has a tree structure that allows you to:
-- Edit Civil 3D object styles (surfaces, alignments, corridors, etc.)
-- Modify label styles (point labels, parcel labels, etc.)
-- Configure table styles (quantity takeoff, surface tables, etc.)
+Style Helper provides three main tabs that correspond to the different types of styles available in Civil 3D. Each tab displays data in a table format where you can view and edit style properties directly.
 
-> **GIF Placeholder:** Show the three-tab interface and navigation between tabs
+The three tabs correspond to Civil 3D's style structure:
+
+- **Object Styles Tab** - Civil 3D object styles (surfaces, alignments, corridors, etc.)
+- **Label Styles Tab** - Civil 3D label styles (point labels, parcel labels, etc.)  
+- **Table Styles Tab** - Civil 3D table styles (quantity takeoff, surface tables, etc.)
+
+> **GIF Placeholder:** Show the three-tab interface and navigation between tabs and structure from C3D
 
 ## Object Styles Tab
 
-### Object Style Types
+Edit various Civil 3D object styles including display, geometry, analysis, and behavior properties:
 
-Edit various Civil 3D object styles:
+- **Surface Styles** - Display and analysis styles for surfaces
+- **Alignment Styles** - Display and annotation styles for alignments
+- **Corridor Styles** - Display and component styles for corridors
+- **Profile Styles** - Display and annotation styles for profiles
+- **Section Styles** - Display and annotation styles for sections
+- **Pipe Styles** - Display styles for pipes and structures
 
-- **Surface Styles** - Edit surface display and analysis styles
-- **Alignment Styles** - Modify alignment display and annotation styles
-- **Corridor Styles** - Configure corridor display and component styles
-- **Profile Styles** - Edit profile display and annotation styles
-- **Section Styles** - Modify section display and annotation styles
-- **Pipe Styles** - Configure pipe and structure display styles
+*Note: The listed styles above are samples of the available object styles. There are many more object types and styles that can be edited in Style Helper.*
 
-> **GIF Placeholder:** Demonstrate editing different object style types
-
-### Object Style Properties
-
-Modify object style properties:
-
-- **Display Properties** - Edit display-related style properties
-- **Geometry Properties** - Modify geometry-related style settings
-- **Analysis Properties** - Configure analysis-related style properties
-- **Behavior Properties** - Adjust style behavior settings
-
-> **GIF Placeholder:** Show object style property editing
+> **GIF Placeholder:** Demonstrate editing different object style types and properties
 
 ## Label Styles Tab
 
-### Label Style Types
+Edit various Civil 3D label styles including text, line, block, and border components:
 
-Edit various label style categories:
+- **Point Label Styles** - Annotation styles for points
+- **Line Label Styles** - Label styles for lines and curves
+- **Area Label Styles** - Label styles for areas and regions
+- **General Label Styles** - General annotation styles
+- **Profile Label Styles** - Label styles for profiles
+- **Section Label Styles** - Label styles for sections
 
-- **Point Label Styles** - Edit point annotation and label styles
-- **Line Label Styles** - Modify line and curve label styles
-- **Area Label Styles** - Configure area and region label styles
-- **General Label Styles** - Edit general annotation styles
-- **Profile Label Styles** - Modify profile annotation styles
-- **Section Label Styles** - Configure section annotation styles
+*Note: The listed styles above are samples of the available label styles. There are many more label types and styles that can be edited in Style Helper.*
 
-> **GIF Placeholder:** Demonstrate editing different label style types
-
-### Label Style Components
-
-Work with label style components:
-
-- **Text Components** - Edit text content and formatting
-- **Line Components** - Modify line and leader components
-- **Block Components** - Configure block and symbol components
-- **Border Components** - Edit border and background components
-
-> **GIF Placeholder:** Show label style component editing
+> **GIF Placeholder:** Demonstrate editing different label style types and components
 
 ## Table Styles Tab
 
-### Table Style Types
+Edit various Civil 3D table styles including table layout, column properties, header settings, and data formatting:
 
-Edit various table style categories:
+- **Quantity Takeoff Tables** - Styles for quantity takeoff tables
+- **Surface Tables** - Styles for surface analysis tables
+- **Alignment Tables** - Styles for alignment tables
+- **Profile Tables** - Styles for profile tables
+- **Section Tables** - Styles for section tables
+- **Pipe Tables** - Styles for pipe and structure tables
 
-- **Quantity Takeoff Tables** - Edit quantity takeoff table styles
-- **Surface Tables** - Modify surface analysis table styles
-- **Alignment Tables** - Configure alignment table styles
-- **Profile Tables** - Edit profile table styles
-- **Section Tables** - Modify section table styles
-- **Pipe Tables** - Configure pipe and structure table styles
+*Note: The listed styles above are samples of the available table styles. There are many more table types and styles that can be edited in Style Helper.*
 
-> **GIF Placeholder:** Demonstrate editing different table style types
+> **GIF Placeholder:** Demonstrate editing different table style types and properties
 
-### Table Style Properties
+## Component Column Reference
 
-Modify table style properties:
+The **Component column** is the fundamental object identification that applies to all three tabs. It uses a naming structure similar to the Civil 3D tree structure, making it easy to locate objects you're working on in Civil 3D.
 
-- **Table Layout** - Edit table layout and structure
-- **Column Properties** - Modify column formatting and behavior
-- **Header Properties** - Configure table header settings
-- **Data Properties** - Edit data formatting and display
+### Component Path Structure
 
-> **GIF Placeholder:** Show table style property editing
+**Example Component Path:**
+```
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line
+```
+
+This path structure shows:
+- **Object Type** - "Alignment Styles" (matches Civil 3D tree)
+- **Object Name** - "Roadway Centerline Alignment Proposed - ATG" (matches Civil 3D tree)
+- **Subcomponents** - "Display/Plan/Line" (internal object structure)
+
+### Component Column Examples
+
+#### Object Styles Example
+```
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Curve
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Spiral
+```
+
+#### Label Styles Example
+```
+Point Label Styles/Point Label Style/Text/Text Contents
+Point Label Styles/Point Label Style/Line/Leader
+Point Label Styles/Point Label Style/Border/Background
+```
+
+#### Table Styles Example
+```
+Surface Table Styles/Surface Table Style/Table Layout/Header
+Surface Table Styles/Surface Table Style/Column Properties/Data
+Surface Table Styles/Surface Table Style/Data Properties/Formatting
+```
+
+### How Component Column Works
+
+The Component column helps you:
+- **Locate Objects** - Find exactly which object you're editing in Civil 3D
+- **Identify Subcomponents** - Understand the internal structure of objects
+- **Navigate Hierarchy** - Follow the parent-child relationships
+- **Match Civil 3D Structure** - Directly correlate with Civil 3D's tree structure
+
+> **GIF Placeholder:** Show Component column structure across all three tabs and Show how to use Component column to navigate Civil 3D tree structure
 

@@ -2,7 +2,7 @@
 layout: default
 title: Delete and Batch Actions
 parent: Template Inspector User Guide
-nav_order: 2
+nav_order: 3
 ---
 
 # Delete and Batch Actions
