@@ -38,16 +38,6 @@ The Transfer Object Layers tool is accessed directly from the Civil Management b
 
 > **GIF Placeholder:** Show the main interface and basic navigation
 
-### Tool Access
-
-Access the tool efficiently:
-
-- **Direct Access** - Open tool directly from Civil Management button
-- **File Context** - Open tool in the file where you want to import data
-- **New File Setup** - Open tool in a new file to receive transferred settings
-- **Default File** - Use default file for testing and setup
-
-> **GIF Placeholder:** Demonstrate tool access and interface
 
 ### Basic Workflow
 

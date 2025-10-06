@@ -36,16 +36,6 @@ The Transfer Survey Standards tool has a user interface very similar to Transfer
 
 > **GIF Placeholder:** Show the main interface and basic navigation
 
-### Transfer Sources
-
-The tool supports multiple transfer sources:
-
-- **Open Files** - Transfer data from currently open Civil 3D files
-- **Closed Files** - Transfer data from closed Civil 3D files without opening them
-- **Excel Spreadsheets** - Import data from Excel files for external editing
-
-> **GIF Placeholder:** Demonstrate different transfer sources
-
 ### Basic Workflow
 
 1. **Open Transfer Survey Standards** from the DiRoots tab
