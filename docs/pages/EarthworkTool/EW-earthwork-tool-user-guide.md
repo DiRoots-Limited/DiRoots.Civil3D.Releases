@@ -20,7 +20,7 @@ The Earthwork Tool helps you easily perform earthwork cut and fill volume calcul
 - **Full Volume Surface** - Complete surface comparison between surfaces for cut/fill calculations
 - **Region Volume Surfaces** - Multiple region-based cut-fill calculations with defined boundaries
 - **Topsoil Stripping Layer** - Includes Topsoil Stripping surfaces consideration with configurable depth.
-- **SubgradeBase Layer** -Includes Subgrade base layer consideration with configurable depth for defined regions
+- **Subgrade Base Layer** - Includes Subgrade base layer consideration with configurable depth for defined regions
 - **Dynamic Volume Units** - Switch between m³, yd³, ft³, acre-ft instantly
 - **Report** - Create Civil3D tables and export data to Excel for reporting purposes.
 
@@ -37,7 +37,7 @@ The Earthwork Tool is accessed through the DiRoots tab in Civil 3D. The main UI 
     - **Add Surface Region (Children Region)** : Individual boundary defined region. (Label 3 button in image 01)
 
 
-![DiRoots-Tips select rows](../../../assets\images\PNGs\ET-CreationButtons.png)  
+![DiRoots-Tips select rows](../../../assets/images/PNGs/ET-CreationButtons.png)  
 <sub><b>Image 01:</b> Tool snapshot showing the different earthwork calculation types</sub><br>
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil3D-plugins/DiCivil/).</sub>
 

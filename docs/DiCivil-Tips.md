@@ -27,12 +27,7 @@ DiCivil plugins allow you to work with Civil 3D while keeping the plugin window 
 
 ## Reset Functionality
 
-Undo changes before confirming:
-
-- **Reset Options** - Reset changes before confirming
-- **Undo Capability** - Undo unwanted changes from edited status
-- **Change Reversal** - Reverse changes before applying
-- **Safety Feature** - Prevent unwanted changes from being applied
+You can easily undo any changes you've made before confirming them by using the Reset functionality. This feature lets you safely revert edits and prevent unwanted modifications from being applied, giving you confidence to experiment without risk before applying changes.
 
 > **GIF Placeholder:** Demonstrate reset functionality
 
