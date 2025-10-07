@@ -30,7 +30,7 @@ Reporting features allow you to:
 ## Excel Export
 
 #### Export Process
-1. **Select Calculations** - After your data is ready, click on 'Export to Excel' button   
+1. **Export Calculations** - After your data is ready, click on 'Export to Excel' button   
 2. **Generates Excel File** - Creates formatted Excel workbook
 
 

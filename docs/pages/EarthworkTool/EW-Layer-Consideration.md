@@ -18,15 +18,15 @@ nav_order: 4
 
 # Layer Consideration
 
-The Earthwork Tool provides comprehensive layer consideration capabilities with two optional layers that make earthwork calculations easier since the topsoil stripping and subgrade base layers are usually considered when performing earthwork tool calculations.
+The Earthwork Tool provides comprehensive layer consideration capabilities with two optional layers that make earthwork calculations easier since the topsoil stripping and subgrade base layers are usually considered when performing earthwork calculations.
 
 ## Overview
 
 The tool considers two optional layers to simplify earthwork calculations:
 - **Topsoil Stripping Layer** - Configurable depth for removing topsoil before construction
 - **Subgrade Base Layer** - Configurable depth for subgrade preparation below proposed surfaces
-- **Automatic Surface Generation** - Creates layered surfaces automatically from existing and proposed surfaces with specific naming conventions
-- **Integrated Calculations** - Both layers are included in volume calculations for accurate earthwork analysis
+
+Automatic surface generation creates surfaces from the existing and proposed surfaces, using specific naming conventions. Both the topsoil stripping and subgrade base layers are fully integrated into the volume calculations.
 
 ### Automatic Surface Generation
 
@@ -42,7 +42,7 @@ The tool automatically names generated surfaces using the following convention:
 - **'EG'** - Existing Ground surfaces
 - **'FG'** - Future Ground (Proposed) surfaces
 
-> **GIF Placeholder:** Show overview of layer consideration capabilities
+> **GIF Placeholder:** Show overview of created layers with naming convention from the settings and compare with the tool
 
 ## Topsoil Stripping Layer
 
@@ -56,13 +56,8 @@ For full surface comparisons, the stripping layer applies a single configurable 
 
 For region-based calculations, all child regions inherit parent stripping depth. Same stripping depth across all children in parent group.
 
-#### Child Region Stripping
-- **Inherited Configuration** - Each child region inherits stripping depth from parent
-- **Consistent Application** - Same stripping depth across all children in parent group
-- **Parent-Level Control** - Stripping thickness controlled at parent level for consistency
 
-
-> **GIF Placeholder:** Show region-based stripping configuration with different depths
+> **GIF Placeholder:** Show region-based stripping configuration input for Full and Region based
 
 ## Subgrade Base Layer
 
@@ -73,8 +68,7 @@ The subgrade base layer is an optional layer that accounts for the preparation d
 
 For region-based calculations, each child region can have its own individual subgrade base depth configuration.
 
-#### Child Region Subgrade Base
-- **Individual Configuration** - Each child region can have unique subgrade base depth and closed region
+
 
 
 > **GIF Placeholder:** Show region-based subgrade base configuration with different depths
