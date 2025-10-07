@@ -25,24 +25,18 @@ The Earthwork Tool provides comprehensive calculation capabilities for cut and f
 The tool offers two main calculation approaches:
 - **Full Surface Calculation** - Complete calculation comparison across entire surfaces
 - **Region Volume Surfaces** - Region-specific calculations with defined boundaries
-- **Hierarchical Totals** - Automatic calculation of parent and grand totals
-- **Type Column** - Shows calculation type: Full surface comparison, Parent region, or Child region
 
-> **GIF Placeholder:** Show overview of calculation capabilities
+You can identify the calculation type for each entry in the results table by checking the **Type** column, which indicates whether it is a full surface comparison, a parent region, or a child region. Additionally, the tool automatically calculates hierarchical totals, so parent and grand total rows display the sum of the relevant cut and fill volumes for their respective regions.
+
 
 ## Full Surface Calculation
 
 The Earthwork Tool provides comprehensive surface comparison capabilities for calculating cut and fill volumes across entire project areas.
 
-### Overview
 
 Full surface calculation allows you to:
 - Calculate cut and fill quantities by comparing two surfaces across the entire project area
-- Use the same calculation methods as Civil 3D's dashboard feature
-- Ensure consistency and accuracy in earthwork calculations
-- Generate comprehensive volume analysis results
 
-> **GIF Placeholder:** Show overview of full surface calculation capabilities
 
 ### Full Volume Surface Workflow
 
