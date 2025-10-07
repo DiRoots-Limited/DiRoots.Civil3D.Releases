@@ -40,29 +40,15 @@ Full surface calculation allows you to:
 
 ### Full Volume Surface Workflow
 
-#### Accessing the Feature
+#### Full Surface Calculation Workflow
 
-1. **Open Earthwork Tool** from the DiRoots tab
-2. **Main UI** - The tool displays the main interface with calculation options
-3. **Add Full Volume Surface** - Click this option to create a new full volume calculation
+1. **Open Earthwork Tool** from the DiRoots tab in Civil 3D.
+2. In the main interface, click **Add Full Volume Surface** to start a new calculation.
+3. **Select Existing Surface** – Choose the current ground surface representing pre-construction conditions.
+4. **Select Proposed/Future Surface** – Choose the design or future ground surface representing post-construction conditions.
+5. Click the **Execute** button to run the calculation and generate cut and fill volumes.
 
-> **GIF Placeholder:** Demonstrate accessing the full volume surface feature
-
-#### Surface Selection Process
-
-1. **Select Existing Surface**
-   - Choose the current ground surface from available surfaces
-   - This represents the existing conditions before construction
-
-2. **Select Proposed/Future Surface**
-   - Choose the proposed or future ground surface
-   - This represents the final design conditions
-
-3. **Execute Calculation**
-   - Click the execute button to run the comparison
-   - The tool performs the same calculations as Civil 3D dashboard
-
-> **GIF Placeholder:** Show surface selection process
+> **GIF Placeholder:** Show the complete workflow from opening the tool to reviewing the calculated results
 
 #### Calculation Results
 
@@ -71,60 +57,21 @@ The tool provides comprehensive volume analysis:
 - **Cut Volume** - Total volume of material to be removed
 - **Fill Volume** - Total volume of material to be added
 - **Net Volume** - Difference between cut and fill
-- **Unit Display** - Results shown in selected units (m³, yd³, ft³, acre-ft)
-
-> **GIF Placeholder:** Demonstrate calculation results display
 
 
 ## Region Calculations
 
-The Earthwork Tool provides region-based volume calculations with defined boundaries for precise earthwork analysis in specific project areas.
+The Earthwork Tool provides region-based volume calculations with defined boundaries for region defined earthwork calculation in specific project areas.
 
 ### Overview
 
 Region calculations allow you to:
 - Calculate volumes for specific areas using defined boundaries
-- Support multiple regions for phased construction
-- Maintain hierarchical relationships with automatic totals
-- Configure topsoil stripping per region
+- Configure subgrade base layer per defined region
+- Define hierarchical parent-child groups with partial total calculation
 
-> **GIF Placeholder:** Show overview of region calculations capabilities
 
-### Region Volume Surfaces
-
-#### Creating Region Calculations
-
-1. **Access Region Feature**
-   - Click "Add Region Volume Surfaces" in the main UI
-   - Select defined regions for calculation boundaries
-   - Configure surfaces for each region
-
-2. **Region Selection**
-   - Choose closed regions that define calculation boundaries
-   - Ensure regions are properly closed and valid
-   - Select appropriate regions for your analysis
-
-> **GIF Placeholder:** Demonstrate creating region calculations
-
-#### Multiple Region Support
-
-Support for multiple regions:
-
-- **Individual Regions** - Calculate volumes for each region separately
-- **Phased Construction** - Support construction phasing with multiple regions
-- **Region Organization** - Organize regions logically for project needs
-- **Hierarchical Results** - Maintain parent-child relationships
-
-> **GIF Placeholder:** Show multiple region support
-
-#### Hierarchical Calculations
-
-- **Child Elements** - Individual region calculations
-- **Parent Totals** - Sum of all child elements within a region
-- **Grand Totals** - Sum of full volume surface and all region volume surfaces
-- **Total Updates** - Totals update automatically when calculations are executed
-
-### Parent-Child Region Workflow
+### Region Workflow
 
 The region workflow combines parent and child regions to create a hierarchical calculation system where parent regions group multiple child regions and provide child group totals.
 
@@ -139,9 +86,9 @@ The region workflow combines parent and child regions to create a hierarchical c
    - Configure topsoil stripping thickness for entire parent group
 
 3. **Child Region Management**
-   - Add multiple child regions under parent
    - Each child will inherit stripping depth configuration from the parent
    - Parent calculates totals from all children
+   - Create multiple child regions under parent
 
 ### Creating Child Regions
 
@@ -159,6 +106,8 @@ The region workflow combines parent and child regions to create a hierarchical c
    - Each child region calculates independently
    - Results include cut/fill volumes with stripping consideration
    - Type column shows "Child Region" for identification
+
+> **GIF Placeholder:** Show integrated parent-child region creation and management workflow
 
 ### Integrated Workflow Example: Construction Phasing
 
@@ -188,7 +137,6 @@ The region workflow combines parent and child regions to create a hierarchical c
 - Net: 1,100 m³ cut
 
 
-> **GIF Placeholder:** Show integrated parent-child region creation and management workflow
 
 ## Totals Description
 
