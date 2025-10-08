@@ -36,7 +36,6 @@ Style Helper provides three main tabs for different style types:
 - **Label Styles Tab** - Edit Civil 3D label styles (e.g. Point Label Styles)
 - **Table Styles Tab** - Edit Civil 3D table styles (e.g. Point Table Styles)
 
-> **GIF Placeholder:** Show the main interface showing the three-tab structure
 
 ### Basic Workflow
 
