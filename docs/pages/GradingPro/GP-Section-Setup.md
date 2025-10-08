@@ -33,15 +33,17 @@ Section configuration allows you to:
 
 ### Creating, Duplicating and Removing
 
-Manage your Section list by creating new, duplicating and removing new types
+Manage your Section list by creating new, setting a associated name to later refer to the configuration, duplicating and removing new types
 
 > **GIF Placeholder:** Demonstrate section list management buttons
 
 ## Definition Methods
 
+After creating a new section, select on the left and start adding points in the section. On each point definition, the user can define the following different methods.
+
 ### Distance with Offset
 
-Define a Feature Line point based on distance and offset:
+Define a point based on distance and offset:
 
 - **Distance** - Specify distance from the previous point or origin
 - **Height/Offset** - Specify offset values from the previous point or origin
@@ -50,7 +52,7 @@ Define a Feature Line point based on distance and offset:
 
 ### Distance with Slope
 
-Define a Feature Line point based on distance and slope:
+Define a point based on distance and slope:
 
 - **Distance** - Specify distance from the previous point or origin
 - **Slope Percentage** - Specify slope percentage for point or origin
@@ -59,7 +61,7 @@ Define a Feature Line point based on distance and slope:
 
 ### Offset with Slope
 
-Define a Feature Line points by offset and slope:
+Define a point by offset and slope:
 
 - **Height/Offset** - Specify offset values from the previous point or origin
 - **Slope Percentage** - Specify slope percentage for point elevation
@@ -82,19 +84,14 @@ Define points by slope from the previous point projected to the selected surface
 
 - The first point could be placed on the origin (0, 0) or at a distance offset from the origin.
 
-> **GIF Placeholder:** Show point addition process
+> **GIF Placeholder:** Show point addition process, previous description
 
-### Adding Points
+### Adding and Removing Points
 
-Add points to section setups:
+Add or remove points to section setups:
 
-> **GIF Placeholder:** Show point addition process
+> **GIF Placeholder:** Show point  process
 
-### Removing Points
-
-Remove points from section setups:
-
-> **GIF Placeholder:** Demonstrate point removal
 
 ### Reordering Points
 
@@ -109,7 +106,7 @@ Grading Pro allows you to add feature lines as objects in your section definitio
 ### Overview
 
 Feature line integration enables you to:
-- Use existing feature lines, platforms, or other geometric objects as part of your section definitions
+- Use existing feature lines of platforms, or other geometric objects as part of your section definitions
 - Maintain exact geometry from existing designs while incorporating them into new grading scenarios
 - Achieve precise control over complex geometric forms
 - Ensure design consistency with existing elements
@@ -119,27 +116,25 @@ Feature line integration enables you to:
 
 Follow these steps to add feature lines to your section definitions:
 
-1. **Open Section Configuration**  
-   Go to the "Section Configuration" tab within Grading Pro.
+1. **Open Section Setup**  
+   Go to the "Section Setup" tab within Grading Pro.
 
-2. **Add Feature Lines**  
-   Click the "Object Feature Lines" button to begin the integration process.
+2. **Add Object Feature Lines**  
+   Click the "Object Feat. Lines" button to begin the integration process.
 
 3. **Select Feature Lines or Objects**  
-   Choose the feature lines, platforms, or other geometric objects you want to include in your section.
+   Choose the set of feature lines like platforms, or other geometric objects you want to include in your section.
 
 4. **Specify Origin Point**  
-   Select where the feature line will connect to the section. You can choose the midpoint, an endpoint, or a custom point along the feature line. The origin point determines how the feature line is positioned within the section.
+   Select where the feature line will connect to the section. You can choose the midpoint, an endpoint, or a custom point along the feature line. The origin point determines how the feature line is positioned within the section and the elevation referenced from the object is at zero.
 
-5. **Set Orientation and Placement**  
+5. **Set Orientation**  
    Define the orientation by selecting which end or direction the feature line should follow. Adjust rotation or placement as needed to ensure the feature line aligns correctly with your section design.
 
 > **GIF Placeholder:** Demonstrate the full process of integrating a feature line, including origin point selection and orientation control.
 
 ### Applications
 
-Feature line integration supports various grading design scenarios:
+Feature line integration supports various grading design scenarios.
 
-- **Platform Integration** - Incorporate platform feature lines by selecting the defining lines, specifying connection points, setting proper orientation, and applying them to section definitions
-- **Complex Geometry Integration** - Use existing feature lines from previous designs to maintain exact geometry, integrate intricate shapes, and ensure design consistency across projects
 - **Reusable Objects** - Create standard feature line elements that can be applied across multiple sections, saving time while maintaining consistent design quality and workflow efficiency

@@ -18,7 +18,7 @@ nav_order: 5
 
 # Profile
 
-Grading Pro includes a comprehensive profile system that allows you to save and reuse grading configuration and setups, making it easy to maintain consistent configurations across multiple projects.
+Grading Pro includes a comprehensive profile system that allows you to save and reuse grading configuration and setups, making it easy to maintain consistent configurations across multiple projects and use multiple configurated profiles quickly.
 
 ## Overview
 
@@ -32,9 +32,9 @@ Profile system allows you to:
 
 The following settings are saved in the profiles.
 
-- The customized set of Sections Setup.
-- The customized set of Placement Sections Setup.
 - The set configured Gradint types.
+- The customized set of Sections Setup.
+- The customized set of Sections Placement Setup.
 - The set of configuration applied to the entire document.
 
 > **GIF Placeholder:** Demonstrate uses of updated of multiple profiles.
