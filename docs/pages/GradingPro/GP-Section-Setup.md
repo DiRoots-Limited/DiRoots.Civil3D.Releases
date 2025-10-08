@@ -114,7 +114,6 @@ Feature line integration enables you to:
 - Achieve precise control over complex geometric forms
 - Ensure design consistency with existing elements
 
-> **GIF Placeholder:** Show overview of feature line integration capabilities
 
 ### Adding Object Feature Lines into Sections
 

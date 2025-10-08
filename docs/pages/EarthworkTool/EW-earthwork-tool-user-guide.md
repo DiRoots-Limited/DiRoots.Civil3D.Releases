@@ -38,7 +38,7 @@ The Earthwork Tool is accessed through the DiRoots tab in Civil 3D. The main UI 
 
 
 ![DiRoots-Tips select rows](../../../assets/images/PNGs/ET-CreationButtons.png)  
-<sub><b>Image 01:</b> Tool snapshot showing the different earthwork calculation types</sub><br>
+<sub><b>Image:</b> Tool snapshot showing the different earthwork calculation types</sub><br>
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil3D-plugins/DiCivil/).</sub>
 
 ### Basic Workflow

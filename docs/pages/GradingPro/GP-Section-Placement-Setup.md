@@ -110,4 +110,16 @@ Configure section placement orientation:
 
 > **GIF Placeholder:** Demonstrate side and angle settings
 
+## Creating Individual Section Placements from Main UI
+
+You can create multiple individual stations directly from the main interface using the squiggly line icon in the "Section Placement" column. This feature allows you to:
+
+- **Quick Station Creation** - Click the squiggly line icon to create individual stations directly from the main UI
+- **Side Definition** - Define individual stations on the side where you are clicking
+- **Default Angle** - Stations are created with a default 90-degree angle
+- **Reference Constraint** - Station selection is constrained to the Section Reference that has been selected
+
+This provides a fast and intuitive way to place individual stations without navigating to separate setup dialogs.
+
+> **GIF Placeholder:** Demonstrate individual section placement creation
 

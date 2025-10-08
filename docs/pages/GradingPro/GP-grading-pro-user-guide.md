@@ -22,7 +22,7 @@ Grading Pro modifies or creates surfaces based on sections positioned from a ref
 **Key Features:**
 - **Surface Grading** - Main functionality to modify or to add surfaces with defined grading
 - **Grading Setup** - Two-tab interface to setup sections and sections placement
-- **Multiple Section Definition Methods** - A variety of methods to set points defining the feature lines.
+- **Section Definition Methods** - A variety of methods to set points defining the feature lines.
 - **Flexible Section Placement Setups** - Individual and range-based station configurations
 - **Template System** - Save and reuse configurations across projects
 
@@ -33,7 +33,7 @@ Grading Pro modifies or creates surfaces based on sections positioned from a ref
 1. **Open Grading Pro** from the DiRoots tab
 2. **Select Surface** - Choose the surface to modify
 3. **Select Path** - Choose alignment or path for section placement
-4. **Set Grading Setup** - Set up section placements and sections
+4. **Set Grading Setup** - Set up section and section placements
 5. **Apply Changes** - Execute the surface modifications
 
 > **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes

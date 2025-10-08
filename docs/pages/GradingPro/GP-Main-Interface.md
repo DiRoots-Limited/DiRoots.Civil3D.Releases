@@ -27,135 +27,106 @@ The main interface serves as the central hub for all Grading Pro operations, all
 - **Add Surface Grading** - Primary function to modify and create new surfaces
 - **Access Setup Grading** - Configure sections and section placements
 - **Select Reference Path** - Define the section reference path for section placement
-- **Define Grading Types** - Choose predefined configurations or create new ones
-- **Configure Feature Lines** - Set up object feature line integration
+- **Configure Feature Lines** - Set up feature line settings
 - **Modify Profiles** - Adjust grading profiles as needed
-- **Find Related Objects** - Locate and manage associated design elements
+- **Find and Define Related Gradings** - Locate and configure grading types
 - **Apply Grading** - Execute the surface modifications
 
 > **GIF Placeholder:** Show overview of the main interface and complete workflow
 
 ## Main Interface Components
 
-### Add Surface Grading
+### Add Surface Grading button
 
-The **Add Surface Grading** button is the primary function that initiates the surface modification process. This button:
+The 'Add Surface Grading' button is the primary function that initiates the surface grading process. This button serves as the entry point for creating or modifying grading surfaces and provides access to all grading configuration options
 
-- Opens the main grading interface
-- Provides access to all grading configuration options
-- Serves as the entry point for creating or modifying surfaces
+### Surface Selection And Creation
 
-> **GIF Placeholder:** Demonstrate clicking the Add Surface Grading button and interface opening
+After adding a surface grading, choose existing surfaces to modify from your Civil 3D project or create a new one:
 
-### Surface Selection
+> **GIF Placeholder:** Show surface selection process and new creation
 
-Choose existing surfaces to modify from your Civil 3D project:
+### Section Reference
 
-- **Surface List** - Browse and select from available surfaces in the project
-- **Surface Preview** - View surface properties and current state
-- **Surface Validation** - Ensure selected surface is suitable for grading operations
+Define the section reference path for section placement by selecting the appropriate path type. The Section Reference is the main path that defines the origin of the section placement in the 3D space.
 
-> **GIF Placeholder:** Show surface selection process
+#### Reference Path Type Options
 
-### Section Reference Placement
+After clicking on the column button, the user is  prompted to select a reference path type, you can choose from the following options:
 
-Define the section reference path for section placement:
+- **Alignment + Auto Corridor Feature Line**  
+  Use both an alignment and a auto corridor feature line as the reference.
 
-- **Path Selection** - Choose alignments, polylines, or other reference paths
-- **Path Direction** - Set the direction and orientation of the reference path
-- **Station Range** - Define the range of stations for section placement
+- **Only Auto Corridor Feature Line**  
+  Use only the automatically generated corridor feature line as the reference.
 
-For detailed information on section placement configuration, see [Section Placement Setup](GP-Station-Management.md).
+- **Feature Line**  
+  Use any existing feature line as the reference path. The stations on this objects are defined from the creation origin of the feature line.
 
-> **GIF Placeholder:** Demonstrate section reference path selection and configuration
+- **Corridor + Auto Corridor Feature Line**  
+  Use the corridor and the corridor feature line as the reference.
 
-### Grading Type Selection
+Select the option that best fits your scenario. The interface will display these options in Civil3D, as shown in the image below:
 
-Choose predefined configurations or create new ones:
+<img src="../../../assets/images/PNGs/reference-path-type-options.png" alt="Reference Path Type Options" style="max-width: 100%; border: 1px solid #ccc;">
+<sub><b>Image:</b> Snapshot showing the multiple reference path type options </sub><br>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil3D-plugins/DiCivil/).</sub>
 
-- **Grading Type List** - Browse available grading type configurations
-- **Create New Type** - Define new grading types for specific design scenarios
-- **Type Properties** - Configure grading type parameters and settings
 
-> **GIF Placeholder:** Show grading type selection and creation process
+> **GIF Placeholder:** Demonstrate section reference path selection options
+
+### Grading Type Name
+
+Assign a custom name to your grading configuration for easy identification and reference later. This name helps you quickly recognize and manage different grading setups within your project.
 
 ### Section Selection
 
-Select your section setups from the configured section definitions:
+Select your section setups from the configured section definitions
 
-- **Section List** - Choose from available section configurations
-- **Section Preview** - View section geometry and properties
-- **Section Validation** - Ensure section is properly configured
-
-For detailed information on section configuration, see [Section Setup](GP-Section-Configuration.md).
-
-> **GIF Placeholder:** Demonstrate section selection process
+For detailed information on section configuration, see [Section Setup](GP-Section-Setup.md).
 
 ### Section Placement Selection
 
-Select your section placements that define where sections are applied:
+Select your section placements that define where sections are applied
 
-- **Placement Options** - Choose individual or range-based station configurations
-- **Placement Preview** - Visualize section placement along the reference path
-- **Placement Validation** - Ensure proper section positioning
+For detailed information on Section Placement Setup, see [Section Placement Setup](GP-Section-Placement-Setup.md).
 
-For detailed information on Section Placement Setup, see [Section Placement Setup](GP-Station-Management.md).
 
-> **GIF Placeholder:** Show section placement selection and configuration
+### Feature Line Settings
 
-### Object Feature Line Integration
+The Feature Line Settings panel allows you to configure how feature lines are created and managed as part of your grading design. In this section of the interface (see image below), you can:
 
-Configure feature line settings for enhanced grading control:
+- **Select/Create Output Site** – Specify the target site for new feature lines.
+- **Assign Feature Line Style** – Choose the style to apply to generated feature lines.
+- **Layer Assignment** – Set the layer for output feature lines.
 
-- **Feature Line Selection** - Choose existing feature lines, platforms, or geometric objects
-- **Origin Point Specification** - Define connection points for feature lines
-- **Orientation Control** - Set proper alignment and placement
+> **GIF Placeholder:** Demonstrate feature line setup, site creation and properties assignment to feature lines
 
-For detailed information on feature line integration, see [Object Feature Line Integration](GP-Section-Configuration.md#object-feature-line-integration).
 
-> **GIF Placeholder:** Demonstrate feature line integration setup
+### Accessing Grading and Section Setups
 
-### Profile Modification
+The main interface provides different ways to access configuration and setup options:
 
-Modify grading profiles to achieve desired design outcomes:
+- **Grading Setup** - Click the "Grading Setup" button (with gear icon) in the upper-right section to access overall grading configuration options
+- **Current Section Setup** - Click the gear icon next to the "Section" column header to access the current selected Section Setup
+- **Current Section Placement Setup** - Click the gear icon in the "Section Placement" column to access the current selected section placement settings
 
-- **Profile Editing** - Adjust elevation and slope parameters
-- **Profile Preview** - Visualize changes before application
-- **Profile Validation** - Ensure design compliance and feasibility
-
-For detailed information on profile management, see [Profile Management](GP-Profile.md).
-
-> **GIF Placeholder:** Show profile modification process
-
-### Related Objects Management
-
-Find and manage objects related to your grading operations:
-
-- **Object Discovery** - Locate associated design elements
-- **Object Relationships** - Understand connections between objects
-- **Object Management** - Modify or update related objects as needed
-
-> **GIF Placeholder:** Demonstrate related objects discovery and management
+These setup options allow you to customize the grading behavior and section configurations before applying them to your surfaces.
 
 ### Apply Grading
 
 Execute the surface modifications with your configured settings:
 
-- **Pre-Application Review** - Final validation of all settings
-- **Application Process** - Execute the grading operations
-- **Results Verification** - Confirm successful surface modification
+- **Check Gradings to apply** - Check the settings the user want to execute
+- **Apply Grading** - Click on the  'Apply' button will set the grading on the checked grading setups.
+- **Results Confirmation** - The status column shows the status of each executed grading 
 
 > **GIF Placeholder:** Show the complete application process and results
 
-## Workflow Integration
+### Profile Modification
 
-The main interface components work together to provide the full grading workflow:
+Save, share and modify grading profiles to achieve quick desired design outcomes:
 
-1. **Initial Setup** - Select surface and reference path
-2. **Configuration** - Define grading types and section setups
-3. **Placement** - Configure section placements and feature line integration
-4. **Refinement** - Modify profiles and manage related objects
-5. **Application** - Execute the grading operations
+For detailed information on profile management, see [Profile Management](GP-Profile.md).
 
-> **GIF Placeholder:** Demonstrate complete workflow from start to finish
 
