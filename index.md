@@ -14,32 +14,25 @@ DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. 
 
 ## Core Features
 
+- Configure reusable section‑based surface grading designs; multiple section definition methods.  
+- Store, load, and share configuration profiles for grading design.
+
+- Perform full‑surface and region cut/fill calculations. Create stripping topsoil surfaces from existing surfaces.
+- Generate subgradebase surfaces per region from proposed surfaces.
+- Calculate total earthwork across multiple surfaces; dynamic units (m³, yd³, ft³, acre‑ft).
+
 - Design piping in elevation: Piping networks with elevation control, slope adjustments, system based elevation update.System‑aware elevation design with upstream/downstream auto‑adjust; hold references during edits. 
 
 - Pipe and Structure Data Tables: Edit pipes or structures; table based property data edition. Part swapping and multi‑property editing.
 
-- Perform full‑surface and region cut/fill calculations.
-- Create stripping topsoil surfaces from existing surfaces.
-- Generate subgrade/base surfaces per region from proposed surfaces.
-- Calculate total earthwork across multiple surfaces; dynamic units (m³, yd³, ft³, acre‑ft).
+- Edit Object, Label, and Table styles in tables; multi‑row editing and support for editin main and sub components. Edit children component label style data
 
-- Configure reusable section‑based surface designs; multiple section definition methods.
-- Include feature lines in section definitions; predefine stations or ranges; re‑run to update.
-- Store, load, and share configuration profiles.
+- Inspect usage of layers, line types, hatch styles, dimension styles, and text styles objects. Object scan assignments, batch reassign, identify unused items, and batch delete/reassign.
 
-- Edit Object, Label, and Table styles in tables; multi‑row editing.
-- Edit children component data; configurable and saveable column sets.
+- Spreadsheet interface for editing layer data and layer states with formulas. Export layer and state data to Excel; import updates with change highlighting.
 
-- Inspect usage of layers, line types, hatch styles, dimension styles, and text styles.
-- Deep‑scan assignments, batch reassign, identify unused items, and batch delete/reassign.
+- Transfer Object Layer settings from open/closed files. Export/import Object Layer data via Excel; edit values prior to applying.
 
-- Spreadsheet interface for editing layer data and layer states with formulas.
-- Export layer and state data to Excel; import updates with change highlighting.
+- Transfer Point Description Keys and Figure Prefix Database entries from open/closed files. Export/import Point Description Keys to/from Excel; edit values prior to applying.
 
-- Transfer Object Layer settings from open/closed files.
-- Export/import Object Layer data via Excel; edit values prior to applying.
-
-- Transfer Point Description Keys and Figure Prefix Database entries from open/closed files.
-- Export/import to/from Excel; edit values prior to applying.
-
-[Download](https://diroots.com/civil3d-plugins/dicivil/){: .btn .btn-di-orange } ToUpdate
+[Download](https://diroots.com/civil3d-plugins/dicivil/){: .btn .btn-di-orange }
