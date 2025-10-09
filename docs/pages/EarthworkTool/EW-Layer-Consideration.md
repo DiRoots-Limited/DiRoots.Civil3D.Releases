@@ -18,7 +18,7 @@ nav_order: 4
 
 # Layer Consideration
 
-The Earthwork Tool provides comprehensive layer consideration capabilities with two optional layers that make earthwork calculations easier since the topsoil stripping and subgrade base layers are usually considered when performing earthwork calculations.
+The Earthwork Tool provides layer consideration capabilities with two optional layers that make earthwork calculations easier since the topsoil stripping and subgrade base layers are usually considered when performing earthwork calculations.
 
 ## Overview
 

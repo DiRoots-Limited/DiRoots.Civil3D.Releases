@@ -60,4 +60,4 @@ This user guide is organized into the following sections:
 - **[Calculations](EW-Calculations.md)** - Detailed explanation of calculation methods, parent and child region workflows, and totals description
 - **[Layer Consideration](EW-Layer-Consideration.md)** - Topsoil stripping and subgrade base surface configuration and data storage
 - **[Reporting](EW-Reporting.md)** - Excel export and AutoCAD table creation
-- **[Additional Features](EW-Additional-Features.md)** - Context menus, selection tools, and workflow optimization features
+- **[Additional Features](EW-Additional-Features.md)** - Context menus, selection tools, and workflow features

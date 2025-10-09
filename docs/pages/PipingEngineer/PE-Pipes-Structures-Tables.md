@@ -24,7 +24,7 @@ Piping Engineer provides comprehensive table interfaces for managing pipes and s
 
 Pipe and structure data tables allow you to:
 
-- Manage the pipes and structures data through comprehensive independent table interfaces
+- Manage the pipes and structures data through independent table interfaces
 - Perform bulk operations on multiple elements
 
 

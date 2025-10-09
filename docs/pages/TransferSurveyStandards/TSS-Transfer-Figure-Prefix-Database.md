@@ -18,7 +18,7 @@ nav_order: 3
 
 # Transfer Figure Prefix Database
 
-Transfer Survey Standards provides comprehensive Figure Prefix Database management capabilities, allowing you to transfer and manage figure prefix databases across projects with Excel and .fdb file support.
+Transfer Survey Standards provides Figure Prefix Database management capabilities, allowing you to transfer and manage figure prefix databases across projects with Excel and .fdb file support.
 
 ## Overview
 

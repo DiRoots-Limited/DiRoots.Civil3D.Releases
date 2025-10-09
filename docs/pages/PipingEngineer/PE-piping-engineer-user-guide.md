@@ -16,15 +16,15 @@ Learn how to use DiCivil - Piping Engineer to design, edit and validate your pip
 
 ## Overview
 
-Piping Engineer is a comprehensive tool for designing, editing, and validating Civil 3D piping networks. The tool provides advanced elevation design capabilities, slope validation, system data edition features, and comprehensive pipe and structure management with table interfaces.
+Piping Engineer is a comprehensive tool for designing, editing, and validating Civil 3D piping networks. The tool provides advanced elevation design capabilities, slope validation, system data edition features, and pipe and structure data edition with table interfaces.
 
 **Key Features:**
 - **Elevation Design** - Advanced elevation control with hold reference options and auto-flow edition
-- **Slope Validation** - Comprehensive slope validation and optimization tools
 - **System Edition** - Flexible system modification with multiple editing modes
 - **Pipe and Structure Data Tables** - Comprehensive table interface for pipe and structure management
 - **Profile Management** - Save and reuse configuration profiles
 - **Auto-Flow Adjustment** - Automatic upstream/downstream adjustments
+- **Slope Validation** - Quick Slope validation tool
 
 ## Getting Started
 

@@ -70,7 +70,7 @@ Import object layer data from Excel files containing standards:
 
 ## Modify Data Before Transferring
 
-Transfer Object Layers provides comprehensive data editing capabilities, allowing you to modify object layer data directly in the UI before transferring to your target file.
+Transfer Object Layers provides data editing capabilities, allowing you to modify object layer data directly in the UI before transferring to your target file.
 
 ### Overview
 

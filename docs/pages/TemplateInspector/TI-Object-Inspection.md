@@ -18,11 +18,11 @@ nav_order: 2
 
 # Object Inspection
 
-Template Inspector provides comprehensive object inspection and depth scanning capabilities to examine object properties, usage, and dependencies in detail. The depth scan feature performs comprehensive scans to find object usage and dependencies throughout your settings and objects, providing detailed information about where inspected objects are used.
+Template Inspector provides object inspection capabilities to examine object properties, usage, and dependencies in detail. The inspection feature performs scans to find object usage and dependencies throughout your settings and objects, providing detailed information about where inspected objects are used.
 
 ## Overview
 
-Object inspection and depth scanning allows you to:
+Object inspection allows you to:
 - Examine object properties and settings
 - View detailed usage information
 - Analyze object dependencies
@@ -32,7 +32,7 @@ Object inspection and depth scanning allows you to:
 - Analyze object usage patterns
 - Identify unused objects for cleanup
 
-> **GIF Placeholder:** Show overview of object inspection and depth scan interface
+> **GIF Placeholder:** Show overview of object inspection interface
 
 ### Object Types Supported
 - **Layers** - Inspect layer usage and associated objects
@@ -86,7 +86,7 @@ Select objects for inspection:
 
 ### Inspection Process
 
-Conduct comprehensive inspection:
+Conduct inspection:
 
 1. **Load Object Data** - Load object data and properties
 2. **Analyze Properties** - Analyze object properties

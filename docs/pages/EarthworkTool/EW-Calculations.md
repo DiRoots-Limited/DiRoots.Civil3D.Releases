@@ -52,7 +52,7 @@ Full surface calculation allows you to:
 
 #### Calculation Results
 
-The tool provides comprehensive volume analysis:
+The tool provides volume analysis:
 
 - **Cut Volume** - Total volume of material to be removed
 - **Fill Volume** - Total volume of material to be added
