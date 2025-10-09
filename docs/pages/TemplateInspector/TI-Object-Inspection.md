@@ -23,32 +23,24 @@ Template Inspector provides object inspection capabilities to examine object pro
 ## Overview
 
 Object inspection allows you to:
-- Examine object properties and settings
-- View detailed usage information
-- Analyze object dependencies
-- Understand object relationships
-- Find all instances where objects are used
-- Discover hidden dependencies and references
-- Analyze object usage patterns
+- Find all instances where objects are used. Find dependencies and references
+- Reassign or Swap object property
 - Identify unused objects for cleanup
 
 > **GIF Placeholder:** Show overview of object inspection interface
 
 ### Object Types Supported
-- **Layers** - Inspect layer usage and associated objects
+- **Layers** - Inspect layer assigment and usage 
 - **Line Types** - Find line type assignments and usage
-- **Dimension Styles** - Check dimension style usage
-- **Hatch Styles** - Locate hatch pattern usage
-- **Text Styles** - Find text style assignments
+- **Dimension Styles** - Check dimension style assignments and usage
+- **Hatch Styles** - Locate hatch pattern assignments and usage
+- **Text Styles** - Find text style assignments and usage
 
+## Object Scan Types
 
-## Scan Types
+The following scan case types are used to get the object usage throughout drawings:
 
-### Object Usage Scan
-
-Scan for object usage throughout drawings:
-
-- **Created Objects Check** - Check all created objects in the drawing
+- **Created Objects** - Check all created objects in the drawing
 - **Settings with Object Assignment** - Find all settings with objects assigned to them
 - **Dependent Objects List** - List all dependent objects and their relationships
 - **Usage Detection** - Find all places where objects are used
@@ -56,41 +48,13 @@ Scan for object usage throughout drawings:
 
 > **GIF Placeholder:** Demonstrate object usage scanning
 
-## Inspection Interface
-
-### Four-Column Display
-
-The inspector finds objects that reference the objects being inspected. View inspection results in organized format with four columns:
-
-1. **Template Component Column** - Shows the settings path where the settings use the object
-2. **Associated Object Column** - Shows objects that are created in the drawing that have the inspected object referenced inside their properties
-3. **Assigned Object Column** - Shows the assigned object that can be modified
-4. **Count Column** - Lists the number of instances that have the object assigned
-
-> **GIF Placeholder:** Show four-column display interface
-
-
-
 ## Inspection Workflow
 
-### Object Selection
-
-Select objects for inspection:
+The inspector finds objects that reference the objects being inspected.
 
 1. **Choose Object Type** - Select the type of object to inspect
 2. **Search for Objects** - Search for specific objects
 3. **Select Target Object** - Select the object to inspect
-4. **Begin Inspection** - Start the inspection process
-
-> **GIF Placeholder:** Demonstrate object selection workflow
-
-### Inspection Process
-
-Conduct inspection:
-
-1. **Load Object Data** - Load object data and properties
-2. **Analyze Properties** - Analyze object properties
-3. **Check Usage** - Check object usage
 4. **Examine Dependencies** - Examine object dependencies
 5. **Review Results** - Review inspection results
 
@@ -98,30 +62,15 @@ Conduct inspection:
 
 ## Usage Display
 
-Template Inspector shows usage display capabilities to show how objects are used throughout your drawings, including detailed usage counts, locations, and patterns. The usage count specifically tracks only the objects that are placed or created in the drawing.
+Template Inspector shows usage information to show how objects are used throughout your drawings,  locations, template component and usage counts. The usage count specifically tracks only the objects that are placed or created in the drawing.
 
-### Usage Display Overview
+### Usage Status
 
-Usage display allows you to:
-- View detailed usage information for objects
-- See usage counts and patterns
-- Analyze usage distribution
+The object table on the left shows if the Objects is being used in the column 'Usage Status':
 
-> **GIF Placeholder:** Show overview of usage display interface
+### Usage Display References
 
-### Usage Count Display
-
-View usage count information:
-
-- **Total Usage** - Total number of times objects are placed or created in the drawing
-
-> **GIF Placeholder:** Demonstrate usage count display
-
-### Usage Display Interface
-
-#### Four-Column Layout
-
-View usage information in organized format:
+The tools displays the references usage information in the following columns:
 
 - **Template Component** - Shows the settings path where the settings use the object
 - **Associated Object** - Shows objects that are created in the drawing that have the inspected object referenced inside their properties
@@ -130,11 +79,11 @@ View usage information in organized format:
 
 > **GIF Placeholder:** Show four-column layout interface
 
-## Component Column Reference
+### Component Column Reference
 
 The **Template Component column** identifies the Settings location from the Civil 3D object in the tree structure, making it easy to locate.
 
-### Component Path Structure
+#### Component Path Structure
 
 **Example Component Path for Layer:**
 ```
