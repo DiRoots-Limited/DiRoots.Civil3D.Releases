@@ -22,27 +22,25 @@ Drawing Layers provides a familiar spreadsheet interface for editing layer data 
 
 ## Overview
 
-The spreadsheet interface offers Excel-like functionality for managing layer data, including formula support, change tracking, and bulk operations. The interface is organized into two main tabs: Active Layers and Layer States, providing comprehensive layer management capabilities.
+The spreadsheet interface offers Excel-like functionality for editing layer data, including formula support. The interface is organized into two main tabs: Active Layers and Layer States, providing comprehensive layer edition capabilities.
 
 > **GIF Placeholder:** Show overview of spreadsheet interface capabilities
 
-## Two-Tab Structure
+## Layers and Layer States
 
-The interface is organized into two main tabs for different management tasks:
+The interface is organized into two main tabs for different tasks:
 
 ### Active Layers Tab
-The main spreadsheet interface for comprehensive layer data management:
-- **Complete Layer View** - See all used layers in spreadsheet format
-- **Direct Editing** - Edit layer data directly in cells
-- **Property Modification** - Modify any layer property
-- **Real-time Updates** - See changes immediately in the interface
+The main spreadsheet interface for layer data edition:
+- **Filter Section** - Use the filter section to select a specific filter; the spreadsheet will then display all layer data associated with the chosen filter
+
+- **Layer Data View** - See all layer filters and related layers in a spreadsheet format
+- **Direct Editing** - Edit layer data directly in cells spreadsheet format
 
 ### Layer States Tab
-Specialized interface for managing layer states and their properties:
-- **State Management** - Edit layer state properties and settings
+Interface for editing layer states data:
 - **Layer Assignments** - Manage layer assignments within states
-- **Bulk Changes** - Apply bulk changes to multiple states
-- **Property Settings** - Manage color and property settings for states
+- **Bulk Changes** - Edit layer data
 
 > **GIF Placeholder:** Show two-tab structure and switching
 
@@ -62,56 +60,15 @@ Familiar spreadsheet format with rows and columns:
 ## Formula Capabilities
 
 ### Formula Support
-
 Excel-like formula functionality:
 
-- **Column Concatenation** - Concatenate two columns together
-- **Prefix Addition** - Add prefixes to existing values
-- **Formula Expansion** - Apply formulas across multiple rows
-- **Dynamic Calculations** - Perform calculations on layer data
-
 > **GIF Placeholder:** Demonstrate advanced formula support
-
-### Formula Examples
-
-Practical formula usage:
-
-#### Column Concatenation
-- **Combine Columns** - Concatenate two columns into one
-- **Formula Creation** - Create formulas to combine data
-- **Formula Application** - Apply formulas to multiple rows
-- **Result Verification** - Verify concatenation results
-
-> **GIF Placeholder:** Show column concatenation
-
-#### Prefix Addition
-- **Add Prefixes** - Add prefixes to layer names
-- **Formula Setup** - Set up formulas to add prefixes
-- **Bulk Application** - Apply prefix formulas across multiple layers
-- **Dynamic Updates** - Update multiple layers with single formula
-
-> **GIF Placeholder:** Demonstrate prefix addition
-
-### Formula Expansion
-
-Efficient formula application:
-
-- **Expand All** - Expand formulas across all relevant rows
-- **Consistent Application** - Apply same formula to multiple rows
-- **Automatic Updates** - Automatically update all affected rows
-- **Formula Consistency** - Maintain formula consistency across data
-
-> **GIF Placeholder:** Show formula expansion
-
 
 ## Visual Change Tracking
 
 Track changes with visual indicators:
 
-- **Color Highlighting** - Modified values are highlighted in green
-- **Change Detection** - Automatically detect changes in data
-- **Visual Feedback** - Provide immediate visual feedback for changes
-- **Change Confirmation** - Confirm changes before applying
+When you make changes in the spreadsheet interface, any modified values are immediately highlighted in green, making it easy to spot edits. 
 
 > **GIF Placeholder:** Demonstrate visual change tracking
 
@@ -146,10 +103,7 @@ Edit comprehensive layer properties:
 
 Efficient bulk editing capabilities:
 
-- **Multi-selection** - Select multiple cells for editing
-- **Formula Application** - Apply formulas to multiple rows
-- **Bulk Updates** - Update multiple layers simultaneously
-- **Consistent Changes** - Ensure consistent changes across layers
+Bulk operations in the Active Layers tab allow you to efficiently edit multiple layers at once. You can select several cells simultaneously to perform edits across a range of data. Formulas can be applied to multiple rows, enabling quick and consistent updates to layer properties.
 
 > **GIF Placeholder:** Show bulk operations
 
@@ -201,26 +155,4 @@ Manage comprehensive state properties:
 - **Plot Settings** - Manage print visibility and plot style overrides
 
 > **GIF Placeholder:** Demonstrate state properties management
-
-### Workflow Examples
-
-#### Basic State Editing
-
-1. **Select State** - Choose layer state to edit
-2. **Modify Properties** - Edit state properties as needed
-3. **Apply Changes** - Apply changes to the state
-4. **Verify Results** - Verify changes are applied correctly
-
-> **GIF Placeholder:** Demonstrate basic state editing
-
-### Tab Navigation
-
-Navigate between interface tabs:
-
-- **Active Layers Tab** - Switch to active layers management
-- **Layer States Tab** - Switch to layer states management
-- **Context Switching** - Switch context based on selected tab
-- **Data Access** - Access appropriate data for each tab
-
-> **GIF Placeholder:** Demonstrate tab navigation
 

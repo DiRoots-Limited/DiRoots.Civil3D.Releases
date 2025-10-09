@@ -15,17 +15,14 @@ Learn how to use Drawing Layers to edit layer data and layer states using a spre
 
 ## Overview
 
-Drawing Layers provides a powerful spreadsheet-format interface for editing layer data and layer states. The tool features two main tabs (Active Layers and Layer States) and allows you to manage your layer and state data efficiently using a familiar spreadsheet interface, complete with formula features, and enables seamless export and import of data to Excel for external editing.
+Drawing Layers provides a powerful spreadsheet-format interface for editing layer data and layer states. The tool features two main tabs (Active Layers and Layer States) and allows you to manage your layer and state data efficiently using a familiar spreadsheet interface, complete with formula features, and enables export and import data to Excel for external editing.
 
 **Key Features:**
-- **Two-Tab Structure** - Active Layers and Layer States tabs
-- **Spreadsheet Interface** - Direct data editing with Excel-like formula support
+- **Active Layers and Layer States** - Handles Active Layers and Layer States data
+- **Spreadsheet Interface** - Direct data editing in spreadsheet interface with Excel like formula support
 - **Formula Capabilities** - Concatenate columns, add prefixes, expand formulas
-- **Change Highlighting** - Color background highlighting for modified values
 - **Excel Export/Import** - Export to Excel and import with change detection
 - **Layer State Management** - Edit layer states and properties
-- **Bulk Operations** - Apply changes to multiple layers simultaneously
-- **Reset Functionality** - Undo changes before confirming
 
 ## Getting Started
 
@@ -34,15 +31,18 @@ Drawing Layers provides a powerful spreadsheet-format interface for editing laye
 The Drawing Layers tool opens with two main tabs:
 
 - **Active Layers Tab** - Access and edit all used layers
-- **Layer States Tab** - Manage layer states and their properties
+- **Layer States Tab** - Edit layer states properties data
 
-> **GIF Placeholder:** Show the main interface and basic navigation
+![Drawing Layers Main Interface](../../../assets/images/PNGs/DL-MainInterface.png)  
+<sub><b>Image:</b> Main interface of Drawing Layers showing basic navigation</sub><br>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil3D-plugins/DiCivil/).</sub>
 
 
 ### Basic Workflow
 
 1. **Open Drawing Layers** from the DiRoots tab
 2. **Choose Tab** - Select Active Layers or Layer States tab
+3. **Choose Filter or Layer State** - For Active Layers select the filter or the Layer States
 3. **Edit Data** - Modify layer data directly in the spreadsheet interface
 4. **Use Formulas** - Apply formulas for bulk operations
 5. **Review Changes** - Check highlighted changes before applying
