@@ -16,7 +16,7 @@ Learn how to use Transfer Object Layers to transfer Civil 3D object layer settin
 
 ## Overview
 
-Transfer Object Layers helps you transfer or migrate Civil 3D drawing object layers settings to any other project or create Excel file format to define your standards. The tool provides two main options: transfer to files directly, and Excel export and import functionality for creating and managing standards.
+Transfer Object Layers helps you transfer or migrate Civil 3D drawing object layers settings to any other project or create Excel file format to define your standards. The tool provides two main options: transfer to files directly, and Excel export and import functionality for creating Object Layer Settings standards.
 
 **Key Features:**
 - **Two Main Options** - Transfer files directly or Excel file export/import
@@ -30,7 +30,7 @@ Transfer Object Layers helps you transfer or migrate Civil 3D drawing object lay
 ### Basic Workflow
 
 1. **Open Target File** - Open the file where you want to import settings
-2. **Open Transfer Tool** - Open Transfer Object Layers from Civil Management
+2. **Open Transfer Tool** - Open Transfer Object Layers tool
 3. **Choose Import Source** - Select from open file, closed file, or Excel
 4. **Import Data** - Import object layer data from source
 5. **Review and Edit** - Review and modify data in the UI
