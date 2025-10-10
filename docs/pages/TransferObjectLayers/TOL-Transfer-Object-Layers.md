@@ -41,8 +41,6 @@ Import object layer data from currently open Civil 3D files:
 
 - **File Selection** - Select from currently open Civil 3D files
 - **Direct Import** - Import object layer data directly from open files
-- **Real-time Data** - Access current object layer settings
-- **Immediate Transfer** - Transfer data without file operations
 
 > **GIF Placeholder:** Show import from open file process
 
@@ -51,7 +49,6 @@ Import object layer data from currently open Civil 3D files:
 Import object layer data from closed Civil 3D files:
 
 - **File Browser** - Browse and select closed Civil 3D files
-- **File Validation** - Validate file format and accessibility
 - **Data Extraction** - Extract object layer data from closed files
 - **Offline Import** - Import data without opening the source file
 
@@ -63,8 +60,6 @@ Import object layer data from Excel files containing standards:
 
 - **Excel File Selection** - Select Excel files containing object layer data
 - **File Validation** - Validate Excel file format and content
-- **Template Support** - Use structured Excel templates
-- **Data Verification** - Verify Excel data before import
 
 > **GIF Placeholder:** Show Excel file selection and import process
 
@@ -72,109 +67,26 @@ Import object layer data from Excel files containing standards:
 
 Transfer Object Layers provides data editing capabilities, allowing you to modify object layer data directly in the UI before transferring to your target file.
 
-### Overview
-
-Data editing allows you to:
-- Modify data directly in the UI interface
-- Edit data before transferring to target file
-- Validate modified data before transfer
-- Perform bulk modifications
-
-> **GIF Placeholder:** Show overview of data editing interface
-
-### UI Data Display
-
-#### Complete Data View
+### Imported Data Display
 
 View all imported object layer data:
 
-- **Data Organization** - Organized display of transfer data
-- **Data Structure** - Clear structure for easy navigation
-- **Data Visibility** - View all relevant data fields
-- **Data Context** - Understand data relationships
+Imported object layer data is displayed in a structured table with four main columns:
+
+- Layer
+- Modifier 
+- Value 
+- Locked 
+
+This layout allows you to easily review and understand each object’s layer configuration before proceeding with transfer.
 
 > **GIF Placeholder:** Demonstrate complete data view
 
-#### Data Organization
-
-Organize data for efficient editing:
-
-- **Logical Grouping** - Group related data together
-- **Hierarchical Display** - Display data hierarchically
-- **Searchable Content** - Make data searchable
-- **Filterable Results** - Allow filtering of data
-
-> **GIF Placeholder:** Show data organization
-
 ### Direct Editing
 
-#### In-Place Editing
+After importing object layer data, you can edit the data directly in the UI before transferring to your target file.
 
-Edit data directly in the UI:
-
-- **Direct Modification** - Edit data directly in the interface
-- **In-Place Changes** - Make changes without leaving the interface
-- **Immediate Feedback** - Get immediate feedback on changes
-- **Visual Confirmation** - See changes visually
-
-> **GIF Placeholder:** Show in-place editing
-
-#### Pre-transfer Modifications
-
-Modify data before transferring:
-
-- **Pre-transfer Editing** - Edit data before applying to target file
-- **Data Preparation** - Prepare data for transfer
-- **Customization** - Customize data for specific needs
-- **Quality Control** - Ensure data quality before transfer
-
-> **GIF Placeholder:** Demonstrate pre-transfer modifications
-
-#### Data Validation
-
-Validate modified data:
-
-- **Data Integrity** - Ensure data integrity after modifications
-- **Validation Rules** - Apply validation rules to modified data
-- **Error Detection** - Detect errors in modified data
-- **Quality Assurance** - Ensure data quality
-
-> **GIF Placeholder:** Show data validation
-
-### Bulk Modifications
-
-#### Multi-Item Editing
-
-Edit multiple items simultaneously:
-
-- **Multi-selection** - Select multiple items for editing
-- **Bulk Modifications** - Apply changes to multiple items at once
-- **Consistent Updates** - Ensure consistent changes across items
-- **Efficiency** - Save time with bulk operations
-
-> **GIF Placeholder:** Demonstrate multi-item editing
-
-#### Batch Editing Workflow
-
-Perform batch editing operations:
-
-1. **Select Items** - Select multiple items for editing
-2. **Choose Modifications** - Select modifications to apply
-3. **Apply Changes** - Apply changes to all selected items
-4. **Verify Results** - Verify that changes were applied correctly
-
-> **GIF Placeholder:** Show batch editing workflow
-
-#### Bulk Operations
-
-Perform various bulk operations:
-
-- **Bulk Updates** - Update multiple items at once
-- **Bulk Deletions** - Delete multiple items simultaneously
-- **Bulk Additions** - Add multiple items efficiently
-- **Bulk Modifications** - Modify multiple items consistently
-
-> **GIF Placeholder:** Demonstrate bulk operations
+> **GIF Placeholder:** Demonstrate complete data edition before transferring
 
 ## Export to Excel
 
@@ -191,8 +103,6 @@ Export the currently displayed and edited data from the UI:
 - **Current UI State** - Export data as it appears in the current UI table
 - **Edited Data** - Include any modifications made in the data editing interface
 
-
-
 > **GIF Placeholder:** Show export of active UI data
 
 #### 2. Export Open Active File
@@ -204,16 +114,3 @@ Export object layer data directly from the currently open Civil 3D file:
 
 
 > **GIF Placeholder:** Show export of open active file data
-
-### Export Process
-
-Complete export workflow:
-
-1. **Choose Export Source** - Select either Active UI Data or Open Active File
-2. **Configure Export** - Configure export settings and options
-3. **Generate Excel File** - Create Excel file with object layer data
-4. **Save File** - Save Excel file with appropriate name
-5. **Verify Export** - Verify exported data is complete and accurate
-6. **Future Import** - The exported Excel file can now be used to import standards later using the tool
-
-> **GIF Placeholder:** Show complete export process

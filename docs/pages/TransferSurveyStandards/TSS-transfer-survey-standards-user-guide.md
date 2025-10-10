@@ -21,13 +21,11 @@ Transfer Survey Standards helps you transfer your Civil 3D survey standards data
 **Key Features:**
 - **Transfer Settings and PDKs** - Transfer Point Description Keys between files
 - **Multiple Source Options** - Transfer from open files, closed files, or Excel spreadsheets for PDKs
-- **Figure Prefix Database Management** - Transfer figure prefix databases
-- **Data Editing Capabilities** - Modify values before importing or applying
+- **Figure Prefix Database Transfer** - Transfer figure prefix databases
 - **Excel Export/Import** - Export to Excel for external editing and import back
 
 
 ## Getting Started
-
 
 ### Basic Workflow
 

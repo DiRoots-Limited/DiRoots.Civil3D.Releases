@@ -32,8 +32,6 @@ The main interface serves as the central hub for all Grading Pro operations, all
 - **Find and Define Related Gradings** - Locate and configure grading types
 - **Apply Grading** - Execute the surface modifications
 
-> **GIF Placeholder:** Show overview of the main interface and complete workflow
-
 ## Main Interface Components
 
 ### Add Surface Grading button

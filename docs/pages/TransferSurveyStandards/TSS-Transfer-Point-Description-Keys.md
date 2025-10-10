@@ -18,18 +18,14 @@ nav_order: 2
 
 # Transfer Point Description Keys
 
-Transfer Survey Standards allow Point Description Keys (PDKs) transfer between projects, allowing you to transfer PDK configurations between projects with property preservation.
+Transfer Survey Standards allows Point Description Keys (PDKs) transfer between projects, allowing you to transfer PDK configurations between projects with property preservation.
 
 ## Overview
 
 Transfer Point Description Keys allows you to:
-- Import PDK data from multiple sources
-- Edit and modify data before transferring
-- Export current file settings as standards
-- Create and manage PDK standards efficiently
-- Share PDK standards across teams
-
-> **GIF Placeholder:** Show overview of transfer PDK capabilities
+- Import PDK data from different sources
+- Edit data before transferring
+- Export current file settings or active interface settings
 
 ## Import Options
 
@@ -41,8 +37,6 @@ Import PDK data from currently open Civil 3D files:
 
 - **File Selection** - Select from currently open Civil 3D files
 - **Direct Import** - Import PDK data directly from open files
-- **Real-time Data** - Access current PDK settings
-- **Immediate Transfer** - Transfer data without file operations
 
 > **GIF Placeholder:** Show import from open file process
 
@@ -51,7 +45,6 @@ Import PDK data from currently open Civil 3D files:
 Import PDK data from closed Civil 3D files:
 
 - **File Browser** - Browse and select closed Civil 3D files
-- **File Validation** - Validate file format and accessibility
 - **Data Extraction** - Extract PDK data from closed files
 - **Offline Import** - Import data without opening the source file
 
@@ -63,31 +56,25 @@ Import PDK data from Excel files containing standards:
 
 - **Excel File Selection** - Select Excel files containing PDK data
 - **File Validation** - Validate Excel file format and content
-- **Template Support** - Use structured Excel templates
-- **Data Verification** - Verify Excel data before import
 
 > **GIF Placeholder:** Show Excel file selection and import process
 
 ## PDK Data
 
-### PDK Data Management
+### Showing PDK Data
 
-Manage all aspects of Point Description Keys (PDKs) in one unified section, including key properties, layer assignments, and style configurations:
+After importing, you can check on the left panel  PDK sets you want to view in the main table.
 
-- **Key Properties** – Manage key names, format codes, property values, and configuration settings.
-- **Layer Assignments** – Configure, map, and validate layer assignments for PDKs.
-- **Style Configurations** – Set and validate display and annotation styles, and manage style properties.
 
-> **GIF Placeholder:** Show unified PDK data management
+By default, the main table displays the following columns for each Point Description Key: **Code**, **Point Style**, **Point Label Style**, **Format**, and **Layer**. You can customize your view by adding additional data columns through the preferences button, allowing you to see and work with extra properties relevant to your workflow.
+
+
+> **GIF Placeholder:** Show unified PDK data management and column preferences in action
+
 
 ### Column Preferences
 
-Add or modify columns as needed:
-
-- **Column Addition** - Add new columns to the data view
-- **Column Modification** - Modify existing column properties
-- **Column Organization** - Organize columns for better workflow
-- **Column Customization** - Customize columns for specific needs
+You can edit the visible table by adding more preference columns as needed. This flexibility allows you to tailor the PDK data view to your workflow—simply add additional columns to track extra preferences, modify or reorder existing columns, and customize the table layout to fit your project requirements and improve visibility.
 
 > **GIF Placeholder:** Show column management
 
@@ -95,33 +82,8 @@ Add or modify columns as needed:
 
 Transfer Survey Standards provides a unified data editing interface, allowing you to review and modify Point Description Key (PDK) data directly in the UI before transferring it to your target file.
 
-Key editing capabilities include:
-- **Direct In-UI Editing** – Make changes to PDK data directly within the interface, with immediate feedback and visual confirmation.
-- **Organized Data Display** – View all imported PDK data in a structured, searchable, and filterable table for easy navigation and efficient editing.
-- **Bulk Modifications** – Select and edit multiple items at once to ensure consistent updates and save time.
-- **Pre-transfer Validation** – Validate your changes with built-in rules and error detection to ensure data integrity and quality before applying to the target file.
-- **Customization** – Add, remove, or reorganize columns and fields to match your workflow and project requirements.
 
 > **GIF Placeholder:** Show unified data editing and validation interface
-
-
-
-### Bulk Modifications
-
-#### Bulk Editing
-
-Edit multiple Point Description Keys at once for efficient updates:
-
-- **Multi-selection** – Select several items to edit together
-- **Bulk Modifications** – Apply changes to all selected items in one action
-- **Consistent Updates** – Ensure uniform changes across multiple keys
-- **Workflow**:
-    1. Select multiple items for editing
-    2. Edit on one and will modify in all the selected items 
-    3. Import and verify that changes were applied correctly and 
-
-
-> **GIF Placeholder:** Show batch editing workflow
 
 ## Export to Excel
 
@@ -149,15 +111,3 @@ Export PDK data directly from the currently open Civil 3D file:
 
 > **GIF Placeholder:** Show export of open active file data
 
-### Export Process
-
-Complete export workflow:
-
-1. **Choose Export Source** - Select either Active UI Data or Open Active File
-2. **Configure Export** - Configure export settings and options
-3. **Generate Excel File** - Create Excel file with PDK data
-4. **Save File** - Save Excel file with appropriate name
-5. **Verify Export** - Verify exported data is complete and accurate
-6. **Future Import** - The exported Excel file can now be used to import standards later using the tool
-
-> **GIF Placeholder:** Show complete export process
