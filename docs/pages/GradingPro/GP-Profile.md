@@ -2,10 +2,10 @@
 layout: default
 title: Profile
 parent: Grading Pro User Guide
-nav_order: 1
+nav_order: 5
 ---
 
-# Profiles
+# Profile
 {: .no_toc }
 
 ## Table of contents
@@ -16,51 +16,25 @@ nav_order: 1
 
 ---
 
+# Profile
+
+Grading Pro includes a profile system that allows you to save and reuse grading configuration and setups, making it easy to maintain consistent configurations across multiple projects and use multiple configurated profiles quickly.
+
+## Overview
+
+Profile system allows you to:
+- Save configuration settings for reuse
+- Switch between different profile templates
+- Maintain consistent settings across projects
+- Share profiles across teams
+
 ## What's saved in the profile
 
-The following settings are saved in Grading Pro profiles:
-- Section configuration methods and parameters
-- Feature line integration settings
-- Station definitions (individual and range)
-- Surface design criteria and preferences
+The following settings are saved in the profiles.
 
-## Creating Profiles
+- The set configured Gradint types.
+- The customized set of Sections Setup.
+- The customized set of Sections Placement Setup.
+- The set of configuration applied to the entire document.
 
-Grading Pro profiles let you save your grading and section configuration settings for reuse and sharing across projects and teams.
-
-Steps:
-1. In the window header, click the save button next to the profiles list.
-2. Name the profile (choose a meaningful name for easy identification).
-3. Choose the location to save it.
-4. Click "Save" to store the profile.
-
-![Grading Pro Creating profiles](../../../assets/images/GradingPro/GP-SaveProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Grading Pro.</sub>
-
-```yaml
-Tip for BIM Managers!
-Create profiles in a network location to allow other users to import them.
-See the "Importing Profiles" section for details.
-```
-
-## Importing Profiles
-
-Import existing profiles to stay compliant with company standards.
-
-Steps:
-1. Click the Import button next to the profiles list.
-2. Use File Explorer to find the profile (shared folder, network, or local).
-3. Click "Open" to import.
-
-![Grading Pro importing profiles](../../../assets/images/GradingPro/GP-ImportProfile.gif)
-<sub>Note: the version on the image may not reflect the latest version of Grading Pro.</sub>
-
-## Deleting Profiles
-
-Steps:
-1. Select the profile from the dropdown.
-2. Click the Delete icon next to the profiles list.
-3. Confirm deletion.
-
-![Grading Pro delete profiles](../../../assets/images/GradingPro/GP-DeleteProfile.png)
-<sub>Note: the version on the image may not reflect the latest version of Grading Pro.</sub> 
+> **GIF Placeholder:** Demonstrate uses of updated of multiple profiles.

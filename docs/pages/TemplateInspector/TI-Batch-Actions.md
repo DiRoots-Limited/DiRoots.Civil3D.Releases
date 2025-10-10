@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Batch Actions
+title: Delete and Batch Actions
 parent: Template Inspector User Guide
-nav_order: 5
+nav_order: 3
 ---
 
-# Batch Actions
+# Delete and Batch Actions
 {: .no_toc }
 
 ## Table of contents
@@ -16,32 +16,56 @@ nav_order: 5
 
 ---
 
-## Multi-Selection Batch Actions
+# Batch Actions
 
-Template Inspector enables you to perform batch operations on multiple objects simultaneously, including deletion and reassignment actions.
+Template Inspector enables you to perform batch operations on multiple objects simultaneously, significantly improving efficiency when managing large numbers of objects. The batch action feature allows you to select multiple instances and change the assignment of objects from a dropdown selection for all selected inputs at once. Additionally, you can delete objects from the drawing after ensuring they are unused.
 
-### Supported Batch Actions
-- **Delete Objects:** Remove unused objects from the file
-- **Reassign Objects:** Change object assignments to different objects
-- **Batch Reassignment:** Move multiple objects to a new assignment at once
+## Overview
 
-### Steps for Batch Actions
-1. Select multiple objects in the inspection interface using Ctrl+Click or Shift+Click.
-2. Choose the batch action you want to perform (delete or reassign).
-3. For reassignment, select the target object or assignment.
-4. Review the action summary and confirm the operation.
+Delete and batch actions allow you to:
+- Select multiple instances simultaneously
+- Change object assignments from dropdown selection for all selected inputs at once
+- Delete unused objects from the drawing
 
-![Template Inspector batch actions](../../../assets/images/TemplateInspector/TI-BatchActions.gif)
-<sub>Note: the version on the image may not reflect the latest version of Template Inspector.</sub>
+## Multi-Object  Selection
+Select multiple objects for batch operations:
 
-### Safety Features
-- Preview of changes before applying
-- Confirmation dialog for destructive actions
-- Backup recommendations for important operations
-- Rollback options for batch operations
+- **Individual Selection** - Select specific objects using checkboxes
+- **Select All** - Select all objects in the current view
+- **Clear Selection** - Clear current selection
 
-### Benefits
-- Save time by processing multiple objects at once
-- Maintain consistency across batch operations
-- Reduce the risk of manual errors
-- Clean up files efficiently 
+> **GIF Placeholder:** Demonstrate multi-object selection
+
+
+## Batch Reassignment Workflow
+
+Change object assignments for multiple instances using dropdown selection:
+
+1. **Select Multiple Instances** - Choose multiple instances to modify
+2. **Choose Assignment from Dropdown** - Select new assignment from dropdown for all selected inputs
+3. **Execute Batch Assignment** - Apply assignment changes to all selected instances at once
+
+> **GIF Placeholder:** Demonstrate batch assignment execution with dropdown selection
+
+## Object Deletion
+
+Template Inspector provides the ability to delete objects from the drawing, but requires that objects be unused before deletion to ensure data integrity.
+
+### Deletion Workflow
+
+To delete objects safely:
+
+1. **Inspect Objects** - Use the inspection feature to identify which objects are currently in use
+2. **Select Unused Objects for Deletion** - Check the unused objects you want to delete
+3. **Execute Deletion** - Click 'Delete' to remove the unused objects from the drawing
+4. **Confirm Deletion** - A confirmation dialog will appear; confirm the action to proceed
+
+
+> **GIF Placeholder:** Demonstrate complete object deletion workflow
+
+### Deletion Requirements
+
+Before objects can be deleted:
+
+- **Unused Status** - Objects must be completely unused (no references or dependencies)
+- **Objects are not Constraint** - Objects are not constraint for deletion.

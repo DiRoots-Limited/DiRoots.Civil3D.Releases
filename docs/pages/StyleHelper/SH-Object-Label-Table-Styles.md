@@ -2,10 +2,10 @@
 layout: default
 title: Object, Label, and Table Styles
 parent: Style Helper User Guide
-nav_order: 2
+nav_order: 1
 ---
 
-# Object, Label, and Table Styles
+# Style Data Support: Object, Label, and Table Styles
 {: .no_toc }
 
 ## Table of contents
@@ -16,25 +16,113 @@ nav_order: 2
 
 ---
 
-## Editing Multiple Styles Simultaneously
+# Style Data Support: Object, Label, and Table Styles
 
-Style Helper supports editing multiple Civil 3D object styles, label styles, and table styles at the same time, all within a unified table interface.
+Style Helper displays the Civil 3D object styles, label styles, and table styles data in a table interface, where each row represents a style and each column shows a property. You can edit many of these properties directly within the table interface. Some properties are read only and can not be edited, the interface does not allow to edit them.
 
-### Steps to Edit Styles
-1. Select the "Object, Label, and Table Styles" tab in the Style Helper interface.
-2. Use the style selector to choose one or more object, label, or table styles to edit.
-3. The selected styles will appear as rows in the table interface.
-4. Edit the style data directly in the table. Changes are applied in real time.
+## Overview
 
-![Style Helper editing styles](../../../assets/images/StyleHelper/SH-EditStyles.gif)
-<sub>Note: the version on the image may not reflect the latest version of Style Helper.</sub>
+Style Helper provides three main tabs that correspond to the different types of styles available in Civil 3D. Each tab displays data in a table format where you can view and edit style properties directly.
 
-### Supported Style Types
-- Object styles (e.g., alignments, surfaces, corridors)
-- Label styles (e.g., alignment labels, surface labels)
-- Table styles (e.g., quantity takeoff tables, surface tables)
+The three tabs correspond to Civil 3D's style structure:
 
-### Benefits
-- Edit multiple styles in one place
-- Consistent interface for all style types
-- Save time and reduce errors by editing in bulk 
+- **Object Styles Tab** - Civil 3D object styles (surfaces, alignments, corridors, etc.)
+- **Label Styles Tab** - Civil 3D label styles (point labels, parcel labels, etc.)  
+- **Table Styles Tab** - Civil 3D table styles (quantity takeoff, surface tables, etc.)
+
+> **GIF Placeholder:** Show the three-tab interface and navigation between tabs and structure from C3D
+
+## Object Styles Tab
+
+Edit various Civil 3D object styles including display, geometry, analysis, and behavior properties:
+
+- **Surface Styles** - Display and analysis styles for surfaces
+- **Alignment Styles** - Display and annotation styles for alignments
+- **Corridor Styles** - Display and component styles for corridors
+- **Profile Styles** - Display and annotation styles for profiles
+- **Section Styles** - Display and annotation styles for sections
+- **Pipe Styles** - Display styles for pipes and structures
+
+*Note: The listed styles above are samples of the available object styles. There are many more object types and styles that can be edited in Style Helper.*
+
+> **GIF Placeholder:** Demonstrate editing different object style types and properties
+
+## Label Styles Tab
+
+Edit various Civil 3D label styles including text, line, block, and border components:
+
+- **Point Label Styles** - Annotation styles for points
+- **Line Label Styles** - Label styles for lines and curves
+- **Area Label Styles** - Label styles for areas and regions
+- **General Label Styles** - General annotation styles
+- **Profile Label Styles** - Label styles for profiles
+- **Section Label Styles** - Label styles for sections
+
+*Note: The listed styles above are samples of the available label styles. There are many more label types and styles that can be edited in Style Helper.*
+
+> **GIF Placeholder:** Demonstrate editing different label style types and components
+
+## Table Styles Tab
+
+Edit various Civil 3D table styles including table layout, column properties, header settings, and data formatting:
+
+- **Quantity Takeoff Tables** - Styles for quantity takeoff tables
+- **Surface Tables** - Styles for surface analysis tables
+- **Alignment Tables** - Styles for alignment tables
+- **Profile Tables** - Styles for profile tables
+- **Section Tables** - Styles for section tables
+- **Pipe Tables** - Styles for pipe and structure tables
+
+*Note: The listed styles above are samples of the available table styles. There are many more table types and styles that can be edited in Style Helper.*
+
+> **GIF Placeholder:** Demonstrate editing different table style types and properties
+
+## Component Column Reference
+
+The **Component column** is the fundamental object identification that applies to all three tabs. It uses a naming structure similar to the Civil 3D tree structure, making it easy to locate objects you're working on in Civil 3D.
+
+### Component Path Structure
+
+**Example Component Path:**
+```
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line
+```
+
+This path structure shows:
+- **Object Type** - "Alignment Styles" (matches Civil 3D tree)
+- **Object Name** - "Roadway Centerline Alignment Proposed - ATG" (matches Civil 3D tree)
+- **Subcomponents** - "Display/Plan/Line" (internal object structure)
+
+### Component Column Examples
+
+#### Object Styles Example
+```
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Curve
+Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Spiral
+```
+
+#### Label Styles Example
+```
+Point Label Styles/Point Label Style/Text/Text Contents
+Point Label Styles/Point Label Style/Line/Leader
+Point Label Styles/Point Label Style/Border/Background
+```
+
+#### Table Styles Example
+```
+Surface Table Styles/Surface Table Style/Table Layout/Header
+Surface Table Styles/Surface Table Style/Column Properties/Data
+Surface Table Styles/Surface Table Style/Data Properties/Formatting
+```
+
+### How Component Column Works
+
+The Component column helps you:
+- **Locate Objects** - Find exactly which object you're editing in Civil 3D
+- **Identify Subcomponents** - Understand the internal structure of objects
+- **Navigate Hierarchy** - Follow the parent-child relationships
+- **Match Civil 3D Structure** - Directly correlate with Civil 3D's tree structure
+
+> **GIF Placeholder:** Show Component column structure across all three tabs and Show how to use Component column to navigate Civil 3D tree structure
+

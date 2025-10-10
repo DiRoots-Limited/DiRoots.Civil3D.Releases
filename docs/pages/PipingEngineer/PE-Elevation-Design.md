@@ -2,7 +2,7 @@
 layout: default
 title: Elevation Design
 parent: Piping Engineer User Guide
-nav_order: 4
+nav_order: 3
 ---
 
 # Elevation Design
@@ -18,210 +18,133 @@ nav_order: 4
 
 # Elevation Design
 
-Piping Engineer provides system-aware piping elevation design capabilities that hold references during edits and offer options to auto-modify pipe elevation upstream/downstream.
+Piping Engineer provides advanced elevation design capabilities with auto-edition mode that includes hold reference options and automatic flow direction adjustments.
+
 
 ## Overview
 
-The Elevation Design feature enables precise control over piping network elevations while maintaining system integrity and connectivity. Key capabilities include:
+Elevation design allows you to:
+- Control piping network elevations with multiple reference strategies
+- Automatically adjust upstream/downstream pipes based on flow direction
+- Maintain system integrity during elevation modifications
 
-- **Reference holding** during elevation modifications
-- **Automatic upstream/downstream adjustments**
-- **System-aware elevation calculations**
-- **Slope validation** and optimization
-- **Bulk elevation operations**
+By modifying the 'Slope', 'Start Invert Elevation', 'End Invert Elevation' and using the Edition Modes inputs of 'Hold Reference' and 'Auto flow Edition', the user can design easilly their pipes in elevation.
 
-## System-aware Elevation Design
 
-### Understanding System Awareness
+## Elevation Design Modes
 
-Piping Engineer maintains awareness of the entire piping system when making elevation changes:
+### 1. Auto-Flow Edition Modes
+The auto flow edition modes allow to auto modify the pipes after the edited elements to maintain system connectivity.  The following options are allowed: 'All Branches Downstream', 'All Branches Upstream', 'Only Selection'.
 
-- **Network connectivity** is preserved during elevation modifications
-- **Flow direction** is considered in elevation calculations
-- **System type** influences elevation constraints and rules
-- **Connection points** are maintained at appropriate elevations
+Auto Flow Logic: 
+The modification to maintain the piping system connectivity moves the pipe system keeping the same slope. The pipe system is automatically moved up/down if the new edited pipe position doesn't longer allow the system to flow by gravity. See example Example 1, 2.
 
-![Piping Engineer system awareness](../../../assets\images\PipingEngineer\PE-SystemAwareness.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+### 1.1 All Branches Downstream
 
-### Reference Point Management
+Automatically adjust all downstream pipes from the edited ones to keep the connectivity. See workflow example 1.
+- Preserves the slopes of pipes downstream.
 
-The tool allows you to establish and maintain reference points during elevation design:
 
-1. **Select reference elements** (structures, fittings, or specific pipes)
-2. **Set reference elevations** that will remain fixed during modifications
-3. **Define elevation relationships** between connected elements
-4. **Maintain reference integrity** throughout the design process
+### 1.2 All Branches Upstream
 
-![Piping Engineer reference management](../../../assets\images\PipingEngineer\PE-ReferenceManagement.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+Automatically adjust all upstream pipes from the edited ones to keep the connectivity. See workflow example 2.
+- Preserves the slopes of the pipes upstream.
 
-## Elevation Modification Options
+### 1.3 Only Selection
 
-### Manual Elevation Adjustment
+- **Modify only selected elements** without affecting the rest of the system (as auto flow Upstream and Downstream). See workflow example 3.
 
-Direct control over individual pipe and structure elevations:
 
-Steps:
-1. Select the pipe or structure you want to modify
-2. Enter the new elevation value
-3. Choose how to handle connected elements:
-   - **Maintain connections** (adjust connected elements automatically)
-   - **Break connections** (create gaps that need manual resolution)
-   - **Hold references** (keep reference points fixed)
+### 2. Hold Reference Modes
 
-![Piping Engineer manual elevation](../../../assets\images\PipingEngineer\PE-ManualElevation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+The tool has the following options to hold or keep an existing reference so the pipes are modified maintaining their current reference elevation or slope 
 
-### Automatic Upstream/Downstream Modification
+### 2.1 Hold Reference: Pipe Highest Point
 
-Intelligent elevation adjustments that propagate through the network:
+Holds the highest point from the edited pipes as the elevation reference and allows to adjusts the slope. The user can modify multiple rows slope at the same time.
 
-#### Upstream Modification
 
-When modifying a pipe elevation, automatically adjust upstream elements:
+### 2.2 Hold Reference: Pipe Lowest Point
 
-- **Maintain slope requirements** for upstream pipes
-- **Adjust structure elevations** as needed
-- **Preserve flow direction** and system integrity
-- **Apply slope constraints** based on system type
+Holds the lowest point from the edited pipes as the elevation reference and allows to adjusts the slope. The user can modify multiple rows slope at the same time.
 
-![Piping Engineer upstream modification](../../../assets\images\PipingEngineer\PE-UpstreamModification.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-#### Downstream Modification
+### 2.3 Hold Slope
 
-When modifying a pipe elevation, automatically adjust downstream elements:
+Holds the slope of the edited pipes. The user can adjust start/end elevations and moves the entire system up/down with the difference value.
 
-- **Maintain slope requirements** for downstream pipes
-- **Adjust structure elevations** as needed
-- **Preserve flow direction** and system integrity
-- **Apply slope constraints** based on system type
+- Move entire system up or down while preserving slopes. Value moved is the difference between the edited and previous value.
+- Only elevation values can be changed
 
-![Piping Engineer downstream modification](../../../assets\images\PipingEngineer\PE-DownstreamModification.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-## Slope Integration
+### 2.4 Hold Reference: Pipe Start or Pipe End
 
-### Slope-aware Elevation Design
+Holds the pipe start or pipe end as the elevation reference, the user can alternativally modify the slope holding the same pipe start or end reference:
 
-Elevation modifications automatically consider slope requirements:
+- **Pipe Start**. References the starting point elevation of the pipe
+- **Pipe End**. Reference the ending point elevation of the pipe
+- In this mode the user can modify the elevations directly using the edition modes 
 
-```yaml
-# Slope Considerations:
-- Minimum slope requirements for different pipe types
-- Maximum slope constraints for system integrity
-- Optimal slope ranges for efficient flow
-- Slope transitions at connection points
-```
 
-![Piping Engineer slope integration](../../../assets\images\PipingEngineer\PE-SlopeIntegration.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+## General Workflow
 
-### Slope Validation
+1. Refresh the latest data.
+2. Identify the pipes to move.
+3. Define the Hold Reference.
+2. Define the Auto Flow Edition.
+5. Set the pipe(s) new values.
+4. Apply changes.
 
-Real-time validation ensures elevation changes meet slope requirements:
+## Workflow Examples
 
-- **Pre-modification checks** to identify potential slope violations
-- **Real-time feedback** during elevation adjustments
-- **Automatic slope optimization** suggestions
-- **Error reporting** for slope constraint violations
+### Example 1: Adjusting Multiple Pipes Slope and Auto Editing Downstream
 
-![Piping Engineer slope validation](../../../assets\images\PipingEngineer\PE-SlopeValidation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+-  **Identify pipes** that need adjustment
+-  **Set Hold Reference and Auto-flow edition modes**. Set the hold reference to the highest point of edited pipes. Set auto-flow edition** to "All Branches Downstream"
+-  **Set pipe new values** Enter new slope in multiple pipes (e.g., 3%,)
+-  **Apply changes** - system adjusts selected pipes and all downstream pipes
 
-## Bulk Elevation Operations
 
-### Network-wide Elevation Adjustments
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HighestPoint-AllDownStream.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-Perform elevation modifications across entire networks or network segments:
+### Example 2: Adjusting Multiple Pipes Slope and Auto Editing Upstream
 
-1. **Select the network** or network segment
-2. **Choose the operation type**:
-   - **Offset elevation** (add/subtract a value)
-   - **Set absolute elevation** (set to specific values)
-   - **Scale elevation** (multiply by a factor)
-   - **Match reference** (align to reference elements)
-3. **Apply the changes** with automatic upstream/downstream adjustment
+- **Identify pipes** that need adjustment
+- **Set Hold Reference and Auto-flow edition modes** Set the hold reference to the lowest point of edited pipes. Set auto-flow edition** to "All Branches Upstream"
+- **Set pipe new values** Enter new slope in multiple pipes (e.g., 2.5%,)
+-  **Apply changes** - system adjusts selected pipes and all downstream pipes
 
-![Piping Engineer bulk elevation](../../../assets\images\PipingEngineer\PE-BulkElevation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-LowestPoint-AllUpStream.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-### Elevation Matching
+### Example 3: Moving System Down While Preserving Slopes
 
-Align multiple elements to reference elevations:
+- **Identify pipes** to modify. In this case the fist pipe or pipes of the system (for 'Only selection' mode) to move up or down 
+- **Set Hold Reference and Auto-flow edition modes** Set the hold reference to the 'Hold Slope'. Set auto-flow edition "Only Selection"
+- **Modify elevation** (e.g., from 648 to 650 - moving system up 2 units)
+- **Apply changes** - system moves up while preserving all slopes
 
-- **Match to structure** (align pipes to structure invert levels)
-- **Match to grade** (align to site topography)
-- **Match to floor** (align to building floor elevations)
-- **Match to reference pipe** (align to existing pipe elevations)
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldSlope-Only%20Selection.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-![Piping Engineer elevation matching](../../../assets\images\PipingEngineer\PE-ElevationMatching.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+### Example 4: Modifying Pipe Slope from Start/End Pipe Reference
 
-## Elevation Constraints
+- **Identify specific pipe** to modify
+- **Set Hold Reference and Auto-flow edition modes** Choose "Only Selection"** for auto-flow edition mode
+- **Modify  slope** as needed
+- **Apply changes** - Selected pipes are modified and system downstream or upstream based on auto-flow mode.
 
-### System-specific Constraints
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-Hold%20StartEnd%20update%20Elevation.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-Different piping systems have different elevation constraints:
+### Example 5: Modifying Pipes Holding their Start Elevation 
 
-```yaml
-# Sanitary Systems:
-- Minimum slope: 2% (0.02 ft/ft)
-- Maximum slope: 25% (0.25 ft/ft)
-- Cover depth requirements
-- Invert level constraints
+1. **Select specific pipe** to modify
+2. **Choose "Only Selection"** for auto-flow edition mode
+3. **Modify elevation** as needed
+4. **Apply changes** - Selected pipes are modified and system downstream or upstream based on auto-flow mode.
 
-# Storm Systems:
-- Minimum slope: 1% (0.01 ft/ft)
-- Maximum slope: 20% (0.20 ft/ft)
-- Cover depth requirements
-- Invert level constraints
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldStart%20UpdateSlope-Only%20Selection.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-# Water Systems:
-- Pressure considerations
-- Air vent requirements
-- Minimum cover depth
-- Maximum velocity constraints
-```
-
-![Piping Engineer elevation constraints](../../../assets\images\PipingEngineer\PE-ElevationConstraints.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Custom Constraint Management
-
-Define and apply custom elevation constraints:
-
-1. **Create constraint rules** for specific project requirements
-2. **Apply constraints** to selected elements or networks
-3. **Validate against constraints** before applying changes
-4. **Override constraints** when necessary with proper documentation
-
-![Piping Engineer custom constraints](../../../assets\images\PipingEngineer\PE-CustomConstraints.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-## Visualization and Preview
-
-### 3D Elevation Preview
-
-Visualize elevation changes before applying them:
-
-- **3D preview** of proposed elevation modifications
-- **Color-coded elevation** display
-- **Slope visualization** with gradient indicators
-- **Conflict highlighting** for potential issues
-
-![Piping Engineer 3D preview](../../../assets\images\PipingEngineer\PE-3DPreview.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Elevation Reports
-
-Generate detailed elevation reports:
-
-- **Elevation summary** for selected elements
-- **Slope analysis** and validation results
-- **Change log** of elevation modifications
-- **Constraint compliance** report
-
-![Piping Engineer elevation reports](../../../assets\images\PipingEngineer\PE-ElevationReports.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 

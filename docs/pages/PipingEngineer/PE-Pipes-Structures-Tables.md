@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Pipes and Structures Tables
+title: Pipe and Structure Data Tables
 parent: Piping Engineer User Guide
 nav_order: 2
 ---
 
-# Pipes and Structures Tables
+# Pipe and Structure Data Tables
 {: .no_toc }
 
 ## Table of contents
@@ -16,162 +16,73 @@ nav_order: 2
 
 ---
 
-# Pipes and Structures Tables
+# Pipe and Structure Data Tables
 
-The Pipes and Structures Tables feature allows you to edit pipes or structures data efficiently. You can add and customize multiple properties to the tables for comprehensive piping network management.
+Piping Engineer provides comprehensive table interfaces for managing pipes and structures with efficient data management and bulk operations capabilities.
 
 ## Overview
 
-Piping Engineer provides dedicated tables for managing both pipes and structures within your piping networks. These tables offer:
+Pipe and structure data tables allow you to:
 
-- **Bulk editing capabilities** for multiple pipes and structures
-- **Customizable property columns** to match your project requirements
-- **Real-time validation** of piping network integrity
-- **Mass property updates** across entire networks
+- Manage the pipes and structures data through independent table interfaces
+- Perform bulk operations on multiple elements
 
-## Selecting Pipes and Structures
 
-### Pipes Table
+## Features
 
-Steps:
-1. Select the "Pipes" tab in the Piping Engineer interface
-2. Choose your selection method:
-   - **Whole Network**: Select all pipes in the current piping system
-   - **Active View**: Select pipes visible in the current view
-   - **Current Selection**: Select only the pipes you've pre-selected in Revit
+### Selecting Network Data
 
-![Piping Engineer selecting pipes](../../../assets\images\PipingEngineer\PE-SelectPipes.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+The tool provides 3 modes to select your network data to display:
 
-### Structures Table
+- **By Selection of Pipes/Structures** - Select the objects to show.
+- **By Piping Network** - Select the network to display the data.
+- **By Pipe Run** - Select the initial and last Pipe/Structure.
 
-Steps:
-1. Select the "Structures" tab in the Piping Engineer interface
-2. Choose your selection method:
-   - **Whole Network**: Select all structures in the current piping system
-   - **Active View**: Select structures visible in the current view
-   - **Current Selection**: Select only the structures you've pre-selected in Revit
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-SelectingNetworkElements.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-![Piping Engineer selecting structures](../../../assets\images\PipingEngineer\PE-SelectStructures.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+### Rule Validation Display
 
-## Customizing Table Properties
+The tool displays hightligted in red background color the pipes/structures elements that are not complying with the rules
 
-### Adding Properties
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Display-Rules.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-You can customize the tables by adding specific properties that are relevant to your piping design workflow.
+# Quick Slope Override Rule 
 
-Steps:
-1. Click on the "Add Property" button in the table toolbar
-2. Select from available properties:
-   - **Instance Parameters**: Properties specific to individual pipes/structures
-   - **Type Parameters**: Properties shared by similar pipe/structure types
-   - **System Parameters**: Built-in Revit system properties
-   - **Custom Parameters**: User-defined project parameters
+Piping Engineer allows users to define a quick rule to check the slope range in the tool.
 
-![Piping Engineer adding properties](../../../assets\images\PipingEngineer\PE-AddProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Pipe%20Slope%20Override.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-### Property Categories
 
-The available properties are organized into categories for easy selection:
+### Refreshing Latest Data
 
-```yaml
-# Common Pipe Properties:
-- Diameter/Size
-- Material
-- System Type
-- Elevation
-- Slope
-- Flow Direction
-- Insulation
-- Fitting Type
+The tool has a refresh button to update the latest data from the file.
 
-# Common Structure Properties:
-- Structure Type
-- Elevation
-- Invert Level
-- Cover Depth
-- Material
-- Size/Dimensions
-- Connection Type
-```
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Refresh%20Latest%20Data.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-### Reordering Properties
+### Table Column Preferences Customization
 
-Use the arrows in the table header to reorder properties according to your workflow preferences.
+The tools allows you to customize the data columns you want to show in each of your tables.
 
-![Piping Engineer reordering properties](../../../assets\images\PipingEngineer\PE-ReorderProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Piping%20Preferences.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-## Editing Data
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Structure-Preferences.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
-### Bulk Editing
 
-Piping Engineer supports bulk editing operations for efficient network management:
 
-1. **Select multiple rows** in the table using Ctrl+Click or Shift+Click
-2. **Edit a cell** in the selected range
-3. **Apply to all selected** items simultaneously
 
-![Piping Engineer bulk editing](../../../assets\images\PipingEngineer\PE-BulkEdit.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
 
-### Validation
+### Basic Workflow
 
-The tool provides real-time validation to ensure network integrity:
+1. **Open Piping Engineer** from the DiRoots tab
+2. **Select Network** - Choose the piping network to work with
+3. **Choose Tool** - Select the appropriate tool (Elevation Design, Slope Validation, etc.)
+4. **Configure Settings** - Set up tool-specific parameters and options
+5. **Apply Changes** - Execute modifications and validate results
+6. **Save Profile** - Save configurations for future use
 
-- **Slope validation** against design standards
-- **Elevation consistency** checks
-- **Connection compatibility** verification
-- **System type** validation
-
-![Piping Engineer validation](../../../assets\images\PipingEngineer\PE-Validation.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-## Export and Import
-
-### Exporting Data
-
-You can export the table data to Excel for external analysis or collaboration:
-
-1. Click the "Export" button in the table toolbar
-2. Choose your export format (Excel, CSV)
-3. Select the destination folder
-4. The exported file will include all visible properties and their current values
-
-![Piping Engineer exporting data](../../../assets\images\PipingEngineer\PE-ExportData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Importing Data
-
-After external editing, you can import the data back to update your Revit model:
-
-1. Click the "Import" button in the table toolbar
-2. Select your edited file
-3. Review the changes in the preview window
-4. Apply the updates to your Revit model
-
-![Piping Engineer importing data](../../../assets\images\PipingEngineer\PE-ImportData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-## Search and Filter
-
-### Searching Properties
-
-Use the search box to quickly find specific properties in the table:
-
-![Piping Engineer searching properties](../../../assets\images\PipingEngineer\PE-SearchProperties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub>
-
-### Filtering Data
-
-Apply filters to focus on specific subsets of your piping network:
-
-- **System Type**: Filter by piping system (sanitary, storm, etc.)
-- **Material**: Filter by pipe/structure material
-- **Size Range**: Filter by diameter or dimensions
-- **Elevation Range**: Filter by elevation values
-
-![Piping Engineer filtering data](../../../assets\images\PipingEngineer\PE-FilterData.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of Piping Engineer/DiRootsOne](https://diroots.com/revit-plugins/dirootsone/).</sub> 

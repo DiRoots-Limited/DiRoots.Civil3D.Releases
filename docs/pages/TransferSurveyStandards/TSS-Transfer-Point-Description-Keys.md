@@ -16,41 +16,98 @@ nav_order: 2
 
 ---
 
-## Transferring Point Description Keys
+# Transfer Point Description Keys
 
-Transfer Survey Standards enables you to transfer Point Description Keys between Civil 3D projects, whether the source files are open or closed, while preserving all key configurations and associated data.
+Transfer Survey Standards allows Point Description Keys (PDKs) transfer between projects, allowing you to transfer PDK configurations between projects with property preservation.
 
-### Transfer Capabilities
-- **Open Files:** Transfer Point Description Keys from currently open Civil 3D drawings
-- **Closed Files:** Transfer Point Description Keys from closed Civil 3D files without opening them
-- **Multiple Sources:** Transfer from multiple source files simultaneously
-- **Selective Transfer:** Choose specific Point Description Keys to transfer
+## Overview
 
-### Steps to Transfer Point Description Keys
-1. **Select Source:** Choose the source Civil 3D file (open or closed)
-2. **Select Destination:** Choose the target file where Point Description Keys will be applied
-3. **Configure Transfer:** Select which Point Description Keys to transfer
-4. **Review and Confirm:** Review the transfer configuration before proceeding
-5. **Execute Transfer:** Apply the Point Description Keys to the destination file
+Transfer Point Description Keys allows you to:
+- Import PDK data from different sources
+- Edit data before transferring
+- Export current file settings or active interface settings
 
-![Transfer Survey Standards transfer point description keys](../../../assets/images/TransferSurveyStandards/TSS-TransferPointDescriptionKeys.gif)
-<sub>Note: the version on the image may not reflect the latest version of Transfer Survey Standards.</sub>
+## Import Options
 
-### Point Description Key Components
-- **Key Names:** Point description key identifiers and naming conventions
-- **Format Codes:** Format specifications for point descriptions
-- **Layer Assignments:** Layer assignments for different point types
-- **Point Styles:** Point style configurations and display properties
-- **Additional Properties:** Other associated properties and settings
+Transfer Survey Standards provides three main ways to import PDK data:
 
-### Transfer Options
-- **Complete Transfer:** Transfer all Point Description Keys
-- **Selective Transfer:** Choose specific keys or key categories
-- **Property Mapping:** Map properties between different naming conventions
-- **Conflict Resolution:** Handle conflicts between existing and transferred keys
+### 1. Import from Open File
 
-### Benefits
-- Maintain consistency across multiple survey projects
-- Standardize Point Description Keys across teams
-- Preserve all key properties during transfer
-- Work with both open and closed files efficiently 
+Import PDK data from currently open Civil 3D files:
+
+- **File Selection** - Select from currently open Civil 3D files
+- **Direct Import** - Import PDK data directly from open files
+
+> **GIF Placeholder:** Show import from open file process
+
+### 2. Import from Closed File
+
+Import PDK data from closed Civil 3D files:
+
+- **File Browser** - Browse and select closed Civil 3D files
+- **Data Extraction** - Extract PDK data from closed files
+- **Offline Import** - Import data without opening the source file
+
+> **GIF Placeholder:** Show import from closed file process
+
+### 3. Import from Excel
+
+Import PDK data from Excel files containing standards:
+
+- **Excel File Selection** - Select Excel files containing PDK data
+- **File Validation** - Validate Excel file format and content
+
+> **GIF Placeholder:** Show Excel file selection and import process
+
+## PDK Data
+
+### Showing PDK Data
+
+After importing, you can check on the left panel  PDK sets you want to view in the main table.
+
+
+By default, the main table displays the following columns for each Point Description Key: **Code**, **Point Style**, **Point Label Style**, **Format**, and **Layer**. You can customize your view by adding additional data columns through the preferences button, allowing you to see and work with extra properties relevant to your workflow.
+
+
+> **GIF Placeholder:** Show unified PDK data management and column preferences in action
+
+
+### Column Preferences
+
+You can edit the visible table by adding more preference columns as needed. This flexibility allows you to tailor the PDK data view to your workflow—simply add additional columns to track extra preferences, modify or reorder existing columns, and customize the table layout to fit your project requirements and improve visibility.
+
+> **GIF Placeholder:** Show column management
+
+## Editing PDK Data Before Transfer
+
+Transfer Survey Standards provides a unified data editing interface, allowing you to review and modify Point Description Key (PDK) data directly in the UI before transferring it to your target file.
+
+
+> **GIF Placeholder:** Show unified data editing and validation interface
+
+## Export to Excel
+
+Transfer Survey Standards provides Excel export functionality with two main export options to create and manage PDK standards.
+
+### Export Options
+
+Choose from two export sources:
+
+#### 1. Export Active UI Data
+
+Export the currently displayed and edited data from the UI:
+
+- **Current UI State** - Export data as it appears in the current UI table
+- **Edited Data** - Include any modifications made in the data editing interface
+
+> **GIF Placeholder:** Show export of active UI data
+
+#### 2. Export Open Active File
+
+Export PDK data directly from the currently open Civil 3D file:
+
+- **File-based Export** - Export data from the open Civil 3D file
+- **Original Data** - Export original PDK settings without UI modifications
+
+> **GIF Placeholder:** Show export of open active file data
+
