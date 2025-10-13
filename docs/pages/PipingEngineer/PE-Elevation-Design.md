@@ -135,7 +135,7 @@ Holds the pipe start or pipe end as the elevation reference, the user can altern
 - **Modify  slope** as needed
 - **Apply changes** - Selected pipes are modified and system downstream or upstream based on auto-flow mode.
 
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-Hold%20StartEnd%20update%20Elevation.gif)  
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-Hold%20StartEnd%20update%20Elevation.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
 
 ### Example 5: Modifying Pipes Holding their Start Elevation 
