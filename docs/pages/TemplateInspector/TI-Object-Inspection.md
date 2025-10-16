@@ -27,7 +27,6 @@ Object inspection allows you to:
 - Reassign or Swap object property
 - Identify unused objects for cleanup
 
-> **GIF Placeholder:** Show overview of object inspection interface
 
 ### Object Types Supported
 - **Layers** - Inspect layer assigment and usage 
@@ -46,7 +45,8 @@ The following scan case types are used to get the object usage throughout drawin
 - **Usage Detection** - Find all places where objects are used
 - **Reference Discovery** - Discover object references and dependencies
 
-> **GIF Placeholder:** Demonstrate object usage scanning
+![Main interface and basic navigation](../../../assets/images/GIFs/TI/Main-interface-and-basic-navigation.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Inspection Workflow
 
@@ -58,7 +58,8 @@ The inspector finds objects that reference the objects being inspected.
 4. **Examine Dependencies** - Examine object dependencies
 5. **Review Results** - Review inspection results
 
-> **GIF Placeholder:** Show complete inspection process
+![Show complete inspection process](../../../assets/images/GIFs/TI/Inspection-Workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Usage Display
 
@@ -77,7 +78,8 @@ The tools displays the references usage information in the following columns:
 - **Assigned Object** - Shows the assigned object that can be modified
 - **Count** - Displays usage count information for placed/created objects only
 
-> **GIF Placeholder:** Show four-column layout interface
+<!-- ![Four-column display interface](../../../assets/images/GIFs/TI/Four-column-display-interface.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub> -->
 
 ### Component Column Reference
 
@@ -89,7 +91,8 @@ The **Template Component column** identifies the Settings location from the Civi
 ```
 Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line
 ```
-> **GIF Placeholder:** Show the path in the tool and find the same setting in the C3D structure.
+<!-- ![Demonstrate object selection workflow](../../../assets/images/GIFs/TI/Demonstrate-object-selection-workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub> -->
 
 ## Missing Object Limitations
 

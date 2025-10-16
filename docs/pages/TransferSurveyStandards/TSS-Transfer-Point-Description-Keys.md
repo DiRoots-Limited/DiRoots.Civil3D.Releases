@@ -38,7 +38,8 @@ Import PDK data from currently open Civil 3D files:
 - **File Selection** - Select from currently open Civil 3D files
 - **Direct Import** - Import PDK data directly from open files
 
-> **GIF Placeholder:** Show import from open file process
+![Import from Open File](../../../assets/images/GIFs/TSS/Import-from-Open-File.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### 2. Import from Closed File
 
@@ -48,7 +49,8 @@ Import PDK data from closed Civil 3D files:
 - **Data Extraction** - Extract PDK data from closed files
 - **Offline Import** - Import data without opening the source file
 
-> **GIF Placeholder:** Show import from closed file process
+![Import from Closed File](../../../assets/images/GIFs/TSS/Import-from-Closed-File.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### 3. Import from Excel
 
@@ -57,7 +59,8 @@ Import PDK data from Excel files containing standards:
 - **Excel File Selection** - Select Excel files containing PDK data
 - **File Validation** - Validate Excel file format and content
 
-> **GIF Placeholder:** Show Excel file selection and import process
+![Import from Excel](../../../assets/images/GIFs/TSS/Import-from-Excel.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## PDK Data
 
@@ -69,21 +72,20 @@ After importing, you can check on the left panel  PDK sets you want to view in t
 By default, the main table displays the following columns for each Point Description Key: **Code**, **Point Style**, **Point Label Style**, **Format**, and **Layer**. You can customize your view by adding additional data columns through the preferences button, allowing you to see and work with extra properties relevant to your workflow.
 
 
-> **GIF Placeholder:** Show unified PDK data management and column preferences in action
-
-
 ### Column Preferences
 
 You can edit the visible table by adding more preference columns as needed. This flexibility allows you to tailor the PDK data view to your workflow—simply add additional columns to track extra preferences, modify or reorder existing columns, and customize the table layout to fit your project requirements and improve visibility.
 
-> **GIF Placeholder:** Show column management
+![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Editing PDK Data Before Transfer
 
 Transfer Survey Standards provides a unified data editing interface, allowing you to review and modify Point Description Key (PDK) data directly in the UI before transferring it to your target file.
 
 
-> **GIF Placeholder:** Show unified data editing and validation interface
+![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Export to Excel
 
@@ -100,7 +102,8 @@ Export the currently displayed and edited data from the UI:
 - **Current UI State** - Export data as it appears in the current UI table
 - **Edited Data** - Include any modifications made in the data editing interface
 
-> **GIF Placeholder:** Show export of active UI data
+![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 #### 2. Export Open Active File
 
@@ -109,5 +112,6 @@ Export PDK data directly from the currently open Civil 3D file:
 - **File-based Export** - Export data from the open Civil 3D file
 - **Original Data** - Export original PDK settings without UI modifications
 
-> **GIF Placeholder:** Show export of open active file data
+![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 

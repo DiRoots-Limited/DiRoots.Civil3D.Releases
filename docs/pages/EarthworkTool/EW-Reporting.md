@@ -35,7 +35,8 @@ Reporting features allow you to:
 
 
 
-> **GIF Placeholder:** Show Excel data structure and formatting
+![Excel data structure and formatting](../../../assets/images/GIFs/ET/Excel-data-structure-and-formatting.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ##  Table Creation
 
@@ -49,4 +50,5 @@ The tool can create tables directly in your drawings for documentation and prese
 3. **Insert Table** - Place table in drawing at specified location
 
 
-> **GIF Placeholder:** Show AutoCAD table creation process
+![AutoCAD table creation process](../../../assets/images/GIFs/ET/AutoCAD-table-creation-process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>

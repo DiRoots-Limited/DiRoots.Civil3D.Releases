@@ -35,7 +35,8 @@ Section configuration allows you to:
 
 Manage your Section list by creating new, setting a associated name to later refer to the configuration, duplicating and removing new types
 
-> **GIF Placeholder:** Demonstrate section list management buttons
+![Creating Duplicating and Removing](../../../assets/images/GIFs/GP/Creating-Duplicating-and-Removing.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Definition Methods
 
@@ -48,7 +49,8 @@ Define a point based on distance and offset:
 - **Distance** - Specify distance from the previous point or origin
 - **Height/Offset** - Specify offset values from the previous point or origin
 
-> **GIF Placeholder:** Demonstrate distance with offset method
+![Distance with Offset](../../../assets/images/GIFs/GP/Distance-with-Offset.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Distance with Slope
 
@@ -57,7 +59,8 @@ Define a point based on distance and slope:
 - **Distance** - Specify distance from the previous point or origin
 - **Slope Percentage** - Specify slope percentage for point or origin
 
-> **GIF Placeholder:** Show distance with slope method
+![Distance with Slope](../../../assets/images/GIFs/GP/Distance-with-Slope.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Offset with Slope
 
@@ -67,7 +70,8 @@ Define a point by offset and slope:
 - **Slope Percentage** - Specify slope percentage for point elevation
 
 
-> **GIF Placeholder:** Demonstrate offset with slope method
+![Offset with Slope](../../../assets/images/GIFs/GP/Offset-with-Slope.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Slope to Surface
 
@@ -76,7 +80,8 @@ Define points by slope from the previous point projected to the selected surface
 - **Offset from Path** - Specify offset distance from the reference path
 - **Slope Percentage** - Specify slope percentage for point elevation
 
-> **GIF Placeholder:** Demonstrate offset with slope method
+![Slope to Surface](../../../assets/images/GIFs/GP/Slope-to-Surface.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Point Management
 
@@ -84,20 +89,23 @@ Define points by slope from the previous point projected to the selected surface
 
 - The first point could be placed on the origin (0, 0) or at a distance offset from the origin.
 
-> **GIF Placeholder:** Show point addition process, previous description
+![Point Management First Point](../../../assets/images/GIFs/GP/Point-Management-First-Point.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Adding and Removing Points
 
 Add or remove points to section setups:
 
-> **GIF Placeholder:** Show point  process
+![Point Management Adding and Removing Points](../../../assets/images/GIFs/GP/Point-Management-Adding-and-Removing-Points.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 
 ### Reordering Points
 
 Reorder points in section definitions:
 
-> **GIF Placeholder:** Show point reordering
+![Point Management Reordering Points](../../../assets/images/GIFs/GP/Point-Management-Reordering-Points.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Object Feature Line Integration
 
@@ -131,7 +139,8 @@ Follow these steps to add feature lines to your section definitions:
 5. **Set Orientation**  
    Define the orientation by selecting which end or direction the feature line should follow. Adjust rotation or placement as needed to ensure the feature line aligns correctly with your section design.
 
-> **GIF Placeholder:** Demonstrate the full process of integrating a feature line, including origin point selection and orientation control.
+![Object Feature Line Integration](../../../assets/images/GIFs/GP/Object-Feature-Line-Integration.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Applications
 

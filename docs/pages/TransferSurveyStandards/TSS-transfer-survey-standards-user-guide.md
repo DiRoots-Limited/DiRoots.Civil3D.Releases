@@ -34,4 +34,5 @@ Transfer Survey Standards helps you transfer your Civil 3D survey standards data
 4. **Edit Data** (if needed) - Modify values before applying
 5. **Apply Changes** - Transfer data to target files
 
-> **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes
+![Basic Workflow](../../../assets/images/GIFs/TSS/Basic-Workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>

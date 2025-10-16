@@ -42,7 +42,8 @@ The 'Add Surface Grading' button is the primary function that initiates the surf
 
 After adding a surface grading, choose existing surfaces to modify from your Civil 3D project or create a new one:
 
-> **GIF Placeholder:** Show surface selection process and new creation
+![Surface Selection And Creation](../../../assets/images/GIFs/GP/Surface-Selection-And-Creation.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Section Reference
 
@@ -71,7 +72,8 @@ Select the option that best fits your scenario. The interface will display these
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil3D-plugins/DiCivil/).</sub>
 
 
-> **GIF Placeholder:** Demonstrate section reference path selection options
+![Section Reference](../../../assets/images/GIFs/GP/Section-Reference.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Grading Type Name
 
@@ -98,7 +100,8 @@ The Feature Line Settings panel allows you to configure how feature lines are cr
 - **Assign Feature Line Style** – Choose the style to apply to generated feature lines.
 - **Layer Assignment** – Set the layer for output feature lines.
 
-> **GIF Placeholder:** Demonstrate feature line setup, site creation and properties assignment to feature lines
+![Feature Line Settings](../../../assets/images/GIFs/GP/Feature-Line-Settings.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 
 ### Accessing Grading and Section Setups
@@ -119,7 +122,8 @@ Execute the surface modifications with your configured settings:
 - **Apply Grading** - Click on the  'Apply' button will set the grading on the checked grading setups.
 - **Results Confirmation** - The status column shows the status of each executed grading 
 
-> **GIF Placeholder:** Show the complete application process and results
+![Overview](../../../assets/images/GIFs/GP/Overview.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Profile Modification
 

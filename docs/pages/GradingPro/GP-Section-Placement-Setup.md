@@ -35,7 +35,8 @@ Manage your Section Placement list by creating new, setting a associated name to
 
 
 
-> **GIF Placeholder:** Demonstrate section list management buttons
+![Manage Section Placement Items Creating Duplicating and Removing](../../../assets/images/GIFs/GP/Manage-Section-Placement-Items-Creating-Duplicating-and-Removing.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Individual Section Placements
 
@@ -55,7 +56,8 @@ Configure individual section placement settings:
 
 
 
-> **GIF Placeholder:** Demonstrate Section Placement Setup, including entering a value in the 'First Station' column and using the station picker tool.
+![Creating Individual Section Placements](../../../assets/images/GIFs/GP/Creating-Individual-Section-Placements.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 > **Note:** You can also add a station directly from the main UI, as described in the "Creating Individual Section Placements from Main UI" section at the end of this page.
 
@@ -81,7 +83,8 @@ For the previous inputs, the value can be typed directly or selected using the s
 
 - **Station Selection Buttons** - Select precise station locations from the drawing for Range Start, Range End, and First Station. These features allow the user to pick exact point locations from the drawing for each range parameter.
 
-> **GIF Placeholder:** Demonstrate Range-based Section Placement Setup, including entering values in the 'Range Start', 'Range End', 'First Station', and 'Station Interval' columns and using the station picker tools.
+![Creating Range-based Section Placements](../../../assets/images/GIFs/GP/Creating-Range-based-Section-Placements.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Additional Input Settings
 
@@ -92,7 +95,8 @@ Configure section placement orientation and side:
 - **Side Selection** - Choose which side of the path to place sections. Right, Left or Both sides
 - **Angle Definition** - Define the angle of section placement
 
-> **GIF Placeholder:** Demonstrate side and angle settings update and run the tool after updating it
+![Side and Angle Settings](../../../assets/images/GIFs/GP/Side-and-Angle-Settings.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Creating Individual Section Placements from Main UI
 
@@ -105,5 +109,6 @@ You can create multiple individual stations directly from the main interface usi
 
 This provides a fast and intuitive way to place individual stations without navigating to separate setup dialogs. After creation, the user can go to the settings to make any update.
 
-> **GIF Placeholder:** Demonstrate individual section placement creation
+![Creating Individual Section Placements from Main UI](../../../assets/images/GIFs/GP/Creating-Individual-Section-Placements-from-Main-UI.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 

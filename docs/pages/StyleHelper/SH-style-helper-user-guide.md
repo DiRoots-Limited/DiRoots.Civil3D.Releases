@@ -46,7 +46,8 @@ Style Helper provides three main tabs for different style types:
 5. **Edit Data** - Modify style data directly in the table where possible. Some data cannot be modified as it is read-only.
 6. **Save Profile** - Save column configurations for reuse
 
-> **GIF Placeholder:** Demonstrate the complete workflow from opening to saving a profile
+![Complete workflow from opening to saving a profile](../../../assets/images/GIFs/SH/Complete-workflow-from-opening-to-saving-a-profile.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Documentation Structure
 

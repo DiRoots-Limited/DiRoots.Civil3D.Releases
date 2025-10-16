@@ -47,7 +47,8 @@ After accessing the preferences, you can:
 - **Reorder Columns** - Arrange columns in preferred order
 
 
-> **GIF Placeholder:** Show table customization and profile management
+![Table customization and profile management](../../../assets/images/GIFs/SH/Table-customization-and-profile-management.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Data Editing for the Different Tabs
 
@@ -63,9 +64,14 @@ Edit Civil 3D object style property data directly in the table:
 4. **Edit Properties** - Modify style properties directly in the table
 5. **Save Changes** - Changes are applied
 
-> **GIF Placeholder:** Show Object Styles tab editing process
-> **GIF Placeholder:** Show Styles tab editing process
-> **GIF Placeholder:** Show Table Styles tab editing process
+![Object Styles tab editing process](../../../assets/images/GIFs/SH/Object-Styles-tab-editing-process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+![Label Styles tab editing process](../../../assets/images/GIFs/SH/Label-Styles-tab-editing-process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+![Table Styles tab editing process](../../../assets/images/GIFs/SH/Table-Styles-tab-editing-process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Batch Editing
 
@@ -76,14 +82,14 @@ Edit multiple objects, style or table rows simultaneously for efficient workflow
 #### Selection Process
 - **Multi-selection** - Select multiple rows in the table
 - **Bulk Modifications** - Apply changes to one column object and the change will be propagated to the set of selected rows at once
-- **Validate Changes** - Ensure consistent changes across all selected items
 - **Efficiency** - Save time with bulk operations
 
 - **Visual Validation** - See which objects or rows are affected by changes based on the status column
 
 - **Apply Changes** - Apply changes to the modified items
 
-> **GIF Placeholder:** Show multiple row data editing process for both objects and table rows
+![Multi-row editing process](../../../assets/images/GIFs/SH/Multi-row-editing-process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Main Component–Subcomponent Relationships in Batch Editing
 
@@ -101,7 +107,8 @@ Since the tool displays all subcomponents, some data may be associated with the 
 
 > **Note:** To identify which rows represent subcomponents or main components during batch editing, refer to the **Component** column in the table. The structure and naming in the Component column are explained in the following reference: [Component Column Reference](SH-Object-Label-Table-Styles.md#component-column-reference)
 
-> **GIF Placeholder:** Show main component–subcomponent relationship editing and its impact on multiple rows
+<!-- ![Parent-child relationship editing and its impact on multiple rows](../../../assets/images/GIFs/SH/Parent-child-relationship-editing-and-its-impact-on-multiple-rows.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub> -->
 
 ## Missing Object Limitations
 
@@ -124,6 +131,6 @@ Civil 3D has hierarchical component structures for label styles:
 - **Parent label Styles** - Main style objects (e.g., Point Label Styles)
 - **Child Label Style** - Inside the parent label style it could have additional nested children and subchildren label styles. We are also supporting these
 
-Style Helper supports children label styles editing capabilities.
 
-> **GIF Placeholder:** Display support for the parent-child label style relationship structure
+<!-- ![Overview of editing features](../../../assets/images/GIFs/SH/Overview-of-editing-features.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub> -->

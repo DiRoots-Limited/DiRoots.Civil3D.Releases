@@ -39,7 +39,6 @@ Export data for external editing:
 - **External Editing** - Edit data in Excel environment
 - **Data Preservation** - Preserve all layer data and properties
 
-> **GIF Placeholder:** Demonstrate export to Excel
 
 ### Export Workflow
 
@@ -51,7 +50,8 @@ Export data for external editing:
 6. **Share & Collaborate** - Share file with team members for external editing (optional)
 7. **Collect Updates** - Collect changes from team members and import back to tool (optional)
 
-> **GIF Placeholder:** Demonstrate standard export workflow
+![Export Process](../../../assets/images/GIFs/DL/Export-Process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 
 ## Import Process
@@ -68,7 +68,6 @@ The import process provides comprehensive data import capabilities with automati
 - **Validation** - Validate imported data and detected changes for accuracy
 - **Custom Options** - Create custom import configurations as needed
 
-> **GIF Placeholder:** Demonstrate standard import process
 
 ### Import Workflow
 
@@ -78,21 +77,5 @@ The import process provides comprehensive data import capabilities with automati
 4. **Validate Data** - Validate imported data and changes
 5. **Apply Changes** - Apply verified changes to layer data
 
-> **GIF Placeholder:** Demonstrate standard import workflow
-
-## Complete Import Export Workflow
-
-The complete import export workflow:
-
-1. **Export Phase**
-   - Export layer data to Excel
-   - Share file with team members
-   - Allow external editing in Excel
-
-2. **Import Phase**
-   - Receive updated files from team members
-   - Import changes with automatic detection
-   - Review and validate all changes
-   - Apply verified updates to layer data
-
-> **GIF Placeholder:** Demonstrate complete collaborative import export cycle
+![Import Process](../../../assets/images/GIFs/DL/Import-Process.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>

@@ -48,4 +48,5 @@ The Drawing Layers tool opens with two main tabs:
 5. **Review Changes** - Check highlighted changes before applying
 6. **Apply Updates** - Confirm and apply changes to layer data
 
-> **GIF Placeholder:** Demonstrate the complete workflow from opening to applying changes
+![Basic Workflow](../../../assets/images/GIFs/DL/Basic-Workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>

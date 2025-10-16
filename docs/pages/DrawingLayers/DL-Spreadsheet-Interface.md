@@ -48,7 +48,8 @@ Edit layer properties directly in the spreadsheet interface:
 - **Linetype Properties** - Change linetype settings
 - **Other Properties** - Edit any layer property value
 
-> **GIF Placeholder:** Demonstrate selecting a filter and editing layer properties
+![Active Layers Tab](../../../assets/images/GIFs/DL/Active-Layers-Tab.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 
 ## Layer States Tab
@@ -73,7 +74,8 @@ Once selected, modify the properties of the chosen layer states directly in the 
 - **Edit Properties** - Change layer names, color and linetype overrides, visibility (on/off, freeze/thaw, lock/unlock), and plot settings.
 - **In-Place Editing** - All changes are made directly in the spreadsheet for fast and comprehensive management.
 
-> **GIF Placeholder:** Demonstrate modifying state data
+![Layer States Tab](../../../assets/images/GIFs/DL/Layer-States-Tab.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Spreadsheet Interface Features
 
@@ -86,12 +88,14 @@ Familiar spreadsheet format with rows and columns:
 - **Navigation** - Navigate through data using standard spreadsheet controls
 - **Selection** - Select individual cells, rows, or columns
 
-> **GIF Placeholder:** Demonstrate grid layout and navigation
+![Active Layers Tab](../../../assets/images/GIFs/DL/Active-Layers-Tab.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Formula Support
 Excel-like formula functionality:
 
-> **GIF Placeholder:** Demonstrate advanced formula support
+![Spreadsheet Interface Features Formula Support](../../../assets/images/GIFs/DL/Spreadsheet-Interface-Features-Formula-Support.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Visual Change Tracking
 
@@ -99,7 +103,8 @@ Track changes with visual indicators:
 
 When you make changes in the spreadsheet interface, any modified values are immediately highlighted in green, making it easy to spot edits. 
 
-> **GIF Placeholder:** Demonstrate visual change tracking
+![Spreadsheet Interface Features Visual Change Tracking](../../../assets/images/GIFs/DL/Spreadsheet-Interface-Features-Visual-Change-Tracking.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Bulk Operations
 
@@ -107,4 +112,4 @@ Efficient bulk editing capabilities:
 
 Bulk operations in the Active Layers tab allow you to efficiently edit multiple layers at once. You can select several cells simultaneously to perform edits across a range of data. Formulas can be applied to multiple rows, enabling quick and consistent updates to layer properties.
 
-> **GIF Placeholder:** Show bulk operations
+

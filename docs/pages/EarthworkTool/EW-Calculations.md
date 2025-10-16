@@ -48,7 +48,8 @@ Full surface calculation allows you to:
 4. **Select Proposed/Future Surface** – Choose the design or future ground surface representing post-construction conditions.
 5. Click the **Execute** button to run the calculation and generate cut and fill volumes.
 
-> **GIF Placeholder:** Show the complete workflow from opening the tool to reviewing the calculated results
+![Full Volume Surface Workflow](../../../assets/images/GIFs/ET/Full-Volume-Surface-Workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 #### Calculation Results
 
@@ -107,7 +108,8 @@ The region workflow combines parent and child regions to create a hierarchical c
    - Results include cut/fill volumes with stripping consideration
    - Type column shows "Child Region" for identification
 
-> **GIF Placeholder:** Show integrated parent-child region creation and management workflow
+![Integrated parent-child region creation and management workflow](../../../assets/images/GIFs/ET/Integrated-parent-child-region-creation-and-management-workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ### Integrated Workflow Example: Construction Phasing
 

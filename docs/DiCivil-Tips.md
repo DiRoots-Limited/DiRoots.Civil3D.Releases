@@ -24,7 +24,7 @@ Now that you know DiCivil and have installed it, let's learn some good practices
 DiCivil plugins allow you to work with Civil 3D while keeping the plugin window open, but you can get more space to work with Civil 3D. All you have to do is double-click on the window header to Collapse and Expand it.
 
 ![Collapse and Expand window](../assets/images/Tips/Collapse-and-Expand-window.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil3D-plugins/DiCivil/).</sub>
 
 ## Reset Functionality
 
@@ -51,8 +51,8 @@ Click on the column header and sort it by number or alphabetically.  Note that n
 
 DiCivil plugins have a great advantage for making bulk actions and saving time. To make it simpler, you don't need to select row by row. Just select one, press the Shift button on your keyboard, and then select the last row. Now you have several rows selected to perform the batch actions.
 
-![Select multiple rows](../assets/images/Tips/Select-multiple-rows.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+<!-- ![Select multiple rows](../assets/images/Tips/Select-multiple-rows.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub> -->
 
 ## Double-click in Preferences User Interface
 

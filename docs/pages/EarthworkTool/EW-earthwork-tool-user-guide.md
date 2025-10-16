@@ -51,7 +51,8 @@ The Earthwork Tool is accessed through the DiRoots tab in Civil 3D. The main UI 
 6. **Review Results** - Check cut/fill volumes and totals
 7. **Create Reports** - Export data to Excel or create Civil3D tables
 
-> **GIF Placeholder:** Demonstrate the complete workflow from opening to reviewing results
+![Demonstrate the complete workflow](../../../assets/images/GIFs/ET/Demonstrate-the-complete-workflow.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Documentation Structure
 
