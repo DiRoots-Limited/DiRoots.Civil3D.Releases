@@ -18,7 +18,7 @@ nav_order: 6
 
 # Profile
 
-Piping Engineer profile make it easy to save your settings and reuse them later.
+Piping Engineer profile makes it easy to save your settings and reuse them later.
 
 ## What's saved in the profile
 

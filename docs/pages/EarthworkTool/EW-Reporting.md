@@ -23,15 +23,15 @@ The Earthwork Tool provides the Excel export functionality for detailed analysis
 ## Overview
 
 Reporting features allow you to:
-- Export table data to Excel for further analysis
-- Create AutoCAD tables for drawings
+- Export table data to Excel for further analysis.
+- Create AutoCAD tables for drawings.
 
 
 ## Excel Export
 
 #### Export Process
-1. **Export Calculations** - After your data is ready, click on 'Export to Excel' button   
-2. **Generates Excel File** - Creates formatted Excel workbook
+1. **Export Calculations** - After your data is ready, click on 'Export to Excel' button.
+2. **Generates Excel File** - Creates formatted Excel workbook.
 
 
 
@@ -45,9 +45,9 @@ Reporting features allow you to:
 The tool can create tables directly in your drawings for documentation and presentation.
 
 #### Table Creation Process
-1. **Create Table** - After your data is ready, click on 'Create Table' button   
-2. **Set Table Style** - Set table style
-3. **Insert Table** - Place table in drawing at specified location
+1. **Create Table** - After your data is ready, click on 'Create Table' button.
+2. **Set Table Style** - Set table style.
+3. **Insert Table** - Place table in drawing at specified location.
 
 
 ![AutoCAD table creation process](../../../assets/images/GIFs/ET/AutoCAD-table-creation-process.gif)

@@ -24,16 +24,16 @@ Grading Pro provides a section setup capability with multiple definition methods
 
 Section configuration allows you to:
 - Create Section types that can be reused across projects.
-- Define sections using multiple methods (distance with offset, distance with slope, offset with slope, slope to surface)
-- Setup section points efficiently with add, remove, and reorder capabilities
+- Define sections using multiple methods (distance with offset, distance with slope, offset with slope, slope to surface).
+- Setup section points efficiently with add, remove, and reorder capabilities.
 - Shows each point location on the section view.
-- Add feature lines as objects in your section definitions for greater control and flexibility
+- Add feature lines as objects in your section definitions for greater control and flexibility.
 
 ## Manage Sections
 
 ### Creating, Duplicating and Removing
 
-Manage your Section list by creating new, setting a associated name to later refer to the configuration, duplicating and removing new types
+Manage your Section list by creating new, setting an associated name to later refer to the configuration, duplicating and removing new types.
 
 ![Creating Duplicating and Removing](../../../assets/images/GIFs/GP/Creating-Duplicating-and-Removing.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -46,8 +46,8 @@ After creating a new section, select on the left and start adding points in the 
 
 Define a point based on distance and offset:
 
-- **Distance** - Specify distance from the previous point or origin
-- **Height/Offset** - Specify offset values from the previous point or origin
+- **Distance** - Specify distance from the previous point or origin.
+- **Height/Offset** - Specify offset values from the previous point or origin.
 
 ![Distance with Offset](../../../assets/images/GIFs/GP/Distance-with-Offset.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -56,8 +56,8 @@ Define a point based on distance and offset:
 
 Define a point based on distance and slope:
 
-- **Distance** - Specify distance from the previous point or origin
-- **Slope Percentage** - Specify slope percentage for point or origin
+- **Distance** - Specify distance from the previous point or origin.
+- **Slope Percentage** - Specify slope percentage for point or origin.
 
 ![Distance with Slope](../../../assets/images/GIFs/GP/Distance-with-Slope.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -66,8 +66,8 @@ Define a point based on distance and slope:
 
 Define a point by offset and slope:
 
-- **Height/Offset** - Specify offset values from the previous point or origin
-- **Slope Percentage** - Specify slope percentage for point elevation
+- **Height/Offset** - Specify offset values from the previous point or origin.
+- **Slope Percentage** - Specify slope percentage for point elevation.
 
 
 ![Offset with Slope](../../../assets/images/GIFs/GP/Offset-with-Slope.gif)
@@ -77,8 +77,8 @@ Define a point by offset and slope:
 
 Define points by slope from the previous point projected to the selected surface:
 
-- **Offset from Path** - Specify offset distance from the reference path
-- **Slope Percentage** - Specify slope percentage for point elevation
+- **Offset from Path** - Specify offset distance from the reference path.
+- **Slope Percentage** - Specify slope percentage for point elevation.
 
 ![Slope to Surface](../../../assets/images/GIFs/GP/Slope-to-Surface.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -114,10 +114,10 @@ Grading Pro allows you to add feature lines as objects in your section definitio
 ### Overview
 
 Feature line integration enables you to:
-- Use existing feature lines of platforms, or other geometric objects as part of your section definitions
-- Maintain exact geometry from existing designs while incorporating them into new grading scenarios
-- Achieve precise control over complex geometric forms
-- Ensure design consistency with existing elements
+- Use existing feature lines of platforms, or other geometric objects as part of your section definitions.
+- Maintain exact geometry from existing designs while incorporating them into new grading scenarios.
+- Achieve precise control over complex geometric forms.
+- Ensure design consistency with existing elements.
 
 
 ### Adding Object Feature Lines into Sections
@@ -146,4 +146,4 @@ Follow these steps to add feature lines to your section definitions:
 
 Feature line integration supports various grading design scenarios.
 
-- **Reusable Objects** - Create standard feature line elements that can be applied across multiple sections, saving time while maintaining consistent design quality and workflow efficiency
+- **Reusable Objects** - Create standard feature line elements that can be applied across multiple sections, saving time while maintaining consistent design quality and workflow efficiency.

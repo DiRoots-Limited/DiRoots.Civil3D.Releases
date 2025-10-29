@@ -26,3 +26,6 @@
 -TOL: To Export of open active file data, don't load anything as it is not required
 
 -TSS: missing videos in TSS-Transfer-Point-Description-Keys
+
+Basically the model of the brain is based on 3 main areas. Racional area or Ego that has a defense mechanism, the inner or igninte and a superego or morality that is full of subconsious.
+

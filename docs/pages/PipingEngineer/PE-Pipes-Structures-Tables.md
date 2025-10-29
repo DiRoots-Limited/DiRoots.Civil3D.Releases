@@ -24,8 +24,8 @@ Piping Engineer provides comprehensive table interfaces for managing pipes and s
 
 Pipe and structure data tables allow you to:
 
-- Manage the pipes and structures data through independent table interfaces
-- Perform bulk operations on multiple elements
+- Manage the pipes and structures data through independent table interfaces.
+- Perform bulk operations on multiple elements.
 
 
 ## Features
@@ -43,7 +43,7 @@ The tool provides 3 modes to select your network data to display:
 
 ### Rule Validation Display
 
-The tool displays hightligted in red background color the pipes/structures elements that are not complying with the rules
+The tool hightligts the pipes/structures elements that are not complying with the rules in red background color 
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Display-Rules.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
@@ -79,10 +79,10 @@ The tools allows you to customize the data columns you want to show in each of y
 
 ### Basic Workflow
 
-1. **Open Piping Engineer** from the DiRoots tab
-2. **Select Network** - Choose the piping network to work with
-3. **Choose Tool** - Select the appropriate tool (Elevation Design, Slope Validation, etc.)
-4. **Configure Settings** - Set up tool-specific parameters and options
-5. **Apply Changes** - Execute modifications and validate results
-6. **Save Profile** - Save configurations for future use
+1. **Open Piping Engineer** - From the DiRoots tab.
+2. **Select Network** - Choose the piping network to work with.
+3. **Choose Tool** - Select the appropriate tool (Elevation Design, Slope Validation, etc.).
+4. **Configure Settings** - Set up tool-specific parameters and options.
+5. **Apply Changes** - Execute modifications and validate results.
+6. **Save Profile** - Save configurations for future use.
 

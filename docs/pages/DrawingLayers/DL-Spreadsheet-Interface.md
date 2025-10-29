@@ -43,10 +43,10 @@ Begin by selecting the desired layer filter to display a specific set of layers 
 
 Edit layer properties directly in the spreadsheet interface:
 
-- **Layer Names** - Edit layer names and identifiers
-- **Color Settings** - Modify layer colors
-- **Linetype Properties** - Change linetype settings
-- **Other Properties** - Edit any layer property value
+- **Layer Names** - Edit layer names and identifiers.
+- **Color Settings** - Modify layer colors.
+- **Linetype Properties** - Change linetype settings.
+- **Other Properties** - Edit any layer property value.
 
 ![Active Layers Tab](../../../assets/images/GIFs/DL/Active-Layers-Tab.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -83,10 +83,10 @@ Once selected, modify the properties of the chosen layer states directly in the 
 
 Familiar spreadsheet format with rows and columns:
 
-- **Row and Column Structure** - Standard spreadsheet grid layout
-- **Direct Cell Editing** - Click and edit data directly in cells
-- **Navigation** - Navigate through data using standard spreadsheet controls
-- **Selection** - Select individual cells, rows, or columns
+- **Row and Column Structure** - Standard spreadsheet grid layout.
+- **Direct Cell Editing** - Click and edit data directly in cells.
+- **Navigation** - Navigate through data using standard spreadsheet controls.
+- **Selection** - Select individual cells, rows, or columns.
 
 ![Active Layers Tab](../../../assets/images/GIFs/DL/Active-Layers-Tab.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>

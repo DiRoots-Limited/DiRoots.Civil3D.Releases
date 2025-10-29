@@ -23,9 +23,9 @@ Grading Pro provides Section Placement Setup capabilities for creating and organ
 ## Overview
 
 Section placement setup allows you to:
-- Create individual section placements at specific locations
-- Generate range-based section placements with intervals
-- Configure side and angle settings for section placement
+- Create individual section placements at specific locations.
+- Generate range-based section placements with intervals.
+- Configure side and angle settings for section placement.
 
 ## Manage Section Placement Items
 
@@ -46,7 +46,7 @@ After defining the Section Placement Item, the user can add multiple individual 
 
 Create section placements at specific locations:
 
-- **Add Individual Station** - Create individual section from the 'Individual' button
+- **Add Individual Station** - Create individual section from the 'Individual' button.
 
 Configure individual section placement settings:
 
@@ -92,8 +92,8 @@ For the previous inputs, the value can be typed directly or selected using the s
 
 Configure section placement orientation and side:
 
-- **Side Selection** - Choose which side of the path to place sections. Right, Left or Both sides
-- **Angle Definition** - Define the angle of section placement
+- **Side Selection** - Choose which side of the path to place sections. Right, Left or Both sides.
+- **Angle Definition** - Define the angle of section placement.
 
 ![Side and Angle Settings](../../../assets/images/GIFs/GP/Side-and-Angle-Settings.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -102,10 +102,10 @@ Configure section placement orientation and side:
 
 You can create multiple individual stations directly from the main interface using the squiggly line icon in the "Section Placement" column. This feature allows you to:
 
-- **Create Quick Individual Stations** - Click the squiggly line icon to create individual stations directly from the main UI
-- **Side Definition** - Define individual stations on the side where you are clicking
-- **Default Angle and naming** - Stations are created with a default 90-degree angle and default naming based on the picked location
-- **Section Reference Constraint** - Station selection is constrained to the Section Reference that has been selected
+- **Create Quick Individual Stations** - Click the squiggly line icon to create individual stations directly from the main UI.
+- **Side Definition** - Define individual stations on the side where you are clicking.
+- **Default Angle and naming** - Stations are created with a default 90-degree angle and default naming based on the picked location.
+- **Section Reference Constraint** - Station selection is constrained to the Section Reference that has been selected.
 
 This provides a fast and intuitive way to place individual stations without navigating to separate setup dialogs. After creation, the user can go to the settings to make any update.
 

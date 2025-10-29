@@ -42,7 +42,7 @@ Mouse over the edges of the window and click and drag to extend or reduce the wi
 
 ## Sort Columns
 
-Click on the column header and sort it by number or alphabetically.  Note that not all the tables can be sorted, to ensure its correct behaviour.
+Click on the column header and sort it by number or alphabetically.  Note that not all the tables can be sorted, to ensure its correct behavior.
 
 ![Sort Columns](../assets/images/Tips/Sort-Columns.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -58,7 +58,7 @@ DiCivil plugins have a great advantage for making bulk actions and saving time. 
 
 The Preferences User Interface allows the users to add or remove properties to the table of reference. Double-click on the properties or multiple properties to move them to the right or left container.
 
-where to do this:
+Where to do this:
 
 1. Piping Engineer.
 
