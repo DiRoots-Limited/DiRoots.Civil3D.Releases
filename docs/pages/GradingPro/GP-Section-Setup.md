@@ -24,7 +24,8 @@ Grading Pro provides a section setup capability with multiple definition methods
 
 Section configuration allows you to:
 - Create Section types that can be reused across projects.
-- Define sections using multiple methods (distance with offset, distance with slope, offset with slope, slope to surface, point to feature line).
+- Define sections using multiple point methods (distance with offset, distance with slope, offset with slope, slope to surface, point to feature line).
+- Create nested sections for advanced and flexible grading designs.
 - Setup section points efficiently with add, remove, and reorder capabilities.
 - Shows each point location on the section view.
 - Add feature lines as objects in your section definitions for greater control and flexibility.
@@ -38,7 +39,7 @@ Manage your Section list by creating new, setting an associated name to later re
 ![Creating Duplicating and Removing](../../../assets/images/GIFs/GP/Creating-Duplicating-and-Removing.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
-## Definition Methods
+## Point Definition Methods
 
 After creating a new section, select on the left and start adding points in the section. On each point definition, the user can define the following different methods.
 
@@ -97,29 +98,23 @@ Since the new target intersection point at the feature line is unknown before ex
 ![Point to Feature Line](../../../assets/images/GIFs/GP/Point-to-Feature-Line.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
-## Point Management
+## Nested Section
+Grading Pro allows you to create nested sections that can be placed at different locations and orientations, enabling advanced and flexible grading designs. Nested sections are created at runtime and can reference other sections within your design.
+### Nested Section At Object
+Define a nested section that can be placed at any direction from any location using an 'Object Feature Line' as reference:
+- **Object Selection** - Select an Object Feature Line from the current section's objects list. This object serves as the reference placement for the nested section placement.
+- **Point and Direction** - Specify the insertion point and direction for the nested section based on the original 'Object Feature Line'. Use the pick button to select a point and direction in the drawing (two clicks), or manually enter coordinates and direction vector values.
+- **Nested Section Selection** - Choose the section that will be created at the specified point and direction from the available sections list.
 
-### First Point
+This method enables you to create advanced and flexible grading designs by nesting different sections at various locations and orientations. The nested section is created at runtime, with the point position calculated using the projected direction.
 
-- The first point could be placed on the origin (0, 0) or at a distance offset from the origin.
+**Important Notes:**
+- The nested section may not necessarily be on the same section plane as the parent section. 
+- This method does not modify subsequent points in the section.
 
-![Point Management First Point](../../../assets/images/GIFs/GP/Point-Management-First-Point.gif)
+![Nested Section At Object](../../../assets/images/GIFs/GP/Nested-Section-At-Object.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
-### Adding and Removing Points
-
-Add or remove points to section setups:
-
-![Point Management Adding and Removing Points](../../../assets/images/GIFs/GP/Point-Management-Adding-and-Removing-Points.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
-
-
-### Reordering Points
-
-Reorder points in section definitions:
-
-![Point Management Reordering Points](../../../assets/images/GIFs/GP/Point-Management-Reordering-Points.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Object Feature Line Integration
 
@@ -161,3 +156,27 @@ Follow these steps to add feature lines to your section definitions:
 Feature line integration supports various grading design scenarios.
 
 - **Reusable Objects** - Create standard feature line elements that can be applied across multiple sections, saving time while maintaining consistent design quality and workflow efficiency.
+
+## Point Management
+
+### First Point
+
+- The first point could be placed on the origin (0, 0) or at a distance offset from the origin.
+
+![Point Management First Point](../../../assets/images/GIFs/GP/Point-Management-First-Point.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+### Adding and Removing Points
+
+Add or remove points to section setups:
+
+![Point Management Adding and Removing Points](../../../assets/images/GIFs/GP/Point-Management-Adding-and-Removing-Points.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+
+### Reordering Points
+
+Reorder points in section definitions:
+
+![Point Management Reordering Points](../../../assets/images/GIFs/GP/Point-Management-Reordering-Points.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
