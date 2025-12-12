@@ -95,7 +95,7 @@ This method allows you to create sections that align with existing feature lines
 
 Since the new target intersection point at the feature line is unknown before execution, the section view result could be different from the real transversal section created when using this method. In the section view when using this method, it shows an horizontal arrow with a semi-circular reference. 
 
-![Point to Feature Line](../../../assets/images/GIFs/GP/GP-Point-to-Feature-Line.gif)
+![Point to Feature Line](../../../assets/images/GIFs/GP/Point-to-Feature-Line.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Nested Section
