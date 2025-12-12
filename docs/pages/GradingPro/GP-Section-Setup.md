@@ -24,7 +24,7 @@ Grading Pro provides a section setup capability with multiple definition methods
 
 Section configuration allows you to:
 - Create Section types that can be reused across projects.
-- Define sections using multiple methods (distance with offset, distance with slope, offset with slope, slope to surface).
+- Define sections using multiple methods (distance with offset, distance with slope, offset with slope, slope to surface, point to feature line).
 - Setup section points efficiently with add, remove, and reorder capabilities.
 - Shows each point location on the section view.
 - Add feature lines as objects in your section definitions for greater control and flexibility.
@@ -81,6 +81,20 @@ Define points by slope from the previous point projected to the selected surface
 - **Slope Percentage** - Specify slope percentage for point elevation.
 
 ![Slope to Surface](../../../assets/images/GIFs/GP/Slope-to-Surface.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+### Point to Feature Line
+
+Define a point that connects to a target feature line on the section direction:
+
+- **Feature Line Selection** - Select a target feature line using the pick button. The feature line name is displayed when selected.
+- **Point Calculation** - The point position is calculated at the feature line intersection on the section plane at runtime.
+
+This method allows you to create sections that align with existing feature lines (e.g., pathway case connection to road). The feature line is stored in the profile based on its unique name, allowing it to be reused across different projects. If the feature line does not exist in the active file, an error message will be displayed.
+
+Since the new target intersection point at the feature line is unknown before execution, the section view result could be different from the real transversal section created when using this method. In the section view when using this method, it shows an horizontal arrow with a semi-circular reference. 
+
+![Point to Feature Line](../../../assets/images/GIFs/GP/Point-to-Feature-Line.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Point Management
