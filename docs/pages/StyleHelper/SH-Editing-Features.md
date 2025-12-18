@@ -26,6 +26,7 @@ The editing features include:
 - **Table Column Preferences** - Configure table structure and data display.
 - **Data Editing** - Edit style properties for all three tabs.
 - **Batch Editing** - Edit multiple objects and rows simultaneously.
+- **Find and Replace** - Find and replace property values quickly across selected columns.
 - **Children Styles Support** - Edit children nested label styles.
 
 
@@ -107,6 +108,63 @@ Since the tool displays all subcomponents, some data may be associated with the 
 
 <!-- ![Parent-child relationship editing and its impact on multiple rows](../../../assets/images/GIFs/SH/Parent-child-relationship-editing-and-its-impact-on-multiple-rows.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub> -->
+
+## Find and Replace
+
+The Find and Replace feature allows you to quickly find current editable property values and replace them across multiple columns, making bulk editing operations more efficient.
+
+### Overview
+
+Style Helper provides a find and replace functionality that enables you to:
+- Find specific text values in selected columns
+- Replace found values with new text
+- Add prefixes and suffixes to values
+- Apply changes only to selected rows (optional)
+- Work with multiple columns simultaneously
+
+### How It Works
+
+The Style Helper feature includes the following options:
+
+
+#### Find on Columns
+- **Multiselection Dropdown** - Select the columns where you want to search for values. You can select multiple columns to perform the find and replace operation.
+
+#### Find and Replace Inputs
+- **Find** - Enter the text value you want to find in the selected columns.
+- **Replace** - Enter the new text value that will replace the found text.
+- **Prefix** - Optional text to add at the beginning of the replaced value.
+- **Suffix** - Optional text to add at the end of the replaced value.
+
+**Example:**
+- Current Text value: `ABC_TextToFind_1`
+- Find: `TextToFind`
+- Replace: `ReplacedText`
+- Prefix: `Prefix-`
+- Suffix: `-Sufix`
+- Edited text value: `Prefix-ABC_ReplacedText_1-Sufix`
+
+#### Find Only on Selected Rows
+- **Boolean Option** - When enabled, the find and replace operation applies only to currently selected rows in the table. When disabled, the operation applies to all rows in the table.
+
+
+### Usage
+
+1. **Select Rows (Optional)** - If you want to limit the operation to specific rows, select them in the table first.
+2. **Enable Find Only on Selected Rows** - Check this option if you want to restrict the operation to selected rows only.
+3. **Select Columns** - Use the "Find on Columns" multiselection dropdown to choose one or more columns where you want to search.
+4. **Enter Find Value** - Type the text you want to find in the Find field.
+5. **Enter Replace Value** - Type the replacement text in the Replace field.
+6. **Add Prefix/Suffix (Optional)** - If needed, enter prefix and/or suffix values.
+7. **Apply Changes** - The values are edited in the main UI and marked as edited status. Values are applied when you apply changes in the main UI.
+
+**Important Notes:**
+
+- Values are applied only when the user applies changes in the main UI.
+- The operation works with editable properties only.
+
+![Style Helper find and replace feature](../../../assets/images/GIFs/SH/SH-Style-Helper-Find-Replace.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Missing Object Limitations
 

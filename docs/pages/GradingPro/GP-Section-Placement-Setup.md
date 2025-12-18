@@ -90,7 +90,6 @@ For the previous inputs, the value can be typed directly or selected using the s
 
 ### Side and Angle Settings
 
-Configure section placement orientation and side:
 
 - **Side Selection** - Choose which side of the path to place sections. Right, Left or Both sides.
 - **Angle Definition** - Define the angle of section placement.

@@ -39,21 +39,21 @@ The tool provides 3 modes to select your network data to display:
 - **By Pipe Run** - Select the initial and last Pipe/Structure.
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-SelectingNetworkElements.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 ### Rule Validation Display
 
 The tool hightligts the pipes/structures elements that are not complying with the rules in red background color 
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Display-Rules.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 # Quick Slope Override Rule 
 
 Piping Engineer allows users to define a quick rule to check the slope range in the tool.
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Pipe%20Slope%20Override.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 
 ### Refreshing Latest Data
@@ -61,17 +61,17 @@ Piping Engineer allows users to define a quick rule to check the slope range in 
 The tool has a refresh button to update the latest data from the file.
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Refresh%20Latest%20Data.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 ### Table Column Preferences Customization
 
 The tools allows you to customize the data columns you want to show in each of your tables.
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Piping%20Preferences.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 ![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Structure-Preferences.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/Civil 3D-plugins/DiCivil/).</sub>
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 
 
@@ -86,3 +86,9 @@ The tools allows you to customize the data columns you want to show in each of y
 5. **Apply Changes** - Execute modifications and validate results.
 6. **Save Profile** - Save configurations for future use.
 
+
+### Find and Replace
+
+Piping Engineer includes the 'Find and Replace' feature to quickly find and replace property values across selected columns. This feature allows you to edit values efficiently by finding current editable property values and replacing them with new values, optionally adding prefixes and suffixes.
+
+For more information about the 'Find and Replace' feature, including usage instructions, see the [Find and Replace section](../StyleHelper/SH-Editing-Features.md#find-and-replace) in the Style Helper User Guide.
