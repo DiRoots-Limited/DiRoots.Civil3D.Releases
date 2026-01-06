@@ -136,7 +136,7 @@ Holds the pipe start or pipe end as the elevation reference, or the user can mod
 - **Pipe Start**. References the starting point elevation of the pipe
 - **Pipe End**. Reference the ending point elevation of the pipe
 - In this mode the user can modify the elevations directly using the edition modes
-- See [example 5](#example-5-modifying-pipe-slope-from-startend-pipe-reference) and [example 6](#example-6-modifying-pipes-holding-their-start-elevation) 
+- See [example 5](#example-5-editing-pipe-holding-start-or-end-reference) 
 
 
 ## General Workflow
@@ -157,11 +157,11 @@ Holds the pipe start or pipe end as the elevation reference, or the user can mod
 -  **Identify pipes** that need adjustment and select them.
 -  **Set Hold Reference**. Set the hold reference to the highest point of edited pipes. 
 -  **Enable Auto Flow Edition** to automatically adjust pipes near the edited ones.
--  **Set pipe new values**. Enter new slope in multiple pipes (e.g. 3%).
+-  **Set pipe new values**. Enter new slope in multiple pipes (e.g. 4%).
 -  **Apply changes**. The system adjusts selected pipes and automatically adjusts nearby pipes to maintain system connectivity.
 
 
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HighestPoint-AllDownStream.gif)  
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HighestPoint-Example1.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 ### Example 2: Adjusting Multiple Pipes Slope with Auto Flow Edition
@@ -169,20 +169,20 @@ Holds the pipe start or pipe end as the elevation reference, or the user can mod
 -  **Identify pipes** that need adjustment and select them.
 -  **Set Hold Reference**. Set the hold reference to the lowest point of edited pipes. 
 -  **Enable Auto Flow Edition** to automatically adjust pipes near the edited ones.
--  **Set pipe new values**. Enter new slope in multiple pipes (e.g. 2.5%).
+-  **Set pipe new values**. Enter new slope in multiple pipes (e.g. 3%).
 -  **Apply changes**. The system adjusts selected pipes and automatically adjusts nearby pipes to maintain system connectivity.
 
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-LowestPoint-AllUpStream.gif)
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-LowestPoint-Example2.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 ### Example 3: Moving System Down While Preserving Slopes
 
 -  **Identify pipes** to modify and select them. In this case the first pipe or pipes of the system to move up or down.
 -  **Set Hold Reference and Auto Flow Edition**. Set the hold reference to "Hold Slope". Disable Auto Flow Edition to modify only selected elements.
--  **Modify elevation** (e.g. from 648 to 650 - moving system up 2 units).
+-  **Modify elevation** (e.g. from 649 to 648 - moving system up 1 units).
 -  **Apply changes**. The system moves up while preserving all slopes.
 
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldSlope-Only%20Selection.gif)  
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldSlope-Example3.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
 ### Example 4: Moving Pipes Up/Down with Delta Value
@@ -192,26 +192,21 @@ Holds the pipe start or pipe end as the elevation reference, or the user can mod
 -  **Input delta value**. Enter the desired movement value directly (e.g., +2.5 to move up 2.5 units, or -1.5 to move down 1.5 units).
 -  **Apply changes**. The selected pipes are moved up or down by the specified delta value while preserving all slopes.
 
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldSlope-MoveUpDown.gif)  
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldSlope-MoveUpDown-Example4.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
-### Example 5: Modifying Pipe Slope from Start/End Pipe Reference
+### Example 5: Editing Pipe Holding Start or End Reference
+
+This example demonstrates how to edit a pipe while holding either the start or end elevation reference. You can modify either the slope or the elevation while maintaining the selected reference point.
 
 -  **Identify specific pipe** to modify.
--  **Set Hold Reference and Auto Flow Edition**. Disable Auto Flow Edition to modify only selected elements.
--  **Modify slope** as needed.
+-  **Set Hold Reference**. Set the hold reference to "Pipe Start" or "Pipe End" to maintain the reference point elevation.
+-  **Set Auto Flow Edition**. Disable Auto Flow Edition to modify only selected elements.
+-  **Modify pipe values**:
+   1. To modify slope: Enter new slope value. The pipe slope is adjusted while the start or end elevation remains fixed.
+   2. To modify elevation: Enter new elevation value. The elevation is adjusted while maintaining the selected reference point (start or end).
 -  **Apply changes**. Selected pipes are modified without affecting the rest of the system.
 
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-Hold%20StartEnd%20update%20Elevation.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
-
-### Example 6: Modifying Pipes Holding their Start Elevation 
-
--  **Identify specific pipe** to modify.
--  **Set Hold Reference and Auto Flow Edition**. Disable Auto Flow Edition to modify only selected elements.
--  **Modify elevation** as needed.
--  **Apply changes**. Selected pipes are modified without affecting the rest of the system.
-
-![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-HoldStart%20UpdateSlope-Only%20Selection.gif)  
+![DiRoots-Tips select rows](../../../assets/images/GIFs/PE/PE-Edition-Hold-StartEnd-Example5.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil-3d-plugins/dicivil/).</sub>
 
