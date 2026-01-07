@@ -49,7 +49,7 @@ The Elevation Design Reference feature allows you to select the pipe elevation r
 
 - Select the desired elevation reference using the radio button inputs in the interface.
 - The table will automatically update to display the start and end elevations based on the selected reference point.
-- See [example 7](#example-7-moving-system-down-while-preserving-slopes)
+
 
 **Usage:**
 
