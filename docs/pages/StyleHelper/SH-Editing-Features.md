@@ -151,7 +151,7 @@ The Style Helper feature includes the following options:
 ### Usage
 
 1. **Select Rows (Optional)** - If you want to limit the operation to specific rows, select them in the table first.
-2. **Enable Find Only on Selected Rows** - Check this option if you want to restrict the operation to selected rows only.
+2. **Enable Find Only on Selected Rows(Optional)** - Check this option if you want to restrict the operation to selected rows only.
 3. **Select Columns** - Use the "Find on Columns" multiselection dropdown to choose one or more columns where you want to search.
 4. **Enter Find Value** - Type the text you want to find in the Find field.
 5. **Enter Replace Value** - Type the replacement text in the Replace field.
