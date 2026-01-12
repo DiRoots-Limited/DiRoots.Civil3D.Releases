@@ -72,6 +72,13 @@ Where to do this:
 ![Double-click in Preferences User Interface](../assets/images/Tips/Double-click-in-Preferences-User-Interface.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
+## Right-click on the table header with Preferences 
+
+For tables that have a preferences button for customizable columns, you can quickly add or remove columns directly from the table header without navigating to the preferences button. Right-click on any column header and select the properties or parameters you want to add or remove to customize your table view instantly.
+
+![Quick Column Customization via Right-Click](../assets/images/GIFs/PE/PE-Quick-Column-Customization.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
 ## Right-click on the row: Context menu
 
 You can take certain actions on the table rows you have added or created by right-clicking on the data and viewing the available options.
