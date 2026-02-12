@@ -100,6 +100,14 @@ The Feature Line Settings panel allows you to configure how feature lines are cr
 - **Assign Feature Line Style** – Choose the style to apply to generated feature lines.
 - **Layer Assignment** – Set the layer for output feature lines.
 
+#### Feature Line Breakline Settings
+
+You can set **Feature Line Breakline Settings** so that when feature lines are added to the surface, they are applied as breaklines with the correct options. This ensures surfaces are built or updated consistently with your grading design.
+
+- **Default values** – If you leave any breakline options unset, the tool uses sensible defaults (as in the Civil 3D Add Breaklines workflow). You can rely on these when you don’t need to change specific settings.
+- **Input logic** – The UI follows the same input logic as Civil 3D’s **Add Breaklines** command. Extra inputs are available where needed for different breakline type cases.
+- **Profile storage** – Breakline settings are saved in grading profiles together with the rest of your configuration. Existing profiles continue to work as before; the new settings are stored without disrupting previous profile usage.
+
 ![Feature Line Settings](../../../assets/images/GIFs/GP/Feature-Line-Settings.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 

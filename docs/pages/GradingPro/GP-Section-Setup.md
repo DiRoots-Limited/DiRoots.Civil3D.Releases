@@ -182,3 +182,16 @@ Reorder points in section definitions:
 
 ![Point Management Reordering Points](../../../assets/images/GIFs/GP/Point-Management-Reordering-Points.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+### Parallel Creation
+
+You can connect section points with a **parallel offset connection** from the original reference. Points that use this connection are joined by a parallel feature line that follows the section reference, example usage cases are swales, etc.
+
+**In the Section Setup configuration table:**
+
+- **Parallel Connection checkbox column** – The point table includes a *Parallel Connection* column. For each point, check the box to use a parallel offset connection from the reference for that point. When checked, the point is included in the parallel feature line; when unchecked, it is not.
+
+The tool creates the **parallel feature line** from the **first section placement** through the **last section placement**. The feature line follows the **location and elevation** defined by the section at each placement, so the grading stays consistent with your section definition along the full extent.
+
+![Point Management Reordering Points](../../../assets/images/GIFs/GP/Parallel-Creation.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
