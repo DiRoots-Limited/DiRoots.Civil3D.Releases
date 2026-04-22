@@ -25,6 +25,8 @@ DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. 
 
 - Pipe and Structure Data Tables: Edit pipes or structures; table based property data edition. Part swapping and multi‑property editing.
 
+- Create and reuse annotation templates with row-based settings and scope filters; apply multiple Civil 3D label types with profile support.
+
 - Edit Object, Label, and Table styles in tables; multi‑row editing and support for editing main and sub components. Edit children component label style data
 
 - Inspect usage of layers, line types, hatch styles, dimension styles, and text styles objects. Object scan assignments, batch reassign, identify unused items, and batch delete/reassign.
