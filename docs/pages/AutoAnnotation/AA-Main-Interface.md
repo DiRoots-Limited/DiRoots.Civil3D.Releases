@@ -33,7 +33,8 @@ The Auto Annotation interface provides a row-based workflow where each row defin
 5. Check the rows you want to run.
 6. Click **Apply** to create annotations.
 
-#### ---------GIF Placeholder
+![Main Workflow](../../../assets/images/GIFs/AA/WholeWorkflow-smaller.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 
 ## Finding Created Annotations
@@ -45,7 +46,8 @@ After creating annotations, you can work with the generated results from selecte
 
 These actions help verify results and focus on specific annotation sets during iteration.
 
-#### ---------GIF Placeholder
+![Finding Created Annotations](../../../assets/images/GIFs/AA/FindCreatedAnnotations.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Profile Modification
 

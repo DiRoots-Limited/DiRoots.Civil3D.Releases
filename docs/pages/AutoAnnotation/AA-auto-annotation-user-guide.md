@@ -1,14 +1,16 @@
 ---
-
-## layout: default
+layout: default
 title: Auto Annotation User Guide
 nav_order: 7
 has_children: true
 permalink: /docs/auto-annotation-user-guide
+---
 
 # Auto Annotation User Guide
 
 Learn how to configure, execute, and reuse annotation templates across projects with Auto Annotation.
+
+<img src="{{ '/assets/images/logos/AutoAnnotationLight.png' | relative_url }}" alt="Auto Annotation Logo" width="128" style="display:block;margin:0 auto;">
 
 {: .fs-6 .fw-300 }
 
@@ -36,7 +38,7 @@ Auto Annotation creates multiple annotation label types by combining annotation 
 6. **Apply** - Run Auto Annotation on checked rows.
 
 
-![Basic Workflow](../../../assets/images/GIFs/GP/Basic-Workflow.gif)
+![Basic Workflow](../../../assets/images/GIFs/AA/WholeWorkflow-smaller.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 

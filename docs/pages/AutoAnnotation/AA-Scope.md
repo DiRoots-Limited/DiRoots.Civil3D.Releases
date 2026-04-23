@@ -1,9 +1,9 @@
 ---
-
-## layout: default
+layout: default
 title: Scope
 parent: Auto Annotation User Guide
 nav_order: 4
+---
 
 # Scope
 
@@ -26,8 +26,8 @@ The **Scope** tab defines where annotations are created for each annotation row.
 1. **Apply On**
 2. **Object Filter**
 
-**Image:** Scope tab with Apply On and Object Filter configuration.  
-Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).
+![Scope Tab Overview](../../../assets/images/GIFs/AA/FileCasesToApplyOn.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Apply On
 
@@ -37,9 +37,8 @@ This section defines which files are evaluated by the object filter:
 - **Current selection** - The object filter is applied only to currently selected objects.
 - **Files to apply** - Add one or more files (including closed files) where annotations are created.
 
-### GIF Placeholder
-
-`TODO: Add Apply On workflow GIF here.`
+![File Cases To Apply On](../../../assets/images/GIFs/AA/FileCasesToApplyOn.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Object Filter
 
@@ -57,6 +56,8 @@ You can:
 You can also enable labeling for **external references**. Object Filter uses a rules-based logic similar to DiRootsOne OneFilter for AutoCAD vertical products. 
 
 
-### GIF Placeholder
+![Object Filter](../../../assets/images/GIFs/AA/ObjectFilter-smaller-v3.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
-`TODO: Add Object Filter workflow GIF here.`
+![Label External References](../../../assets/images/GIFs/AA/LabelExternalReferences.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
