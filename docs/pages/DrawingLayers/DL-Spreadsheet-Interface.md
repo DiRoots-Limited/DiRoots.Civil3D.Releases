@@ -43,14 +43,33 @@ Begin by selecting the desired layer filter to display a specific set of layers 
 
 Edit layer properties directly in the spreadsheet interface:
 
-- **Layer Names** - Edit layer names and identifiers
-- **Color Settings** - Modify layer colors
-- **Linetype Properties** - Change linetype settings
-- **Other Properties** - Edit any layer property value
+- **Layer Names** - Edit layer names and identifiers.
+- **Color Settings** - Modify layer colors.
+- **Linetype Properties** - Change linetype settings.
+- **Other Properties** - Edit any layer property value.
 
 ![Active Layers Tab](../../../assets/images/GIFs/DL/Active-Layers-Tab.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
+###  Adding Layers
+The spreadsheet interface allows you to add new layers and remove existing layers directly from the Excel format UI.
+
+You can add new layers to your document in two ways:
+
+##### Add from Spreadsheet Interface
+
+Add new layers directly from the spreadsheet interface:
+
+- **Right-Click Menu** - Right-click on the side rows and select "Add New Row" to insert a new row in the spreadsheet.
+- **Automatic Layer Creation** - When a new row is assigned a name, the system automatically creates the corresponding new layer in the document with the default values unless assigned them.
+
+##### Add from Excel Import
+
+When importing layer data from an Excel file:
+- **New Layer Detection** - The system automatically identifies when a new layer is added that doesn't exist in the current document.
+
+![Add and Remove Layers](../../../assets/images/GIFs/DL/DL-Add-LayerS.gif)
+<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Layer States Tab
 
@@ -83,10 +102,10 @@ Once selected, modify the properties of the chosen layer states directly in the 
 
 Familiar spreadsheet format with rows and columns:
 
-- **Row and Column Structure** - Standard spreadsheet grid layout
-- **Direct Cell Editing** - Click and edit data directly in cells
-- **Navigation** - Navigate through data using standard spreadsheet controls
-- **Selection** - Select individual cells, rows, or columns
+- **Row and Column Structure** - Standard spreadsheet grid layout.
+- **Direct Cell Editing** - Click and edit data directly in cells.
+- **Navigation** - Navigate through data using standard spreadsheet controls.
+- **Selection** - Select individual cells, rows, or columns.
 
 ![Active Layers Tab](../../../assets/images/GIFs/DL/Active-Layers-Tab.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>

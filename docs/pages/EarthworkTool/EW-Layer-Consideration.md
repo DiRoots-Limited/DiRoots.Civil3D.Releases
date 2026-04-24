@@ -23,24 +23,24 @@ The Earthwork Tool provides layer consideration capabilities with two optional l
 ## Overview
 
 The tool considers two optional layers to simplify earthwork calculations:
-- **Topsoil Stripping Layer** - Configurable depth for removing topsoil before construction
-- **Subgrade Base Layer** - Configurable depth for subgrade preparation below proposed surfaces
+- **Topsoil Stripping Layer** - Configurable depth for removing topsoil before construction.
+- **Subgrade Base Layer** - Configurable depth for subgrade preparation below proposed surfaces.
 
 Automatic surface generation creates surfaces from the existing and proposed surfaces, using specific naming conventions. Both the topsoil stripping and subgrade base layers are fully integrated into the volume calculations.
 
 ### Automatic Surface Generation
 
 For automatic surface generation, the tool creates:
-- **Stripping Topsoil Surface** - Generated from existing ground surface with specified stripping depth
-- **Subgrade Base Surface** - Generated from proposed surface with specified subgrade depth for defined regions
+- **Stripping Topsoil Surface** - Generated from existing ground surface with specified stripping depth.
+- **Subgrade Base Surface** - Generated from proposed surface with specified subgrade depth for defined regions.
 
 #### Surface Naming Convention
 
 The tool automatically names generated surfaces using the following convention:
-- **'SGB'** - Subgrade Base surfaces
-- **'STRIP'** - Stripping Topsoil surfaces  
-- **'EG'** - Existing Ground surfaces
-- **'FG'** - Future Ground (Proposed) surfaces
+- **'SGB'** - Subgrade Base surfaces.
+- **'STRIP'** - Stripping Topsoil surfaces.
+- **'EG'** - Existing Ground surfaces.
+- **'FG'** - Future Ground (Proposed) surfaces.
 
 ![Overview of layer consideration capabilities](../../../assets/images/GIFs/ET/Overview-of-layer-consideration-capabilities.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -84,8 +84,7 @@ For region-based calculations, each child region can have its own individual sub
 The tool stores the calculation data for analysis and reporting in the file:
 
 
-- **Structured Organization** - Tool creates specific folder and surface naming structure
-- **Critical Structure** - If surface names are modified, data will not display correctly
-
-- **User Warning** - Do not manually modify created folders or surface names as it could affect the available data in the tool
+- **Structured Organization** - Tool creates specific folder and surface naming structure.
+- **Critical Structure** - If surface names are modified, data will not display correctly.
+- **User Warning** - Do not manually modify created folders or surface names as it could affect the available data in the tool.
 

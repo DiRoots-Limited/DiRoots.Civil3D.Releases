@@ -23,8 +23,8 @@ The Earthwork Tool provides comprehensive calculation capabilities for cut and f
 ## Overview
 
 The tool offers two main calculation approaches:
-- **Full Surface Calculation** - Complete calculation comparison across entire surfaces
-- **Region Volume Surfaces** - Region-specific calculations with defined boundaries
+- **Full Surface Calculation** - Complete calculation comparison across entire surfaces.
+- **Region Volume Surfaces** - Region-specific calculations with defined boundaries.
 
 You can identify the calculation type for each entry in the results table by checking the **Type** column, which indicates whether it is a full surface comparison, a parent region, or a child region. Additionally, the tool automatically calculates hierarchical totals, so parent and grand total rows display the sum of the relevant cut and fill volumes for their respective regions.
 
@@ -35,7 +35,7 @@ The Earthwork Tool provides comprehensive surface comparison capabilities for ca
 
 
 Full surface calculation allows you to:
-- Calculate cut and fill quantities by comparing two surfaces across the entire project area
+- Calculate cut and fill quantities by comparing two surfaces across the entire project area.
 
 
 ### Full Volume Surface Workflow
@@ -55,9 +55,9 @@ Full surface calculation allows you to:
 
 The tool provides volume analysis:
 
-- **Cut Volume** - Total volume of material to be removed
-- **Fill Volume** - Total volume of material to be added
-- **Net Volume** - Difference between cut and fill
+- **Cut Volume** - Total volume of material to be removed.
+- **Fill Volume** - Total volume of material to be added.
+- **Net Volume** - Difference between cut and fill.
 
 
 ## Region Calculations
@@ -67,9 +67,9 @@ The Earthwork Tool provides region-based volume calculations with defined bounda
 ### Overview
 
 Region calculations allow you to:
-- Calculate volumes for specific areas using defined boundaries
-- Configure subgrade base layer per defined region
-- Define hierarchical parent-child groups with partial total calculation
+- Calculate volumes for specific areas using defined boundaries.
+- Configure subgrade base layer per defined region.
+- Define hierarchical parent-child groups with partial total calculation.
 
 
 ### Region Workflow
@@ -146,13 +146,13 @@ The tool maintains hierarchical totals that automatically update when calculatio
 
 ### Total Hierarchy
 
-   - Sum of full volume surface and parent region volume surfaces
-   - Project-wide earthwork balance
-   - Includes all stripping and subgrade considerations
+   - Sum of full volume surface and parent region volume surfaces.
+   - Project-wide earthwork balance.
+   - Includes all stripping and subgrade considerations.
 
 ## Best Practices
 
-- **Verify Region Boundaries** - Ensure regions are properly closed
-- **Check Surface Assignment** - Verify correct surfaces are assigned to regions
-- **Plan Region Hierarchy** - Plan parent-child relationships logically
-- **Use Descriptive Names** - Name regions clearly for easy identification
+- **Verify Region Boundaries** - Ensure regions are properly closed.
+- **Check Surface Assignment** - Verify correct surfaces are assigned to regions.
+- **Plan Region Hierarchy** - Plan parent-child relationships logically.
+- **Use Descriptive Names** - Name regions clearly for easy identification.

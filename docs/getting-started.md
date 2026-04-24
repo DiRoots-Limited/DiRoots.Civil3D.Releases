@@ -10,7 +10,7 @@ nav_order: 2
 DiCivil has eight Autodesk Civil 3D Productivity Tools for Data Management, and Civil design. Includes Piping Engineer, Earthwork Tool, Grading Pro, Style Helper, Template Inspector, Drawing Layers, Transfer Object Layers, Transfer Survey Standards.
 Not permitted:
 -	Sell/resell
--	make modifications to the software.
+-	Make modifications to the software.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -23,7 +23,7 @@ Not permitted:
 
 ## Download
 
-Download the [latest version of DiCivil](https://diroots.com/civil3d-plugins/dicivil/).ToUpdate
+Download the [latest version of DiCivil](https://diroots.com/civil3d-plugins/dicivil/).
 
 
 ## Install

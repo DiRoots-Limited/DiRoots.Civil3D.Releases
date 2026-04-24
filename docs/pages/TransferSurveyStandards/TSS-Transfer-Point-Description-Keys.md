@@ -23,9 +23,9 @@ Transfer Survey Standards allows Point Description Keys (PDKs) transfer between 
 ## Overview
 
 Transfer Point Description Keys allows you to:
-- Import PDK data from different sources
-- Edit data before transferring
-- Export current file settings or active interface settings
+- Import PDK data from different sources.
+- Edit data before transferring.
+- Export current file settings or active interface settings.
 
 ## Import Options
 
@@ -35,8 +35,8 @@ Transfer Survey Standards provides three main ways to import PDK data:
 
 Import PDK data from currently open Civil 3D files:
 
-- **File Selection** - Select from currently open Civil 3D files
-- **Direct Import** - Import PDK data directly from open files
+- **File Selection** - Select from currently open Civil 3D files.
+- **Direct Import** - Import PDK data directly from open files.
 
 ![Import from Open File](../../../assets/images/GIFs/TSS/Import-from-Open-File.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -45,9 +45,9 @@ Import PDK data from currently open Civil 3D files:
 
 Import PDK data from closed Civil 3D files:
 
-- **File Browser** - Browse and select closed Civil 3D files
-- **Data Extraction** - Extract PDK data from closed files
-- **Offline Import** - Import data without opening the source file
+- **File Browser** - Browse and select closed Civil 3D files.
+- **Data Extraction** - Extract PDK data from closed files.
+- **Offline Import** - Import data without opening the source file.
 
 ![Import from Closed File](../../../assets/images/GIFs/TSS/Import-from-Closed-File.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -56,8 +56,8 @@ Import PDK data from closed Civil 3D files:
 
 Import PDK data from Excel files containing standards:
 
-- **Excel File Selection** - Select Excel files containing PDK data
-- **File Validation** - Validate Excel file format and content
+- **Excel File Selection** - Select Excel files containing PDK data.
+- **File Validation** - Validate Excel file format and content.
 
 ![Import from Excel](../../../assets/images/GIFs/TSS/Import-from-Excel.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
@@ -76,16 +76,11 @@ By default, the main table displays the following columns for each Point Descrip
 
 You can edit the visible table by adding more preference columns as needed. This flexibility allows you to tailor the PDK data view to your workflow—simply add additional columns to track extra preferences, modify or reorder existing columns, and customize the table layout to fit your project requirements and improve visibility.
 
-![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Editing PDK Data Before Transfer
 
 Transfer Survey Standards provides a unified data editing interface, allowing you to review and modify Point Description Key (PDK) data directly in the UI before transferring it to your target file.
 
-
-![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Export to Excel
 
@@ -99,19 +94,14 @@ Choose from two export sources:
 
 Export the currently displayed and edited data from the UI:
 
-- **Current UI State** - Export data as it appears in the current UI table
-- **Edited Data** - Include any modifications made in the data editing interface
-
-![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+- **Current UI State** - Export data as it appears in the current UI table.
+- **Edited Data** - Include any modifications made in the data editing interface.
 
 #### 2. Export Open Active File
 
 Export PDK data directly from the currently open Civil 3D file:
 
-- **File-based Export** - Export data from the open Civil 3D file
-- **Original Data** - Export original PDK settings without UI modifications
+- **File-based Export** - Export data from the open Civil 3D file.
+- **Original Data** - Export original PDK settings without UI modifications.
 
-![Showing PDK Data](../../../assets/images/GIFs/TSS/Showing-PDK-Data.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 

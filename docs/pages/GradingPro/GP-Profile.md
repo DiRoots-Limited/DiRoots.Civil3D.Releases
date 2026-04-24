@@ -23,16 +23,16 @@ Grading Pro includes a profile system that allows you to save and reuse grading 
 ## Overview
 
 Profile system allows you to:
-- Save configuration settings for reuse
-- Switch between different profile templates
-- Maintain consistent settings across projects
-- Share profiles across teams
+- Save configuration settings for reuse.
+- Switch between different profile templates.
+- Maintain consistent settings across projects.
+- Share profiles across teams.
 
 ## What's saved in the profile
 
 The following settings are saved in the profiles.
 
-- The set configured Gradint types.
+- The set configured Grading types.
 - The customized set of Sections Setup.
 - The customized set of Sections Placement Setup.
 - The set of configuration applied to the entire document.
