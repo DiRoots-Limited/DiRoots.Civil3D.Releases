@@ -6,15 +6,12 @@ nav_order: 4
 ---
 
 # Scope
-
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-
 {:toc}
 
 ---
@@ -26,8 +23,6 @@ The **Scope** tab defines where annotations are created for each annotation row.
 1. **Apply On**
 2. **Object Filter**
 
-![Scope Tab Overview](../../../assets/images/GIFs/AA/FileCasesToApplyOn.gif)
-<sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
 
 ## Apply On
 
@@ -53,11 +48,10 @@ You can:
 - Apply rules to multiple object types and related properties.
 - Preview matched objects with **Select Filtered**.
 
-You can also enable labeling for **external references**. Object Filter uses a rules-based logic similar to DiRootsOne OneFilter for AutoCAD vertical products. 
-
-
 ![Object Filter](../../../assets/images/GIFs/AA/ObjectFilter-smaller-v3.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
+
+You can also enable labeling for **external references**. Object Filter uses a rules-based logic similar to DiRootsOne OneFilter for AutoCAD vertical products. 
 
 ![Label External References](../../../assets/images/GIFs/AA/LabelExternalReferences.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DiCivil Package](https://diroots.com/civil3D-plugins/DiCivil/).</sub>
