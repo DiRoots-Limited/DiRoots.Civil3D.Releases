@@ -27,6 +27,6 @@ jobs:
     with:
       site-url: https://docs.dicivil.diroots.com
       app-id: ${{ vars.DOCS_PREVIEW_APP_ID }}
-      max-source-mib: 1100
+      max-source-mib: 1024
     secrets:
       app-private-key: ${{ secrets.DOCS_PREVIEW_APP_PRIVATE_KEY }}
